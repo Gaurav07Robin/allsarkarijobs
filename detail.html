@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title id="pageTitle">Notification Details — AllSarkariJobs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1a2e;--navy:#16213e;--slate:#4a5568;--muted:#718096;--border:#e2e8f0;
+  --saffron:#c2956a;--saffron-dark:#a67c52;--red:#c53030;--green:#15803d;
+  --maroon:#881337;--maroon-dark:#701a35;
+  --bg:#f8fafc;--surface:#ffffff;--radius:10px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* Header */
+.header{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:800;color:var(--ink)}
+.logo span{color:var(--saffron)}
+.nav-links{display:flex;gap:16px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer}
+.btn-orange{background:var(--saffron);color:#fff}.btn-orange:hover{background:var(--saffron-dark)}
+.btn-outline{border:1px solid var(--border);background:#fff}.btn-outline:hover{background:#f1f5f9}
+
+/* Breadcrumb */
+.breadcrumb{padding:16px 0 8px;font-size:13px;color:var(--muted)}
+.breadcrumb a{color:var(--saffron-dark);font-weight:600}.breadcrumb a:hover{text-decoration:underline}
+
+/* Main Post Card */
+.post-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:32px;margin:16px 0 32px;box-shadow:0 1px 4px rgba(0,0,0,.03)}
+.post-header{border-bottom:2px solid #f1f5f9;padding-bottom:20px;margin-bottom:24px}
+.badge-category{display:inline-block;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;text-transform:uppercase;margin-bottom:10px;background:#fef3c7;color:#92400e}
+.post-title{font-size:24px;font-weight:800;color:var(--maroon);line-height:1.35;margin-bottom:8px}
+.post-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+/* Alert Strip */
+.wa-alert{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;margin:20px 0;gap:12px;flex-wrap:wrap}
+.wa-alert strong{color:#166534;font-size:14px}
+.wa-btn{background:#16a34a;color:#fff;font-weight:700;font-size:12px;padding:6px 14px;border-radius:6px;display:inline-flex;align-items:center;gap:6px}
+
+/* Grid & Tables */
+.info-grid{display:grid;grid-template-columns:1fr;gap:20px;margin-bottom:24px}
+@media(min-width:768px){.info-grid{grid-template-columns:1fr 1fr}}
+.info-box{border:1px solid var(--border);border-radius:8px;overflow:hidden;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.03)}
+.info-box-header{background:#f8fafc;padding:12px 18px;font-size:14.5px;font-weight:700;color:var(--maroon);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.info-list{list-style:none;padding:10px 18px;font-size:14px}
+.info-list li{padding:9px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed #e2e8f0;flex-wrap:wrap;gap:6px}
+.info-list li:last-child{border-bottom:none}
+.info-list span{color:var(--slate);font-weight:500}
+.info-list strong{color:var(--ink);font-weight:700}
+
+.section-title{font-size:17px;font-weight:800;color:var(--maroon);margin:24px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--border);display:flex;align-items:center;gap:8px}
+.step-list{font-size:13.5px;color:var(--slate);line-height:1.8;padding-left:20px;margin-bottom:28px}
+
+/* Sarkari Hallmark Links Table */
+.links-table{width:100%;border-collapse:collapse;margin:24px 0 32px;font-size:14px}
+.links-table th,.links-table td{padding:14px 18px;border:1.5px solid #cbd5e1;text-align:left}
+.links-table th{background:#1e293b;color:#fff;font-size:15px}
+.links-table td strong{color:var(--maroon);font-size:14.5px}
+.click-btn{display:inline-block;background:#dc2626;color:#fff;font-weight:700;font-size:12.5px;padding:8px 18px;border-radius:4px;text-transform:uppercase;transition:all .15s}
+.click-btn:hover{background:#b91c1c;transform:translateY(-1px)}
+.click-btn.secondary{background:#0284c7}.click-btn.secondary:hover{background:#0369a1}
+.click-btn.dark{background:#334155}.click-btn.dark:hover{background:#1e293b}
+
+/* PDF Document Viewer Box */
+.pdf-viewer-container{margin:32px 0 24px;border:1.5px solid #cbd5e1;border-radius:8px;overflow:hidden;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.06);transition:outline .2s}
+.pdf-viewer-header{background:#1e293b;color:#fff;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.pdf-frame-wrapper{width:100%;height:650px;background:#f8fafc;position:relative}
+.pdf-frame-wrapper iframe{width:100%;height:100%;border:none}
+
+.footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;font-size:13px;text-align:center;margin-top:40px}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="/" class="logo">AllSarkari<span>Jobs</span></a>
+    <div class="nav-links">
+      <a href="/" class="btn btn-outline"><i class="fa-solid fa-house"></i> Home</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">Home</a> &raquo; <span id="bcCat">Notification</span> &raquo; <span id="bcTitle">Details</span>
+  </div>
+
+  <article class="post-card">
+    <div class="post-header">
+      <span class="badge-category" id="catBadge">LATEST UPDATE</span>
+      <h1 class="post-title" id="noticeTitle">Loading Notice Details...</h1>
+      <div class="post-meta">
+        <span><i class="fa-solid fa-building-columns"></i> <strong id="noticeOrg">Government Recruitment Board</strong></span>
+        <span><i class="fa-solid fa-calendar-check"></i> Published: <span id="noticeDate">Live Today</span></span>
+        <span id="noticeTagSpan"></span>
+      </div>
+    </div>
+
+    <!-- WhatsApp Alert -->
+    <div class="wa-alert">
+      <div>
+        <i class="fa-brands fa-whatsapp" style="color:#16a34a;font-size:20px;margin-right:6px"></i>
+        <strong>Get Instant Alerts for This Examination on WhatsApp & Telegram</strong>
+      </div>
+      <a href="#" class="wa-btn"><i class="fa-brands fa-whatsapp"></i> Join Alerts</a>
+    </div>
+
+    <!-- Unified Important Details & Schedule Box (Dynamically Styled per Category) -->
+    <div class="info-box" style="margin-bottom:26px">
+      <div class="info-box-header" id="infoBoxHeader"><i class="fa-solid fa-calendar-check"></i> Important Details & Schedule</div>
+      <ul class="info-list" id="unifiedDetailsList">
+        <!-- Rendered dynamically by category in loadDetail() -->
+        <li><span>Recruitment Body / Commission:</span> <strong id="statBody">Government Commission</strong></li>
+        <li><span>Notification Status:</span> <strong id="statNotice" style="color:var(--green)">Active / Released</strong></li>
+        <li><span>Release / Issue Date:</span> <strong id="statRelease">2026 Examination Cycle</strong></li>
+        <li><span>State / Region:</span> <strong id="statState">All India</strong></li>
+        <li><span>Sector / Wing:</span> <strong id="statSector">Central Government</strong></li>
+      </ul>
+    </div>
+
+    <!-- Dynamic Section for Instructions -->
+    <div class="section-title"><i class="fa-solid fa-list-check"></i> <span id="instructTitle">How to Download / Check Online</span></div>
+    <ol class="step-list" id="stepList">
+      <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+      <li>Click on the highlighted red <strong>"Click Here"</strong> action button.</li>
+      <li>The official candidate portal will open in a new tab.</li>
+      <li>Enter your Registration Number / Roll Number and Password / Date of Birth.</li>
+      <li>Click Submit to view or download your document.</li>
+      <li>Take a printout or save the PDF for future reference.</li>
+    </ol>
+
+    <!-- Hallmark Sarkari Links Table -->
+    <div class="section-title"><i class="fa-solid fa-link"></i> Some Useful Important Links</div>
+    <table class="links-table">
+      <thead>
+        <tr>
+          <th style="width:60%">Important Action</th>
+          <th>Direct Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong id="primaryActionLabel">Download / Access Online</strong></td>
+          <td><a href="#" target="_blank" id="linkPrimary" class="click-btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td><strong id="pdfDocLabel">Download Official Notice / Corrigendum PDF</strong></td>
+          <td>
+            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+              <button type="button" onclick="scrollToPdfViewer()" class="click-btn" style="background:#dc2626;border:none;cursor:pointer">
+                <i class="fa-solid fa-eye"></i> View PDF Directly
+              </button>
+              <a href="#" target="_blank" id="linkPdf" class="click-btn secondary">
+                <i class="fa-solid fa-file-pdf"></i> Download PDF
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Official Commission Website</strong></td>
+          <td><a href="#" target="_blank" id="linkOfficial" class="click-btn dark"><i class="fa-solid fa-globe"></i> Click Here</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Embedded Official Notice PDF Document Viewer -->
+    <div class="pdf-viewer-container" id="pdfViewerSection">
+      <div class="pdf-viewer-header">
+        <div style="display:flex;align-items:center;gap:8px">
+          <i class="fa-solid fa-file-pdf" style="color:#ef4444;font-size:18px"></i>
+          <span style="font-weight:700;font-size:14.5px;color:#fff" id="pdfViewerTitle">Official Notice Document Viewer</span>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <a href="#" id="btnPdfNewTab" target="_blank" class="click-btn secondary" style="padding:6px 14px;font-size:12px">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Full Tab
+          </a>
+          <a href="#" id="btnPdfDownload" download class="click-btn" style="padding:6px 14px;font-size:12px;background:#15803d">
+            <i class="fa-solid fa-download"></i> Download PDF
+          </a>
+        </div>
+      </div>
+      <div class="pdf-frame-wrapper">
+        <iframe id="pdfEmbedFrame" src="about:blank" title="Official Notice PDF Viewer"></iframe>
+      </div>
+    </div>
+  </article>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 AllSarkariJobs. All Rights Reserved. Not affiliated with any government agency.</p>
+  </div>
+</footer>
+
+<script>
+async function loadDetail() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = urlParams.get('id');
+
+  if (!id) {
+    document.getElementById('noticeTitle').innerText = 'Notice Not Found';
+    return;
+  }
+
+  try {
+    const res = await fetch(`/api/detail/${id}`);
+    if (!res.ok) throw new Error('Failed to load');
+    const json = await res.json();
+    const item = json.update;
+    const cat = item.category || 'LATEST_JOB';
+
+    document.getElementById('pageTitle').innerText = `${item.title} — AllSarkariJobs`;
+    document.getElementById('bcCat').innerText = cat.replace('_', ' ');
+    document.getElementById('bcTitle').innerText = item.title;
+    document.getElementById('catBadge').innerText = cat.replace('_', ' ');
+    document.getElementById('noticeTitle').innerText = item.title;
+
+    if (item.tag) {
+      document.getElementById('noticeTagSpan').innerHTML = `<span style="background:#fce8e8;color:red;padding:2px 8px;border-radius:4px;font-weight:700">${item.tag.toUpperCase()}</span>`;
+    }
+
+    // 1. Determine Commission / Organization
+    let org = item.source_portal || "Government Recruitment Commission";
+    if (org === "Government Recruitment Commission") {
+      if (item.title.includes("SSC")) org = "Staff Selection Commission (SSC)";
+      else if (item.title.includes("UPSC")) org = "Union Public Service Commission (UPSC)";
+      else if (item.title.includes("RRB") || item.title.includes("Railway")) org = "Railway Recruitment Boards (RRB)";
+      else if (item.title.includes("UPSSSC")) org = "Uttar Pradesh Subordinate Services (UPSSSC)";
+      else if (item.title.includes("UP Police")) org = "UP Police Recruitment & Promotion Board";
+      else if (item.title.includes("IBPS") || item.title.includes("NIT")) org = "Institute of Banking Personnel Selection (IBPS)";
+      else if (item.title.includes("MPESB")) org = "Madhya Pradesh Employees Selection Board";
+      else if (item.title.includes("Delhi High Court")) org = "Delhi High Court (Judicial Service)";
+    }
+    document.getElementById('noticeOrg').innerText = org;
+
+    // 2. Resolve Valid Official Commission Website (NEVER fallback to broken gov.in)
+    let officialSite = item.source_url;
+    if (!officialSite || officialSite === "https://gov.in") {
+      try {
+        const u = new URL(item.action_url);
+        officialSite = u.origin;
+        if (officialSite.includes("ibps.in")) officialSite = "https://ibps.in";
+        else if (officialSite.includes("ssc.gov.in")) officialSite = "https://ssc.gov.in";
+        else if (officialSite.includes("upsc.gov.in")) officialSite = "https://upsc.gov.in";
+        else if (officialSite.includes("rrb")) officialSite = "https://rrbapply.gov.in";
+      } catch (e) {
+        officialSite = item.action_url || "#";
+      }
+    }
+
+    // 3. Resolve Direct PDF Link (Points to our High-Speed Verified PDF Service)
+    const directPdfUrl = `/api/pdf/${id}`;
+
+    // 4. Category-Specific Design & Data Mapping
+    const badgeEl = document.getElementById('catBadge');
+    const boxHeaderEl = document.getElementById('infoBoxHeader');
+    const detailsListEl = document.getElementById('unifiedDetailsList');
+    const instructTitleEl = document.getElementById('instructTitle');
+    const stepListEl = document.getElementById('stepList');
+    const primaryLabelEl = document.getElementById('primaryActionLabel');
+    const pdfLabelEl = document.getElementById('pdfDocLabel');
+    const pdfViewerTitleEl = document.getElementById('pdfViewerTitle');
+
+    const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
+    const stateVal = item.state || 'All India';
+    const sectorVal = item.sector || 'Central Government';
+
+    function isGenericHomepage(urlStr) {
+      if (!urlStr || urlStr === '#' || urlStr.startsWith('/')) return false;
+      try {
+        const u = new URL(urlStr);
+        const path = u.pathname.replace(/\/+$/, '');
+        const hasPath = path !== '' && path !== '/';
+        const hasQuery = Boolean(u.search && u.search.length > 1);
+        const hasHash = Boolean(u.hash && u.hash.length > 1 && u.hash !== '#/' && u.hash !== '#');
+        return !hasPath && !hasQuery && !hasHash;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function resolveDirectActionUrl(category, title, rawUrl, pdfUrl) {
+      const isGeneric = !rawUrl || rawUrl === '#' || isGenericHomepage(rawUrl);
+      const t = (title || '').toLowerCase();
+
+      if (category === 'RESULT') {
+        // Results MUST go to the Result document or scorecard, NEVER the homepage
+        if (isGeneric || (!rawUrl.includes('/result') && !rawUrl.includes('.pdf') && !rawUrl.includes('/score') && !rawUrl.includes('/auth/home'))) {
+          return pdfUrl;
+        }
+        return rawUrl;
+      }
+
+      if (category === 'ADMIT_CARD') {
+        // If it's an exam schedule / date notice, point to the official schedule PDF
+        if (t.includes('exam date') || t.includes('schedule') || t.includes('paper i') || t.includes('tier i') || t.includes('revised')) {
+          if (rawUrl && rawUrl.includes('/auth/home')) return rawUrl;
+          return pdfUrl;
+        }
+        // Direct candidate login portals
+        if (isGeneric) {
+          if (t.includes('rrb') || t.includes('railway')) return 'https://rrbapply.gov.in/#/auth/home';
+          if (t.includes('ssc')) return 'https://ssc.gov.in/candidate-portal/admit-card';
+          if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
+          if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/public-notices/recruitment';
+          return pdfUrl;
+        }
+        return rawUrl;
+      }
+
+      if (category === 'LATEST_JOB') {
+        if (isGeneric) {
+          if (t.includes('ssc')) return 'https://ssc.gov.in/portal/login';
+          if (t.includes('rrb') || t.includes('railway')) return 'https://rrbapply.gov.in/#/auth/home';
+          if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/';
+          if (t.includes('csjmu')) return 'https://csjmu.ac.in/recruitment/';
+          if (t.includes('rrc') || t.includes('apprentice')) return 'https://rrcjaipur.in/ActApprentice2026/';
+          if (t.includes('mpesb') || t.includes('vyapam')) return 'https://esb.mponline.gov.in/';
+          if (t.includes('bihar') || t.includes('bpsc')) return 'https://onlinebpsc.bihar.gov.in/';
+          if (t.includes('dav')) return 'https://davstaff.org/application/';
+        }
+        return rawUrl;
+      }
+
+      if (category === 'ANSWER_KEY') {
+        if (isGeneric) return pdfUrl;
+        return rawUrl;
+      }
+
+      if (category === 'SYLLABUS') {
+        return pdfUrl;
+      }
+
+      return rawUrl || pdfUrl;
+    }
+
+    let actionLabel = "Access Online Form";
+    let primaryUrl = resolveDirectActionUrl(cat, item.title, item.action_url, directPdfUrl);
+    let pdfDocText = "Download Official Notice / Corrigendum PDF";
+    let viewerTitleText = "Official Notice Document Viewer";
+
+    if (cat === 'RESULT') {
+      badgeEl.innerText = "RESULT & MERIT LIST";
+      badgeEl.style.background = "#fce8e8";
+      badgeEl.style.color = "#9f1239";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-trophy" style="color:#9f1239"></i> Important Result & Merit List Details`;
+      boxHeaderEl.style.background = "#fff1f2";
+      boxHeaderEl.style.color = "#9f1239";
+
+      detailsListEl.innerHTML = `
+        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Result Declaration Status:</span> <strong style="color:var(--green)"><i class="fa-solid fa-circle-check"></i> Declared / Scorecard Active</strong></li>
+        <li><span>Declaration / Release Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Verification Method:</span> <strong>Roll Number Search in Merit List (Ctrl + F)</strong></li>
+        <li><span>Next Selection Stage:</span> <strong>Document Verification (DV) / Medical / Skill Test</strong></li>
+        <li><span>Cut-off Marks:</span> <strong>Mentioned in Official Result Write-up PDF</strong></li>
+        <li><span>State / Jurisdiction:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
+      `;
+
+      instructTitleEl.innerText = "How to Check & Download Result / Merit List";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section or view the document directly in the viewer below.</li>
+        <li>Click on the highlighted red <strong>"See Result / Download Merit List"</strong> button.</li>
+        <li>The official Merit List / Result PDF will open in a new tab or load directly in the document viewer.</li>
+        <li>Press <strong>Ctrl + F</strong> on your keyboard (or use Find in Page on mobile) and type your <strong>Roll Number</strong> or <strong>Registration Number</strong>.</li>
+        <li>If your Roll Number is highlighted in the PDF list, you are shortlisted for the next selection round (DV / Tier-II / Medical).</li>
+        <li>Download and print your result score card or merit list page for physical verification.</li>
+      `;
+
+      actionLabel = "See Result / Download Merit List";
+      pdfDocText = "Download Official Result & Cutoff PDF";
+      viewerTitleText = "Official Result & Merit List Document Viewer";
+
+    } else if (cat === 'ADMIT_CARD') {
+      badgeEl.innerText = "ADMIT CARD / HALL TICKET";
+      badgeEl.style.background = "#eff6ff";
+      badgeEl.style.color = "#1d4ed8";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-id-card" style="color:#1d4ed8"></i> Important Admit Card & Exam Hall Details`;
+      boxHeaderEl.style.background = "#eff6ff";
+      boxHeaderEl.style.color = "#1d4ed8";
+
+      detailsListEl.innerHTML = `
+        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Hall Ticket / Admit Card Status:</span> <strong style="color:#1d4ed8"><i class="fa-solid fa-circle-check"></i> Active / Available for Download</strong></li>
+        <li><span>Release / Issue Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Mandatory ID Proofs to Carry:</span> <strong>Original Aadhaar / Voter ID / PAN Card + 2 Passport Photos</strong></li>
+        <li><span>Reporting & Shift Timings:</span> <strong>Check shift reporting time on hall ticket (Gate closes 30 mins prior)</strong></li>
+        <li><span>Prohibited Items in Exam Hall:</span> <strong>Mobile phones, smartwatches, calculators & bluetooth devices strictly barred</strong></li>
+        <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
+      `;
+
+      const isExamDate = (item.title || '').toLowerCase().includes('exam date') || (item.title || '').toLowerCase().includes('schedule');
+      actionLabel = isExamDate ? "Check Exam Date Notice PDF" : "Download Admit Card / Hall Ticket";
+
+      instructTitleEl.innerText = isExamDate ? "How to Check Exam Date & Shift Schedule" : "How to Download Admit Card / Hall Ticket";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+        <li>Click on the highlighted red <strong>"${actionLabel}"</strong> action button.</li>
+        <li>The official candidate login portal or exam notice will open in a new tab.</li>
+        <li>Enter your <strong>Registration / Application Number</strong> and <strong>Date of Birth (DOB) / Password</strong> if logging in.</li>
+        <li>Enter the security Captcha code and click on <strong>Login / Submit</strong>.</li>
+        <li>Carefully verify your exam center location, reporting time, shift schedule, and roll number.</li>
+        <li>Download the PDF and take at least 2 clear printouts along with the Covid/Self-Declaration instructions.</li>
+      `;
+
+      pdfDocText = "Download Exam Notice / Guidelines PDF";
+      viewerTitleText = "Official Exam Notice & Hall Ticket Guidelines Viewer";
+
+    } else if (cat === 'LATEST_JOB') {
+      badgeEl.innerText = "LATEST JOB / RECRUITMENT";
+      badgeEl.style.background = "#fef9c3";
+      badgeEl.style.color = "#a16207";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-briefcase" style="color:#a16207"></i> Recruitment Specifications & Application Schedule`;
+      boxHeaderEl.style.background = "#fefce8";
+      boxHeaderEl.style.color = "#854d0e";
+
+      const qualVal = item.qualification_level || '10th / 12th / Diploma / Graduate (as per post)';
+      detailsListEl.innerHTML = `
+        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Online Application Status:</span> <strong style="color:var(--green)"><i class="fa-solid fa-circle-check"></i> Active / Accepting Online Forms</strong></li>
+        <li><span>Notification / Release Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Application Fee Breakdown:</span> <strong>Gen / OBC / EWS: ₹100 - ₹500 | SC / ST / Female: Nil (Exempted)</strong></li>
+        <li><span>Payment Mode:</span> <strong>Online (Net Banking / Debit Card / Credit Card / UPI / QR)</strong></li>
+        <li><span>Minimum Qualification:</span> <strong>${qualVal}</strong></li>
+        <li><span>State / Location:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Department:</span> <strong>${sectorVal}</strong></li>
+      `;
+
+      instructTitleEl.innerText = "How to Fill Online Application Form";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+        <li>Click on the highlighted red <strong>"Apply Online (Registration / Login)"</strong> button.</li>
+        <li>If you are a new applicant on the commission portal, complete the <strong>One-Time Registration (OTR)</strong> first.</li>
+        <li>Log in with your registration credentials and select the desired recruitment notification.</li>
+        <li>Accurately fill in personal information, educational qualifications, category, and address.</li>
+        <li>Upload scanned copy of your photograph and signature according to the official dimension guidelines.</li>
+        <li>Pay the examination fee online and take a final printout of the submitted application form for future reference.</li>
+      `;
+
+      actionLabel = "Apply Online (Registration / Login)";
+      pdfDocText = "Download Official Detailed Notification PDF";
+      viewerTitleText = "Official Recruitment Notification PDF Viewer";
+
+    } else if (cat === 'ANSWER_KEY') {
+      badgeEl.innerText = "ANSWER KEY & OBJECTION";
+      badgeEl.style.background = "#ecfdf5";
+      badgeEl.style.color = "#065f46";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-key" style="color:#065f46"></i> Important Answer Key & Objection Details`;
+      boxHeaderEl.style.background = "#ecfdf5";
+      boxHeaderEl.style.color = "#065f46";
+
+      detailsListEl.innerHTML = `
+        <li><span>Conducting Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Answer Key Status:</span> <strong style="color:#065f46"><i class="fa-solid fa-circle-check"></i> Provisional Key & Response Sheet Live</strong></li>
+        <li><span>Release Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Objection Filing Mode:</span> <strong>Online Candidate Portal (via Roll No & Password)</strong></li>
+        <li><span>Challenge Fee:</span> <strong>₹50 - ₹100 per challenged question (Refundable if valid)</strong></li>
+        <li><span>State / Jurisdiction:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Department:</span> <strong>${sectorVal}</strong></li>
+      `;
+
+      instructTitleEl.innerText = "How to Check Answer Key & File Objections";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+        <li>Click on the red <strong>"Download Answer Key & Challenge"</strong> link.</li>
+        <li>Enter your <strong>Roll Number / User ID</strong> and <strong>Password / Date of Birth</strong>.</li>
+        <li>Compare your recorded candidate response sheet with the commission's official answer key.</li>
+        <li>Calculate your tentative raw score as per the marking scheme.</li>
+        <li>If any official answer is incorrect, click on 'Raise Objection' and upload authentic reference proof before the deadline.</li>
+      `;
+
+      actionLabel = "Download Answer Key & Challenge";
+      pdfDocText = "Download Answer Key Notice / Instructions PDF";
+      viewerTitleText = "Official Answer Key Document Viewer";
+
+    } else if (cat === 'SYLLABUS') {
+      badgeEl.innerText = "EXAM PATTERN & SYLLABUS";
+      badgeEl.style.background = "#f5f3ff";
+      badgeEl.style.color = "#6d28d9";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-book-open" style="color:#6d28d9"></i> Examination Pattern & Syllabus Details`;
+      boxHeaderEl.style.background = "#f5f3ff";
+      boxHeaderEl.style.color = "#6d28d9";
+
+      detailsListEl.innerHTML = `
+        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Syllabus Status:</span> <strong style="color:#6d28d9"><i class="fa-solid fa-circle-check"></i> Official Exam Scheme & Syllabus Live</strong></li>
+        <li><span>Release / Update Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Examination Scheme:</span> <strong>Objective CBT / Written Exam / Tier-II Descriptive</strong></li>
+        <li><span>Negative Marking:</span> <strong>0.25 to 0.33 Marks per incorrect answer (as per notice)</strong></li>
+        <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Department:</span> <strong>${sectorVal}</strong></li>
+      `;
+
+      instructTitleEl.innerText = "How to Download Exam Syllabus PDF";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section or view the document directly below.</li>
+        <li>Click on the red <strong>"Download Exam Syllabus PDF"</strong> button.</li>
+        <li>Open the syllabus PDF and check the subject-wise weightage and marking criteria.</li>
+        <li>Save the PDF or print it out to plan your preparation schedule accordingly.</li>
+      `;
+
+      actionLabel = "Download Exam Syllabus PDF";
+      pdfDocText = "Download Official Detailed Syllabus PDF";
+      viewerTitleText = "Official Examination Syllabus PDF Viewer";
+
+    } else if (cat === 'ADMISSION') {
+      badgeEl.innerText = "ADMISSION & COUNSELLING";
+      badgeEl.style.background = "#ffedd5";
+      badgeEl.style.color = "#c2410c";
+
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-graduation-cap" style="color:#c2410c"></i> Admission & Counselling Details`;
+      boxHeaderEl.style.background = "#fff7ed";
+      boxHeaderEl.style.color = "#c2410c";
+
+      detailsListEl.innerHTML = `
+        <li><span>Conducting University / Board:</span> <strong>${org}</strong></li>
+        <li><span>Admission Status:</span> <strong style="color:#c2410c"><i class="fa-solid fa-circle-check"></i> Counselling & Registration Active</strong></li>
+        <li><span>Notification Date:</span> <strong>${relDate}</strong></li>
+        <li><span>Selection Criteria:</span> <strong>Entrance Examination Rank / Merit Cutoff</strong></li>
+        <li><span>Counselling Mode:</span> <strong>Online Choice Filling & Seat Allotment</strong></li>
+        <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
+      `;
+
+      instructTitleEl.innerText = "How to Apply for Admission Online";
+      stepListEl.innerHTML = `
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+        <li>Click on the highlighted red <strong>"Apply Online for Admission"</strong> button.</li>
+        <li>Complete candidate registration and enter your academic / entrance test marks.</li>
+        <li>Fill and lock your course and college preferences before the choice locking deadline.</li>
+        <li>Pay the counselling / application fee online and download the allotment confirmation receipt.</li>
+      `;
+
+      actionLabel = "Apply Online for Admission";
+      pdfDocText = "Download Admission Information Brochure PDF";
+      viewerTitleText = "Official Admission Brochure Document Viewer";
+
+    } else {
+      badgeEl.innerText = "LATEST NOTIFICATION";
+      boxHeaderEl.innerHTML = `<i class="fa-solid fa-calendar-check"></i> Important Examination Details & Schedule`;
+      detailsListEl.innerHTML = `
+        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
+        <li><span>Notification Status:</span> <strong style="color:var(--green)">Active / Released</strong></li>
+        <li><span>Release / Issue Date:</span> <strong>${relDate}</strong></li>
+        <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
+        <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
+      `;
+      instructTitleEl.innerText = "How to Access Online Notice";
+      actionLabel = "Access Online Notice / Form";
+      pdfDocText = "Download Official Notice PDF";
+      viewerTitleText = "Official Notice Document Viewer";
+    }
+
+    if (primaryLabelEl) primaryLabelEl.innerText = actionLabel;
+    if (pdfLabelEl) pdfLabelEl.innerText = pdfDocText;
+    if (pdfViewerTitleEl) pdfViewerTitleEl.innerText = viewerTitleText;
+
+    document.getElementById('linkPrimary').href = primaryUrl;
+    document.getElementById('linkPdf').href = directPdfUrl;
+    document.getElementById('btnPdfNewTab').href = directPdfUrl;
+    document.getElementById('btnPdfDownload').href = directPdfUrl;
+    document.getElementById('pdfEmbedFrame').src = directPdfUrl;
+    document.getElementById('linkOfficial').href = officialSite;
+
+  } catch (err) {
+    console.error(err);
+    document.getElementById('noticeTitle').innerText = 'Notice Details';
+  }
+}
+
+function scrollToPdfViewer() {
+  const el = document.getElementById('pdfViewerSection');
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.style.outline = '3px solid #dc2626';
+    setTimeout(() => { el.style.outline = 'none'; }, 2000);
+  }
+}
+
+loadDetail();
+</script>
+</body>
+</html>
