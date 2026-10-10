@@ -202,7 +202,7 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261010c"></script>
+<script src="/portal_data.js?v=20261010e"></script>
 <script>
 async function loadDetail() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -230,8 +230,23 @@ async function loadDetail() {
       // Static edge host fallback
     }
 
-    if (!item && window.PORTAL_DATA && window.PORTAL_DATA.updatesById) {
-      item = window.PORTAL_DATA.updatesById[String(id)];
+    if (!item && window.PORTAL_DATA) {
+      if (window.PORTAL_DATA.updatesById && window.PORTAL_DATA.updatesById[String(id)]) {
+        item = window.PORTAL_DATA.updatesById[String(id)];
+      }
+      if (!item) {
+        try {
+          const savedRaw = localStorage.getItem('asj_admin_state');
+          if (savedRaw) {
+            const saved = JSON.parse(savedRaw);
+            const pubList = Array.isArray(saved.published) ? saved.published : [];
+            item = pubList.find(x => String(x.id) === String(id)) || null;
+          }
+        } catch (e) {}
+      }
+      if (!item && Array.isArray(window.PORTAL_DATA.adminPendingQueue)) {
+        item = window.PORTAL_DATA.adminPendingQueue.find(x => String(x.id) === String(id)) || null;
+      }
       usingStaticHost = true;
     }
 

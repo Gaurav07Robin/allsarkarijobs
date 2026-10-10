@@ -425,7 +425,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261010c"></script>
+<script src="/portal_data.js?v=20261010d"></script>
 <script>
 // Mobile Navigation
 const mn = document.getElementById('mobNav');
@@ -438,21 +438,44 @@ window.addEventListener('scroll', () => {
   document.getElementById('hdr').classList.toggle('shadow', window.scrollY > 10);
 }, { passive: true });
 
-// Dynamic Data Fetching (merges static edge dataset + live API so no approved item is ever missing)
+// Dynamic Data Fetching (merges static edge dataset + live API + /admin approvals)
 let allPortalData = (window.PORTAL_DATA && window.PORTAL_DATA.categorized) ? window.PORTAL_DATA.categorized : null;
+let activeFilterType = 'all';
 
 function mergeCategorizedData(baseData, apiData) {
-  if (!baseData) return apiData;
-  if (!apiData) return baseData;
   const cats = ['RESULT', 'ADMIT_CARD', 'LATEST_JOB', 'ANSWER_KEY', 'SYLLABUS', 'ADMISSION'];
   const merged = {};
+  let localCustom = [];
+  try {
+    const st = JSON.parse(localStorage.getItem('asj_admin_state') || '{}');
+    localCustom = st.customUpdates || [];
+  } catch (e) {}
+
   for (const cat of cats) {
     const byId = new Map();
-    for (const item of (baseData[cat] || [])) {
-      byId.set(Number(item.id), item);
+    if (baseData && baseData[cat]) {
+      for (const item of baseData[cat]) byId.set(Number(item.id), item);
     }
-    for (const item of (apiData[cat] || [])) {
-      byId.set(Number(item.id), Object.assign({}, byId.get(Number(item.id)) || {}, item));
+    if (apiData && apiData[cat]) {
+      for (const item of apiData[cat]) {
+        byId.set(Number(item.id), Object.assign({}, byId.get(Number(item.id)) || {}, item));
+      }
+    }
+    for (const u of localCustom) {
+      if ((u.category || 'LATEST_JOB') === cat) {
+        byId.set(Number(u.id), {
+          id: u.id,
+          title: u.title,
+          tag: u.tag || 'New',
+          action_url: u.action_url,
+          is_featured: Boolean(u.is_featured),
+          featured_badge: u.featured_badge || null,
+          qualification: u.qualification_level || 'All',
+          sector: u.sector || 'Central',
+          state: u.state || 'All India',
+          created_at: u.created_at
+        });
+      }
     }
     merged[cat] = Array.from(byId.values()).sort((a, b) => Number(b.id) - Number(a.id));
   }
@@ -461,18 +484,33 @@ function mergeCategorizedData(baseData, apiData) {
 
 async function loadPortalFeeds() {
   if (allPortalData) {
-    renderFilteredFeeds('all');
+    allPortalData = mergeCategorizedData(allPortalData, null);
+    renderFilteredFeeds(activeFilterType);
   }
   try {
     const res = await fetch('/api/updates');
     if (!res.ok) throw new Error('API offline');
     const json = await res.json();
     allPortalData = mergeCategorizedData(allPortalData, json.data);
-    renderFilteredFeeds('all');
+    renderFilteredFeeds(activeFilterType);
   } catch (err) {
     if (!allPortalData) loadStaticFallback();
   }
 }
+
+try {
+  const syncCh = new BroadcastChannel('asj_live_sync');
+  syncCh.onmessage = () => {
+    allPortalData = mergeCategorizedData(window.PORTAL_DATA ? window.PORTAL_DATA.categorized : allPortalData, allPortalData);
+    renderFilteredFeeds(activeFilterType);
+  };
+} catch (e) {}
+window.addEventListener('storage', (ev) => {
+  if (ev.key === 'asj_admin_state') {
+    allPortalData = mergeCategorizedData(window.PORTAL_DATA ? window.PORTAL_DATA.categorized : allPortalData, allPortalData);
+    renderFilteredFeeds(activeFilterType);
+  }
+});
 
 function applyQuickFilter(filterType, btnElem) {
   document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));

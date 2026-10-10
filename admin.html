@@ -145,12 +145,15 @@
       <div class="panel">
         <div class="panel-header" style="flex-wrap:wrap;gap:12px">
           <h2><i class="fa-solid fa-inbox" style="color:var(--saffron)"></i> Crawler Review & Approval Queue (<span id="queueCount">0</span>)</h2>
-          <div style="display:flex;gap:8px;align-items:center">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
             <button class="btn btn-primary" id="tabPending" onclick="switchQueueTab('PENDING')" style="padding:7px 14px;font-size:12px">
               <i class="fa-solid fa-clock"></i> Pending Review
             </button>
             <button class="btn btn-secondary" id="tabApproved" onclick="switchQueueTab('APPROVED')" style="padding:7px 14px;font-size:12px">
-              <i class="fa-solid fa-circle-check"></i> Crawled & Live (2026-10-10)
+              <i class="fa-solid fa-circle-check"></i> Approved & Live
+            </button>
+            <button class="btn btn-success" id="btnApproveAll" onclick="approveAllPending()" style="padding:7px 14px;font-size:12px">
+              <i class="fa-solid fa-check-double"></i> Approve All Pending
             </button>
             <button class="btn btn-secondary" onclick="loadStagingQueue(currentQueueTab)" style="padding:7px 12px;font-size:12px">
               <i class="fa-solid fa-rotate-right"></i>
@@ -219,10 +222,18 @@
 
 <div class="toast" id="toastBox">Notification text</div>
 
-<script src="/portal_data.js?v=20261010c"></script>
+<script src="/portal_data.js?v=20261010d"></script>
 <script>
   let currentQueueTab = 'PENDING';
   let currentStagingItems = [];
+  let syncChannel = null;
+  try { syncChannel = new BroadcastChannel('asj_live_sync'); } catch (e) {}
+
+  function notifyLivePortal() {
+    try {
+      if (syncChannel) syncChannel.postMessage({ type: 'UPDATES_CHANGED', ts: Date.now() });
+    } catch (e) {}
+  }
 
   function getLocalAdminState() {
     try {
@@ -235,6 +246,7 @@
   function saveLocalAdminState(state) {
     try {
       localStorage.setItem('asj_admin_state', JSON.stringify(state));
+      notifyLivePortal();
     } catch (e) {}
   }
 
@@ -250,12 +262,15 @@
     currentQueueTab = tab;
     const btnPending = document.getElementById('tabPending');
     const btnApproved = document.getElementById('tabApproved');
+    const btnApproveAll = document.getElementById('btnApproveAll');
     if (tab === 'PENDING') {
       btnPending.className = 'btn btn-primary';
       btnApproved.className = 'btn btn-secondary';
+      if (btnApproveAll) btnApproveAll.style.display = 'inline-flex';
     } else {
       btnPending.className = 'btn btn-secondary';
       btnApproved.className = 'btn btn-primary';
+      if (btnApproveAll) btnApproveAll.style.display = 'none';
     }
     loadStagingQueue(tab);
   }
@@ -274,8 +289,9 @@
       if (window.PORTAL_DATA && window.PORTAL_DATA.adminStats) {
         const st = window.PORTAL_DATA.adminStats;
         const local = getLocalAdminState();
-        const pendingLeft = Math.max(0, (st.pending_staging || 0) - local.approvedIds.length - local.rejectedIds.length);
-        const totalUpd = (st.total_updates || 71) + local.approvedIds.length + local.customUpdates.length;
+        const rawPending = window.PORTAL_DATA.stagingPending || [];
+        const pendingLeft = rawPending.filter(x => !local.approvedIds.includes(x.id) && !local.rejectedIds.includes(x.id)).length;
+        const totalUpd = (st.total_updates || 149) + local.customUpdates.length;
         document.getElementById('statUpdates').innerText = totalUpd;
         document.getElementById('statPending').innerText = pendingLeft;
         document.getElementById('statRecruitments').innerText = st.total_recruitments || 5;
@@ -328,11 +344,13 @@
       container.innerHTML = `
         <div style="text-align:center;padding:40px;color:var(--muted)">
           <i class="fa-solid fa-circle-check" style="font-size:36px;color:var(--green);margin-bottom:12px;display:block"></i>
-          <strong>Queue is clear!</strong><br>All discovered notices in this view have been processed. Click "Crawled & Live (2026-10-10)" or "Ingest Test Notices" to view more.
+          <strong>Queue is clear!</strong><br>All discovered notices in this view have been processed. Click "Approved & Live" or "Ingest Test Notices" to view or reset items.
         </div>
       `;
       return;
     }
+
+    const categories = ['LATEST_JOB', 'RESULT', 'ADMIT_CARD', 'ANSWER_KEY', 'SYLLABUS', 'ADMISSION'];
 
     container.innerHTML = items.map(item => {
       const ext = item.extracted_data || {};
@@ -345,12 +363,20 @@
       if (ext.stage) extPills.push(`<span>Stage: <strong>${ext.stage}</strong></span>`);
 
       const isApproved = filter === 'APPROVED' || item.status === 'APPROVED';
+      const itemCat = item.category || 'LATEST_JOB';
+      const catOptions = categories.map(c => `<option value="${c}" ${c === itemCat ? 'selected' : ''}>${c.replace('_', ' ')}</option>`).join('');
 
       return `
         <div class="queue-item" id="staging-item-${item.id}">
           <div class="queue-meta">
             <span class="badge badge-portal"><i class="fa-solid fa-building-columns"></i> ${item.source_portal}</span>
-            <span class="badge badge-cat">${(item.category || 'LATEST_JOB').replace('_', ' ')}</span>
+            ${!isApproved ? `
+              <select id="cat-select-${item.id}" style="font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;border:1px solid #d97706;background:#fef3c7;color:#92400e;cursor:pointer">
+                ${catOptions}
+              </select>
+            ` : `
+              <span class="badge badge-cat">${itemCat.replace('_', ' ')}</span>
+            `}
             ${item.state ? `<span class="badge" style="background:#e0f2fe;color:#0369a1">📍 ${item.state}</span>` : ''}
             ${item.qualification_level ? `<span class="badge" style="background:#fef3c7;color:#92400e">🎓 ${item.qualification_level}</span>` : ''}
             <span class="badge badge-conf">🎯 ${Math.round((item.confidence_score || 0.95) * 100)}% Match</span>
@@ -385,18 +411,69 @@
 
   async function publishItem(id) {
     const item = currentStagingItems.find(x => x.id === id);
+    const catSelect = document.getElementById(`cat-select-${id}`);
+    const selectedCategory = catSelect ? catSelect.value : (item ? item.category : 'LATEST_JOB');
+
     try {
-      const res = await fetch(`/api/admin/publish/${id}`, { method: 'POST' });
+      const res = await fetch(`/api/admin/publish/${id}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ category: selectedCategory })
+      });
       if (!res.ok) throw new Error('Static fallback');
       const data = await res.json();
       showToast(data.message || 'Notice published live!', '#2f855a');
     } catch (e) {
-      const local = getLocalAdminState();
-      if (!local.approvedIds.includes(id)) local.approvedIds.push(id);
-      if (item) {
+      // Always persist in localStorage as well so static Vercel (allsarkarijobs.online) reflects it immediately
+    }
+
+    const local = getLocalAdminState();
+    if (!local.approvedIds.includes(id)) local.approvedIds.push(id);
+    if (item && !local.customUpdates.some(u => u.title === item.title)) {
+      local.customUpdates.unshift({
+        id: 900 + id,
+        category: selectedCategory || 'LATEST_JOB',
+        title: item.title,
+        tag: 'New',
+        action_url: item.action_url || item.source_url || '#',
+        source_portal: item.source_portal,
+        source_url: item.source_url,
+        qualification_level: item.qualification_level || 'All',
+        sector: item.sector || 'Central',
+        state: item.state || 'All India',
+        created_at: '2026-10-10 22:35:00'
+      });
+    }
+    saveLocalAdminState(local);
+    showToast(`Approved & Published to ${selectedCategory.replace('_', ' ')}: "${item ? item.title : '#' + id}"`, '#2f855a');
+    loadStats();
+    loadStagingQueue(currentQueueTab);
+  }
+
+  async function approveAllPending() {
+    if (!currentStagingItems || currentStagingItems.length === 0) {
+      showToast('No pending notices to approve!', '#4a5568');
+      return;
+    }
+    const itemsToApprove = [...currentStagingItems];
+    const local = getLocalAdminState();
+
+    for (const item of itemsToApprove) {
+      const catSelect = document.getElementById(`cat-select-${item.id}`);
+      const selectedCategory = catSelect ? catSelect.value : (item.category || 'LATEST_JOB');
+      try {
+        await fetch(`/api/admin/publish/${item.id}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ category: selectedCategory })
+        });
+      } catch (e) {}
+
+      if (!local.approvedIds.includes(item.id)) local.approvedIds.push(item.id);
+      if (!local.customUpdates.some(u => u.title === item.title)) {
         local.customUpdates.unshift({
-          id: 900 + id,
-          category: item.category || 'LATEST_JOB',
+          id: 900 + item.id,
+          category: selectedCategory,
           title: item.title,
           tag: 'New',
           action_url: item.action_url || item.source_url || '#',
@@ -405,12 +482,12 @@
           qualification_level: item.qualification_level || 'All',
           sector: item.sector || 'Central',
           state: item.state || 'All India',
-          created_at: '2026-10-10 21:45:00'
+          created_at: '2026-10-10 22:36:00'
         });
       }
-      saveLocalAdminState(local);
-      showToast(`Approved & Published Live: "${item ? item.title : '#' + id}"`, '#2f855a');
     }
+    saveLocalAdminState(local);
+    showToast(`Successfully approved & published all ${itemsToApprove.length} notices live!`, '#2f855a');
     loadStats();
     loadStagingQueue(currentQueueTab);
   }
