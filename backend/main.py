@@ -15,14 +15,16 @@ from backend.seed_data import seed
 from backend.migrate_db import migrate
 from backend.migrate_filters import migrate_filters
 from backend.fix_action_urls import fix_action_urls
+from backend.publish_crawled import publish_crawled, export_portal_data_js
 from backend.crawler.engine import CrawlerEngine, BackgroundCrawlerScheduler
 
-# Ensure database is created, seeded, and migrated
+# Ensure database is created, seeded, migrated, and synced with latest crawled notices
 init_db()
 seed()
 migrate()
 migrate_filters()
 fix_action_urls()
+publish_crawled()
 
 # Start background crawler scheduler (runs every 30 mins)
 BackgroundCrawlerScheduler.start(interval_minutes=30)
@@ -383,6 +385,7 @@ def publish_staging_item(staging_id: int, payload: Optional[PublishStagingReques
 
     conn.commit()
     conn.close()
+    export_portal_data_js()
 
     return {"status": "success", "message": f"Successfully published notice: '{title}'"}
 
@@ -407,6 +410,7 @@ def create_manual_update(item: ManualUpdateItem):
     """, (item.category, item.title, item.tag, item.action_url, 1 if item.is_featured else 0, item.featured_badge))
     conn.commit()
     conn.close()
+    export_portal_data_js()
     return {"status": "success", "message": "Update posted live"}
 
 @app.post("/api/admin/crawl/run")
