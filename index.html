@@ -116,14 +116,15 @@ button{cursor:pointer;border:none;font-family:inherit}
 .col-header.syllabus{background:linear-gradient(135deg,#4c1d95,#6d28d9)}
 .col-header.admission{background:linear-gradient(135deg,#c2410c,#ea580c)}
 
-.col-list{list-style:none;max-height:420px;overflow-y:auto}
+.col-list{list-style:none}
 .col-list li{border-bottom:1px solid var(--border)}
 .col-list li:last-child{border-bottom:none}
-.col-list a{display:block;padding:12px 18px;font-size:13.5px;font-weight:600;color:#2b6cb0;transition:all .15s;line-height:1.4}
+.col-list a{display:block;padding:11px 18px;font-size:13.5px;font-weight:600;color:#2b6cb0;transition:all .15s;line-height:1.4}
 .col-list a:hover{background:#f8fafc;color:#1a365d;padding-left:22px;text-decoration:underline}
 .col-list a small{display:block;font-size:11px;color:var(--muted);margin-top:3px;font-weight:400;text-decoration:none}
 .tag{font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;margin-left:6px;display:inline-block}
 .tag-new{background:#e8f5e9;color:#2e7d42}.tag-hot{background:#fce8e8;color:var(--red)}.tag-live{background:#fef3c7;color:#b45309}
+.col-count-badge{background:rgba(255,255,255,.2);color:#fff;font-size:11px;font-weight:700;padding:2px 9px;border-radius:12px}
 .col-footer{text-align:center;padding:10px;border-top:1px solid var(--border);background:#fafafa}
 .col-footer a{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 .col-footer a:hover{color:var(--ink)}
@@ -294,39 +295,39 @@ button{cursor:pointer;border:none;font-family:inherit}
       <div class="updates-col" id="results">
         <div class="col-header results">
           <span><i class="fa-solid fa-trophy"></i> Result</span>
-          <i class="fa-solid fa-chart-line" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countResult">0</span>
         </div>
         <ul class="col-list" id="listResult">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest results...</a></li>
         </ul>
-        <div class="col-footer"><a href="#results">View All Results →</a></div>
+        <div class="col-footer"><a href="#results" id="footerResult">Showing All Results</a></div>
       </div>
 
       <!-- Column 2: Admit Card -->
       <div class="updates-col" id="admit-cards">
         <div class="col-header admit">
           <span><i class="fa-solid fa-id-card"></i> Admit Card</span>
-          <i class="fa-solid fa-ticket" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAdmit">0</span>
         </div>
         <ul class="col-list" id="listAdmit">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading admit cards...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admit-cards">View All Admit Cards →</a></div>
+        <div class="col-footer"><a href="#admit-cards" id="footerAdmit">Showing All Admit Cards</a></div>
       </div>
 
       <!-- Column 3: Latest Job -->
       <div class="updates-col" id="latest-jobs">
         <div class="col-header latest">
           <span><i class="fa-solid fa-briefcase"></i> Latest Job</span>
-          <i class="fa-solid fa-bell" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countJob">0</span>
         </div>
         <ul class="col-list" id="listJob">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest jobs...</a></li>
         </ul>
-        <div class="col-footer"><a href="#latest-jobs">View All Latest Jobs →</a></div>
+        <div class="col-footer"><a href="#latest-jobs" id="footerJob">Showing All Latest Jobs</a></div>
       </div>
 
     </div>
@@ -345,36 +346,36 @@ button{cursor:pointer;border:none;font-family:inherit}
       <div class="updates-col" id="answer-keys">
         <div class="col-header answer">
           <span><i class="fa-solid fa-key"></i> Answer Key</span>
-          <i class="fa-solid fa-check-double" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAnswer">0</span>
         </div>
         <ul class="col-list" id="listAnswer">
           <li><a href="#">Loading answer keys...</a></li>
         </ul>
-        <div class="col-footer"><a href="#answer-keys">View All Answer Keys →</a></div>
+        <div class="col-footer"><a href="#answer-keys" id="footerAnswer">Showing All Answer Keys</a></div>
       </div>
 
       <!-- Column 5: Syllabus -->
       <div class="updates-col" id="syllabus">
         <div class="col-header syllabus">
           <span><i class="fa-solid fa-book-open"></i> Syllabus</span>
-          <i class="fa-solid fa-graduation-cap" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countSyllabus">0</span>
         </div>
         <ul class="col-list" id="listSyllabus">
           <li><a href="#">Loading syllabus...</a></li>
         </ul>
-        <div class="col-footer"><a href="#syllabus">View All Syllabus →</a></div>
+        <div class="col-footer"><a href="#syllabus" id="footerSyllabus">Showing All Syllabus</a></div>
       </div>
 
       <!-- Column 6: Admission -->
       <div class="updates-col" id="admission">
         <div class="col-header admission">
           <span><i class="fa-solid fa-school"></i> Admission</span>
-          <i class="fa-solid fa-university" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAdmission">0</span>
         </div>
         <ul class="col-list" id="listAdmission">
           <li><a href="#">Loading admissions...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admission">View All Admissions →</a></div>
+        <div class="col-footer"><a href="#admission" id="footerAdmission">Showing All Admissions</a></div>
       </div>
 
     </div>
@@ -424,7 +425,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js"></script>
+<script src="/portal_data.js?v=20261010c"></script>
 <script>
 // Mobile Navigation
 const mn = document.getElementById('mobNav');
@@ -437,8 +438,26 @@ window.addEventListener('scroll', () => {
   document.getElementById('hdr').classList.toggle('shadow', window.scrollY > 10);
 }, { passive: true });
 
-// Dynamic Data Fetching
+// Dynamic Data Fetching (merges static edge dataset + live API so no approved item is ever missing)
 let allPortalData = (window.PORTAL_DATA && window.PORTAL_DATA.categorized) ? window.PORTAL_DATA.categorized : null;
+
+function mergeCategorizedData(baseData, apiData) {
+  if (!baseData) return apiData;
+  if (!apiData) return baseData;
+  const cats = ['RESULT', 'ADMIT_CARD', 'LATEST_JOB', 'ANSWER_KEY', 'SYLLABUS', 'ADMISSION'];
+  const merged = {};
+  for (const cat of cats) {
+    const byId = new Map();
+    for (const item of (baseData[cat] || [])) {
+      byId.set(Number(item.id), item);
+    }
+    for (const item of (apiData[cat] || [])) {
+      byId.set(Number(item.id), Object.assign({}, byId.get(Number(item.id)) || {}, item));
+    }
+    merged[cat] = Array.from(byId.values()).sort((a, b) => Number(b.id) - Number(a.id));
+  }
+  return merged;
+}
 
 async function loadPortalFeeds() {
   if (allPortalData) {
@@ -448,7 +467,7 @@ async function loadPortalFeeds() {
     const res = await fetch('/api/updates');
     if (!res.ok) throw new Error('API offline');
     const json = await res.json();
-    allPortalData = json.data;
+    allPortalData = mergeCategorizedData(allPortalData, json.data);
     renderFilteredFeeds('all');
   } catch (err) {
     if (!allPortalData) loadStaticFallback();
@@ -513,16 +532,30 @@ function renderFilteredFeeds(filterType) {
     return true;
   }
 
-  renderList('listResult', (allPortalData.RESULT || []).filter(matches));
-  renderList('listAdmit', (allPortalData.ADMIT_CARD || []).filter(matches));
-  renderList('listJob', (allPortalData.LATEST_JOB || []).filter(matches));
-  renderList('listAnswer', (allPortalData.ANSWER_KEY || []).filter(matches));
-  renderList('listSyllabus', (allPortalData.SYLLABUS || []).filter(matches));
-  renderList('listAdmission', (allPortalData.ADMISSION || []).filter(matches));
+  const resItems = (allPortalData.RESULT || []).filter(matches);
+  const admItems = (allPortalData.ADMIT_CARD || []).filter(matches);
+  const jobItems = (allPortalData.LATEST_JOB || []).filter(matches);
+  const ansItems = (allPortalData.ANSWER_KEY || []).filter(matches);
+  const sylItems = (allPortalData.SYLLABUS || []).filter(matches);
+  const admsItems = (allPortalData.ADMISSION || []).filter(matches);
+
+  renderList('listResult', resItems, 'countResult', 'footerResult', 'Results');
+  renderList('listAdmit', admItems, 'countAdmit', 'footerAdmit', 'Admit Cards');
+  renderList('listJob', jobItems, 'countJob', 'footerJob', 'Latest Jobs');
+  renderList('listAnswer', ansItems, 'countAnswer', 'footerAnswer', 'Answer Keys');
+  renderList('listSyllabus', sylItems, 'countSyllabus', 'footerSyllabus', 'Syllabus');
+  renderList('listAdmission', admsItems, 'countAdmission', 'footerAdmission', 'Admissions');
 }
 
-function renderList(elemId, items) {
+function renderList(elemId, items, countId, footerId, label) {
   const ul = document.getElementById(elemId);
+  const countEl = countId ? document.getElementById(countId) : null;
+  const footerEl = footerId ? document.getElementById(footerId) : null;
+  const total = items ? items.length : 0;
+
+  if (countEl) countEl.innerText = `${total} Notices`;
+  if (footerEl) footerEl.innerText = `Showing All ${total} ${label}`;
+
   if (!items || items.length === 0) {
     ul.innerHTML = '<li><a href="#" style="color:var(--muted)">No active notices found.</a></li>';
     return;

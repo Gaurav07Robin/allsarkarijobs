@@ -1,7 +1,7 @@
 """
-Publishes crawled notifications up to today (2026-10-10) into both the Admin Panel
-(crawler_staging queue) and the live updates table, and synchronizes portal_data.js
-so both the public portal and /admin work seamlessly on Vercel (allsarkarijobs.online).
+Publishes and cleans all admin-approved notices (IDs 47..124) and crawled notifications
+up to today (2026-10-10) into the updates table and Admin Panel queue, and synchronizes
+portal_data.js so every tab shows all approved items on both localhost and Vercel.
 """
 import json
 import os
@@ -63,7 +63,7 @@ window.generateOfficialNoticePdf = function(item) {
     else if (title.indexOf('HSSC') !== -1) org = 'Haryana Staff Selection Commission (HSSC)';
     else if (title.indexOf('DSSSB') !== -1) org = 'Delhi Subordinate Services Selection Board (DSSSB)';
     else if (title.indexOf('NTA') !== -1 || title.indexOf('UGC') !== -1 || title.indexOf('CUET') !== -1 || title.indexOf('JEE') !== -1) org = 'National Testing Agency (NTA)';
-    else if (title.indexOf('Delhi High Court') !== -1) org = 'High Court of Delhi (New Delhi)';
+    else if (title.indexOf('Delhi High Court') !== -1 || title.indexOf('Allahabad High Court') !== -1) org = 'High Court Recruitment Cell';
   }
   var refNo = 'File No. ASJ/' + (item.id || '2026') + '/' + cat.substring(0, 3).toUpperCase() + '/2026';
   var dateStr = escPdf((item.created_at || '2026-10-10').substring(0, 10));
@@ -204,6 +204,89 @@ window.generateOfficialNoticePdf = function(item) {
   return URL.createObjectURL(blob);
 };
 """
+
+
+# Clean titles, categories, and direct URLs for all items ticked by the user in Admin Portal (IDs 47..124)
+ADMIN_TICKED_CLEANUPS = {
+    47: ("ADMIT_CARD", "RPSC Asst. Director & Sr. Scientific Officer Admit Card 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "Rajasthan", "State", "Graduate"),
+    48: ("ADMIT_CARD", "RPSC Sr. Scientific Officer Exam Hall Ticket 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "Rajasthan", "State", "Graduate"),
+    49: ("LATEST_JOB", "RPSC Rajasthan State & Subordinate Services Online Form 2026", "https://rpsc.rajasthan.gov.in/applyonline", "Rajasthan", "State", "Graduate"),
+    50: ("LATEST_JOB", "UP Police Constable & Sub-Inspector Direct Recruitment Notice 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th/Graduate"),
+    51: ("LATEST_JOB", "UP Police Computer Operator & Programmer Grade-II Online Form 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th/Graduate"),
+    52: ("RESULT", "UPPSC Provisionally Selected Candidates List Advt. No. A-5/E-1/2026 Result", "https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx", "Uttar Pradesh", "State", "Graduate"),
+    53: ("ADMIT_CARD", "IBPS Hindi Officer Online Exam Call Letter 2026", "https://www.ibps.in/index.php/careers/", "All India", "Banking", "Graduate"),
+    54: ("LATEST_JOB", "Allahabad High Court eCourts Phase-III Technical Staff Recruitment 2026", "https://allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
+    55: ("LATEST_JOB", "Allahabad High Court Law Clerk (Trainee) & Steno Notification 2026", "https://allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
+    56: ("ADMIT_CARD", "Allahabad High Court Candidate Document & Photo Verification Notice 2026", "https://allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
+    57: ("SYLLABUS", "Allahabad High Court Group C & D Cadre Service Rules & Syllabus 2026", "https://allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "10th/12th/Graduate"),
+    58: ("RESULT", "Allahabad High Court Advocates & Judicial Staff Final Allotment List 2026", "https://allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
+    59: ("ADMIT_CARD", "Allahabad High Court Exam & Interview e-Gate Pass Portal 2026", "https://allahabadhighcourt.in/egatepass.html", "Uttar Pradesh", "State", "Graduate"),
+    60: ("RESULT", "HSSC Haryana Primary Teacher (PRT Mewat Cadre) Marks & Result 2026", "https://hssc.gov.in/Result", "Haryana", "Teaching", "12th/Graduate"),
+    61: ("ANSWER_KEY", "HSSC Primary Teacher (PRT) Advt 05/2026 Final Answer Key", "https://hssc.gov.in/PublicNotices", "Haryana", "Teaching", "12th/Graduate"),
+    62: ("ANSWER_KEY", "HSSC TGT & Primary Teacher (PRT) Objection & Answer Key Notice 2026", "https://hssc.gov.in/PublicNotices", "Haryana", "Teaching", "Graduate"),
+    63: ("RESULT", "HSSC Haryana CET Group-C & Group-D Final Merit Result 2026", "https://hssc.gov.in/Result", "Haryana", "State", "10th/12th/Graduate"),
+    64: ("LATEST_JOB", "HSSC Haryana Staff Selection Various Posts Online Form 2026", "https://hssc.gov.in/applyOnline", "Haryana", "State", "12th/Graduate"),
+    65: ("LATEST_JOB", "HSSC Haryana Police & Group-C Advt 06/2026 Recruitment Notification", "https://hssc.gov.in/Advertisements", "Haryana", "Police", "12th/Graduate"),
+    66: ("LATEST_JOB", "HSSC Haryana CET Group-D Advt 05/2026 Online Registration Form", "https://onetimeregn.haryana.gov.in/hssc", "Haryana", "State", "10th"),
+    67: ("RESULT", "DSSSB Delhi Nursing Officer, LDC & TGT Latest Result & Cutoff 2026", "https://dsssb.delhi.gov.in/latest-result", "Delhi", "State", "12th/Graduate"),
+    68: ("ADMIT_CARD", "DSSSB Delhi Online CBT Exam e-Admit Card Download 2026", "https://dsssbonline.nic.in/AdmitCardEntry.aspx", "Delhi", "State", "12th/Graduate"),
+    69: ("SYLLABUS", "RPSC RAS & Lecturer Examination Scheme & Revised Syllabus 2026", "https://rpsc.rajasthan.gov.in/syllabus", "Rajasthan", "State", "Graduate"),
+    70: ("LATEST_JOB", "RPSC One Time Registration (OTR) & Recruitment Online Form 2026", "https://rpsc.rajasthan.gov.in/applyonline", "Rajasthan", "State", "Graduate"),
+    71: ("ANSWER_KEY", "RPSC RAS, 1st Grade & 2nd Grade Teacher Official Answer Key 2026", "https://rpsc.rajasthan.gov.in/answerkeys", "Rajasthan", "Teaching", "Graduate"),
+    72: ("ADMIT_CARD", "RPSC Computer Based Recruitment Test (CBRT) Exam Schedule & City Slip 2026", "https://rpsc.rajasthan.gov.in/examdashboard", "Rajasthan", "State", "Graduate"),
+    73: ("LATEST_JOB", "RPSC Rajasthan Statistical Officer, Programmer & AE Recruitment 2026", "https://rpsc.rajasthan.gov.in/advertisements", "Rajasthan", "State", "Graduate"),
+    74: ("LATEST_JOB", "UP Police Sub-Inspector (Civil Police) & Platoon Commander Online Form 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "Graduate"),
+    75: ("RESULT", "UP Police ASI (Clerk, Intelligence & Accounts) DV/PST Result 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "Graduate"),
+    76: ("RESULT", "UP Police Radio Cadre Head Operator & Assistant Operator Final Result 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th/Diploma"),
+    77: ("LATEST_JOB", "UP Police Constable Skilled Sports Quota Direct Recruitment 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th"),
+    78: ("LATEST_JOB", "UP Police Jail Warder, Fireman & Mounted Police Recruitment 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th"),
+    79: ("ADMIT_CARD", "UP Police Constable & SI Physical Efficiency Test (PET) Admit Card 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th/Graduate"),
+    80: ("SYLLABUS", "UP Police Constable & Sub-Inspector Written Exam Pattern & Syllabus 2026", "https://uppbpb.gov.in/Home/Manual", "Uttar Pradesh", "Police", "12th/Graduate"),
+    81: ("LATEST_JOB", "UP Police Direct Recruitment Active Vacancies Portal 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th/Graduate"),
+    82: ("RESULT", "UPPSC Result of Advt. No. D-2/E-1/2024 Uttar Pradesh AYUSH Department", "https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx", "Uttar Pradesh", "State", "Graduate"),
+    83: ("RESULT", "UPPSC Result of Advt. No. D-1/E-1/2026 Medical Education Department", "https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx", "Uttar Pradesh", "State", "Graduate"),
+    84: ("RESULT", "UPPSC Result of Advt. No. D-4/E-1/2025 UP AYUSH (Ayurveda) Medical Officer", "https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx", "Uttar Pradesh", "State", "Graduate"),
+    85: ("SYLLABUS", "UPPSC Combined State / Upper Subordinate (PCS) Prelims & Mains Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus.aspx", "Uttar Pradesh", "State", "Graduate"),
+    86: ("SYLLABUS", "UPPSC Review Officer (RO/ARO) & Block Education Officer Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus.aspx", "Uttar Pradesh", "State", "Graduate"),
+    87: ("LATEST_JOB", "UPPSC Combined State Engineering & Medical Officer Online Form 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Graduate"),
+    88: ("LATEST_JOB", "UPPSC OTR Registration & Direct Recruitment Online Form 2026", "https://uppsc.up.nic.in/CandidatePages/OTR.aspx", "Uttar Pradesh", "State", "Graduate"),
+    89: ("LATEST_JOB", "UPPSC Gazetted Officer & Lecturer Recruitment Notifications 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Post Graduate"),
+    90: ("ADMISSION", "NTA Joint CSIR-UGC NET 2026 Online Form & Information Bulletin", "https://csirnet.nta.nic.in/", "All India", "Teaching", "Post Graduate"),
+    91: ("RESULT", "SBI PO & Junior Associates Recruitment Final Results Archive 2026", "https://sbi.co.in/web/careers/recruitment-results-archive", "All India", "Banking", "Graduate"),
+    92: ("RESULT", "SBI Specialist Cadre & Circle Based Officer (CBO) Final Result 2026", "https://sbi.co.in/web/careers/current-openings", "All India", "Banking", "Graduate"),
+    93: ("LATEST_JOB", "IBPS CRP Specialist Officers (CRP-SPL-XVI) Online Form 2026", "https://www.ibps.in/index.php/specialist-officers-xvi/", "All India", "Banking", "Graduate"),
+    94: ("LATEST_JOB", "IBPS CRP Probationary Officers / Management Trainees (CRP-PO/MT-XVI) 2026", "https://www.ibps.in/index.php/management-trainees-xvi/", "All India", "Banking", "Graduate"),
+    95: ("RESULT", "IBPS CRP PO/MT-XVI Prelims & Mains Merit List Result 2026", "https://www.ibps.in/index.php/management-trainees-xvi/", "All India", "Banking", "Graduate"),
+    96: ("LATEST_JOB", "IBPS CRP Customer Service Associates (CRP-CSA-XVI Clerk) Online Form 2026", "https://www.ibps.in/index.php/clerical-cadre-xvi/", "All India", "Banking", "Graduate"),
+    97: ("LATEST_JOB", "IBPS Banking Personnel Recruitment & Annual Exam Calendar 2026-27", "https://www.ibps.in/", "All India", "Banking", "Graduate"),
+    98: ("ANSWER_KEY", "IBPS CBT Examination Normalization & Equi-Percentile Scoring Notice 2026", "https://www.ibps.in/index.php/policies-rules-guidelines/", "All India", "Banking", "Graduate"),
+    99: ("LATEST_JOB", "Canara Bank Engagement of Graduate Apprentices Online Form 2026 (3,000 Posts)", "https://ibpsreg.ibps.in/cabgasep26/", "All India", "Banking", "Graduate"),
+    100: ("LATEST_JOB", "KUCBL Recruitment of Managers and Assistant Managers Online Form 2026", "https://ibpsreg.ibps.in/kucbldec25/", "All India", "Banking", "Graduate"),
+    101: ("RESULT", "IBPS Provisional Allotment under Reserve List for CRP-RRBs-XIV 2026", "https://www.ibps.in/index.php/rural-bank-xiv/", "All India", "Banking", "Graduate"),
+    102: ("ADMIT_CARD", "IBPS Online Preliminary Exam Call Letter for CRP-CSA-XVI (Clerk) 2026", "https://www.ibps.in/index.php/clerical-cadre-xvi/", "All India", "Banking", "Graduate"),
+    103: ("LATEST_JOB", "IBPS CRP Regional Rural Banks Phase-XV (Officer Scale I, II, III & OA) 2026", "https://www.ibps.in/index.php/regional-rural-banks-xv/", "All India", "Banking", "Graduate"),
+    104: ("LATEST_JOB", "IBPS Research Associate & IT Engineer Recruitment Online Form 2026", "https://www.ibps.in/index.php/careers/", "All India", "Banking", "Graduate"),
+    105: ("ADMISSION", "NTA NIFT Entrance Examination (NIFTEE) 2027 Online Admission Form", "https://exams.nta.nic.in/niftee/", "All India", "Central", "12th/Graduate"),
+    106: ("ADMISSION", "NTA ICAR All India Entrance Examination (ICAR-AIEEA / AICE-JRF) 2026", "https://exams.nta.nic.in/icar/", "All India", "Central", "12th/Graduate"),
+    107: ("ADMISSION", "NTA All India AYUSH Post Graduate Entrance Test (AIAPGET) 2026 Form", "https://exams.nta.nic.in/AIAPGET/", "All India", "Central", "Graduate"),
+    108: ("RESULT", "NTA AIAPGET 2026 Final Scorecard & All India Rank Result", "https://exams.nta.nic.in/AIAPGET/", "All India", "Central", "Graduate"),
+    109: ("ADMISSION", "NTA Common Management Admission Test (CMAT) 2027 Online Form", "https://cmat.nta.nic.in/", "All India", "Central", "Graduate"),
+    110: ("ADMISSION", "NTA National Common Entrance Test (NCET) 4-Year ITEP Admission 2026", "https://exams.nta.nic.in/ncet/", "All India", "Teaching", "12th"),
+    111: ("ADMIT_CARD", "NTA NCET 2026 Exam City Intimation Slip & Admit Card Download", "https://exams.nta.nic.in/ncet/", "All India", "Teaching", "12th"),
+    112: ("ADMISSION", "NTA All India Sainik Schools Entrance Exam (AISSEE) 2027 Online Form", "https://exams.nta.nic.in/sainik-school-society/", "All India", "Defence", "All"),
+    113: ("ADMISSION", "NTA Common University Entrance Test PG (CUET-PG) 2027 Online Form", "https://exams.nta.nic.in/cuet-pg/", "All India", "Central", "Graduate"),
+    114: ("ADMISSION", "NTA Common University Entrance Test UG (CUET-UG) 2027 Registration", "https://cuet.nta.nic.in/", "All India", "Central", "12th"),
+    115: ("ADMISSION", "NTA Joint Entrance Examination JEE (Main) 2027 Session-I Registration", "https://jeemain.nta.nic.in", "All India", "Central", "12th"),
+    116: ("ADMISSION", "NTA National Eligibility Cum Entrance Test (NEET-UG) 2027 Online Form", "https://neet.nta.nic.in/", "All India", "Central", "12th"),
+    117: ("RESULT", "UPSC NDA & NA (I) 2026 Examination Written Result Declared", "https://upsc.gov.in/exams-related-info/written-result", "All India", "Defence", "12th"),
+    118: ("LATEST_JOB", "UPSC Civil Services CSE 2026 Preliminary Examination Online Form", "https://upsconline.nic.in/upsc/OTRP/index.php", "All India", "Central", "Graduate"),
+    119: ("LATEST_JOB", "SSC CGL 2026 Combined Graduate Level Examination Online Form (17,727 Posts)", "https://ssc.gov.in/portal/login", "All India", "Central", "Graduate"),
+    120: ("ADMIT_CARD", "SSC CGL 2026 Tier-I & Tier-II Revised Examination Schedule & Admit Card", "https://ssc.gov.in/portal/admit-card", "All India", "Central", "Graduate"),
+    121: ("ADMIT_CARD", "SSC Stenographer Grade C & D 2026 CBT Admit Card Download", "https://ssc.gov.in/portal/admit-card", "All India", "Central", "12th"),
+    122: ("LATEST_JOB", "Railway RRB NTPC Graduate Level (CEN 05/2026) Online Application Form", "https://rrbapply.gov.in/#/auth/home", "All India", "Railway", "Graduate"),
+    123: ("LATEST_JOB", "UP Police Sub Inspector (SI) & Platoon Commander 2026 Recruitment", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "Graduate"),
+    124: ("ADMIT_CARD", "SSC Combined Higher Secondary (10+2) CHSL Tier-I Admit Card 2026", "https://ssc.gov.in/portal/admit-card", "All India", "Central", "12th"),
+}
 
 
 # 25 Crawled Notices up to 2026-10-10 (Published to Live Feed & recorded in Admin Panel)
@@ -689,12 +772,38 @@ def publish_crawled():
         """
     )
 
-    # 2. Insert all 25 crawled notices up to today (2026-10-10) into live updates
+    # 1b. Clean up and ensure all 78 items ticked by the user in Admin Portal (IDs 47..124)
+    # have clear titles, proper categories, direct action_urls, and 2026-10-10 timestamps
+    for item_id, (cat, clean_title, act_url, st_val, sec_val, qual_val) in ADMIN_TICKED_CLEANUPS.items():
+        ts = f"2026-10-10 21:{(item_id - 47) // 2:02d}:{(item_id - 47) % 60:02d}"
+        c.execute("SELECT id FROM updates WHERE id = ?", (item_id,))
+        if c.fetchone():
+            c.execute(
+                """
+                UPDATE updates
+                SET category = ?, title = ?, action_url = ?, state = ?, sector = ?,
+                    qualification_level = ?, tag = COALESCE(tag, 'New'), created_at = ?
+                WHERE id = ?
+                """,
+                (cat, clean_title, act_url, st_val, sec_val, qual_val, ts, item_id),
+            )
+        else:
+            c.execute(
+                """
+                INSERT INTO updates (
+                    id, category, title, tag, action_url, is_featured,
+                    qualification_level, sector, state, created_at
+                ) VALUES (?, ?, ?, 'New', ?, 0, ?, ?, ?, ?)
+                """,
+                (item_id, cat, clean_title, act_url, qual_val, sec_val, st_val, ts),
+            )
+
+    # 2. Insert/update all 25 crawled notices up to today (2026-10-10) into live updates
     inserted = 0
     for idx, (cat, title, tag, action_url, portal, src_url, qual, sector, state, ext_data) in enumerate(CRAWLED_NOTICES_2026_10_10):
         c.execute("SELECT id FROM updates WHERE title = ?", (title,))
         row = c.fetchone()
-        ts = f"2026-10-10 20:{10 + idx:02d}:00"
+        ts = f"2026-10-10 22:{10 + idx:02d}:00"
         if row:
             c.execute(
                 """
@@ -718,13 +827,13 @@ def publish_crawled():
             inserted += 1
 
     # 3. Rebuild crawler_staging so the Admin Panel (/admin) has:
-    #    - Clean PENDING review items crawled up to 2026-10-10 (ready for 1-click Approve & Publish)
-    #    - Clean APPROVED history of the 25 notices crawled and published on 2026-10-10
+    #    - Clean PENDING review items crawled up to 2026-10-10
+    #    - All approved items (both user-ticked and crawled) in APPROVED history
     c.execute("DELETE FROM crawler_staging")
 
-    # Insert Approved history first
-    for idx, (cat, title, tag, action_url, portal, src_url, qual, sector, state, ext_data) in enumerate(CRAWLED_NOTICES_2026_10_10):
-        ts = f"2026-10-10 20:{10 + idx:02d}:00"
+    c.execute("SELECT * FROM updates WHERE id >= 47 ORDER BY id ASC")
+    all_approved_updates = [dict(r) for r in c.fetchall()]
+    for u in all_approved_updates:
         c.execute(
             """
             INSERT INTO crawler_staging (
@@ -734,23 +843,22 @@ def publish_crawled():
             ) VALUES (?, ?, ?, ?, '2026-10-10', ?, ?, ?, 'APPROVED', 0.96, ?, ?, ?, ?)
             """,
             (
-                portal,
-                src_url,
-                title,
-                cat,
-                action_url if action_url.endswith(".pdf") else None,
-                action_url,
-                json.dumps(ext_data),
-                qual,
-                sector,
-                state,
-                ts,
+                u.get("source_portal") or "Official Government Portal",
+                u.get("source_url") or u.get("action_url") or "https://india.gov.in",
+                u["title"],
+                u["category"],
+                u.get("pdf_url"),
+                u["action_url"],
+                json.dumps({"education": u.get("qualification_level") or "All", "last_date": "Active Notice 2026"}),
+                u.get("qualification_level") or "All",
+                u.get("sector") or "Central",
+                u.get("state") or "All India",
+                u.get("created_at") or "2026-10-10 21:00:00",
             ),
         )
 
-    # Insert Pending Review Queue crawled up to 2026-10-10 for Admin Panel
     for idx, (portal, src_url, title, cat, action_url, pdf_url, ext_data, conf, qual, sector, state) in enumerate(ADMIN_PENDING_CRAWLED_2026_10_10):
-        ts = f"2026-10-10 21:{15 + idx:02d}:00"
+        ts = f"2026-10-10 22:{35 + idx:02d}:00"
         c.execute(
             """
             INSERT INTO crawler_staging (
@@ -781,7 +889,7 @@ def publish_crawled():
     # 4. Run fix_action_urls to ensure no root homepage URLs exist
     fix_action_urls()
 
-    # 5. Export synchronized dataset (including Admin Panel staging & stats) to portal_data.js
+    # 5. Export synchronized dataset (including all 149 updates & Admin Panel staging) to portal_data.js
     export_portal_data_js()
     return inserted
 
@@ -791,8 +899,8 @@ def export_portal_data_js():
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
-    # Updates ordered by created_at DESC, id DESC so newest crawled notices appear first
-    c.execute("SELECT * FROM updates ORDER BY created_at DESC, id DESC")
+    # Order by id DESC so all newly approved & crawled notices (IDs 47..149) appear at the top of every tab!
+    c.execute("SELECT * FROM updates ORDER BY id DESC")
     updates_desc = [dict(r) for r in c.fetchall()]
 
     c.execute("SELECT * FROM updates ORDER BY id ASC")
@@ -852,7 +960,7 @@ def export_portal_data_js():
         "approved_staging": len(approved_staging),
         "total_recruitments": len(recruitments_list),
         "active_watchdogs": active_watchdogs_count,
-        "last_crawl": "2026-10-10 21:30 IST",
+        "last_crawl": "2026-10-10 22:20 IST",
     }
 
     payload = {
@@ -877,4 +985,4 @@ def export_portal_data_js():
 
 if __name__ == "__main__":
     count = publish_crawled()
-    print(f"Published crawled notices (newly inserted: {count}) and synced portal_data.js (including Admin Panel queue)")
+    print(f"Published & cleaned all admin-approved notices (newly inserted: {count}) and synced portal_data.js")
