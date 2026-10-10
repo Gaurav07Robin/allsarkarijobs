@@ -6978,8 +6978,823 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-06 15:58:59",
       "updated_at": "2026-10-06 15:58:59"
     }
-  }
+  },
+  "adminStats": {
+    "total_updates": 149,
+    "pending_staging": 10,
+    "approved_staging": 25,
+    "total_recruitments": 5,
+    "active_watchdogs": 95,
+    "last_crawl": "2026-10-10 21:30 IST"
+  },
+  "stagingPending": [
+    {
+      "id": 182,
+      "source_portal": "NTA (National Testing Agency)",
+      "source_url": "https://nta.ac.in",
+      "title": "NTA UGC NET December 2026 Cycle Online Registration & Information Bulletin",
+      "category": "ADMISSION",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://ugcnet.nta.ac.in/images/Information_Bulletin_UGCNET_Dec2026.pdf",
+      "action_url": "https://ugcnet.nta.ac.in/",
+      "extracted_data": {
+        "vacancies": "83 Subjects (JRF & PhD)",
+        "last_date": "19-Nov-2026",
+        "fee": "Gen: \u20b91150 | EWS/OBC: \u20b9600 | SC/ST: \u20b9325",
+        "education": "Master's Degree with 55% Marks"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 21:24:00",
+      "qualification_level": "Post Graduate",
+      "sector": "Teaching",
+      "state": "All India"
+    },
+    {
+      "id": 181,
+      "source_portal": "RBI (Reserve Bank of India)",
+      "source_url": "https://opportunities.rbi.org.in",
+      "title": "RBI Grade B Officers (DR) General, DEPR & DSIM Phase-II Admit Card & Phase-I Scorecard 2026",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/RBIGRADEB2026_PHASE2.pdf",
+      "action_url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4492",
+      "extracted_data": {
+        "vacancies": "291 Posts",
+        "last_date": "Phase-II: 01-Nov-2026",
+        "education": "Graduation / PG with 60% Marks"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.95,
+      "created_at": "2026-10-10 21:23:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 180,
+      "source_portal": "RPSC (Rajasthan PSC)",
+      "source_url": "https://rpsc.rajasthan.gov.in",
+      "title": "RPSC Senior Teacher (Grade-II) Secondary Education 2026 Answer Key & Objection Link",
+      "category": "ANSWER_KEY",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://rpsc.rajasthan.gov.in/Static/AnswerKeys/SrTeacher_GrII_2026_Key.pdf",
+      "action_url": "https://rpsc.rajasthan.gov.in/candidateinformation/answerkeys",
+      "extracted_data": {
+        "vacancies": "2,129 Posts",
+        "last_date": "Objection Till 16-Oct-2026",
+        "education": "Graduate + B.Ed Degree"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.92,
+      "created_at": "2026-10-10 21:22:00",
+      "qualification_level": "Graduate",
+      "sector": "Teaching",
+      "state": "Rajasthan"
+    },
+    {
+      "id": 179,
+      "source_portal": "MPESB (MP Employees Selection Board)",
+      "source_url": "https://esb.mp.gov.in",
+      "title": "MPESB Madhya Pradesh Primary School Teacher Eligibility Test (MP TET Varg-3) 2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/MPTET_Varg3_2026.pdf",
+      "action_url": "https://esb.mponline.gov.in/",
+      "extracted_data": {
+        "vacancies": "11,200 Posts",
+        "last_date": "20-Nov-2026",
+        "age_limit": "21 - 40 Years",
+        "fee": "Gen: \u20b9500 | SC/ST/OBC (MP): \u20b9250",
+        "education": "10+2 with 50% + 2-Yr D.El.Ed"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.93,
+      "created_at": "2026-10-10 21:21:00",
+      "qualification_level": "12th/Graduate",
+      "sector": "Teaching",
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 178,
+      "source_portal": "IBPS (Banking Personnel Selection)",
+      "source_url": "https://www.ibps.in",
+      "title": "IBPS RRB XV Office Assistant & Officer Scale-I, II, III Mains Admit Card 2026",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://www.ibps.in/wp-content/uploads/CRP_RRB_XV_Mains_Schedule.pdf",
+      "action_url": "https://www.ibps.in/index.php/regional-rural-banks-xv/",
+      "extracted_data": {
+        "vacancies": "9,995 Posts",
+        "last_date": "Download Before 05-Nov-2026",
+        "education": "Bachelor Degree in Any Stream"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 21:20:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 177,
+      "source_portal": "UPSSSC (Uttar Pradesh Subordinate Services)",
+      "source_url": "https://upsssc.gov.in",
+      "title": "UPSSSC Rajasva Lekhpal & Junior Assistant Mains 2026 Shortlisting Cutoff & Result",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://upsssc.gov.in/ViewPdf.aspx?Notice_Lekhpal_2026.pdf",
+      "action_url": "https://upsssc.gov.in/ResultsDire.aspx",
+      "extracted_data": {
+        "vacancies": "7,987 Posts",
+        "last_date": "PET Cutoff Released",
+        "education": "12th + UP PET Score"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.95,
+      "created_at": "2026-10-10 21:19:00",
+      "qualification_level": "12th",
+      "sector": "State",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 176,
+      "source_portal": "Railway RRB Central",
+      "source_url": "https://indianrailways.gov.in",
+      "title": "Railway RRB Paramedical Categories CEN 04/2026 CBT Exam City & E-Call Letter",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://rrbapply.gov.in/notices/CEN_04_2026_AdmitCard.pdf",
+      "action_url": "https://rrbapply.gov.in/#/auth/home",
+      "extracted_data": {
+        "vacancies": "1,376 Posts",
+        "last_date": "CBT: 28-Oct-2026",
+        "education": "B.Sc Nursing / Pharmacist / Lab Tech"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.94,
+      "created_at": "2026-10-10 21:18:00",
+      "qualification_level": "Graduate",
+      "sector": "Railway",
+      "state": "All India"
+    },
+    {
+      "id": 175,
+      "source_portal": "UPSC (Union Public Service Commission)",
+      "source_url": "https://upsc.gov.in",
+      "title": "UPSC NDA & NA (II) 2026 Written Examination Result with Name & Roll Number",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://upsc.gov.in/sites/default/files/WR-NDANA-II-26-Engl-10102026.pdf",
+      "action_url": "https://upsc.gov.in/exams-related-info/written-result",
+      "extracted_data": {
+        "vacancies": "404 Wings Posts",
+        "last_date": "SSB Interview: Dec 2026",
+        "education": "10+2 Intermediate"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 21:17:00",
+      "qualification_level": "12th",
+      "sector": "Defence",
+      "state": "All India"
+    },
+    {
+      "id": 174,
+      "source_portal": "SSC (Staff Selection Commission)",
+      "source_url": "https://ssc.gov.in",
+      "title": "SSC Constable GD in CAPFs, SSF, Rifleman (GD) in Assam Rifles 2027 Notification (39,481 Posts)",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf",
+      "action_url": "https://ssc.gov.in/candidate-portal/one-time-registration/home-page",
+      "extracted_data": {
+        "vacancies": "39,481 Posts",
+        "last_date": "25-Nov-2026",
+        "age_limit": "18 - 23 Years",
+        "fee": "Gen/OBC/EWS: \u20b9100 | SC/ST/Female: \u20b90",
+        "education": "10th Matriculation Pass"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.98,
+      "created_at": "2026-10-10 21:16:00",
+      "qualification_level": "10th",
+      "sector": "Defence",
+      "state": "All India"
+    },
+    {
+      "id": 173,
+      "source_portal": "BPSC (Bihar Public Service Commission)",
+      "source_url": "https://bpsc.bih.nic.in",
+      "title": "BPSC 72nd Combined Competitive Examination (CCE) 2026 Notification (1,280 Posts)",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": "https://bpsc.bih.nic.in/Notices/NB-2026-10-10-72CCE.pdf",
+      "action_url": "https://onlinebpsc.bihar.gov.in/",
+      "extracted_data": {
+        "vacancies": "1,280 Posts",
+        "last_date": "18-Nov-2026",
+        "age_limit": "20 - 37 Years",
+        "fee": "Gen/OBC: \u20b9600 | SC/ST/Female: \u20b9150",
+        "education": "Bachelor Degree in Any Stream"
+      },
+      "status": "PENDING",
+      "confidence_score": 0.97,
+      "created_at": "2026-10-10 21:15:00",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Bihar"
+    }
+  ],
+  "stagingApproved": [
+    {
+      "id": 172,
+      "source_portal": "NTA (National Testing Agency)",
+      "source_url": "https://nta.ac.in",
+      "title": "NTA JEE Main 2027 Session-I Online Application Form & Information Bulletin",
+      "category": "ADMISSION",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://jeemain.nta.nic.in",
+      "extracted_data": {
+        "vacancies": "NITs / IIITs / GFTIs",
+        "last_date": "22-Nov-2026",
+        "fee": "Gen Male: \u20b91000 | Female: \u20b9800 | SC/ST: \u20b9500",
+        "education": "Class 12th PCM Appearing / Passed"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:34:00",
+      "qualification_level": "12th",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 171,
+      "source_portal": "Railway RRB Central",
+      "source_url": "https://indianrailways.gov.in",
+      "title": "RRB Group D & NTPC 2026 Revised CBT Exam Pattern & Official Syllabus PDF",
+      "category": "SYLLABUS",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://indianrailways.gov.in",
+      "extracted_data": {
+        "vacancies": "43,996 Total Posts",
+        "last_date": "Official CBT Syllabus",
+        "education": "10th / 12th / Graduate"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:33:00",
+      "qualification_level": "10th/12th/Graduate",
+      "sector": "Railway",
+      "state": "All India"
+    },
+    {
+      "id": 170,
+      "source_portal": "SSC (Staff Selection Commission)",
+      "source_url": "https://ssc.gov.in",
+      "title": "SSC CHSL 2026 Tier-I Final Answer Key & Question Paper Response Sheet",
+      "category": "ANSWER_KEY",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://ssc.gov.in/portal/answer-key",
+      "extracted_data": {
+        "vacancies": "3,712 Posts",
+        "last_date": "Objection Window Active",
+        "education": "10+2 Intermediate"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:32:00",
+      "qualification_level": "12th",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 169,
+      "source_portal": "DSSSB (Delhi Selection Board)",
+      "source_url": "https://dsssb.delhi.gov.in",
+      "title": "DSSSB Delhi TGT, PRT, Assistant Teacher & Patwari Recruitment 2026 (5,118 Posts)",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://dsssbonline.nic.in",
+      "extracted_data": {
+        "vacancies": "5,118 Posts",
+        "last_date": "15-Nov-2026",
+        "age_limit": "18 - 32 Years",
+        "fee": "Gen/OBC: \u20b9100 | Women/SC/ST: \u20b90",
+        "education": "Graduation + B.Ed / D.El.Ed + CTET"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:31:00",
+      "qualification_level": "12th/Graduate",
+      "sector": "Teaching",
+      "state": "Delhi"
+    },
+    {
+      "id": 168,
+      "source_portal": "UPPSC (Uttar Pradesh PSC)",
+      "source_url": "https://uppsc.up.nic.in",
+      "title": "UPPSC Review Officer (RO) / Assistant Review Officer (ARO) 2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+      "extracted_data": {
+        "vacancies": "411 Posts",
+        "last_date": "08-Nov-2026",
+        "age_limit": "21 - 40 Years",
+        "fee": "Gen/OBC: \u20b9125 | SC/ST: \u20b965",
+        "education": "Bachelor Degree + O Level Certificate"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:30:00",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 167,
+      "source_portal": "SBI (State Bank of India Careers)",
+      "source_url": "https://sbi.co.in/web/careers",
+      "title": "SBI Specialist Cadre Officers (SCO) & Assistant Manager System 2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://bank.sbi/web/careers/current-openings",
+      "extracted_data": {
+        "vacancies": "1,511 Posts",
+        "last_date": "04-Nov-2026",
+        "age_limit": "21 - 35 Years",
+        "fee": "Gen/OBC/EWS: \u20b9750 | SC/ST/PwBD: \u20b90",
+        "education": "B.E. / B.Tech (CS/IT/ECE) or MCA"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:29:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 166,
+      "source_portal": "IBPS (Banking Personnel Selection)",
+      "source_url": "https://www.ibps.in",
+      "title": "IBPS Specialist Officer (CRP SPL-XVI) IT, Agriculture & Law Officer Online Form 2026",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
+      "extracted_data": {
+        "vacancies": "2,964 Posts",
+        "last_date": "02-Nov-2026",
+        "age_limit": "20 - 30 Years",
+        "fee": "Gen/OBC: \u20b9850 | SC/ST/PwBD: \u20b9175",
+        "education": "B.Tech / LLB / B.Sc Agriculture / MBA"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:28:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 165,
+      "source_portal": "Railway RRB Central",
+      "source_url": "https://indianrailways.gov.in",
+      "title": "Railway RRB Group D (Level-1 Track Maintainer & Pointsman) CEN 09/2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://rrbapply.gov.in/#/auth/home",
+      "extracted_data": {
+        "vacancies": "32,438 Posts",
+        "last_date": "12-Nov-2026",
+        "age_limit": "18 - 36 Years",
+        "fee": "Gen/OBC: \u20b9500 | SC/ST/Female: \u20b9250",
+        "education": "10th Pass or ITI from NCVT/SCVT"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:27:00",
+      "qualification_level": "10th/ITI",
+      "sector": "Railway",
+      "state": "All India"
+    },
+    {
+      "id": 164,
+      "source_portal": "SSC (Staff Selection Commission)",
+      "source_url": "https://ssc.gov.in",
+      "title": "SSC Junior Engineer (Civil, Mechanical, Electrical) JE 2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://ssc.gov.in/candidate-portal/one-time-registration/home-page",
+      "extracted_data": {
+        "vacancies": "1,765 Posts",
+        "last_date": "05-Nov-2026",
+        "age_limit": "18 - 32 Years",
+        "fee": "Gen/OBC/EWS: \u20b9100 | SC/ST/Women: \u20b90",
+        "education": "3-Yr Engineering Diploma or B.E./B.Tech"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:26:00",
+      "qualification_level": "Diploma/Graduate",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 163,
+      "source_portal": "UPSC (Union Public Service Commission)",
+      "source_url": "https://upsc.gov.in",
+      "title": "UPSC Combined Medical Services (CMS) & IES/ISS Examination 2026 Online Form",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://upsconline.nic.in/upsc/OTRP/index.php",
+      "extracted_data": {
+        "vacancies": "827 Posts",
+        "last_date": "30-Oct-2026",
+        "age_limit": "21 - 32 Years",
+        "fee": "Gen/OBC: \u20b9200 | SC/ST/Female: \u20b90",
+        "education": "MBBS / PG Economics / Statistics"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:25:00",
+      "qualification_level": "Graduate",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 162,
+      "source_portal": "NTA (National Testing Agency)",
+      "source_url": "https://nta.ac.in",
+      "title": "NTA CSIR UGC NET October 2026 Session City Intimation & Admit Card",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://csirnet.nta.ac.in",
+      "extracted_data": {
+        "vacancies": "JRF & Assistant Professor",
+        "last_date": "CBT: Oct 2026",
+        "education": "M.Sc / Equivalent PG",
+        "stage": "Computer Based Test (CBT)"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:24:00",
+      "qualification_level": "Post Graduate",
+      "sector": "Teaching",
+      "state": "All India"
+    },
+    {
+      "id": 161,
+      "source_portal": "RPSC (Rajasthan PSC)",
+      "source_url": "https://rpsc.rajasthan.gov.in",
+      "title": "RPSC RAS / RTS Combined Competitive Prelims 2026 Exam City & Admit Card",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://sso.rajasthan.gov.in/signin",
+      "extracted_data": {
+        "vacancies": "733 Posts",
+        "last_date": "SSO Login Active",
+        "education": "Bachelor Degree",
+        "stage": "Preliminary OMR Objective Exam"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:23:00",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Rajasthan"
+    },
+    {
+      "id": 160,
+      "source_portal": "UP Police Recruitment Board (UPPRPB)",
+      "source_url": "https://uppbpb.gov.in",
+      "title": "UP Police Sub-Inspector (Confidential) & ASI Typing Test Admit Card 2026",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://uppbpb.gov.in/Home/Notice",
+      "extracted_data": {
+        "vacancies": "921 Posts",
+        "last_date": "Skill Test: Oct 2026",
+        "education": "Graduate + O Level",
+        "stage": "Hindi/English Typing & Steno Test"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:22:00",
+      "qualification_level": "Graduate",
+      "sector": "Police",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 159,
+      "source_portal": "IBPS (Banking Personnel Selection)",
+      "source_url": "https://www.ibps.in",
+      "title": "IBPS Clerk CRP-XVI Mains Call Letter 2026 Download",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://www.ibps.in/index.php/clerical-cadre-xvi/",
+      "extracted_data": {
+        "vacancies": "6,128 Posts",
+        "last_date": "Exam: 28-Oct-2026",
+        "education": "Bachelor Degree",
+        "stage": "CRP-XVI Online Mains Exam"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:21:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 158,
+      "source_portal": "Railway RRB Central",
+      "source_url": "https://indianrailways.gov.in",
+      "title": "RRB RPF Sub-Inspector & Constable PET/PMT Hall Ticket 2026",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://rrbapply.gov.in/#/auth/home",
+      "extracted_data": {
+        "vacancies": "4,660 Posts",
+        "last_date": "PET: Oct 2026",
+        "education": "10th / Graduate",
+        "stage": "Physical Efficiency & Measurement Test"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:20:00",
+      "qualification_level": "10th/Graduate",
+      "sector": "Railway",
+      "state": "All India"
+    },
+    {
+      "id": 157,
+      "source_portal": "UPSC (Union Public Service Commission)",
+      "source_url": "https://upsc.gov.in",
+      "title": "UPSC Engineering Services (ESE) Mains 2026 E-Admit Card Out",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://upsconline.nic.in/eadmitcard/index.php",
+      "extracted_data": {
+        "vacancies": "457 Posts",
+        "last_date": "Exam: 25-Oct-2026",
+        "education": "B.E. / B.Tech Engineering",
+        "stage": "Conventional Paper I & II"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:19:00",
+      "qualification_level": "Graduate",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 156,
+      "source_portal": "SSC (Staff Selection Commission)",
+      "source_url": "https://ssc.gov.in",
+      "title": "SSC MTS & Havaldar (CBIC & CBN) 2026 Tier-I E-Admit Card & City Intimation",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://ssc.gov.in/portal/admit-card",
+      "extracted_data": {
+        "vacancies": "8,326 Posts",
+        "last_date": "Exam: Oct-Nov 2026",
+        "education": "10th Matric Pass",
+        "stage": "Computer Based Test (Session I & II)"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:18:00",
+      "qualification_level": "10th",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 155,
+      "source_portal": "SBI (State Bank of India Careers)",
+      "source_url": "https://sbi.co.in/web/careers",
+      "title": "SBI Clerk (Junior Associates) Final Waitlist & Scorecard 2026",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://sbi.co.in/web/careers/current-openings",
+      "extracted_data": {
+        "vacancies": "8,773 Posts",
+        "last_date": "Allotment Live",
+        "education": "Graduation in Any Stream",
+        "stage": "LPT & Circle Joining"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:17:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 154,
+      "source_portal": "DSSSB (Delhi Selection Board)",
+      "source_url": "https://dsssb.delhi.gov.in",
+      "title": "DSSSB Nursing Officer, Pharmacist & LDC Result Notice 2026",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://dsssb.delhi.gov.in/latest-result",
+      "extracted_data": {
+        "vacancies": "1,896 Posts",
+        "last_date": "e-Dossier Active",
+        "education": "12th / Diploma / B.Sc Nursing",
+        "stage": "e-Dossier Document Upload"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:16:00",
+      "qualification_level": "12th/Graduate",
+      "sector": "State",
+      "state": "Delhi"
+    },
+    {
+      "id": 153,
+      "source_portal": "HSSC (Haryana Staff Selection)",
+      "source_url": "https://hssc.gov.in",
+      "title": "HSSC Haryana Police Constable GD 2026 Physical Screening Test (PST) Result",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://hssc.gov.in/Result",
+      "extracted_data": {
+        "vacancies": "6,000 Posts",
+        "last_date": "PMT Roll List Out",
+        "education": "10+2 Intermediate",
+        "stage": "Knowledge Test (CET Qualified)"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:15:00",
+      "qualification_level": "12th",
+      "sector": "Police",
+      "state": "Haryana"
+    },
+    {
+      "id": 152,
+      "source_portal": "UPPSC (Uttar Pradesh PSC)",
+      "source_url": "https://uppsc.up.nic.in",
+      "title": "UPPSC Combined State / Upper Subordinate (PCS) 2026 Prelims Result",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx",
+      "extracted_data": {
+        "vacancies": "520 Posts",
+        "last_date": "Declared 10-Oct-2026",
+        "education": "Bachelor Degree",
+        "stage": "UPPSC Mains Descriptive"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:14:00",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 151,
+      "source_portal": "IBPS (Banking Personnel Selection)",
+      "source_url": "https://www.ibps.in",
+      "title": "IBPS PO / MT CRP-XVI Prelims Scorecard & Cutoff Marks 2026",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://www.ibps.in/index.php/management-trainees-xvi/",
+      "extracted_data": {
+        "vacancies": "4,455 Posts",
+        "last_date": "Mains: Nov 2026",
+        "education": "Any Graduate",
+        "stage": "CRP-XVI Mains Examination"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:13:00",
+      "qualification_level": "Graduate",
+      "sector": "Banking",
+      "state": "All India"
+    },
+    {
+      "id": 150,
+      "source_portal": "Railway RRB Central",
+      "source_url": "https://indianrailways.gov.in",
+      "title": "RRB Technician Grade I & III CEN 02/2025 Document Verification Result 2026",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://rrbapply.gov.in/#/auth/home",
+      "extracted_data": {
+        "vacancies": "9,144 Posts",
+        "last_date": "DV Schedule Out",
+        "education": "10th + ITI / 12th PCM",
+        "stage": "Document Verification & Medical"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:12:00",
+      "qualification_level": "10th/12th/ITI",
+      "sector": "Railway",
+      "state": "All India"
+    },
+    {
+      "id": 149,
+      "source_portal": "SSC (Staff Selection Commission)",
+      "source_url": "https://ssc.gov.in",
+      "title": "SSC CGL 2026 Tier-I Final Marks & Qualifying Cutoff List",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://ssc.gov.in/portal/results",
+      "extracted_data": {
+        "vacancies": "17,727 Posts",
+        "last_date": "Scorecard Live",
+        "education": "Graduate",
+        "stage": "Tier-II CBT Shortlist"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:11:00",
+      "qualification_level": "Graduate",
+      "sector": "Central",
+      "state": "All India"
+    },
+    {
+      "id": 148,
+      "source_portal": "UPSC (Union Public Service Commission)",
+      "source_url": "https://upsc.gov.in",
+      "title": "UPSC Civil Services Mains 2026 Written Result & Interview Schedule",
+      "category": "RESULT",
+      "detected_date": "2026-10-10",
+      "pdf_url": null,
+      "action_url": "https://upsc.gov.in/exams-related-info/written-result",
+      "extracted_data": {
+        "vacancies": "1,056 Posts",
+        "last_date": "Declared 10-Oct-2026",
+        "education": "Bachelor Degree",
+        "stage": "Personality Test / Interview"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.96,
+      "created_at": "2026-10-10 20:10:00",
+      "qualification_level": "Graduate",
+      "sector": "Central",
+      "state": "All India"
+    }
+  ]
 };
+
+// Sync any notices approved via /admin on static edge deployments
+(function() {
+  try {
+    var st = JSON.parse(localStorage.getItem('asj_admin_state') || '{}');
+    if (st.customUpdates && st.customUpdates.length && window.PORTAL_DATA) {
+      for (var i = st.customUpdates.length - 1; i >= 0; i--) {
+        var u = st.customUpdates[i];
+        if (!window.PORTAL_DATA.updatesById[String(u.id)]) {
+          window.PORTAL_DATA.updates.unshift(u);
+          window.PORTAL_DATA.updatesById[String(u.id)] = u;
+          var cat = u.category || 'LATEST_JOB';
+          if (window.PORTAL_DATA.categorized && window.PORTAL_DATA.categorized[cat]) {
+            window.PORTAL_DATA.categorized[cat].unshift({
+              id: u.id,
+              title: u.title,
+              tag: u.tag || 'New',
+              action_url: u.action_url,
+              is_featured: Boolean(u.is_featured),
+              featured_badge: u.featured_badge || null,
+              qualification: u.qualification_level || 'All',
+              sector: u.sector || 'Central',
+              state: u.state || 'All India',
+              created_at: u.created_at
+            });
+          }
+        }
+      }
+    }
+  } catch (e) {}
+})();
 
 // Pure JS Vector PDF 1.4 Generator for instant inline viewing & download on static/CDN hosts
 window.generateOfficialNoticePdf = function(item) {
