@@ -494,4 +494,9 @@ def serve_detail_by_id(item_id: int):
     detail_file = BASE_DIR / "detail.html"
     return FileResponse(detail_file)
 
+@app.get("/portal_data.js")
+def serve_portal_data_js():
+    js_file = BASE_DIR / "portal_data.js"
+    return FileResponse(js_file, media_type="application/javascript")
+
 

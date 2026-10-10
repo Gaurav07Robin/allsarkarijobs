@@ -251,6 +251,7 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
+<script src="/portal_data.js"></script>
 <script>
 async function loadJobDetails() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -258,7 +259,7 @@ async function loadJobDetails() {
 
   // Also support pathname like /jobs/ssc-cgl-2026-online-form
   if (!slug && window.location.pathname.startsWith('/jobs/')) {
-    slug = window.location.pathname.replace('/jobs/', '');
+    slug = window.location.pathname.replace('/jobs/', '').replace(/\/+$/, '');
   }
 
   if (!slug) {
@@ -266,10 +267,24 @@ async function loadJobDetails() {
   }
 
   try {
-    const res = await fetch(`/api/jobs/${slug}`);
-    if (!res.ok) throw new Error('Job not found');
-    const json = await res.json();
-    const job = json.job;
+    let job = null;
+    let usingStaticHost = false;
+    try {
+      const res = await fetch(`/api/jobs/${slug}`);
+      if (res.ok) {
+        const json = await res.json();
+        job = json.job;
+      }
+    } catch (apiErr) {
+      // Static edge host fallback
+    }
+
+    if (!job && window.PORTAL_DATA && window.PORTAL_DATA.recruitments) {
+      job = window.PORTAL_DATA.recruitments[slug];
+      usingStaticHost = true;
+    }
+
+    if (!job) throw new Error('Job not found');
 
     document.getElementById('pageTitle').innerText = `${job.title} — AllSarkariJobs`;
     document.getElementById('bcTitle').innerText = job.title;
@@ -290,7 +305,9 @@ async function loadJobDetails() {
     document.getElementById('postQualTable').innerText = job.qualification || 'As per official notification';
 
     // Direct Action Links
-    const directPdfUrl = `/api/pdf/job/${slug}`;
+    const directPdfUrl = (usingStaticHost && window.generateOfficialNoticePdf)
+      ? window.generateOfficialNoticePdf(job)
+      : `/api/pdf/job/${slug}`;
     document.getElementById('linkApply').href = job.apply_url || '#';
     document.getElementById('linkPdf').href = directPdfUrl;
     document.getElementById('btnPdfNewTab').href = directPdfUrl;
