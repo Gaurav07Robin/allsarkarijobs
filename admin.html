@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — AllSarkariJobs Control & Crawler Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#1a1a2e;--navy:#16213e;--slate:#4a5568;--muted:#718096;--border:#e2e8f0;
+    --saffron:#c2956a;--saffron-dark:#a67c52;--red:#e53e3e;--green:#2f855a;
+    --bg:#f8fafc;--surface:#ffffff;--radius:12px;
+  }
+  body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+  .navbar{background:var(--ink);color:#fff;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.1)}
+  .logo{font-family:'Playfair Display',serif;font-size:20px;font-weight:800;color:#fff;text-decoration:none}
+  .logo span{color:var(--saffron)}
+  .nav-actions{display:flex;gap:12px;align-items:center}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;border:none;transition:all .2s;text-decoration:none}
+  .btn-primary{background:var(--saffron);color:#fff}.btn-primary:hover{background:var(--saffron-dark)}
+  .btn-outline{border:1px solid rgba(255,255,255,.3);color:#fff;background:transparent}.btn-outline:hover{background:rgba(255,255,255,.1)}
+  .btn-success{background:var(--green);color:#fff}.btn-success:hover{opacity:.9}
+  .btn-danger{background:var(--red);color:#fff}.btn-danger:hover{opacity:.9}
+  .btn-secondary{background:#edf2f7;color:var(--slate)}.btn-secondary:hover{background:#e2e8f0}
+
+  .container{max-width:1280px;margin:32px auto;padding:0 24px}
+
+  /* Metric cards */
+  .metrics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-bottom:32px}
+  .metric-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 3px rgba(0,0,0,.03)}
+  .metric-card .info p{font-size:13px;color:var(--muted);font-weight:600;text-transform:uppercase;margin-bottom:6px}
+  .metric-card .info h3{font-size:28px;font-weight:800;color:var(--ink)}
+  .metric-card .icon-box{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px}
+
+  /* Main layout */
+  .main-grid{display:grid;grid-template-columns:2fr 1fr;gap:28px}
+  @media(max-width:960px){.main-grid{grid-template-columns:1fr}}
+
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:0 1px 3px rgba(0,0,0,.03);margin-bottom:28px}
+  .panel-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+  .panel-header h2{font-size:18px;font-weight:700;display:flex;align-items:center;gap:10px}
+
+  /* Crawler control actions */
+  .crawler-banner{background:linear-gradient(135deg,#1e293b 0%,#0f172a 100%);color:#fff;border-radius:var(--radius);padding:24px;margin-bottom:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+  .crawler-banner h3{font-size:17px;font-weight:700;margin-bottom:4px}
+  .crawler-banner p{font-size:13px;color:#94a3b8}
+
+  /* Staging Queue items */
+  .queue-list{display:flex;flex-direction:column;gap:16px}
+  .queue-item{background:#f8fafc;border:1px solid var(--border);border-radius:10px;padding:18px 20px;transition:border-color .15s}
+  .queue-item:hover{border-color:var(--saffron)}
+  .queue-meta{display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+  .badge{font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;text-transform:uppercase}
+  .badge-portal{background:#e2e8f0;color:var(--ink)}
+  .badge-cat{background:#fef3c7;color:#92400e}
+  .badge-conf{background:#dcfce7;color:#166534}
+  .queue-title{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px;line-height:1.4}
+  .queue-extract{background:#fff;border:1px dashed var(--border);border-radius:6px;padding:10px 14px;margin-bottom:12px;font-size:12px;color:var(--slate);display:flex;flex-wrap:wrap;gap:14px}
+  .queue-extract span strong{color:var(--ink)}
+  .queue-actions{display:flex;gap:10px;align-items:center}
+
+  /* Forms */
+  .form-group{margin-bottom:16px}
+  .form-group label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
+  .form-control{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-family:inherit;font-size:14px;outline:none}
+  .form-control:focus{border-color:var(--saffron)}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+  .toast{position:fixed;bottom:24px;right:24px;background:var(--ink);color:#fff;padding:14px 22px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,.2);display:none;z-index:999;font-size:14px;font-weight:600}
+</style>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="/" class="logo">AllSarkari<span>Jobs</span> &middot; Admin</a>
+  <div class="nav-actions">
+    <a href="/" class="btn btn-outline" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Website</a>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Metrics -->
+  <section class="metrics-grid">
+    <div class="metric-card">
+      <div class="info">
+        <p>Published Updates</p>
+        <h3 id="statUpdates">--</h3>
+      </div>
+      <div class="icon-box" style="background:#e0f2fe;color:#0284c7"><i class="fa-solid fa-bolt"></i></div>
+    </div>
+    <div class="metric-card">
+      <div class="info">
+        <p>Pending Review</p>
+        <h3 id="statPending" style="color:var(--red)">--</h3>
+      </div>
+      <div class="icon-box" style="background:#fee2e2;color:var(--red)"><i class="fa-solid fa-clock"></i></div>
+    </div>
+    <div class="metric-card">
+      <div class="info">
+        <p>Active Recruitments</p>
+        <h3 id="statRecruitments">--</h3>
+      </div>
+      <div class="icon-box" style="background:#dcfce7;color:var(--green)"><i class="fa-solid fa-briefcase"></i></div>
+    </div>
+    <div class="metric-card">
+      <div class="info">
+        <p>Monitored Portals</p>
+        <h3 id="statWatchdogs">--</h3>
+      </div>
+      <div class="icon-box" style="background:#fef3c7;color:#d97706"><i class="fa-solid fa-globe"></i></div>
+    </div>
+  </section>
+
+  <!-- Crawler Action Banner -->
+  <div class="crawler-banner">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
+        <h3 style="margin-bottom:0">Government Portal Watchdog Engine</h3>
+        <span id="schedulerBadge" style="background:#065f46;color:#6ee7b7;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px"><i class="fa-solid fa-circle" style="font-size:8px;margin-right:4px"></i> Auto-Scheduler Active</span>
+      </div>
+      <p id="schedulerStatusText">Targeted scrapers (SSC, UPSC, RRB) running in background every 30 minutes.</p>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn btn-primary" id="btnSimulateCrawl">
+        <i class="fa-solid fa-flask"></i> Ingest Test Notices
+      </button>
+      <button class="btn btn-outline" id="btnRunCrawl">
+        <i class="fa-solid fa-arrows-rotate"></i> Run Top 25 Scrape
+      </button>
+      <button class="btn btn-outline" id="btnRunNationalCrawl">
+        <i class="fa-solid fa-earth-asia"></i> Scan All 89+ Indian Boards
+      </button>
+      <button class="btn btn-outline" id="btnBackupDb">
+        <i class="fa-solid fa-floppy-disk"></i> Backup DB
+      </button>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <!-- Left Column: Pending Review Queue -->
+    <div>
+      <div class="panel">
+        <div class="panel-header">
+          <h2><i class="fa-solid fa-inbox" style="color:var(--saffron)"></i> Review & Approval Queue (<span id="queueCount">0</span>)</h2>
+          <button class="btn btn-secondary" onclick="loadStagingQueue()"><i class="fa-solid fa-rotate-right"></i> Refresh</button>
+        </div>
+
+        <div id="stagingContainer" class="queue-list">
+          <p style="color:var(--muted);text-align:center;padding:30px;">Loading review queue...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Manual Quick Post -->
+    <div>
+      <div class="panel">
+        <div class="panel-header">
+          <h2><i class="fa-solid fa-plus-circle" style="color:var(--green)"></i> Post Live Update</h2>
+        </div>
+        <form id="manualPostForm">
+          <div class="form-group">
+            <label>Category</label>
+            <select class="form-control" id="postCat" required>
+              <option value="LATEST_JOB">Latest Job</option>
+              <option value="RESULT">Result</option>
+              <option value="ADMIT_CARD">Admit Card</option>
+              <option value="ANSWER_KEY">Answer Key</option>
+              <option value="SYLLABUS">Syllabus</option>
+              <option value="ADMISSION">Admission</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Title / Headline</label>
+            <input type="text" class="form-control" id="postTitle" placeholder="e.g. UPSC CSE 2026 Prelims Result" required>
+          </div>
+          <div class="form-group">
+            <label>Target / Direct Link</label>
+            <input type="url" class="form-control" id="postUrl" placeholder="https://..." required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Tag</label>
+              <select class="form-control" id="postTag">
+                <option value="New">✨ New</option>
+                <option value="Hot">🔥 Hot</option>
+                <option value="Urgent">⏰ Urgent</option>
+                <option value="Live">🟢 Live</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Highlight on Top Box?</label>
+              <select class="form-control" id="postFeat">
+                <option value="0">No</option>
+                <option value="1">Yes (Featured)</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">
+            <i class="fa-solid fa-cloud-arrow-up"></i> Publish Live Immediately
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="toast" id="toastBox">Notification text</div>
+
+<script>
+  function showToast(msg, bg) {
+    const t = document.getElementById('toastBox');
+    t.innerText = msg;
+    t.style.background = bg || 'var(--ink)';
+    t.style.display = 'block';
+    setTimeout(() => { t.style.display = 'none'; }, 3500);
+  }
+
+  async function loadStats() {
+    try {
+      const res = await fetch('/api/admin/stats');
+      const data = await res.json();
+      document.getElementById('statUpdates').innerText = data.total_updates;
+      document.getElementById('statPending').innerText = data.pending_staging;
+      document.getElementById('statRecruitments').innerText = data.total_recruitments;
+      document.getElementById('statWatchdogs').innerText = data.active_watchdogs;
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function loadStagingQueue() {
+    const container = document.getElementById('stagingContainer');
+    try {
+      const res = await fetch('/api/admin/staging');
+      const json = await res.json();
+      const items = json.items || [];
+      document.getElementById('queueCount').innerText = items.length;
+
+      if (items.length === 0) {
+        container.innerHTML = `
+          <div style="text-align:center;padding:40px;color:var(--muted)">
+            <i class="fa-solid fa-circle-check" style="font-size:36px;color:var(--green);margin-bottom:12px;display:block"></i>
+            <strong>Queue is clear!</strong><br>All discovered notices have been reviewed. Click "Ingest Test Notices" to test new incoming alerts.
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = items.map(item => {
+        const ext = item.extracted_data || {};
+        let extPills = [];
+        if (ext.vacancies) extPills.push(`<span>Vacancies: <strong>${ext.vacancies}</strong></span>`);
+        if (ext.last_date) extPills.push(`<span>Last Date: <strong>${ext.last_date}</strong></span>`);
+        if (ext.age_limit) extPills.push(`<span>Age: <strong>${ext.age_limit}</strong></span>`);
+        if (ext.fee) extPills.push(`<span>Fee: <strong>${ext.fee}</strong></span>`);
+        if (ext.education) extPills.push(`<span>Edu: <strong>${ext.education}</strong></span>`);
+
+        return `
+          <div class="queue-item" id="staging-item-${item.id}">
+            <div class="queue-meta">
+              <span class="badge badge-portal"><i class="fa-solid fa-building-columns"></i> ${item.source_portal}</span>
+              <span class="badge badge-cat">${item.category.replace('_', ' ')}</span>
+              ${item.state ? `<span class="badge" style="background:#e0f2fe;color:#0369a1">📍 ${item.state}</span>` : ''}
+              ${item.qualification_level ? `<span class="badge" style="background:#fef3c7;color:#92400e">🎓 ${item.qualification_level}</span>` : ''}
+              <span class="badge badge-conf">🎯 ${Math.round(item.confidence_score * 100)}% Match</span>
+            </div>
+            <div class="queue-title">${item.title}</div>
+            ${extPills.length > 0 ? `<div class="queue-extract">${extPills.join('')}</div>` : ''}
+            <div class="queue-actions">
+              <button class="btn btn-success" onclick="publishItem(${item.id})">
+                <i class="fa-solid fa-check"></i> Approve & Publish
+              </button>
+              ${item.pdf_url ? `<a href="${item.pdf_url}" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-file-pdf"></i> View Notice PDF</a>` : ''}
+              <button class="btn btn-danger" onclick="rejectItem(${item.id})">
+                <i class="fa-solid fa-xmark"></i> Reject
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    } catch (e) {
+      container.innerHTML = `<p style="color:red">Failed to load review queue: ${e.message}</p>`;
+    }
+  }
+
+  async function publishItem(id) {
+    try {
+      const res = await fetch(`/api/admin/publish/${id}`, { method: 'POST' });
+      const data = await res.json();
+      showToast(data.message || 'Notice published live!', '#2f855a');
+      loadStats();
+      loadStagingQueue();
+    } catch (e) {
+      showToast('Error publishing: ' + e.message, '#e53e3e');
+    }
+  }
+
+  async function rejectItem(id) {
+    try {
+      const res = await fetch(`/api/admin/reject/${id}`, { method: 'POST' });
+      const data = await res.json();
+      showToast(data.message || 'Item rejected', '#4a5568');
+      loadStats();
+      loadStagingQueue();
+    } catch (e) {
+      showToast('Error rejecting: ' + e.message, '#e53e3e');
+    }
+  }
+
+  document.getElementById('manualPostForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const payload = {
+      category: document.getElementById('postCat').value,
+      title: document.getElementById('postTitle').value,
+      action_url: document.getElementById('postUrl').value,
+      tag: document.getElementById('postTag').value,
+      is_featured: document.getElementById('postFeat').value === '1'
+    };
+
+    try {
+      const res = await fetch('/api/admin/manual-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      showToast(data.message || 'Published live!', '#2f855a');
+      document.getElementById('manualPostForm').reset();
+      loadStats();
+    } catch (e) {
+      showToast('Error: ' + e.message, '#e53e3e');
+    }
+  });
+
+  document.getElementById('btnSimulateCrawl').addEventListener('click', async () => {
+    try {
+      showToast('Injecting government portal alerts...', 'var(--ink)');
+      const res = await fetch('/api/admin/crawl/simulate', { method: 'POST' });
+      const data = await res.json();
+      showToast(data.message, '#2f855a');
+      loadStats();
+      loadStagingQueue();
+    } catch (e) {
+      showToast('Error: ' + e.message, '#e53e3e');
+    }
+  });
+
+  document.getElementById('btnRunCrawl').addEventListener('click', async () => {
+    try {
+      showToast('Scanning Top 25 national boards...', 'var(--ink)');
+      const res = await fetch('/api/admin/crawl/run', { method: 'POST' });
+      const data = await res.json();
+      showToast(`Scan complete! Found ${data.stats.new_items_queued || 0} new notices.`, '#2f855a');
+      loadStats();
+      loadStagingQueue();
+    } catch (e) {
+      showToast('Scan error: ' + e.message, '#e53e3e');
+    }
+  });
+
+  document.getElementById('btnRunNationalCrawl').addEventListener('click', async () => {
+    try {
+      showToast('Scanning all 89+ national and state boards (polite rate limits)...', 'var(--ink)');
+      const res = await fetch('/api/admin/crawl/run-all-india', { method: 'POST' });
+      const data = await res.json();
+      showToast(`All-India scan complete! Scanned ${data.stats.scanned_portals} boards, Queued ${data.stats.new_items_queued} notices.`, '#2f855a');
+      loadStats();
+      loadStagingQueue();
+    } catch (e) {
+      showToast('Scan error: ' + e.message, '#e53e3e');
+    }
+  });
+
+  document.getElementById('btnBackupDb').addEventListener('click', async () => {
+    try {
+      showToast('Creating safe atomic database backup...', 'var(--ink)');
+      const res = await fetch('/api/admin/backup/run', { method: 'POST' });
+      const data = await res.json();
+      showToast(`${data.message} (${data.size_kb} KB)`, '#2f855a');
+    } catch (e) {
+      showToast('Backup failed: ' + e.message, '#e53e3e');
+    }
+  });
+
+  // Init
+  loadStats();
+  loadStagingQueue();
+</script>
+</body>
+</html>
