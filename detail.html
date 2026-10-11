@@ -150,49 +150,23 @@ a{text-decoration:none;color:inherit}
       </thead>
       <tbody>
         <tr>
-          <td><strong id="primaryActionLabel">Download / Access Online</strong></td>
-          <td><a href="#" target="_blank" id="linkPrimary" class="click-btn">Click Here</a></td>
+          <td><strong id="primaryActionLabel">See Result</strong></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkPrimary" class="click-btn">Click Here</a></td>
         </tr>
         <tr>
-          <td><strong id="pdfDocLabel">Download Official Notice / Corrigendum PDF</strong></td>
+          <td><strong id="pdfDocLabel">Download Official Result & Cutoff PDF</strong></td>
           <td>
-            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-              <button type="button" onclick="scrollToPdfViewer()" class="click-btn" style="background:#dc2626;border:none;cursor:pointer">
-                <i class="fa-solid fa-eye"></i> View PDF Directly
-              </button>
-              <a href="#" target="_blank" id="linkPdf" class="click-btn secondary">
-                <i class="fa-solid fa-file-pdf"></i> Download PDF
-              </a>
-            </div>
+            <a href="#" target="_blank" rel="noopener" id="linkPdf" class="click-btn secondary">
+              <i class="fa-solid fa-file-pdf"></i> Click Here
+            </a>
           </td>
         </tr>
-        <tr>
+        <tr id="rowOfficialWebsite">
           <td><strong>Official Commission Website</strong></td>
-          <td><a href="#" target="_blank" id="linkOfficial" class="click-btn dark"><i class="fa-solid fa-globe"></i> Click Here</a></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkOfficial" class="click-btn dark"><i class="fa-solid fa-globe"></i> Click Here</a></td>
         </tr>
       </tbody>
     </table>
-
-    <!-- Embedded Official Notice PDF Document Viewer -->
-    <div class="pdf-viewer-container" id="pdfViewerSection">
-      <div class="pdf-viewer-header">
-        <div style="display:flex;align-items:center;gap:8px">
-          <i class="fa-solid fa-file-pdf" style="color:#ef4444;font-size:18px"></i>
-          <span style="font-weight:700;font-size:14.5px;color:#fff" id="pdfViewerTitle">Official Notice Document Viewer</span>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-          <a href="#" id="btnPdfNewTab" target="_blank" class="click-btn secondary" style="padding:6px 14px;font-size:12px">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Full Tab
-          </a>
-          <a href="#" id="btnPdfDownload" download class="click-btn" style="padding:6px 14px;font-size:12px;background:#15803d">
-            <i class="fa-solid fa-download"></i> Download PDF
-          </a>
-        </div>
-      </div>
-      <div class="pdf-frame-wrapper">
-        <iframe id="pdfEmbedFrame" src="about:blank" title="Official Notice PDF Viewer"></iframe>
-      </div>
-    </div>
   </article>
 </div>
 
@@ -292,10 +266,38 @@ async function loadDetail() {
       }
     }
 
-    // 3. Resolve Direct PDF Link (Server PDF endpoint or Client Vector PDF Engine on static CDN)
-    const directPdfUrl = (usingStaticHost && window.generateOfficialNoticePdf)
-      ? window.generateOfficialNoticePdf(item)
-      : `/api/pdf/${id}`;
+    // 3. Resolve Official Government Notice / Result & Cutoff PDF URL (Original as released by Govt)
+    function resolveOfficialGovtPdfUrl(category, itemObj, fallbackSite) {
+      const rawAction = itemObj.action_url || '';
+      const rawPdf = itemObj.pdf_url || '';
+      const t = (itemObj.title || '').toLowerCase();
+
+      if (rawPdf && rawPdf.startsWith('http')) return rawPdf;
+      if (rawAction && rawAction.startsWith('http') && rawAction.toLowerCase().endsWith('.pdf')) return rawAction;
+
+      if (category === 'RESULT') {
+        if (t.includes('ssc')) return 'https://ssc.gov.in/portal/results';
+        if (t.includes('upsc')) return 'https://upsc.gov.in/exams-related-info/written-result';
+        if (t.includes('rrb') || t.includes('railway')) return 'https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281';
+        if (t.includes('upsssc')) return 'https://upsssc.gov.in/View_Notices.aspx';
+        if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx';
+        if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/Notice';
+        if (t.includes('ibps')) return (rawAction && rawAction.startsWith('http')) ? rawAction : 'https://www.ibps.in/index.php/management-trainees-xvi/';
+        if (t.includes('sbi')) return 'https://sbi.co.in/web/careers/recruitment-results-archive';
+        if (t.includes('bpsc') || t.includes('bihar')) return 'https://www.bpsc.bih.nic.in/';
+        if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/Result';
+        if (t.includes('dsssb')) return 'https://dsssb.delhi.gov.in/latest-result';
+        if (t.includes('nta') || t.includes('aiapget') || t.includes('cuet') || t.includes('jee') || t.includes('neet')) return 'https://nta.ac.in/NoticeBoardArchive';
+        if (t.includes('allahabad high court')) return 'https://allahabadhighcourt.in/recruitment.html';
+        if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/public-notices/recruitment';
+        if (t.includes('mha') || t.includes('ib ')) return 'https://www.mha.gov.in/en/commoncontent/whats-new';
+        if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/news';
+        if (t.includes('mpesb') || t.includes('mp ')) return 'https://esb.mp.gov.in/results/RESULT_2025/Main_Result_2025.htm';
+      }
+
+      if (rawAction && rawAction.startsWith('http')) return rawAction;
+      return fallbackSite;
+    }
 
     // 4. Category-Specific Design & Data Mapping
     const badgeEl = document.getElementById('catBadge');
@@ -305,7 +307,6 @@ async function loadDetail() {
     const stepListEl = document.getElementById('stepList');
     const primaryLabelEl = document.getElementById('primaryActionLabel');
     const pdfLabelEl = document.getElementById('pdfDocLabel');
-    const pdfViewerTitleEl = document.getElementById('pdfViewerTitle');
 
     const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
     const stateVal = item.state || 'All India';
@@ -325,34 +326,39 @@ async function loadDetail() {
       }
     }
 
-    function resolveDirectActionUrl(category, title, rawUrl, pdfUrl) {
-      if (rawUrl && rawUrl.startsWith('/api/pdf/')) return pdfUrl;
-      const isGeneric = !rawUrl || rawUrl === '#' || isGenericHomepage(rawUrl);
+    function resolveDirectActionUrl(category, title, rawUrl, fallbackUrl) {
+      const isSynth = !rawUrl || rawUrl === '#' || rawUrl.startsWith('/api/pdf/');
+      const isGeneric = isSynth || isGenericHomepage(rawUrl);
       const t = (title || '').toLowerCase();
 
       if (category === 'RESULT') {
-        // Results MUST go to the Result document or scorecard, NEVER the homepage
-        if (isGeneric || (!rawUrl.includes('/result') && !rawUrl.includes('.pdf') && !rawUrl.includes('/score') && !rawUrl.includes('/auth/home'))) {
-          return pdfUrl;
-        }
-        return rawUrl;
+        // Row 1: Direct Candidate Login / Result Check Page (where result/scorecard is shown directly)
+        if (t.includes('rrb') || t.includes('railway')) return 'https://rrbapply.gov.in/#/auth/home';
+        if (t.includes('ssc')) return 'https://ssc.gov.in/portal/login';
+        if (t.includes('upsssc')) return 'https://upsssc.gov.in/ResultsDire.aspx';
+        if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Result/Result.aspx';
+        if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/Result';
+        if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
+        if (t.includes('sbi')) return 'https://sbi.co.in/web/careers/recruitment-results-archive';
+        if (t.includes('upsc')) return 'https://upsconline.nic.in/ora/oraauth/candidate/login.php';
+        if (t.includes('bpsc') || t.includes('bihar')) return 'https://onlinebpsc.bihar.gov.in/';
+        if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/Result';
+        if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/';
+        if (t.includes('aiapget')) return 'https://exams.nta.nic.in/AIAPGET/';
+        if (t.includes('nta')) return 'https://exams.nta.ac.in/';
+        if (t.includes('allahabad high court')) return 'https://allahabadhighcourt.in/recruitment.html';
+        if (t.includes('mha') || t.includes('ib ')) return 'https://www.mha.gov.in/en/notifications/vacancies';
+        if (!isGeneric) return rawUrl;
+        return fallbackUrl;
       }
 
       if (category === 'ADMIT_CARD') {
-        // If it's an exam schedule / date notice, point to the official schedule PDF
-        if (t.includes('exam date') || t.includes('schedule') || t.includes('paper i') || t.includes('tier i') || t.includes('revised')) {
-          if (rawUrl && rawUrl.includes('/auth/home')) return rawUrl;
-          return pdfUrl;
-        }
-        // Direct candidate login portals
-        if (isGeneric) {
-          if (t.includes('rrb') || t.includes('railway')) return 'https://rrbapply.gov.in/#/auth/home';
-          if (t.includes('ssc')) return 'https://ssc.gov.in/candidate-portal/admit-card';
-          if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
-          if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/public-notices/recruitment';
-          return pdfUrl;
-        }
-        return rawUrl;
+        if (t.includes('rrb') || t.includes('railway')) return 'https://rrbapply.gov.in/#/auth/home';
+        if (t.includes('ssc')) return 'https://ssc.gov.in/candidate-portal/admit-card';
+        if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
+        if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/public-notices/recruitment';
+        if (!isGeneric) return rawUrl;
+        return fallbackUrl;
       }
 
       if (category === 'LATEST_JOB') {
@@ -366,25 +372,25 @@ async function loadDetail() {
           if (t.includes('bihar') || t.includes('bpsc')) return 'https://onlinebpsc.bihar.gov.in/';
           if (t.includes('dav')) return 'https://davstaff.org/application/';
         }
-        return rawUrl;
+        return !isSynth ? rawUrl : fallbackUrl;
       }
 
       if (category === 'ANSWER_KEY') {
-        if (isGeneric) return pdfUrl;
+        if (isGeneric) return fallbackUrl;
         return rawUrl;
       }
 
       if (category === 'SYLLABUS') {
-        return pdfUrl;
+        return !isSynth ? rawUrl : fallbackUrl;
       }
 
-      return rawUrl || pdfUrl;
+      return !isSynth ? rawUrl : fallbackUrl;
     }
 
+    const directPdfUrl = resolveOfficialGovtPdfUrl(cat, item, officialSite);
     let actionLabel = "Access Online Form";
     let primaryUrl = resolveDirectActionUrl(cat, item.title, item.action_url, directPdfUrl);
     let pdfDocText = "Download Official Notice / Corrigendum PDF";
-    let viewerTitleText = "Official Notice Document Viewer";
 
     if (cat === 'RESULT') {
       badgeEl.innerText = "RESULT & MERIT LIST";
@@ -399,26 +405,26 @@ async function loadDetail() {
         <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
         <li><span>Result Declaration Status:</span> <strong style="color:var(--green)"><i class="fa-solid fa-circle-check"></i> Declared / Scorecard Active</strong></li>
         <li><span>Declaration / Release Date:</span> <strong>${relDate}</strong></li>
-        <li><span>Verification Method:</span> <strong>Roll Number Search in Merit List (Ctrl + F)</strong></li>
+        <li><span>Verification Method:</span> <strong>Candidate Login (Roll No. / Reg No. + DOB) & Merit List PDF</strong></li>
         <li><span>Next Selection Stage:</span> <strong>Document Verification (DV) / Medical / Skill Test</strong></li>
-        <li><span>Cut-off Marks:</span> <strong>Mentioned in Official Result Write-up PDF</strong></li>
+        <li><span>Cut-off Marks:</span> <strong>Mentioned in Official Result & Cutoff PDF</strong></li>
         <li><span>State / Jurisdiction:</span> <strong>${stateVal}</strong></li>
         <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
       `;
 
-      instructTitleEl.innerText = "How to Check & Download Result / Merit List";
+      instructTitleEl.innerText = "How to Check Result & Download Official Cutoff PDF";
       stepListEl.innerHTML = `
-        <li>Scroll down to the <strong>Some Useful Important Links</strong> section or view the document directly in the viewer below.</li>
-        <li>Click on the highlighted red <strong>"See Result / Download Merit List"</strong> button.</li>
-        <li>The official Merit List / Result PDF will open in a new tab or load directly in the document viewer.</li>
-        <li>Press <strong>Ctrl + F</strong> on your keyboard (or use Find in Page on mobile) and type your <strong>Roll Number</strong> or <strong>Registration Number</strong>.</li>
-        <li>If your Roll Number is highlighted in the PDF list, you are shortlisted for the next selection round (DV / Tier-II / Medical).</li>
-        <li>Download and print your result score card or merit list page for physical verification.</li>
+        <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
+        <li>Click on <strong>"See Result"</strong> (Row 1) to open the direct official login / result page and check your scorecard or status.</li>
+        <li>Click on <strong>"Download Official Result & Cutoff PDF"</strong> (Row 2) to open the original government-released Merit List & Category-wise Cutoff PDF.</li>
+        <li>Press <strong>Ctrl + F</strong> in the official Merit List PDF to search your <strong>Roll Number</strong>.</li>
+        <li>Download and save a copy of your result / merit list for Document Verification (DV).</li>
       `;
 
-      actionLabel = "See Result / Download Merit List";
+      actionLabel = "See Result";
       pdfDocText = "Download Official Result & Cutoff PDF";
-      viewerTitleText = "Official Result & Merit List Document Viewer";
+      const rowOfficial = document.getElementById('rowOfficialWebsite');
+      if (rowOfficial) rowOfficial.style.display = 'none';
 
     } else if (cat === 'ADMIT_CARD') {
       badgeEl.innerText = "ADMIT CARD / HALL TICKET";
@@ -606,27 +612,17 @@ async function loadDetail() {
 
     if (primaryLabelEl) primaryLabelEl.innerText = actionLabel;
     if (pdfLabelEl) pdfLabelEl.innerText = pdfDocText;
-    if (pdfViewerTitleEl) pdfViewerTitleEl.innerText = viewerTitleText;
 
-    document.getElementById('linkPrimary').href = primaryUrl;
-    document.getElementById('linkPdf').href = directPdfUrl;
-    document.getElementById('btnPdfNewTab').href = directPdfUrl;
-    document.getElementById('btnPdfDownload').href = directPdfUrl;
-    document.getElementById('pdfEmbedFrame').src = directPdfUrl;
-    document.getElementById('linkOfficial').href = officialSite;
+    const linkPrimaryEl = document.getElementById('linkPrimary');
+    const linkPdfEl = document.getElementById('linkPdf');
+    const linkOfficialEl = document.getElementById('linkOfficial');
+    if (linkPrimaryEl) linkPrimaryEl.href = primaryUrl;
+    if (linkPdfEl) linkPdfEl.href = directPdfUrl;
+    if (linkOfficialEl) linkOfficialEl.href = officialSite;
 
   } catch (err) {
     console.error(err);
     document.getElementById('noticeTitle').innerText = 'Notice Details';
-  }
-}
-
-function scrollToPdfViewer() {
-  const el = document.getElementById('pdfViewerSection');
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    el.style.outline = '3px solid #dc2626';
-    setTimeout(() => { el.style.outline = 'none'; }, 2000);
   }
 }
 
