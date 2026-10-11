@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/detail", "destination": "/detail.html" },
+    { "source": "/jobs/:slug", "destination": "/job.html?slug=:slug" },
+    { "source": "/admin", "destination": "/admin.html" }
+  ]
+}

@@ -116,14 +116,15 @@ button{cursor:pointer;border:none;font-family:inherit}
 .col-header.syllabus{background:linear-gradient(135deg,#4c1d95,#6d28d9)}
 .col-header.admission{background:linear-gradient(135deg,#c2410c,#ea580c)}
 
-.col-list{list-style:none;max-height:420px;overflow-y:auto}
+.col-list{list-style:none}
 .col-list li{border-bottom:1px solid var(--border)}
 .col-list li:last-child{border-bottom:none}
-.col-list a{display:block;padding:12px 18px;font-size:13.5px;font-weight:600;color:#2b6cb0;transition:all .15s;line-height:1.4}
+.col-list a{display:block;padding:11px 18px;font-size:13.5px;font-weight:600;color:#2b6cb0;transition:all .15s;line-height:1.4}
 .col-list a:hover{background:#f8fafc;color:#1a365d;padding-left:22px;text-decoration:underline}
 .col-list a small{display:block;font-size:11px;color:var(--muted);margin-top:3px;font-weight:400;text-decoration:none}
 .tag{font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;margin-left:6px;display:inline-block}
 .tag-new{background:#e8f5e9;color:#2e7d42}.tag-hot{background:#fce8e8;color:var(--red)}.tag-live{background:#fef3c7;color:#b45309}
+.col-count-badge{background:rgba(255,255,255,.2);color:#fff;font-size:11px;font-weight:700;padding:2px 9px;border-radius:12px}
 .col-footer{text-align:center;padding:10px;border-top:1px solid var(--border);background:#fafafa}
 .col-footer a{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 .col-footer a:hover{color:var(--ink)}
@@ -294,39 +295,39 @@ button{cursor:pointer;border:none;font-family:inherit}
       <div class="updates-col" id="results">
         <div class="col-header results">
           <span><i class="fa-solid fa-trophy"></i> Result</span>
-          <i class="fa-solid fa-chart-line" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countResult">0</span>
         </div>
         <ul class="col-list" id="listResult">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest results...</a></li>
         </ul>
-        <div class="col-footer"><a href="#results">View All Results →</a></div>
+        <div class="col-footer"><a href="#results" id="footerResult">Showing All Results</a></div>
       </div>
 
       <!-- Column 2: Admit Card -->
       <div class="updates-col" id="admit-cards">
         <div class="col-header admit">
           <span><i class="fa-solid fa-id-card"></i> Admit Card</span>
-          <i class="fa-solid fa-ticket" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAdmit">0</span>
         </div>
         <ul class="col-list" id="listAdmit">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading admit cards...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admit-cards">View All Admit Cards →</a></div>
+        <div class="col-footer"><a href="#admit-cards" id="footerAdmit">Showing All Admit Cards</a></div>
       </div>
 
       <!-- Column 3: Latest Job -->
       <div class="updates-col" id="latest-jobs">
         <div class="col-header latest">
           <span><i class="fa-solid fa-briefcase"></i> Latest Job</span>
-          <i class="fa-solid fa-bell" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countJob">0</span>
         </div>
         <ul class="col-list" id="listJob">
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest jobs...</a></li>
         </ul>
-        <div class="col-footer"><a href="#latest-jobs">View All Latest Jobs →</a></div>
+        <div class="col-footer"><a href="#latest-jobs" id="footerJob">Showing All Latest Jobs</a></div>
       </div>
 
     </div>
@@ -345,36 +346,36 @@ button{cursor:pointer;border:none;font-family:inherit}
       <div class="updates-col" id="answer-keys">
         <div class="col-header answer">
           <span><i class="fa-solid fa-key"></i> Answer Key</span>
-          <i class="fa-solid fa-check-double" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAnswer">0</span>
         </div>
         <ul class="col-list" id="listAnswer">
           <li><a href="#">Loading answer keys...</a></li>
         </ul>
-        <div class="col-footer"><a href="#answer-keys">View All Answer Keys →</a></div>
+        <div class="col-footer"><a href="#answer-keys" id="footerAnswer">Showing All Answer Keys</a></div>
       </div>
 
       <!-- Column 5: Syllabus -->
       <div class="updates-col" id="syllabus">
         <div class="col-header syllabus">
           <span><i class="fa-solid fa-book-open"></i> Syllabus</span>
-          <i class="fa-solid fa-graduation-cap" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countSyllabus">0</span>
         </div>
         <ul class="col-list" id="listSyllabus">
           <li><a href="#">Loading syllabus...</a></li>
         </ul>
-        <div class="col-footer"><a href="#syllabus">View All Syllabus →</a></div>
+        <div class="col-footer"><a href="#syllabus" id="footerSyllabus">Showing All Syllabus</a></div>
       </div>
 
       <!-- Column 6: Admission -->
       <div class="updates-col" id="admission">
         <div class="col-header admission">
           <span><i class="fa-solid fa-school"></i> Admission</span>
-          <i class="fa-solid fa-university" style="opacity:.6"></i>
+          <span class="col-count-badge" id="countAdmission">0</span>
         </div>
         <ul class="col-list" id="listAdmission">
           <li><a href="#">Loading admissions...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admission">View All Admissions →</a></div>
+        <div class="col-footer"><a href="#admission" id="footerAdmission">Showing All Admissions</a></div>
       </div>
 
     </div>
@@ -424,6 +425,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </footer>
 
+<script src="/portal_data.js?v=20261010d"></script>
 <script>
 // Mobile Navigation
 const mn = document.getElementById('mobNav');
@@ -436,21 +438,79 @@ window.addEventListener('scroll', () => {
   document.getElementById('hdr').classList.toggle('shadow', window.scrollY > 10);
 }, { passive: true });
 
-// Dynamic Data Fetching
-let allPortalData = null;
+// Dynamic Data Fetching (merges static edge dataset + live API + /admin approvals)
+let allPortalData = (window.PORTAL_DATA && window.PORTAL_DATA.categorized) ? window.PORTAL_DATA.categorized : null;
+let activeFilterType = 'all';
+
+function mergeCategorizedData(baseData, apiData) {
+  const cats = ['RESULT', 'ADMIT_CARD', 'LATEST_JOB', 'ANSWER_KEY', 'SYLLABUS', 'ADMISSION'];
+  const merged = {};
+  let localCustom = [];
+  try {
+    const st = JSON.parse(localStorage.getItem('asj_admin_state') || '{}');
+    localCustom = st.customUpdates || [];
+  } catch (e) {}
+
+  for (const cat of cats) {
+    const byId = new Map();
+    if (baseData && baseData[cat]) {
+      for (const item of baseData[cat]) byId.set(Number(item.id), item);
+    }
+    if (apiData && apiData[cat]) {
+      for (const item of apiData[cat]) {
+        byId.set(Number(item.id), Object.assign({}, byId.get(Number(item.id)) || {}, item));
+      }
+    }
+    for (const u of localCustom) {
+      if ((u.category || 'LATEST_JOB') === cat) {
+        byId.set(Number(u.id), {
+          id: u.id,
+          title: u.title,
+          tag: u.tag || 'New',
+          action_url: u.action_url,
+          is_featured: Boolean(u.is_featured),
+          featured_badge: u.featured_badge || null,
+          qualification: u.qualification_level || 'All',
+          sector: u.sector || 'Central',
+          state: u.state || 'All India',
+          created_at: u.created_at
+        });
+      }
+    }
+    merged[cat] = Array.from(byId.values()).sort((a, b) => Number(b.id) - Number(a.id));
+  }
+  return merged;
+}
 
 async function loadPortalFeeds() {
+  if (allPortalData) {
+    allPortalData = mergeCategorizedData(allPortalData, null);
+    renderFilteredFeeds(activeFilterType);
+  }
   try {
     const res = await fetch('/api/updates');
     if (!res.ok) throw new Error('API offline');
     const json = await res.json();
-    allPortalData = json.data;
-    renderFilteredFeeds('all');
+    allPortalData = mergeCategorizedData(allPortalData, json.data);
+    renderFilteredFeeds(activeFilterType);
   } catch (err) {
-    console.warn('Using static fallback:', err);
-    loadStaticFallback();
+    if (!allPortalData) loadStaticFallback();
   }
 }
+
+try {
+  const syncCh = new BroadcastChannel('asj_live_sync');
+  syncCh.onmessage = () => {
+    allPortalData = mergeCategorizedData(window.PORTAL_DATA ? window.PORTAL_DATA.categorized : allPortalData, allPortalData);
+    renderFilteredFeeds(activeFilterType);
+  };
+} catch (e) {}
+window.addEventListener('storage', (ev) => {
+  if (ev.key === 'asj_admin_state') {
+    allPortalData = mergeCategorizedData(window.PORTAL_DATA ? window.PORTAL_DATA.categorized : allPortalData, allPortalData);
+    renderFilteredFeeds(activeFilterType);
+  }
+});
 
 function applyQuickFilter(filterType, btnElem) {
   document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
@@ -510,16 +570,30 @@ function renderFilteredFeeds(filterType) {
     return true;
   }
 
-  renderList('listResult', (allPortalData.RESULT || []).filter(matches));
-  renderList('listAdmit', (allPortalData.ADMIT_CARD || []).filter(matches));
-  renderList('listJob', (allPortalData.LATEST_JOB || []).filter(matches));
-  renderList('listAnswer', (allPortalData.ANSWER_KEY || []).filter(matches));
-  renderList('listSyllabus', (allPortalData.SYLLABUS || []).filter(matches));
-  renderList('listAdmission', (allPortalData.ADMISSION || []).filter(matches));
+  const resItems = (allPortalData.RESULT || []).filter(matches);
+  const admItems = (allPortalData.ADMIT_CARD || []).filter(matches);
+  const jobItems = (allPortalData.LATEST_JOB || []).filter(matches);
+  const ansItems = (allPortalData.ANSWER_KEY || []).filter(matches);
+  const sylItems = (allPortalData.SYLLABUS || []).filter(matches);
+  const admsItems = (allPortalData.ADMISSION || []).filter(matches);
+
+  renderList('listResult', resItems, 'countResult', 'footerResult', 'Results');
+  renderList('listAdmit', admItems, 'countAdmit', 'footerAdmit', 'Admit Cards');
+  renderList('listJob', jobItems, 'countJob', 'footerJob', 'Latest Jobs');
+  renderList('listAnswer', ansItems, 'countAnswer', 'footerAnswer', 'Answer Keys');
+  renderList('listSyllabus', sylItems, 'countSyllabus', 'footerSyllabus', 'Syllabus');
+  renderList('listAdmission', admsItems, 'countAdmission', 'footerAdmission', 'Admissions');
 }
 
-function renderList(elemId, items) {
+function renderList(elemId, items, countId, footerId, label) {
   const ul = document.getElementById(elemId);
+  const countEl = countId ? document.getElementById(countId) : null;
+  const footerEl = footerId ? document.getElementById(footerId) : null;
+  const total = items ? items.length : 0;
+
+  if (countEl) countEl.innerText = `${total} Notices`;
+  if (footerEl) footerEl.innerText = `Showing All ${total} ${label}`;
+
   if (!items || items.length === 0) {
     ul.innerHTML = '<li><a href="#" style="color:var(--muted)">No active notices found.</a></li>';
     return;
@@ -545,38 +619,26 @@ function renderList(elemId, items) {
 }
 
 function loadStaticFallback() {
-  const fallbackResults = [
-    { id: 1, title: "MHA IB MTS 2025 Final Result", tag: "New", action_url: "https://mha.gov.in/result/ib-mts-2025" },
-    { id: 2, title: "Railway RRB Ministerial & Isolated CEN 08/2025 Result", tag: "New", action_url: "/api/pdf/2" },
-    { id: 3, title: "UPSSSC Forest Guard 2023 PMT Result 2026 for 709 Post", tag: "Hot", action_url: "/api/pdf/3" },
-    { id: 4, title: "UP Police Home Guard Final Result 2026", tag: "New", action_url: "/api/pdf/4" },
-    { id: 5, title: "RRB Assistant Loco Pilot ALP CBT II Result 2026", tag: "Hot", action_url: "https://rrbapply.gov.in/#/auth/home" },
-    { id: 6, title: "UPSSSC Enforcement Constable 2023 Final Result", tag: null, action_url: "/api/pdf/6" }
-  ];
-  const fallbackAdmit = [
-    { id: 9, title: "Delhi High Court HJS Mains Admit Card 2026", tag: "New", action_url: "https://delhihighcourt.nic.in/public-notices/recruitment" },
-    { id: 10, title: "Railway RRB Technician CEN 02/2026 Admit Card", tag: "Hot", action_url: "https://rrbapply.gov.in/#/auth/home" },
-    { id: 11, title: "Railway RRB Junior Engineer JE Revised Exam Date 2026", tag: null, action_url: "/api/pdf/11" },
-    { id: 13, title: "IBPS Clerk 16th Admit Card 2026", tag: "New", action_url: "https://ibpsonline.ibps.in/" },
-    { id: 14, title: "SSC 10+2 CHSL Tier I Exam Date 2026", tag: "Hot", action_url: "/api/pdf/14" }
-  ];
-  const fallbackJobs = [
-    { title: "Supreme Court Junior Court Assistant Online Form 2026", tag: "New", action_url: "/jobs/supreme-court-junior-court-assistant-2026" },
-    { title: "SSC CGL 2026 Combined Graduate Level 17,727 Posts", tag: "Hot", action_url: "/jobs/ssc-cgl-2026-online-form" },
-    { title: "Delhi DSSSB Various Post Online Form 2026", tag: "New", action_url: "https://dsssbonline.nic.in" },
-    { title: "Railway RRB Technician CEN 02/2026 Online Form", tag: "Hot", action_url: "/jobs/rrb-technician-cen-02-2026" }
-  ];
-  renderList('listResult', fallbackResults);
-  renderList('listAdmit', fallbackAdmit);
-  renderList('listJob', fallbackJobs);
+  if (window.PORTAL_DATA && window.PORTAL_DATA.categorized) {
+    allPortalData = window.PORTAL_DATA.categorized;
+    renderFilteredFeeds('all');
+  }
 }
 
 // Modal Detail Viewer
 async function openJobModal(slug) {
   try {
-    const res = await fetch(`/api/jobs/${slug}`);
-    const json = await res.json();
-    const job = json.job;
+    let job = null;
+    try {
+      const res = await fetch(`/api/jobs/${slug}`);
+      if (res.ok) {
+        const json = await res.json();
+        job = json.job;
+      }
+    } catch (e) {}
+    if (!job && window.PORTAL_DATA && window.PORTAL_DATA.recruitments) {
+      job = window.PORTAL_DATA.recruitments[slug];
+    }
     if (!job) return;
 
     document.getElementById('mJobTitle').innerText = job.title;
@@ -616,33 +678,49 @@ searchInput.addEventListener('input', (e) => {
     return;
   }
   searchDebounce = setTimeout(async () => {
+    let results = [];
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-      const data = await res.json();
-      if (!data.results || data.results.length === 0) {
-        dropdown.innerHTML = `<div style="padding:16px;text-align:center;color:var(--muted);font-size:13px">No notices found matching "<strong>${query}</strong>"</div>`;
-        dropdown.style.display = 'block';
-        return;
+      if (res.ok) {
+        const data = await res.json();
+        results = data.results || [];
       }
-      dropdown.innerHTML = data.results.map(r => `
-        <div class="search-result-item" onclick="handleSearchResultClick('${r.action_url}', '${r.type}')">
-          <div>
-            <strong>${r.title}</strong>
-          </div>
-          <span style="background:#edf2f7;color:#4a5568">${r.category.replace('_', ' ')}</span>
-        </div>
-      `).join('');
-      dropdown.style.display = 'block';
-    } catch (e) {
-      console.error(e);
+    } catch (err) {}
+
+    if (results.length === 0 && window.PORTAL_DATA && window.PORTAL_DATA.updates) {
+      const qLower = query.toLowerCase();
+      results = window.PORTAL_DATA.updates
+        .filter(u => (u.title || '').toLowerCase().includes(qLower) || (u.category || '').toLowerCase().includes(qLower))
+        .slice(0, 10)
+        .map(u => ({
+          title: u.title,
+          category: u.category,
+          action_url: (u.action_url && u.action_url.startsWith('/jobs/')) ? u.action_url : `/detail?id=${u.id}`,
+          type: 'update'
+        }));
     }
-  }, 250);
+
+    if (!results || results.length === 0) {
+      dropdown.innerHTML = `<div style="padding:16px;text-align:center;color:var(--muted);font-size:13px">No notices found matching "<strong>${query}</strong>"</div>`;
+      dropdown.style.display = 'block';
+      return;
+    }
+    dropdown.innerHTML = results.map(r => `
+      <div class="search-result-item" onclick="handleSearchResultClick('${r.action_url}', '${r.type}')">
+        <div>
+          <strong>${r.title}</strong>
+        </div>
+        <span style="background:#edf2f7;color:#4a5568">${r.category.replace('_', ' ')}</span>
+      </div>
+    `).join('');
+    dropdown.style.display = 'block';
+  }, 150);
 });
 
 function handleSearchResultClick(url, type) {
   dropdown.style.display = 'none';
-  if (url.startsWith('/jobs/')) {
-    openJobModal(url.replace('/jobs/', ''));
+  if (url.startsWith('/jobs/') || url.startsWith('/detail')) {
+    window.location.href = url;
   } else {
     window.open(url, '_blank');
   }

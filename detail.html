@@ -202,10 +202,15 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
+<script src="/portal_data.js?v=20261010e"></script>
 <script>
 async function loadDetail() {
   const urlParams = new URLSearchParams(window.location.search);
-  const id = urlParams.get('id');
+  let id = urlParams.get('id');
+  if (!id) {
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    if (parts.length >= 2 && parts[0] === 'detail') id = parts[1];
+  }
 
   if (!id) {
     document.getElementById('noticeTitle').innerText = 'Notice Not Found';
@@ -213,10 +218,39 @@ async function loadDetail() {
   }
 
   try {
-    const res = await fetch(`/api/detail/${id}`);
-    if (!res.ok) throw new Error('Failed to load');
-    const json = await res.json();
-    const item = json.update;
+    let item = null;
+    let usingStaticHost = false;
+    try {
+      const res = await fetch(`/api/detail/${id}`);
+      if (res.ok) {
+        const json = await res.json();
+        item = json.update;
+      }
+    } catch (apiErr) {
+      // Static edge host fallback
+    }
+
+    if (!item && window.PORTAL_DATA) {
+      if (window.PORTAL_DATA.updatesById && window.PORTAL_DATA.updatesById[String(id)]) {
+        item = window.PORTAL_DATA.updatesById[String(id)];
+      }
+      if (!item) {
+        try {
+          const savedRaw = localStorage.getItem('asj_admin_state');
+          if (savedRaw) {
+            const saved = JSON.parse(savedRaw);
+            const pubList = Array.isArray(saved.published) ? saved.published : [];
+            item = pubList.find(x => String(x.id) === String(id)) || null;
+          }
+        } catch (e) {}
+      }
+      if (!item && Array.isArray(window.PORTAL_DATA.adminPendingQueue)) {
+        item = window.PORTAL_DATA.adminPendingQueue.find(x => String(x.id) === String(id)) || null;
+      }
+      usingStaticHost = true;
+    }
+
+    if (!item) throw new Error('Notice not found');
     const cat = item.category || 'LATEST_JOB';
 
     document.getElementById('pageTitle').innerText = `${item.title} — AllSarkariJobs`;
@@ -247,19 +281,21 @@ async function loadDetail() {
     let officialSite = item.source_url;
     if (!officialSite || officialSite === "https://gov.in") {
       try {
-        const u = new URL(item.action_url);
-        officialSite = u.origin;
+        const u = new URL(item.action_url, window.location.origin);
+        officialSite = u.origin === window.location.origin ? "https://ssc.gov.in" : u.origin;
         if (officialSite.includes("ibps.in")) officialSite = "https://ibps.in";
         else if (officialSite.includes("ssc.gov.in")) officialSite = "https://ssc.gov.in";
         else if (officialSite.includes("upsc.gov.in")) officialSite = "https://upsc.gov.in";
         else if (officialSite.includes("rrb")) officialSite = "https://rrbapply.gov.in";
       } catch (e) {
-        officialSite = item.action_url || "#";
+        officialSite = "https://ssc.gov.in";
       }
     }
 
-    // 3. Resolve Direct PDF Link (Points to our High-Speed Verified PDF Service)
-    const directPdfUrl = `/api/pdf/${id}`;
+    // 3. Resolve Direct PDF Link (Server PDF endpoint or Client Vector PDF Engine on static CDN)
+    const directPdfUrl = (usingStaticHost && window.generateOfficialNoticePdf)
+      ? window.generateOfficialNoticePdf(item)
+      : `/api/pdf/${id}`;
 
     // 4. Category-Specific Design & Data Mapping
     const badgeEl = document.getElementById('catBadge');
@@ -290,6 +326,7 @@ async function loadDetail() {
     }
 
     function resolveDirectActionUrl(category, title, rawUrl, pdfUrl) {
+      if (rawUrl && rawUrl.startsWith('/api/pdf/')) return pdfUrl;
       const isGeneric = !rawUrl || rawUrl === '#' || isGenericHomepage(rawUrl);
       const t = (title || '').toLowerCase();
 
