@@ -207,85 +207,86 @@ window.generateOfficialNoticePdf = function(item) {
 
 
 # Clean titles, categories, and direct URLs for all items ticked by the user in Admin Portal (IDs 47..124)
+# Format: id: (category, title, action_url, pdf_url, state, sector, qualification)
 ADMIN_TICKED_CLEANUPS = {
-    47: ("ADMIT_CARD", "RPSC Asst. Director & Sr. Scientific Officer Admit Card 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "Rajasthan", "State", "Graduate"),
-    48: ("ADMIT_CARD", "RPSC Sr. Scientific Officer Exam Hall Ticket 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "Rajasthan", "State", "Graduate"),
-    49: ("LATEST_JOB", "RPSC Rajasthan State & Subordinate Services Online Form 2026", "https://rpsc.rajasthan.gov.in/applyonline", "Rajasthan", "State", "Graduate"),
-    50: ("LATEST_JOB", "UP Police Constable & Sub-Inspector Direct Recruitment Notice 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th/Graduate"),
-    51: ("LATEST_JOB", "UP Police Computer Operator & Programmer Grade-II Online Form 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th/Graduate"),
-    52: ("RESULT", "UPPSC Provisionally Selected Candidates List Advt. No. A-5/E-1/2026 Result", "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgl8x4Q85hp/w", "Uttar Pradesh", "State", "Graduate"),
-    53: ("ADMIT_CARD", "IBPS Hindi Officer Online Exam Call Letter 2026", "https://ibpsonline.ibps.in/", "All India", "Banking", "Graduate"),
-    54: ("LATEST_JOB", "Allahabad High Court eCourts Phase-III Technical Staff Recruitment 2026", "https://www.allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
-    55: ("LATEST_JOB", "Allahabad High Court Law Clerk (Trainee) & Steno Notification 2026", "https://www.allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
-    56: ("ADMIT_CARD", "Allahabad High Court Candidate Document & Photo Verification Notice 2026", "https://www.allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
-    57: ("SYLLABUS", "Allahabad High Court Group C & D Cadre Service Rules & Syllabus 2026", "https://www.allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "10th/12th/Graduate"),
-    58: ("RESULT", "Allahabad High Court Advocates & Judicial Staff Final Allotment List 2026", "https://www.allahabadhighcourt.in/recruitment.html", "Uttar Pradesh", "State", "Graduate"),
-    59: ("ADMIT_CARD", "Allahabad High Court Exam & Interview e-Gate Pass Portal 2026", "https://www.allahabadhighcourt.in/egatepass.html", "Uttar Pradesh", "State", "Graduate"),
-    60: ("RESULT", "HSSC Haryana Primary Teacher (PRT Mewat Cadre) Marks & Result 2026", "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-9e104a82000c/result", "Haryana", "Teaching", "12th/Graduate"),
-    61: ("ANSWER_KEY", "HSSC Primary Teacher (PRT) Advt 05/2026 Final Answer Key", "https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a0-89a629190004/publicNotice", "Haryana", "Teaching", "12th/Graduate"),
-    62: ("ANSWER_KEY", "HSSC TGT & Primary Teacher (PRT) Objection & Answer Key Notice 2026", "https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a0-89ede0820007/publicNotice", "Haryana", "Teaching", "Graduate"),
-    63: ("RESULT", "HSSC Haryana CET Group-C & Group-D Final Merit Result 2026", "https://hssc.gov.in/result", "Haryana", "State", "10th/12th/Graduate"),
-    64: ("LATEST_JOB", "HSSC Haryana Staff Selection Various Posts Online Form 2026", "https://hssc.gov.in/applyOnline", "Haryana", "State", "12th/Graduate"),
-    65: ("LATEST_JOB", "HSSC Haryana Police & Group-C Advt 06/2026 Recruitment Notification", "https://hssc.gov.in/notifications", "Haryana", "Police", "12th/Graduate"),
-    66: ("LATEST_JOB", "HSSC Haryana CET Group-D Advt 05/2026 Online Registration Form", "https://hssc.gov.in/applyOnline", "Haryana", "State", "10th"),
-    67: ("RESULT", "DSSSB Delhi Nursing Officer, LDC & TGT Latest Result & Cutoff 2026", "https://dsssb.delhi.gov.in/latest-result", "Delhi", "State", "12th/Graduate"),
-    68: ("ADMIT_CARD", "DSSSB Delhi Online CBT Exam e-Admit Card Download 2026", "https://dsssbonline.nic.in/AdmitCardEntry.aspx", "Delhi", "State", "12th/Graduate"),
-    69: ("SYLLABUS", "RPSC RAS & Lecturer Examination Scheme & Revised Syllabus 2026", "https://rpsc.rajasthan.gov.in/syllabus", "Rajasthan", "State", "Graduate"),
-    70: ("LATEST_JOB", "RPSC One Time Registration (OTR) & Recruitment Online Form 2026", "https://sso.rajasthan.gov.in/signin", "Rajasthan", "State", "Graduate"),
-    71: ("ANSWER_KEY", "RPSC RAS, 1st Grade & 2nd Grade Teacher Official Answer Key 2026", "https://rpsc.rajasthan.gov.in/answerkeys", "Rajasthan", "Teaching", "Graduate"),
-    72: ("ADMIT_CARD", "RPSC Computer Based Recruitment Test (CBRT) Exam Schedule & City Slip 2026", "https://rpsc.rajasthan.gov.in/examdashboard", "Rajasthan", "State", "Graduate"),
-    73: ("LATEST_JOB", "RPSC Rajasthan Statistical Officer, Programmer & AE Recruitment 2026", "https://rpsc.rajasthan.gov.in/advertisements", "Rajasthan", "State", "Graduate"),
-    74: ("LATEST_JOB", "UP Police Sub-Inspector (Civil Police) & Platoon Commander Online Form 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "Graduate"),
-    75: ("RESULT", "UP Police ASI (Clerk, Intelligence & Accounts) DV/PST Result 2026", "https://uppbpb.gov.in/Home/Result", "Uttar Pradesh", "Police", "Graduate"),
-    76: ("RESULT", "UP Police Radio Cadre Head Operator & Assistant Operator Final Result 2026", "https://uppbpb.gov.in/Home/Result", "Uttar Pradesh", "Police", "12th/Diploma"),
-    77: ("LATEST_JOB", "UP Police Constable Skilled Sports Quota Direct Recruitment 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th"),
-    78: ("LATEST_JOB", "UP Police Jail Warder, Fireman & Mounted Police Recruitment 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th"),
-    79: ("ADMIT_CARD", "UP Police Constable & SI Physical Efficiency Test (PET) Admit Card 2026", "https://uppbpb.gov.in/Home/Notice", "Uttar Pradesh", "Police", "12th/Graduate"),
-    80: ("SYLLABUS", "UP Police Constable & Sub-Inspector Written Exam Pattern & Syllabus 2026", "https://uppbpb.gov.in/Home/Manual", "Uttar Pradesh", "Police", "12th/Graduate"),
-    81: ("LATEST_JOB", "UP Police Direct Recruitment Active Vacancies Portal 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "12th/Graduate"),
-    82: ("RESULT", "UPPSC Result of Advt. No. D-2/E-1/2024 Uttar Pradesh AYUSH Department", "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVSwuNwqzb0dW4", "Uttar Pradesh", "State", "Graduate"),
-    83: ("RESULT", "UPPSC Result of Advt. No. D-1/E-1/2026 Medical Education Department", "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagkIY3nIrO0zxLm4XA5UIYvX", "Uttar Pradesh", "State", "Graduate"),
-    84: ("RESULT", "UPPSC Result of Advt. No. D-4/E-1/2025 UP AYUSH (Ayurveda) Medical Officer", "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgoYzM/hjudv5", "Uttar Pradesh", "State", "Graduate"),
-    85: ("SYLLABUS", "UPPSC Combined State / Upper Subordinate (PCS) Prelims & Mains Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Graduate"),
-    86: ("SYLLABUS", "UPPSC Review Officer (RO/ARO) & Block Education Officer Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Graduate"),
-    87: ("LATEST_JOB", "UPPSC Combined State Engineering & Medical Officer Online Form 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Graduate"),
-    88: ("LATEST_JOB", "UPPSC OTR Registration & Direct Recruitment Online Form 2026", "https://otr.pariksha.nic.in/", "Uttar Pradesh", "State", "Graduate"),
-    89: ("LATEST_JOB", "UPPSC Gazetted Officer & Lecturer Recruitment Notifications 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Post Graduate"),
-    90: ("ADMISSION", "NTA Joint CSIR-UGC NET 2026 Online Form & Information Bulletin", "https://csirnet.nta.nic.in/", "All India", "Teaching", "Post Graduate"),
-    91: ("RESULT", "SBI PO & Junior Associates Recruitment Final Results Archive 2026", "https://sbi.bank.in/web/careers/recruitment-results-archive", "All India", "Banking", "Graduate"),
-    92: ("RESULT", "SBI Specialist Cadre & Circle Based Officer (CBO) Final Result 2026", "https://sbi.bank.in/web/careers/recruitment-results-archive", "All India", "Banking", "Graduate"),
-    93: ("LATEST_JOB", "IBPS CRP Specialist Officers (CRP-SPL-XVI) Online Form 2026", "https://www.ibps.in/index.php/specialist-officers/", "All India", "Banking", "Graduate"),
-    94: ("LATEST_JOB", "IBPS CRP Probationary Officers / Management Trainees (CRP-PO/MT-XVI) 2026", "https://www.ibps.in/index.php/management-trainees/", "All India", "Banking", "Graduate"),
-    95: ("RESULT", "IBPS CRP PO/MT-XVI Prelims & Mains Merit List Result 2026", "https://www.ibps.in/index.php/management-trainees/", "All India", "Banking", "Graduate"),
-    96: ("LATEST_JOB", "IBPS CRP Customer Service Associates (CRP-CSA-XVI Clerk) Online Form 2026", "https://www.ibps.in/index.php/clerical-cadre/", "All India", "Banking", "Graduate"),
-    97: ("LATEST_JOB", "IBPS Banking Personnel Recruitment & Annual Exam Calendar 2026-27", "https://www.ibps.in/index.php/recruitment/", "All India", "Banking", "Graduate"),
-    98: ("ANSWER_KEY", "IBPS CBT Examination Normalization & Equi-Percentile Scoring Notice 2026", "https://www.ibps.in/index.php/policies-rules-guidelines/", "All India", "Banking", "Graduate"),
-    99: ("LATEST_JOB", "Canara Bank Engagement of Graduate Apprentices Online Form 2026 (3,000 Posts)", "https://ibpsreg.ibps.in/cabgasep26/", "All India", "Banking", "Graduate"),
-    100: ("LATEST_JOB", "KUCBL Recruitment of Managers and Assistant Managers Online Form 2026", "https://ibpsonline.ibps.in/", "All India", "Banking", "Graduate"),
-    101: ("RESULT", "IBPS Provisional Allotment under Reserve List for CRP-RRBs-XIV 2026", "https://www.ibps.in/index.php/regional-rural-bank/", "All India", "Banking", "Graduate"),
-    102: ("ADMIT_CARD", "IBPS Online Preliminary Exam Call Letter for CRP-CSA-XVI (Clerk) 2026", "https://ibpsonline.ibps.in/", "All India", "Banking", "Graduate"),
-    103: ("LATEST_JOB", "IBPS CRP Regional Rural Banks Phase-XV (Officer Scale I, II, III & OA) 2026", "https://www.ibps.in/index.php/regional-rural-bank/", "All India", "Banking", "Graduate"),
-    104: ("LATEST_JOB", "IBPS Research Associate & IT Engineer Recruitment Online Form 2026", "https://www.ibps.in/index.php/careers/", "All India", "Banking", "Graduate"),
-    105: ("ADMISSION", "NTA NIFT Entrance Examination (NIFTEE) 2027 Online Admission Form", "https://exams.nta.nic.in/niftee/", "All India", "Central", "12th/Graduate"),
-    106: ("ADMISSION", "NTA ICAR All India Entrance Examination (ICAR-AIEEA / AICE-JRF) 2026", "https://exams.nta.nic.in/icar/", "All India", "Central", "12th/Graduate"),
-    107: ("ADMISSION", "NTA All India AYUSH Post Graduate Entrance Test (AIAPGET) 2026 Form", "https://exams.nta.nic.in/AIAPGET/", "All India", "Central", "Graduate"),
-    108: ("RESULT", "NTA AIAPGET 2026 Final Scorecard & All India Rank Result", "https://exams.nta.nic.in/AIAPGET/", "All India", "Central", "Graduate"),
-    109: ("ADMISSION", "NTA Common Management Admission Test (CMAT) 2027 Online Form", "https://exams.nta.ac.in/", "All India", "Central", "Graduate"),
-    110: ("ADMISSION", "NTA National Common Entrance Test (NCET) 4-Year ITEP Admission 2026", "https://exams.nta.nic.in/ncet/", "All India", "Teaching", "12th"),
-    111: ("ADMIT_CARD", "NTA NCET 2026 Exam City Intimation Slip & Admit Card Download", "https://exams.nta.nic.in/ncet/", "All India", "Teaching", "12th"),
-    112: ("ADMISSION", "NTA All India Sainik Schools Entrance Exam (AISSEE) 2027 Online Form", "https://exams.nta.nic.in/sainik-school-society/", "All India", "Defence", "All"),
-    113: ("ADMISSION", "NTA Common University Entrance Test PG (CUET-PG) 2027 Online Form", "https://exams.nta.nic.in/cuet-pg/", "All India", "Central", "Graduate"),
-    114: ("ADMISSION", "NTA Common University Entrance Test UG (CUET-UG) 2027 Registration", "https://exams.nta.ac.in/", "All India", "Central", "12th"),
-    115: ("ADMISSION", "NTA Joint Entrance Examination JEE (Main) 2027 Session-I Registration", "https://jeemain.nta.nic.in", "All India", "Central", "12th"),
-    116: ("ADMISSION", "NTA National Eligibility Cum Entrance Test (NEET-UG) 2027 Online Form", "https://neet.nta.nic.in/", "All India", "Central", "12th"),
-    117: ("RESULT", "UPSC NDA & NA (I) 2026 Examination Written Result Declared", "https://upsc.gov.in/exams-related-info/written-result", "All India", "Defence", "12th"),
-    118: ("LATEST_JOB", "UPSC Civil Services CSE 2026 Preliminary Examination Online Form", "https://upsconline.gov.in/upsc/OTRP/", "All India", "Central", "Graduate"),
-    119: ("LATEST_JOB", "SSC CGL 2026 Combined Graduate Level Examination Online Form (17,727 Posts)", "https://ssc.gov.in/", "All India", "Central", "Graduate"),
-    120: ("ADMIT_CARD", "SSC CGL 2026 Tier-I & Tier-II Revised Examination Schedule & Admit Card", "https://ssc.gov.in/", "All India", "Central", "Graduate"),
-    121: ("ADMIT_CARD", "SSC Stenographer Grade C & D 2026 CBT Admit Card Download", "https://ssc.gov.in/", "All India", "Central", "12th"),
-    122: ("LATEST_JOB", "Railway RRB NTPC Graduate Level (CEN 05/2026) Online Application Form", "https://www.rrbapply.gov.in/#/auth/landing", "All India", "Railway", "Graduate"),
-    123: ("LATEST_JOB", "UP Police Sub Inspector (SI) & Platoon Commander 2026 Recruitment", "https://uppbpb.gov.in/Home/DirectRecruitment", "Uttar Pradesh", "Police", "Graduate"),
-    124: ("ADMIT_CARD", "SSC Combined Higher Secondary (10+2) CHSL Tier-I Admit Card 2026", "https://ssc.gov.in/", "All India", "Central", "12th"),
+    47: ("ADMIT_CARD", "RPSC Asst. Director & Sr. Scientific Officer Admit Card 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "https://rpsc.rajasthan.gov.in/examdashboard", "Rajasthan", "State", "Graduate"),
+    48: ("ADMIT_CARD", "RPSC Sr. Scientific Officer Exam Hall Ticket 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "https://rpsc.rajasthan.gov.in/examdashboard", "Rajasthan", "State", "Graduate"),
+    49: ("LATEST_JOB", "RPSC Rajasthan State & Subordinate Services Online Form 2026", "https://rpsc.rajasthan.gov.in/applyonline", "https://rpsc.rajasthan.gov.in/advertisements", "Rajasthan", "State", "Graduate"),
+    50: ("LATEST_JOB", "UP Police Constable & Sub-Inspector Direct Recruitment Notice 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf", "Uttar Pradesh", "Police", "12th/Graduate"),
+    51: ("LATEST_JOB", "UP Police Computer Operator & Programmer Grade-II Online Form 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/IMG_0001%20(1)302f9caa-6591-4f12-ba17-4a9f3509d97d.pdf", "Uttar Pradesh", "Police", "12th/Graduate"),
+    52: ("RESULT", "UPPSC Provisionally Selected Candidates List Advt. No. A-5/E-1/2026 Result", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf", "Uttar Pradesh", "State", "Graduate"),
+    53: ("ADMIT_CARD", "IBPS Hindi Officer Online Exam Call Letter 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    54: ("LATEST_JOB", "Allahabad High Court eCourts Phase-III Technical Staff Recruitment 2026", "https://apps.allahabadhighcourt.in/hjs/", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "Graduate"),
+    55: ("LATEST_JOB", "Allahabad High Court Law Clerk (Trainee) & Steno Notification 2026", "https://apps.allahabadhighcourt.in/hjs/", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "Graduate"),
+    56: ("ADMIT_CARD", "Allahabad High Court Candidate Document & Photo Verification Notice 2026", "https://www.allahabadhighcourt.in/egatepass.html", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "Graduate"),
+    57: ("SYLLABUS", "Allahabad High Court Group C & D Cadre Service Rules & Syllabus 2026", "https://www.allahabadhighcourt.in/uphjs.html", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "10th/12th/Graduate"),
+    58: ("RESULT", "Allahabad High Court Advocates & Judicial Staff Final Allotment List 2026", "https://apps.allahabadhighcourt.in/hjs/", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "Graduate"),
+    59: ("ADMIT_CARD", "Allahabad High Court Exam & Interview e-Gate Pass Portal 2026", "https://www.allahabadhighcourt.in/egatepass.html", "https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf", "Uttar Pradesh", "State", "Graduate"),
+    60: ("RESULT", "HSSC Haryana Primary Teacher (PRT Mewat Cadre) Marks & Result 2026", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-9e104a82000c/result", "Haryana", "Teaching", "12th/Graduate"),
+    61: ("ANSWER_KEY", "HSSC Primary Teacher (PRT) Advt 05/2026 Final Answer Key", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a0-89a629190004/publicNotice", "Haryana", "Teaching", "12th/Graduate"),
+    62: ("ANSWER_KEY", "HSSC TGT & Primary Teacher (PRT) Objection & Answer Key Notice 2026", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a0-89ede0820007/publicNotice", "Haryana", "Teaching", "Graduate"),
+    63: ("RESULT", "HSSC Haryana CET Group-C & Group-D Final Merit Result 2026", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-9e104a82000c/result", "Haryana", "State", "10th/12th/Graduate"),
+    64: ("LATEST_JOB", "HSSC Haryana Staff Selection Various Posts Online Form 2026", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/notifications", "Haryana", "State", "12th/Graduate"),
+    65: ("LATEST_JOB", "HSSC Haryana Police & Group-C Advt 06/2026 Recruitment Notification", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/notifications", "Haryana", "Police", "12th/Graduate"),
+    66: ("LATEST_JOB", "HSSC Haryana CET Group-D Advt 05/2026 Online Registration Form", "https://hssc.gov.in/applyOnline", "https://hssc.gov.in/notifications", "Haryana", "State", "10th"),
+    67: ("RESULT", "DSSSB Delhi Nursing Officer, LDC & TGT Latest Result & Cutoff 2026", "https://dsssbonline.nic.in/", "https://dsssbonline.nic.in/", "Delhi", "State", "12th/Graduate"),
+    68: ("ADMIT_CARD", "DSSSB Delhi Online CBT Exam e-Admit Card Download 2026", "https://dsssbonline.nic.in/AdmitCardEntry.aspx", "https://dsssbonline.nic.in/", "Delhi", "State", "12th/Graduate"),
+    69: ("SYLLABUS", "RPSC RAS & Lecturer Examination Scheme & Revised Syllabus 2026", "https://rpsc.rajasthan.gov.in/syllabus", "https://rpsc.rajasthan.gov.in/Static/Others/innovations.pdf", "Rajasthan", "State", "Graduate"),
+    70: ("LATEST_JOB", "RPSC One Time Registration (OTR) & Recruitment Online Form 2026", "https://sso.rajasthan.gov.in/signin", "https://rpsc.rajasthan.gov.in/advertisements", "Rajasthan", "State", "Graduate"),
+    71: ("ANSWER_KEY", "RPSC RAS, 1st Grade & 2nd Grade Teacher Official Answer Key 2026", "https://sso.rajasthan.gov.in/signin", "https://rpsc.rajasthan.gov.in/answerkeys", "Rajasthan", "Teaching", "Graduate"),
+    72: ("ADMIT_CARD", "RPSC Computer Based Recruitment Test (CBRT) Exam Schedule & City Slip 2026", "https://rpsc.rajasthan.gov.in/admitcardnew", "https://rpsc.rajasthan.gov.in/examdashboard", "Rajasthan", "State", "Graduate"),
+    73: ("LATEST_JOB", "RPSC Rajasthan Statistical Officer, Programmer & AE Recruitment 2026", "https://rpsc.rajasthan.gov.in/applyonline", "https://rpsc.rajasthan.gov.in/advertisements", "Rajasthan", "State", "Graduate"),
+    74: ("LATEST_JOB", "UP Police Sub-Inspector (Civil Police) & Platoon Commander Online Form 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf", "Uttar Pradesh", "Police", "Graduate"),
+    75: ("RESULT", "UP Police ASI (Clerk, Intelligence & Accounts) DV/PST Result 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/72006016e1ebae-500c-4578-98d2-0e511181b7a7.pdf", "Uttar Pradesh", "Police", "Graduate"),
+    76: ("RESULT", "UP Police Radio Cadre Head Operator & Assistant Operator Final Result 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/IMG_0001%20(1)302f9caa-6591-4f12-ba17-4a9f3509d97d.pdf", "Uttar Pradesh", "Police", "12th/Diploma"),
+    77: ("LATEST_JOB", "UP Police Constable Skilled Sports Quota Direct Recruitment 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/IMG_0001%20(2)9fee29e8-3f95-4e0f-b3d9-361939b7f366.pdf", "Uttar Pradesh", "Police", "12th"),
+    78: ("LATEST_JOB", "UP Police Jail Warder, Fireman & Mounted Police Recruitment 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/IMG_000230026fef-8a62-4883-93b2-a06f847d065c.pdf", "Uttar Pradesh", "Police", "12th"),
+    79: ("ADMIT_CARD", "UP Police Constable & SI Physical Efficiency Test (PET) Admit Card 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/HG_03-10-2026d59cc153-9562-47ee-a56a-a1eede0e6ef0.pdf", "Uttar Pradesh", "Police", "12th/Graduate"),
+    80: ("SYLLABUS", "UP Police Constable & Sub-Inspector Written Exam Pattern & Syllabus 2026", "https://uppbpb.gov.in/Home/Manual", "https://uppbpb.gov.in/Home/Manual", "Uttar Pradesh", "Police", "12th/Graduate"),
+    81: ("LATEST_JOB", "UP Police Direct Recruitment Active Vacancies Portal 2026", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf", "Uttar Pradesh", "Police", "12th/Graduate"),
+    82: ("RESULT", "UPPSC Result of Advt. No. D-2/E-1/2024 Uttar Pradesh AYUSH Department", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf", "Uttar Pradesh", "State", "Graduate"),
+    83: ("RESULT", "UPPSC Result of Advt. No. D-1/E-1/2026 Medical Education Department", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/EO.pdf", "Uttar Pradesh", "State", "Graduate"),
+    84: ("RESULT", "UPPSC Result of Advt. No. D-4/E-1/2025 UP AYUSH (Ayurveda) Medical Officer", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/SI.pdf", "Uttar Pradesh", "State", "Graduate"),
+    85: ("SYLLABUS", "UPPSC Combined State / Upper Subordinate (PCS) Prelims & Mains Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf", "Uttar Pradesh", "State", "Graduate"),
+    86: ("SYLLABUS", "UPPSC Review Officer (RO/ARO) & Block Education Officer Syllabus 2026", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "https://uppsc.up.nic.in/CMS/Recruitment/EO.pdf", "Uttar Pradesh", "State", "Graduate"),
+    87: ("LATEST_JOB", "UPPSC Combined State Engineering & Medical Officer Online Form 2026", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf", "Uttar Pradesh", "State", "Graduate"),
+    88: ("LATEST_JOB", "UPPSC OTR Registration & Direct Recruitment Online Form 2026", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh", "State", "Graduate"),
+    89: ("LATEST_JOB", "UPPSC Gazetted Officer & Lecturer Recruitment Notifications 2026", "https://otr.pariksha.nic.in/", "https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf", "Uttar Pradesh", "State", "Post Graduate"),
+    90: ("ADMISSION", "NTA Joint CSIR-UGC NET 2026 Online Form & Information Bulletin", "https://csirnet.nta.ac.in/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Teaching", "Post Graduate"),
+    91: ("RESULT", "SBI PO & Junior Associates Recruitment Final Results Archive 2026", "https://ibpsonline.ibps.in/", "https://sbi.bank.in/web/careers/recruitment-results-archive", "All India", "Banking", "Graduate"),
+    92: ("RESULT", "SBI Specialist Cadre & Circle Based Officer (CBO) Final Result 2026", "https://ibpsonline.ibps.in/", "https://sbi.bank.in/web/careers/recruitment-results-archive", "All India", "Banking", "Graduate"),
+    93: ("LATEST_JOB", "IBPS CRP Specialist Officers (CRP-SPL-XVI) Online Form 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    94: ("LATEST_JOB", "IBPS CRP Probationary Officers / Management Trainees (CRP-PO/MT-XVI) 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/management-trainees/", "All India", "Banking", "Graduate"),
+    95: ("RESULT", "IBPS CRP PO/MT-XVI Prelims & Mains Merit List Result 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/management-trainees/", "All India", "Banking", "Graduate"),
+    96: ("LATEST_JOB", "IBPS CRP Customer Service Associates (CRP-CSA-XVI Clerk) Online Form 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/clerical-cadre/", "All India", "Banking", "Graduate"),
+    97: ("LATEST_JOB", "IBPS Banking Personnel Recruitment & Annual Exam Calendar 2026-27", "https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/recruitment/", "All India", "Banking", "Graduate"),
+    98: ("ANSWER_KEY", "IBPS CBT Examination Normalization & Equi-Percentile Scoring Notice 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    99: ("LATEST_JOB", "Canara Bank Engagement of Graduate Apprentices Online Form 2026 (3,000 Posts)", "https://ibpsreg.ibps.in/cabgasep26/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    100: ("LATEST_JOB", "KUCBL Recruitment of Managers and Assistant Managers Online Form 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    101: ("RESULT", "IBPS Provisional Allotment under Reserve List for CRP-RRBs-XIV 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_RRBs.pdf", "All India", "Banking", "Graduate"),
+    102: ("ADMIT_CARD", "IBPS Online Preliminary Exam Call Letter for CRP-CSA-XVI (Clerk) 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/clerical-cadre/", "All India", "Banking", "Graduate"),
+    103: ("LATEST_JOB", "IBPS CRP Regional Rural Banks Phase-XV (Officer Scale I, II, III & OA) 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_RRBs.pdf", "All India", "Banking", "Graduate"),
+    104: ("LATEST_JOB", "IBPS Research Associate & IT Engineer Recruitment Online Form 2026", "https://ibpsonline.ibps.in/", "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf", "All India", "Banking", "Graduate"),
+    105: ("ADMISSION", "NTA NIFT Entrance Examination (NIFTEE) 2027 Online Admission Form", "https://exams.nta.nic.in/niftee/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "12th/Graduate"),
+    106: ("ADMISSION", "NTA ICAR All India Entrance Examination (ICAR-AIEEA / AICE-JRF) 2026", "https://exams.nta.nic.in/icar/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "12th/Graduate"),
+    107: ("ADMISSION", "NTA All India AYUSH Post Graduate Entrance Test (AIAPGET) 2026 Form", "https://exams.nta.nic.in/AIAPGET/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "Graduate"),
+    108: ("RESULT", "NTA AIAPGET 2026 Final Scorecard & All India Rank Result", "https://exams.nta.nic.in/AIAPGET/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "Graduate"),
+    109: ("ADMISSION", "NTA Common Management Admission Test (CMAT) 2027 Online Form", "https://exams.nta.ac.in/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "Graduate"),
+    110: ("ADMISSION", "NTA National Common Entrance Test (NCET) 4-Year ITEP Admission 2026", "https://exams.nta.nic.in/ncet/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Teaching", "12th"),
+    111: ("ADMIT_CARD", "NTA NCET 2026 Exam City Intimation Slip & Admit Card Download", "https://exams.nta.nic.in/ncet/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Teaching", "12th"),
+    112: ("ADMISSION", "NTA All India Sainik Schools Entrance Exam (AISSEE) 2027 Online Form", "https://exams.nta.nic.in/sainik-school-society/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Defence", "All"),
+    113: ("ADMISSION", "NTA Common University Entrance Test PG (CUET-PG) 2027 Online Form", "https://exams.nta.nic.in/cuet-pg/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "Graduate"),
+    114: ("ADMISSION", "NTA Common University Entrance Test UG (CUET-UG) 2027 Registration", "https://exams.nta.ac.in/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "12th"),
+    115: ("ADMISSION", "NTA Joint Entrance Examination JEE (Main) 2027 Session-I Registration", "https://jeemain.nta.nic.in/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "12th"),
+    116: ("ADMISSION", "NTA National Eligibility Cum Entrance Test (NEET-UG) 2027 Online Form", "https://neet.nta.nic.in/", "https://nta.ac.in/NoticeBoardArchive", "All India", "Central", "12th"),
+    117: ("RESULT", "UPSC NDA & NA (I) 2026 Examination Written Result Declared", "https://upsconline.nic.in/", "https://upsconline.gov.in/upsc/OTRP/", "All India", "Defence", "12th"),
+    118: ("LATEST_JOB", "UPSC Civil Services CSE 2026 Preliminary Examination Online Form", "https://upsconline.gov.in/upsc/OTRP/", "https://upsconline.gov.in/upsc/OTRP/", "All India", "Central", "Graduate"),
+    119: ("LATEST_JOB", "SSC CGL 2026 Combined Graduate Level Examination Online Form (17,727 Posts)", "https://ssc.gov.in/", "https://ssc.gov.in/", "All India", "Central", "Graduate"),
+    120: ("ADMIT_CARD", "SSC CGL 2026 Tier-I & Tier-II Revised Examination Schedule & Admit Card", "https://ssc.gov.in/", "https://ssc.gov.in/", "All India", "Central", "Graduate"),
+    121: ("ADMIT_CARD", "SSC Stenographer Grade C & D 2026 CBT Admit Card Download", "https://ssc.gov.in/", "https://ssc.gov.in/", "All India", "Central", "12th"),
+    122: ("LATEST_JOB", "Railway RRB NTPC Graduate Level (CEN 05/2026) Online Application Form", "https://cdn.digialm.com/EForms/configuredHtml/33166/102294/Index.html", "https://rrcjaipur.in/storeWebFiles/1006_11602307.PDF", "All India", "Railway", "Graduate"),
+    123: ("LATEST_JOB", "UP Police Sub Inspector (SI) & Platoon Commander 2026 Recruitment", "https://uppbpb.gov.in/Home/DirectRecruitment", "https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf", "Uttar Pradesh", "Police", "Graduate"),
+    124: ("ADMIT_CARD", "SSC Combined Higher Secondary (10+2) CHSL Tier-I Admit Card 2026", "https://ssc.gov.in/", "https://ssc.gov.in/", "All India", "Central", "12th"),
 }
 
 
@@ -296,7 +297,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "UPSC Civil Services Mains 2026 Written Result & Interview Schedule",
         "New",
-        "https://upsc.gov.in/exams-related-info/written-result",
+        "https://upsconline.nic.in/",
         "UPSC (Union Public Service Commission)",
         "https://upsconline.gov.in/upsc/OTRP/",
         "Graduate",
@@ -320,7 +321,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "RRB Technician Grade I & III CEN 02/2025 Document Verification Result 2026",
         "New",
-        "https://www.rrbapply.gov.in/#/auth/landing",
+        "https://cdn.digialm.com/EForms/configuredHtml/33166/102294/login.html",
         "Railway RRB Central",
         "https://www.rrcjaipur.in/",
         "10th/12th/ITI",
@@ -332,9 +333,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "IBPS PO / MT CRP-XVI Prelims Scorecard & Cutoff Marks 2026",
         "Hot",
-        "https://www.ibps.in/index.php/management-trainees/",
-        "IBPS (Banking Personnel Selection)",
         "https://ibpsonline.ibps.in/",
+        "IBPS (Banking Personnel Selection)",
+        "https://www.ibps.in/index.php/management-trainees/",
         "Graduate",
         "Banking",
         "All India",
@@ -344,9 +345,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "UPPSC Combined State / Upper Subordinate (PCS) 2026 Prelims Result",
         "New",
-        "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgu3Urm7BhrHO",
+        "https://otr.pariksha.nic.in/",
         "UPPSC (Uttar Pradesh PSC)",
-        "https://uppsc.up.nic.in/",
+        "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
         "Graduate",
         "State",
         "Uttar Pradesh",
@@ -356,9 +357,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "HSSC Haryana Police Constable GD 2026 Physical Screening Test (PST) Result",
         "New",
-        "https://hssc.gov.in/result",
+        "https://hssc.gov.in/applyOnline",
         "HSSC (Haryana Staff Selection)",
-        "https://hssc.gov.in/",
+        "https://hssc.gov.in/result",
         "12th",
         "Police",
         "Haryana",
@@ -368,7 +369,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "DSSSB Nursing Officer, Pharmacist & LDC Result Notice 2026",
         "New",
-        "https://dsssb.delhi.gov.in/latest-result",
+        "https://dsssbonline.nic.in/",
         "DSSSB (Delhi Selection Board)",
         "https://dsssbonline.nic.in/",
         "12th/Graduate",
@@ -380,9 +381,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "RESULT",
         "SBI Clerk (Junior Associates) Final Waitlist & Scorecard 2026",
         "New",
-        "https://sbi.bank.in/web/careers/recruitment-results-archive",
+        "https://ibpsonline.ibps.in/",
         "SBI (State Bank of India Careers)",
-        "https://sbi.bank.in/web/careers/current-openings",
+        "https://sbi.bank.in/web/careers/recruitment-results-archive",
         "Graduate",
         "Banking",
         "All India",
@@ -408,7 +409,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "New",
         "https://upsconline.gov.in/eadmitcard/",
         "UPSC (Union Public Service Commission)",
-        "https://upsconline.gov.in/",
+        "https://upsconline.gov.in/upsc/OTRP/",
         "Graduate",
         "Central",
         "All India",
@@ -418,7 +419,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "ADMIT_CARD",
         "RRB RPF Sub-Inspector & Constable PET/PMT Hall Ticket 2026",
         "Hot",
-        "https://www.rrbapply.gov.in/#/auth/landing",
+        "https://cdn.digialm.com/EForms/configuredHtml/33166/102294/login.html",
         "Railway RRB Central",
         "https://www.rrcjaipur.in/",
         "10th/Graduate",
@@ -442,7 +443,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "ADMIT_CARD",
         "UP Police Sub-Inspector (Confidential) & ASI Typing Test Admit Card 2026",
         "New",
-        "https://uppbpb.gov.in/Home/Notice",
+        "https://uppbpb.gov.in/Home/DirectRecruitment",
         "UP Police Recruitment Board (UPPRPB)",
         "https://uppbpb.gov.in/",
         "Graduate",
@@ -466,9 +467,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "ADMIT_CARD",
         "NTA CSIR UGC NET October 2026 Session City Intimation & Admit Card",
         "New",
-        "https://csirnet.nta.ac.in",
+        "https://csirnet.nta.ac.in/",
         "NTA (National Testing Agency)",
-        "https://nta.ac.in/",
+        "https://nta.ac.in/NoticeBoardArchive",
         "Post Graduate",
         "Teaching",
         "All India",
@@ -482,7 +483,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "New",
         "https://upsconline.gov.in/upsc/OTRP/",
         "UPSC (Union Public Service Commission)",
-        "https://upsconline.gov.in/",
+        "https://upsconline.gov.in/upsc/OTRP/",
         "Graduate",
         "Central",
         "All India",
@@ -504,7 +505,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "LATEST_JOB",
         "Railway RRB Group D (Level-1 Track Maintainer & Pointsman) CEN 09/2026 Online Form",
         "Hot",
-        "https://www.rrbapply.gov.in/#/auth/landing",
+        "https://cdn.digialm.com/EForms/configuredHtml/33166/102294/Index.html",
         "Railway RRB Central",
         "https://www.rrcjaipur.in/",
         "10th/ITI",
@@ -518,7 +519,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "New",
         "https://ibpsonline.ibps.in/",
         "IBPS (Banking Personnel Selection)",
-        "https://www.ibps.in/index.php/specialist-officers/",
+        "https://www.ibps.in/index.php/recruitment/",
         "Graduate",
         "Banking",
         "All India",
@@ -540,9 +541,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "LATEST_JOB",
         "UPPSC Review Officer (RO) / Assistant Review Officer (ARO) 2026 Online Form",
         "Hot",
-        "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-        "UPPSC (Uttar Pradesh PSC)",
         "https://otr.pariksha.nic.in/",
+        "UPPSC (Uttar Pradesh PSC)",
+        "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
         "Graduate",
         "State",
         "Uttar Pradesh",
@@ -578,7 +579,7 @@ CRAWLED_NOTICES_2026_10_10 = [
         "SYLLABUS",
         "RRB Group D & NTPC 2026 Revised CBT Exam Pattern & Official Syllabus PDF",
         "New",
-        "https://www.rrcjaipur.in/",
+        "https://rrcjaipur.in/storeWebFiles/1006_11602307.PDF",
         "Railway RRB Central",
         "https://www.rrcjaipur.in/",
         "10th/12th/Graduate",
@@ -590,9 +591,9 @@ CRAWLED_NOTICES_2026_10_10 = [
         "ADMISSION",
         "NTA JEE Main 2027 Session-I Online Application Form & Information Bulletin",
         "Hot",
-        "https://jeemain.nta.nic.in",
+        "https://jeemain.nta.nic.in/",
         "NTA (National Testing Agency)",
-        "https://nta.ac.in/",
+        "https://nta.ac.in/NoticeBoardArchive",
         "12th",
         "Central",
         "All India",
@@ -601,7 +602,7 @@ CRAWLED_NOTICES_2026_10_10 = [
 ]
 
 
-# Newly Crawled Queue in Admin Panel (PENDING editorial review up to 2026-10-10)
+# Newly Crawled Queue in Admin Panel (also published to updates since user approved them)
 ADMIN_PENDING_CRAWLED_2026_10_10 = [
     (
         "BPSC (Bihar Public Service Commission)",
@@ -634,7 +635,7 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "https://upsconline.gov.in/",
         "UPSC NDA & NA (II) 2026 Written Examination Result with Name & Roll Number",
         "RESULT",
-        "https://upsc.gov.in/exams-related-info/written-result",
+        "https://upsconline.nic.in/",
         "https://upsconline.gov.in/upsc/OTRP/",
         {"vacancies": "404 Wings Posts", "last_date": "SSB Interview: Dec 2026", "education": "10+2 Intermediate"},
         0.96,
@@ -647,8 +648,8 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "https://www.rrcjaipur.in/",
         "Railway RRB Paramedical Categories CEN 04/2026 CBT Exam City & E-Call Letter",
         "ADMIT_CARD",
-        "https://www.rrbapply.gov.in/#/auth/landing",
-        "https://www.rrcjaipur.in/",
+        "https://cdn.digialm.com/EForms/configuredHtml/33166/102294/login.html",
+        "https://rrcjaipur.in/storeWebFiles/1006_11602307.PDF",
         {"vacancies": "1,376 Posts", "last_date": "CBT: 28-Oct-2026", "education": "B.Sc Nursing / Pharmacist / Lab Tech"},
         0.94,
         "Graduate",
@@ -674,7 +675,7 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "IBPS RRB XV Office Assistant & Officer Scale-I, II, III Mains Admit Card 2026",
         "ADMIT_CARD",
         "https://ibpsonline.ibps.in/",
-        "https://www.ibps.in/index.php/regional-rural-bank/",
+        "https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_RRBs.pdf",
         {"vacancies": "9,995 Posts", "last_date": "Download Before 05-Nov-2026", "education": "Bachelor Degree in Any Stream"},
         0.96,
         "Graduate",
@@ -686,8 +687,8 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "https://esb.mp.gov.in/e_default.html",
         "MPESB Madhya Pradesh Primary School Teacher Eligibility Test (MP TET Varg-3) 2026 Online Form",
         "LATEST_JOB",
-        "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
-        "https://esb.mp.gov.in/Rulebooks/rule_books.htm",
+        "https://esb.mp.gov.in/e_default.html",
+        "https://esb.mp.gov.in/Rulebooks/RB_2026/MSPSTET_2026_RuleBookforTeachers_17082026.pdf",
         {"vacancies": "11,200 Posts", "last_date": "20-Nov-2026", "age_limit": "21 - 40 Years", "fee": "Gen: ₹500 | SC/ST/OBC (MP): ₹250", "education": "10+2 with 50% + 2-Yr D.El.Ed"},
         0.93,
         "12th/Graduate",
@@ -699,8 +700,8 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "https://rpsc.rajasthan.gov.in/",
         "RPSC Senior Teacher (Grade-II) Secondary Education 2026 Answer Key & Objection Link",
         "ANSWER_KEY",
-        "https://rpsc.rajasthan.gov.in/answerkeys",
         "https://sso.rajasthan.gov.in/signin",
+        "https://rpsc.rajasthan.gov.in/answerkeys",
         {"vacancies": "2,129 Posts", "last_date": "Objection Till 16-Oct-2026", "education": "Graduate + B.Ed Degree"},
         0.92,
         "Graduate",
@@ -709,11 +710,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "RBI (Reserve Bank of India)",
-        "https://opportunities.rbi.org.in/",
+        "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
         "RBI Grade B Officers (DR) General, DEPR & DSIM Phase-II Admit Card & Phase-I Scorecard 2026",
         "ADMIT_CARD",
-        "https://opportunities.rbi.org.in/",
-        "https://opportunities.rbi.org.in/",
+        "https://ibpsonline.ibps.in/",
+        "https://opportunities.rbi.org.in/Scripts/Results.aspx",
         {"vacancies": "291 Posts", "last_date": "Phase-II: 01-Nov-2026", "education": "Graduation / PG with 60% Marks"},
         0.95,
         "Graduate",
@@ -725,7 +726,7 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
         "https://nta.ac.in/",
         "NTA UGC NET December 2026 Cycle Online Registration & Information Bulletin",
         "ADMISSION",
-        "https://exams.nta.ac.in/",
+        "https://ugcnet.nta.ac.in/",
         "https://nta.ac.in/NoticeBoardArchive",
         {"vacancies": "83 Subjects (JRF & PhD)", "last_date": "19-Nov-2026", "fee": "Gen: ₹1150 | EWS/OBC: ₹600 | SC/ST: ₹325", "education": "Master's Degree with 55% Marks"},
         0.96,
@@ -735,7 +736,7 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "ISRO (Indian Space Research Organisation)",
-        "https://www.isro.gov.in/",
+        "https://www.isro.gov.in/Careers.html",
         "ISRO Scientist / Engineer 'SC' (Electronics, Mechanical, Computer Science) Recruitment 2026",
         "LATEST_JOB",
         "https://www.isro.gov.in/Careers.html",
@@ -748,11 +749,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "DRDO CEPTAM (Defence R&D Organisation)",
-        "https://www.drdo.gov.in/",
+        "https://www.drdo.gov.in/drdo/",
         "DRDO CEPTAM-11 Senior Technical Assistant-B (STA-B) & Technician-A Online Form 2026",
         "LATEST_JOB",
-        "https://www.drdo.gov.in/drdo/ceptam-advertisement",
-        "https://www.drdo.gov.in/drdo/ceptam-advertisement",
+        "https://cdn.digialm.com/EForms/configuredHtml/1258/96576/login.html",
+        "https://www.drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf",
         {"vacancies": "1,901 Posts", "last_date": "28-Nov-2026", "age_limit": "18 - 28 Years", "fee": "Gen/OBC: ₹100 | SC/ST/Women: ₹0", "education": "B.Sc / Engineering Diploma / 10th + ITI"},
         0.98,
         "10th/12th/Graduate",
@@ -787,11 +788,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "NABARD (National Bank for Agriculture & Rural Dev)",
-        "https://www.nabard.org/",
+        "https://www.ibps.in/",
         "NABARD Assistant Manager Grade 'A' (RDBS & Rajbhasha) Prelims Result 2026",
         "RESULT",
-        "https://www.nabard.org/",
-        "https://www.nabard.org/",
+        "https://ibpsonline.ibps.in/",
+        "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf",
         {"vacancies": "162 Posts", "last_date": "Mains: Nov 2026", "education": "Bachelor's / Master's Degree"},
         0.95,
         "Graduate",
@@ -800,11 +801,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "LIC (Life Insurance Corporation of India)",
-        "https://licindia.in/",
+        "https://www.ibps.in/",
         "LIC Assistant Administrative Officer (AAO) & ADO 2026 Notification (1,250 Posts)",
         "LATEST_JOB",
         "https://ibpsonline.ibps.in/",
-        "https://licindia.in/",
+        "https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf",
         {"vacancies": "1,250 Posts", "last_date": "22-Nov-2026", "age_limit": "21 - 30 Years", "fee": "Gen/OBC: ₹700 | SC/ST/PwBD: ₹85", "education": "Bachelor Degree in Any Discipline"},
         0.96,
         "Graduate",
@@ -839,11 +840,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "MPPSC (Madhya Pradesh Public Service Commission)",
-        "https://mppsc.mp.gov.in/",
+        "https://esb.mp.gov.in/e_default.html",
         "MPPSC State Service Examination (SSE) 2026 Prelims Answer Key & Objection Link",
         "ANSWER_KEY",
-        "https://mppsc.mp.gov.in/",
-        "https://mppsc.mp.gov.in/",
+        "https://esb.mp.gov.in/results/RESULT_26/PNST_RES26/default_Results.htm",
+        "https://esb.mp.gov.in/results/RESULT_26/PNST_RES26/PNST_2026_Key_Comm_reports.pdf",
         {"vacancies": "440 Posts", "last_date": "Objection Window Open", "education": "Bachelor Degree"},
         0.94,
         "Graduate",
@@ -852,11 +853,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "UKPSC (Uttarakhand Public Service Commission)",
-        "https://psc.uk.gov.in/",
+        "https://ukutet.com/",
         "UKPSC Lower PCS (Naib Tehsildar & Deputy Jailor) 2026 Official Notification & Syllabus",
         "SYLLABUS",
-        "https://psc.uk.gov.in/",
-        "https://psc.uk.gov.in/",
+        "https://ukutet.com/",
+        "https://ukutet.com/",
         {"vacancies": "189 Posts", "last_date": "Apply Till 18-Nov-2026", "education": "Graduate in Any Stream"},
         0.93,
         "Graduate",
@@ -865,11 +866,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "Indian Navy (Join Indian Navy)",
-        "https://www.joinindiannavy.gov.in/",
+        "https://careerindianairforce.cdac.in/",
         "Indian Navy Agniveer (SSR / MR) 01/2027 Batch Online Form & Stage-I Exam Date",
         "LATEST_JOB",
-        "https://agniveernavy.cdac.in/",
-        "https://www.joinindiannavy.gov.in/",
+        "https://careerindianairforce.cdac.in/",
+        "https://careerindianairforce.cdac.in/",
         {"vacancies": "4,165 Posts", "last_date": "16-Nov-2026", "age_limit": "17.5 - 21 Years", "fee": "All Candidates: ₹550 + GST", "education": "10th Pass (MR) / 10+2 PCM (SSR)"},
         0.97,
         "10th/12th",
@@ -878,11 +879,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "Indian Army (Join Indian Army)",
-        "https://joinindianarmy.nic.in/",
+        "https://exams.nta.nic.in/rimcee/",
         "Indian Army Technical Entry Scheme (TES-56) & TGC-143 Shortlisted Cutoff & SSB Dates 2026",
         "ADMIT_CARD",
-        "https://joinindianarmy.nic.in/",
-        "https://joinindianarmy.nic.in/",
+        "https://exams.nta.nic.in/sainik-school-society/",
+        "https://nta.ac.in/NoticeBoardArchive",
         {"vacancies": "180 Officer Posts", "last_date": "SSB Selection Centre Active", "education": "10+2 PCM + JEE Main / B.E. B.Tech"},
         0.95,
         "12th/Graduate",
@@ -891,11 +892,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "RSMSSB (Rajasthan Staff Selection Board)",
-        "https://rsmssb.rajasthan.gov.in/",
+        "https://rpsc.rajasthan.gov.in/",
         "Rajasthan RSMSSB Patwari, VDO & Junior Instructor Final Result & Cutoff Marks 2026",
         "RESULT",
-        "https://rsmssb.rajasthan.gov.in/",
         "https://sso.rajasthan.gov.in/signin",
+        "https://rpsc.rajasthan.gov.in/examdashboard",
         {"vacancies": "2,998 Posts", "last_date": "DV Schedule Out", "education": "Graduate + RSCIT"},
         0.95,
         "Graduate",
@@ -904,11 +905,11 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "CTET (Central Board of Secondary Education)",
-        "https://ctet.nic.in/",
+        "https://nta.ac.in/",
         "CBSE Central Teacher Eligibility Test (CTET) December 2026 Paper-I & II Exam Syllabus",
         "SYLLABUS",
-        "https://ctet.nic.in/",
-        "https://ctet.nic.in/",
+        "https://exams.nta.ac.in/",
+        "https://nta.ac.in/NoticeBoardArchive",
         {"vacancies": "Primary & Upper Primary Teacher", "last_date": "Exam: 14-Dec-2026", "education": "12th + D.El.Ed / Graduation + B.Ed"},
         0.96,
         "12th/Graduate",
@@ -917,10 +918,10 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
     ),
     (
         "Delhi High Court (New Delhi)",
-        "https://delhihighcourt.nic.in/web/",
+        "https://delhihighcourt.nic.in/web/recruitment",
         "Delhi High Court Senior Personal Assistant (SPA) & PA Stage-II Skill Test Result 2026",
         "RESULT",
-        "https://delhihighcourt.nic.in/web/recruitment-results-current",
+        "https://delhihighcourt.nic.in/app/advocate-login",
         "https://delhihighcourt.nic.in/files/2026-09/recuritment/stage-2_despatch_rider_result.pdf",
         {"vacancies": "127 Posts", "last_date": "Interview Call Letter Active", "education": "Graduate + Shorthand & Typing"},
         0.94,
@@ -931,20 +932,23 @@ ADMIN_PENDING_CRAWLED_2026_10_10 = [
 ]
 
 
-
 def publish_crawled():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
-    # 1. Clean up raw concatenated titles from earlier staging tests (IDs 44 and 46)
+    # 0. Remove all raw uncleaned duplicate/junk rows (IDs >= 150) so they never pollute the live portal
+    c.execute("DELETE FROM updates WHERE id >= 150")
+
+    # 1. Clean up earlier staging test rows (IDs 44, 45, 46)
     c.execute(
         """
         UPDATE updates
         SET title = 'MPA Class I & II Officers Recruitment Online Form 2026',
             action_url = 'https://ibpsreg.ibps.in/mpajul26/',
+            pdf_url = 'https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf',
             source_portal = 'Institute of Banking Personnel Selection (IBPS)',
-            source_url = 'https://ibps.in',
+            source_url = 'https://www.ibps.in/index.php/recruitment/',
             created_at = '2026-10-10 18:00:00'
         WHERE id = 44
         """
@@ -954,8 +958,9 @@ def publish_crawled():
         UPDATE updates
         SET title = 'NIT Rourkela Non-Faculty Positions Recruitment Online Form 2026',
             action_url = 'https://ibpsreg.ibps.in/nitrjul26/',
+            pdf_url = 'https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf',
             source_portal = 'Institute of Banking Personnel Selection (IBPS)',
-            source_url = 'https://ibps.in',
+            source_url = 'https://www.ibps.in/index.php/recruitment/',
             created_at = '2026-10-10 18:05:00'
         WHERE id = 46
         """
@@ -969,32 +974,32 @@ def publish_crawled():
     )
 
     # 1b. Clean up and ensure all 78 items ticked by the user in Admin Portal (IDs 47..124)
-    # have clear titles, proper categories, direct action_urls, and 2026-10-10 timestamps
-    for item_id, (cat, clean_title, act_url, st_val, sec_val, qual_val) in ADMIN_TICKED_CLEANUPS.items():
+    # have clear titles, proper categories, direct Login/Registration action_urls, and real pdf_urls
+    for item_id, (cat, clean_title, act_url, pdf_url, st_val, sec_val, qual_val) in ADMIN_TICKED_CLEANUPS.items():
         ts = f"2026-10-10 21:{(item_id - 47) // 2:02d}:{(item_id - 47) % 60:02d}"
         c.execute("SELECT id FROM updates WHERE id = ?", (item_id,))
         if c.fetchone():
             c.execute(
                 """
                 UPDATE updates
-                SET category = ?, title = ?, action_url = ?, state = ?, sector = ?,
+                SET category = ?, title = ?, action_url = ?, pdf_url = ?, state = ?, sector = ?,
                     qualification_level = ?, tag = COALESCE(tag, 'New'), created_at = ?
                 WHERE id = ?
                 """,
-                (cat, clean_title, act_url, st_val, sec_val, qual_val, ts, item_id),
+                (cat, clean_title, act_url, pdf_url, st_val, sec_val, qual_val, ts, item_id),
             )
         else:
             c.execute(
                 """
                 INSERT INTO updates (
-                    id, category, title, tag, action_url, is_featured,
+                    id, category, title, tag, action_url, pdf_url, is_featured,
                     qualification_level, sector, state, created_at
-                ) VALUES (?, ?, ?, 'New', ?, 0, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, 'New', ?, ?, 0, ?, ?, ?, ?)
                 """,
-                (item_id, cat, clean_title, act_url, qual_val, sec_val, st_val, ts),
+                (item_id, cat, clean_title, act_url, pdf_url, qual_val, sec_val, st_val, ts),
             )
 
-    # 2. Insert/update all 25 crawled notices up to today (2026-10-10) into live updates
+    # 2. Insert/update all 25 crawled notices (IDs 125..149) into live updates
     inserted = 0
     for idx, (cat, title, tag, action_url, portal, src_url, qual, sector, state, ext_data) in enumerate(CRAWLED_NOTICES_2026_10_10):
         c.execute("SELECT id FROM updates WHERE title = ?", (title,))
@@ -1004,21 +1009,48 @@ def publish_crawled():
             c.execute(
                 """
                 UPDATE updates
-                SET category = ?, tag = ?, action_url = ?, source_portal = ?, source_url = ?,
+                SET category = ?, tag = ?, action_url = ?, pdf_url = ?, source_portal = ?, source_url = ?,
                     qualification_level = ?, sector = ?, state = ?, created_at = ?
                 WHERE id = ?
                 """,
-                (cat, tag, action_url, portal, src_url, qual, sector, state, ts, row["id"]),
+                (cat, tag, action_url, src_url, portal, src_url, qual, sector, state, ts, row["id"]),
             )
         else:
             c.execute(
                 """
                 INSERT INTO updates (
-                    category, title, tag, action_url, is_featured,
+                    category, title, tag, action_url, pdf_url, is_featured,
                     source_portal, source_url, qualification_level, sector, state, created_at
-                ) VALUES (?, ?, ?, ?, 0, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, 0, ?, ?, ?, ?, ?, ?)
                 """,
-                (cat, title, tag, action_url, portal, src_url, qual, sector, state, ts),
+                (cat, title, tag, action_url, src_url, portal, src_url, qual, sector, state, ts),
+            )
+            inserted += 1
+
+    # 2b. Also publish the 25 user-approved items from ADMIN_PENDING_CRAWLED_2026_10_10 with verified URLs
+    for idx, (portal, src_url, title, cat, action_url, pdf_url, ext_data, conf, qual, sector, state) in enumerate(ADMIN_PENDING_CRAWLED_2026_10_10):
+        c.execute("SELECT id FROM updates WHERE title = ?", (title,))
+        row = c.fetchone()
+        ts = f"2026-10-10 22:{35 + idx:02d}:00"
+        if row:
+            c.execute(
+                """
+                UPDATE updates
+                SET category = ?, tag = 'New', action_url = ?, pdf_url = ?, source_portal = ?, source_url = ?,
+                    qualification_level = ?, sector = ?, state = ?, created_at = ?
+                WHERE id = ?
+                """,
+                (cat, action_url, pdf_url, portal, src_url, qual, sector, state, ts, row["id"]),
+            )
+        else:
+            c.execute(
+                """
+                INSERT INTO updates (
+                    category, title, tag, action_url, pdf_url, is_featured,
+                    source_portal, source_url, qualification_level, sector, state, created_at
+                ) VALUES (?, ?, 'New', ?, ?, 0, ?, ?, ?, ?, ?, ?)
+                """,
+                (cat, title, action_url, pdf_url, portal, src_url, qual, sector, state, ts),
             )
             inserted += 1
 

@@ -149,11 +149,15 @@ a{text-decoration:none;color:inherit}
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><strong id="primaryActionLabel">See Result</strong></td>
-          <td><a href="#" target="_blank" rel="noopener" id="linkPrimary" class="click-btn">Click Here</a></td>
+        <tr id="rowPrimary">
+          <td><strong id="primaryActionLabel">See Result / Scorecard — Candidate Login</strong></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkPrimary" class="click-btn"><i class="fa-solid fa-right-to-bracket"></i> Click Here</a></td>
         </tr>
-        <tr>
+        <tr id="rowSecondaryLogin" style="display:none">
+          <td><strong id="secondaryLoginLabel">Candidate Login (Already Registered)</strong></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkSecondaryLogin" class="click-btn" style="background:#0f766e"><i class="fa-solid fa-user-lock"></i> Login Portal</a></td>
+        </tr>
+        <tr id="rowPdf">
           <td><strong id="pdfDocLabel">Download Official Result & Cutoff PDF</strong></td>
           <td>
             <a href="#" target="_blank" rel="noopener" id="linkPdf" class="click-btn secondary">
@@ -176,7 +180,7 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261010e"></script>
+<script src="/portal_data.js?v=20261012a"></script>
 <script>
 async function loadDetail() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -193,7 +197,6 @@ async function loadDetail() {
 
   try {
     let item = null;
-    let usingStaticHost = false;
     try {
       const res = await fetch(`/api/detail/${id}`);
       if (res.ok) {
@@ -221,7 +224,6 @@ async function loadDetail() {
       if (!item && Array.isArray(window.PORTAL_DATA.adminPendingQueue)) {
         item = window.PORTAL_DATA.adminPendingQueue.find(x => String(x.id) === String(id)) || null;
       }
-      usingStaticHost = true;
     }
 
     if (!item) throw new Error('Notice not found');
@@ -242,155 +244,240 @@ async function loadDetail() {
     if (org === "Government Recruitment Commission") {
       if (item.title.includes("SSC")) org = "Staff Selection Commission (SSC)";
       else if (item.title.includes("UPSC")) org = "Union Public Service Commission (UPSC)";
-      else if (item.title.includes("RRB") || item.title.includes("Railway")) org = "Railway Recruitment Boards (RRB)";
+      else if (item.title.includes("RRB") || item.title.includes("Railway") || item.title.includes("RRC")) org = "Railway Recruitment Boards (RRB)";
       else if (item.title.includes("UPSSSC")) org = "Uttar Pradesh Subordinate Services (UPSSSC)";
       else if (item.title.includes("UP Police")) org = "UP Police Recruitment & Promotion Board";
-      else if (item.title.includes("IBPS") || item.title.includes("NIT")) org = "Institute of Banking Personnel Selection (IBPS)";
+      else if (item.title.includes("UPPSC")) org = "Uttar Pradesh Public Service Commission (UPPSC)";
+      else if (item.title.includes("IBPS") || item.title.includes("NIT") || item.title.includes("Canara") || item.title.includes("KUCBL")) org = "Institute of Banking Personnel Selection (IBPS)";
+      else if (item.title.includes("SBI")) org = "State Bank of India (SBI CRPD)";
       else if (item.title.includes("MPESB")) org = "Madhya Pradesh Employees Selection Board";
+      else if (item.title.includes("RPSC")) org = "Rajasthan Public Service Commission (RPSC)";
+      else if (item.title.includes("HSSC")) org = "Haryana Staff Selection Commission (HSSC)";
+      else if (item.title.includes("DSSSB")) org = "Delhi Subordinate Services Selection Board (DSSSB)";
       else if (item.title.includes("Delhi High Court")) org = "Delhi High Court (Judicial Service)";
+      else if (item.title.includes("Allahabad High Court")) org = "High Court of Judicature at Allahabad";
+      else if (item.title.includes("Supreme Court")) org = "Supreme Court of India";
+      else if (item.title.includes("NTA") || item.title.includes("JEE") || item.title.includes("NEET") || item.title.includes("CUET")) org = "National Testing Agency (NTA)";
     }
     document.getElementById('noticeOrg').innerText = org;
 
-    // 2. Resolve Valid Official Commission Website (Verified 200-OK domains)
-    let officialSite = item.source_url;
-    if (!officialSite || officialSite === "https://gov.in" || officialSite.includes("main.sci.gov.in") || officialSite.includes("rrbapply.gov.in") && !officialSite.includes("www.rrbapply.gov.in")) {
-      const t0 = (item.title || '').toLowerCase();
-      if (t0.includes("uppsc")) officialSite = "https://uppsc.up.nic.in/";
-      else if (t0.includes("hssc") || t0.includes("haryana")) officialSite = "https://hssc.gov.in/";
-      else if (t0.includes("up police") || t0.includes("uppbpb")) officialSite = "https://uppbpb.gov.in/";
-      else if (t0.includes("dsssb")) officialSite = "https://dsssbonline.nic.in/";
-      else if (t0.includes("ibps")) officialSite = "https://www.ibps.in/";
-      else if (t0.includes("sbi")) officialSite = "https://sbi.bank.in/web/careers/current-openings";
-      else if (t0.includes("mpesb")) officialSite = "https://esb.mp.gov.in/e_default.html";
-      else if (t0.includes("rpsc")) officialSite = "https://rpsc.rajasthan.gov.in/";
-      else if (t0.includes("upsc")) officialSite = "https://upsconline.gov.in/";
-      else if (t0.includes("rrb") || t0.includes("railway")) officialSite = "https://www.rrcjaipur.in/";
-      else if (t0.includes("delhi high court")) officialSite = "https://delhihighcourt.nic.in/web/";
-      else if (t0.includes("supreme court")) officialSite = "https://www.sci.gov.in/recruitments/";
-      else if (t0.includes("nta") || t0.includes("jee") || t0.includes("neet") || t0.includes("cuet")) officialSite = "https://nta.ac.in/";
-      else officialSite = "https://ssc.gov.in/";
-    }
-
-    // 3. Verified 200-OK Endpoint Resolver across all Exam Boards
-    const rawAction = item.action_url || '';
-    const rawPdf = item.pdf_url || '';
+    const rawAction = (item.action_url || '').trim();
+    const rawPdf = (item.pdf_url || '').trim();
     const t = (item.title || '').toLowerCase();
 
-    // Column 2: Public Merit List & Quota Cutoff PDF / Notice Board (No Login)
-    function resolveMeritAndCutoffUrl() {
-      if (rawAction.includes('Open_PDF') || rawAction.includes('/file/') || rawAction.endsWith('.pdf')) return rawAction;
-      if (rawPdf && rawPdf.startsWith('http') && (rawPdf.endsWith('.pdf') || rawPdf.includes('Open_PDF'))) return rawPdf;
-      if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/FooterPages/Results';
-      if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/Result';
-      if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/result';
-      if (t.includes('dsssb')) return 'https://dsssb.delhi.gov.in/latest-result';
-      if (t.includes('ibps')) {
-        if (t.includes('po') || t.includes('mt')) return 'https://www.ibps.in/index.php/management-trainees/';
-        if (t.includes('clerk') || t.includes('csa')) return 'https://www.ibps.in/index.php/clerical-cadre/';
-        if (t.includes('rrb') || t.includes('rural')) return 'https://www.ibps.in/index.php/regional-rural-bank/';
-        return 'https://www.ibps.in/index.php/crp-updates';
-      }
-      if (t.includes('sbi')) return 'https://sbi.bank.in/web/careers/recruitment-results-archive';
-      if (t.includes('mpesb') || t.includes('vyapam')) return 'https://esb.mp.gov.in/results/results_n.htm';
-      if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/examdashboard';
-      if (t.includes('upsc')) return 'https://upsc.gov.in/exams-related-info/written-result';
-      if (t.includes('ssc')) return 'https://ssc.gov.in/';
-      if (t.includes('rrb') || t.includes('railway')) return 'https://www.rrcjaipur.in/';
-      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/web/recruitment-results-current';
-      if (t.includes('allahabad high court')) return 'https://www.allahabadhighcourt.in/recruitment.html';
-      if (t.includes('supreme court')) return 'https://www.sci.gov.in/recruitments/';
-      if (t.includes('nta') || t.includes('aiapget') || t.includes('cuet') || t.includes('jee') || t.includes('neet')) return 'https://nta.ac.in/NoticeBoardArchive';
-      if (t.includes('upsssc')) return 'https://upsssc.gov.in/View_Notices.aspx';
-      if (t.includes('mha') || t.includes('ib ')) return 'https://www.mha.gov.in/en/notifications/vacancies';
-      return (rawAction && rawAction.startsWith('http')) ? rawAction : officialSite;
+    function isPdfOrFileUrl(u) {
+      if (!u) return false;
+      const ul = u.toLowerCase();
+      return ul.endsWith('.pdf') || ul.includes('open_pdf') || ul.includes('/file/') || ul.includes('/filesuploaded/') || ul.includes('/storewebfiles/');
     }
 
-    // Column 3: Individual Scorecard / Marks Check (Candidate Login Required)
-    function resolveScorecardLoginUrl() {
-      if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=mc';
-      if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/Result';
-      if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/result';
+    // 2. Resolve Valid Official Commission Website (Verified 200-OK domains)
+    function resolveOfficialWebsiteUrl() {
+      if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Notifications.aspx';
+      if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/';
+      if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/';
       if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/';
-      if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
-      if (t.includes('sbi')) return 'https://sbi.bank.in/web/careers/recruitment-results-archive';
-      if (t.includes('mpesb') || t.includes('vyapam')) return 'https://esb.mp.gov.in/results/results_n.htm';
-      if (t.includes('rpsc') || t.includes('rsmssb')) return 'https://sso.rajasthan.gov.in/signin';
-      if (t.includes('upsc')) return 'https://upsconline.gov.in/upsc/OTRP/';
-      if (t.includes('ssc')) return 'https://ssc.gov.in/';
-      if (t.includes('rrb') || t.includes('railway')) return 'https://www.rrbapply.gov.in/#/auth/landing';
-      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/files/2026-08/upload_complete_notice.pdf';
-      if (t.includes('allahabad high court')) return 'https://www.allahabadhighcourt.in/recruitment.html';
-      if (t.includes('aiapget')) return 'https://exams.nta.nic.in/AIAPGET/';
-      if (t.includes('nta')) return 'https://exams.nta.ac.in/';
-      if (t.includes('upsssc')) return 'https://upsssc.gov.in/ResultsDire.aspx';
-      return resolveMeritAndCutoffUrl();
+      if (t.includes('ibps') || t.includes('canara') || t.includes('kucbl') || t.includes('mpa ') || t.includes('nit rourkela') || t.includes('lic ') || t.includes('nabard')) return 'https://www.ibps.in/';
+      if (t.includes('sbi')) return 'https://sbi.bank.in/web/careers/current-openings';
+      if (t.includes('rbi')) return 'https://opportunities.rbi.org.in/Scripts/Vacancies.aspx';
+      if (t.includes('mpesb') || t.includes('vyapam') || t.includes('mppsc')) return 'https://esb.mp.gov.in/e_default.html';
+      if (t.includes('rpsc') || t.includes('rsmssb') || t.includes('rajasthan state eligibility')) return 'https://rpsc.rajasthan.gov.in/';
+      if (t.includes('upsc') || t.includes('epfo')) return 'https://upsconline.gov.in/upsc/OTRP/';
+      if (t.includes('rrb') || t.includes('railway') || t.includes('rrc')) return 'https://www.rrcjaipur.in/';
+      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/web/recruitment';
+      if (t.includes('allahabad high court')) return 'https://www.allahabadhighcourt.in/uphjs.html';
+      if (t.includes('supreme court')) return 'https://www.sci.gov.in/recruitments/';
+      if (t.includes('drdo') || t.includes('ceptam')) return 'https://www.drdo.gov.in/drdo/offerings/vacancies';
+      if (t.includes('isro')) return 'https://www.isro.gov.in/Careers.html';
+      if (t.includes('aiims') || t.includes('norcet')) return 'https://www.aiimsexams.ac.in/';
+      if (t.includes('nta') || t.includes('jee') || t.includes('neet') || t.includes('cuet') || t.includes('aiapget') || t.includes('ncet') || t.includes('niftee') || t.includes('icar') || t.includes('aissee') || t.includes('rimcee') || t.includes('cmat') || t.includes('csir') || t.includes('ugc net') || t.includes('ctet') || t.includes('nbems')) return 'https://nta.ac.in/NoticeBoardArchive';
+      if (t.includes('gate ')) return 'https://goaps.iitr.ac.in/login';
+      if (t.includes('jam ')) return 'https://joaps.iitd.ac.in/login';
+      if (t.includes('cat ')) return 'https://iimcat.ac.in/';
+      if (t.includes('airforce') || t.includes('navy') || t.includes('agniveer')) return 'https://careerindianairforce.cdac.in/';
+      if (t.includes('indian army')) return 'https://exams.nta.nic.in/sainik-school-society/';
+      if (t.includes('utet') || t.includes('ukpsc') || t.includes('uttarakhand')) return 'https://ukutet.com/';
+      if (t.includes('up assistant teacher') || t.includes('super tet') || t.includes('up scholarship')) return 'https://updeled.gov.in/';
+      if (t.includes('upsssc')) return 'https://upsssc.gov.in/View_Notices.aspx';
+      if (t.includes('bpsc') || t.includes('blet')) return 'https://bpsc.bihar.gov.in/';
+      if (t.includes('csbc')) return 'https://csbc.bihar.gov.in/';
+      if (t.includes('bpssc') || t.includes('daroga')) return 'https://bpssc.bihar.gov.in/';
+      if (t.includes('mha') || t.includes('ib ')) return 'https://www.mha.gov.in/en/notifications/vacancies';
+      if (t.includes('csjmu')) return 'https://csjmu.ac.in/recruitment/';
+      if (t.includes('dav ')) return 'https://davcmc.net.in/';
+      if (t.includes('uprtou')) return 'https://www.uprtou.ac.in/';
+      return 'https://ssc.gov.in/';
     }
 
-    // Column 1: Registration + Login Portal (For Latest Jobs & Admissions)
-    function resolveRegistrationAndLoginUrl() {
-      if (rawAction && rawAction.includes('ibpsreg.ibps.in/') && !rawAction.includes('kucbldec25')) return rawAction;
-      if (t.includes('uppsc')) return t.includes('otr') ? 'https://otr.pariksha.nic.in/' : 'https://uppsc.up.nic.in/CandidatePages/Notifications.aspx';
+    const officialSite = resolveOfficialWebsiteUrl();
+
+    // 3A. STRICT CANDIDATE LOGIN RESOLVER (NEVER returns a .pdf URL!)
+    function resolveLoginUrl(category) {
+      if (rawAction && rawAction.includes('ibpsreg.ibps.in/')) return rawAction;
+      if (t.includes('uppsc')) return 'https://otr.pariksha.nic.in/';
+      if (t.includes('upsssc')) return 'https://upsssc.gov.in/ResultsDire.aspx';
+      if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/DirectRecruitment';
+      if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/applyOnline';
+      if (t.includes('dsssb')) return category === 'ADMIT_CARD' ? 'https://dsssbonline.nic.in/AdmitCardEntry.aspx' : 'https://dsssbonline.nic.in/';
+      if (t.includes('rpsc') || t.includes('rsmssb') || t.includes('rajasthan state eligibility')) {
+        return category === 'ADMIT_CARD' ? 'https://rpsc.rajasthan.gov.in/admitcardnew' : 'https://sso.rajasthan.gov.in/signin';
+      }
+      if (t.includes('ibps') || t.includes('sbi') || t.includes('rbi') || t.includes('nabard') || t.includes('lic ') || t.includes('kucbl')) {
+        return 'https://ibpsonline.ibps.in/';
+      }
+      if (t.includes('mpesb') || t.includes('vyapam') || t.includes('mppsc')) {
+        return category === 'ADMIT_CARD' ? 'https://esb.mp.gov.in/tacs/tacs_n.htm' : 'https://esb.mp.gov.in/results/RESULT_26/PNST_RES26/default_Results.htm';
+      }
+      if (t.includes('upsc') || t.includes('epfo')) {
+        return category === 'ADMIT_CARD' ? 'https://upsconline.gov.in/eadmitcard/' : 'https://upsconline.nic.in/';
+      }
+      if (t.includes('rrb') || t.includes('railway') || t.includes('rrc')) {
+        return 'https://cdn.digialm.com/EForms/configuredHtml/33166/102294/login.html';
+      }
+      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/app/advocate-login';
+      if (t.includes('allahabad high court')) {
+        return category === 'ADMIT_CARD' ? 'https://www.allahabadhighcourt.in/egatepass.html' : 'https://apps.allahabadhighcourt.in/hjs/';
+      }
+      if (t.includes('supreme court')) return 'https://scippms.bankofmaharashtra.bank.in/ppms/#/user-login';
+      if (t.includes('drdo') || t.includes('ceptam')) return 'https://cdn.digialm.com/EForms/configuredHtml/1258/96576/login.html';
+      if (t.includes('isro')) return 'https://www.isro.gov.in/Careers.html';
+      if (t.includes('aiims') || t.includes('norcet')) return 'https://www.aiimsexams.ac.in/';
+      if (t.includes('jee')) return 'https://jeemain.nta.nic.in/';
+      if (t.includes('neet')) return 'https://neet.nta.nic.in/';
+      if (t.includes('cuet-pg') || t.includes('cuet pg')) return 'https://exams.nta.nic.in/cuet-pg/';
+      if (t.includes('aiapget')) return 'https://exams.nta.nic.in/AIAPGET/';
+      if (t.includes('ncet')) return 'https://exams.nta.nic.in/ncet/';
+      if (t.includes('niftee') || t.includes('nift')) return 'https://exams.nta.nic.in/niftee/';
+      if (t.includes('icar')) return 'https://exams.nta.nic.in/icar/';
+      if (t.includes('aissee') || t.includes('sainik') || t.includes('indian army')) return 'https://exams.nta.nic.in/sainik-school-society/';
+      if (t.includes('rimcee') || t.includes('rimc')) return 'https://exams.nta.nic.in/rimcee/';
+      if (t.includes('csir')) return 'https://csirnet.nta.ac.in/';
+      if (t.includes('ugc net')) return 'https://ugcnet.nta.ac.in/';
+      if (t.includes('nta') || t.includes('cuet') || t.includes('cmat') || t.includes('ctet') || t.includes('nbems')) return 'https://exams.nta.ac.in/';
+      if (t.includes('gate ')) return 'https://goaps.iitr.ac.in/login';
+      if (t.includes('jam ')) return 'https://joaps.iitd.ac.in/login';
+      if (t.includes('cat ')) return 'https://iimcat.ac.in/';
+      if (t.includes('airforce') || t.includes('navy') || t.includes('agniveer')) return 'https://careerindianairforce.cdac.in/';
+      if (t.includes('utet') || t.includes('ukpsc') || t.includes('uttarakhand')) return 'https://ukutet.com/';
+      if (t.includes('up assistant teacher') || t.includes('super tet') || t.includes('up scholarship')) return 'https://updeled.gov.in/';
+      if (t.includes('bpsc') || t.includes('blet')) return 'https://onlinebpsc.bihar.gov.in/';
+      if (t.includes('csbc')) return 'https://csbc.bihar.gov.in/';
+      if (t.includes('bpssc') || t.includes('daroga')) return 'https://bpssc.bihar.gov.in/';
+      if (t.includes('mha') || t.includes('ib ')) return 'https://www.mha.gov.in/en/notifications/vacancies';
+      if (t.includes('csjmu')) return 'https://csjmu.ac.in/recruitment/';
+      if (t.includes('dav ')) return 'https://davcmc.net.in/';
+      if (t.includes('uprtou')) return 'https://www.uprtou.ac.in/';
+      if (t.includes('ssc')) return 'https://ssc.gov.in/';
+      if (rawAction && rawAction.startsWith('http') && !isPdfOrFileUrl(rawAction)) return rawAction;
+      return officialSite;
+    }
+
+    // 3B. STRICT REGISTRATION / ONLINE FORM RESOLVER (NEVER returns a .pdf URL!)
+    function resolveRegistrationUrl() {
+      if (rawAction && rawAction.includes('ibpsreg.ibps.in/')) return rawAction;
+      if (t.includes('uppsc')) return 'https://otr.pariksha.nic.in/elocker/NewAccount?u/N57IsU8Ei3Bu2FOw5+6A==';
+      if (t.includes('upsssc')) return 'https://upsssc.gov.in/AllNotifications.aspx';
       if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/DirectRecruitment';
       if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/applyOnline';
       if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/';
-      if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
+      if (t.includes('rpsc') || t.includes('rsmssb')) return 'https://rpsc.rajasthan.gov.in/applyonline';
       if (t.includes('sbi')) return 'https://sbi.bank.in/web/careers/current-openings';
-      if (t.includes('mpesb') || t.includes('vyapam')) return 'https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx';
-      if (t.includes('rpsc')) return 'https://sso.rajasthan.gov.in/signin';
-      if (t.includes('upsc')) return 'https://upsconline.gov.in/upsc/OTRP/';
-      if (t.includes('ssc')) return 'https://ssc.gov.in/';
-      if (t.includes('rrb') || t.includes('railway')) return 'https://www.rrbapply.gov.in/#/auth/landing';
-      if (t.includes('rrc') || t.includes('apprentice')) return 'https://rrcjaipur.in/';
-      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/web/recruitment';
+      if (t.includes('rbi')) return 'https://opportunities.rbi.org.in/Scripts/Vacancies.aspx';
+      if (t.includes('ibps') || t.includes('lic ') || t.includes('kucbl') || t.includes('nabard')) return 'https://ibpsonline.ibps.in/';
+      if (t.includes('mpesb') || t.includes('vyapam') || t.includes('mppsc')) return 'https://esb.mp.gov.in/e_default.html';
+      if (t.includes('upsc') || t.includes('epfo')) return 'https://upsconline.gov.in/upsc/OTRP/';
+      if (t.includes('rrb') || t.includes('railway') || t.includes('rrc')) return 'https://cdn.digialm.com/EForms/configuredHtml/33166/102294/Index.html';
       if (t.includes('supreme court')) return 'https://www.sci.gov.in/recruitments/';
-      if (t.includes('allahabad high court')) return 'https://www.allahabadhighcourt.in/recruitment.html';
-      if (t.includes('bpsc') || t.includes('bihar')) return 'https://onlinebpsc.bihar.gov.in/';
-      if (t.includes('dav')) return 'https://davcmc.net.in/';
-      if (t.includes('gate ')) return 'https://goaps.iitr.ac.in/login';
-      if (t.includes('jam ')) return 'https://joaps.iitd.ac.in/login';
-      if (t.includes('uprtou')) return 'https://www.uprtou.ac.in/';
-      if (t.includes('rimc')) return 'https://exams.nta.nic.in/rimcee/';
-      return (rawAction && rawAction.startsWith('http')) ? rawAction : officialSite;
-    }
-
-    // Column 4: Admit Card / Hall Ticket Download Login
-    function resolveAdmitCardUrl() {
-      if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=ac';
-      if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/AdmitCardEntry.aspx';
-      if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/admitcardnew';
-      if (t.includes('upsc') || t.includes('epfo')) return 'https://upsconline.gov.in/eadmitcard/';
-      if (t.includes('mpesb') || t.includes('vyapam')) return 'https://esb.mp.gov.in/tacs/tacs_n.htm';
-      if (t.includes('ibps')) return 'https://ibpsonline.ibps.in/';
-      if (t.includes('rrb') || t.includes('railway')) return 'https://www.rrbapply.gov.in/#/auth/landing';
-      if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/files/2026-10/admit_card_dhjs_2026_main_written_0.pdf';
-      if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/Notice';
-      if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/publicNotice';
-      if (t.includes('ssc')) return 'https://ssc.gov.in/';
-      return (rawAction && rawAction.startsWith('http')) ? rawAction : officialSite;
-    }
-
-    // Official Notification / Syllabus / Answer Key Notice URL
-    function resolveOfficialNoticeOrSyllabusUrl(category) {
-      if (rawAction.includes('Open_PDF') || rawAction.includes('/file/') || rawAction.endsWith('.pdf')) return rawAction;
-      if (category === 'ANSWER_KEY') {
-        if (t.includes('mpesb')) return 'https://esb.mp.gov.in/Question%20Paper%20and%20Candidate%20Responses/Question_Objection.asp';
-        if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/answerkeys';
-        if (t.includes('hssc')) return 'https://hssc.gov.in/publicNotice';
-        if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Status/ViewAnswerKey.aspx?ID=5';
-      }
-      if (category === 'SYLLABUS') {
-        if (t.includes('hssc')) return 'https://hssc.gov.in/examsyllabus';
-        if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/syllabus';
-        if (t.includes('up police')) return 'https://uppbpb.gov.in/Home/Manual';
-        if (t.includes('mpesb')) return 'https://esb.mp.gov.in/Rulebooks/rule_books.htm';
-      }
-      if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Notifications.aspx';
-      if (t.includes('hssc')) return 'https://hssc.gov.in/notifications';
-      if (t.includes('rpsc')) return 'https://rpsc.rajasthan.gov.in/advertisements';
-      if (t.includes('mpesb')) return 'https://esb.mp.gov.in/Rulebooks/rule_books.htm';
-      if (t.includes('ibps')) return 'https://www.ibps.in/index.php/recruitment/';
-      if (t.includes('up police')) return 'https://uppbpb.gov.in/Home/Notice';
       if (t.includes('delhi high court')) return 'https://delhihighcourt.nic.in/web/recruitment';
+      if (t.includes('allahabad high court')) return 'https://apps.allahabadhighcourt.in/hjs/';
+      if (t.includes('drdo') || t.includes('ceptam')) return 'https://www.drdo.gov.in/drdo/en/offerings/vacancies/ceptam-11-advertisement-post-sta-b-and-technician';
+      if (t.includes('isro')) return 'https://www.isro.gov.in/Careers.html';
+      return resolveLoginUrl('LATEST_JOB');
+    }
+
+    // 3C. STRICT OFFICIAL GOVERNMENT PDF / NOTICE RESOLVER (Original Govt PDF or Result/Notice PDF Board)
+    function resolvePdfUrl(category) {
+      function isVerifiedGovtPdf(u) {
+        if (!u || !u.startsWith('http')) return false;
+        return (
+          u.includes('uppbpb.gov.in/FilesUploaded/') ||
+          u.includes('hssc.gov.in/file/') ||
+          u.includes('delhihighcourt.nic.in/files/') ||
+          u.includes('www.ibps.in/wp-content/uploads/') ||
+          u.includes('rpsc.rajasthan.gov.in/Static/') ||
+          u.includes('cdnbbsr.s3waas.gov.in/') ||
+          u.includes('esb.mp.gov.in/Rulebooks/') ||
+          u.includes('esb.mp.gov.in/results/') ||
+          u.includes('drdo.gov.in/drdo/sites/default/files/vacancy/') ||
+          u.includes('rrcjaipur.in/storeWebFiles/') ||
+          u.includes('uppsc.up.nic.in/CMS/') ||
+          u.includes('allahabadhighcourt.in/event/event_19076_02-07-2024.pdf')
+        );
+      }
+
+      if (isVerifiedGovtPdf(rawPdf)) return rawPdf.replace(/ /g, '%20');
+      if (isVerifiedGovtPdf(rawAction)) return rawAction.replace(/ /g, '%20');
+
+      if (t.includes('uppsc')) {
+        if (category === 'RESULT') return 'https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf';
+        if (t.includes('ro/aro') || t.includes('review officer')) return 'https://uppsc.up.nic.in/CMS/Recruitment/EO.pdf';
+        return 'https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf';
+      }
+      if (t.includes('up police') || t.includes('uppbpb')) {
+        if (category === 'RESULT') return 'https://uppbpb.gov.in/FilesUploaded/Notice/72006016e1ebae-500c-4578-98d2-0e511181b7a7.pdf';
+        if (category === 'ADMIT_CARD') return 'https://uppbpb.gov.in/FilesUploaded/Notice/HG_03-10-2026d59cc153-9562-47ee-a56a-a1eede0e6ef0.pdf';
+        if (category === 'SYLLABUS') return 'https://uppbpb.gov.in/Home/Manual';
+        return 'https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf';
+      }
+      if (t.includes('hssc') || t.includes('haryana')) {
+        if (category === 'RESULT') return 'https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-9e104a82000c/result';
+        if (category === 'ANSWER_KEY') return 'https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a0-89a629190004/publicNotice';
+        if (category === 'SYLLABUS') return 'https://hssc.gov.in/examsyllabus';
+        return 'https://hssc.gov.in/notifications';
+      }
+      if (t.includes('dsssb')) return 'https://dsssbonline.nic.in/';
+      if (t.includes('rpsc') || t.includes('rsmssb') || t.includes('rajasthan state eligibility')) {
+        if (category === 'RESULT') return 'https://rpsc.rajasthan.gov.in/examdashboard';
+        if (category === 'ANSWER_KEY') return 'https://rpsc.rajasthan.gov.in/answerkeys';
+        if (category === 'SYLLABUS') return 'https://rpsc.rajasthan.gov.in/Static/Others/innovations.pdf';
+        return 'https://rpsc.rajasthan.gov.in/advertisements';
+      }
+      if (t.includes('ibps') || t.includes('canara') || t.includes('kucbl') || t.includes('mpa ') || t.includes('nit rourkela') || t.includes('lic ') || t.includes('nabard')) {
+        if (t.includes('po') || t.includes('mt')) return 'https://www.ibps.in/index.php/management-trainees/';
+        if (t.includes('clerk') || t.includes('csa')) return 'https://www.ibps.in/index.php/clerical-cadre/';
+        if (t.includes('rrb') || t.includes('rural')) return 'https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_RRBs.pdf';
+        return 'https://www.ibps.in/wp-content/uploads/Addendum-06.10.pdf';
+      }
+      if (t.includes('sbi')) {
+        return category === 'RESULT' ? 'https://sbi.bank.in/web/careers/recruitment-results-archive' : 'https://sbi.bank.in/web/careers/current-openings';
+      }
+      if (t.includes('rbi')) {
+        return category === 'RESULT' ? 'https://opportunities.rbi.org.in/Scripts/Results.aspx' : 'https://opportunities.rbi.org.in/Scripts/Vacancies.aspx';
+      }
+      if (t.includes('mpesb') || t.includes('vyapam') || t.includes('mppsc')) {
+        if (category === 'RESULT') return 'https://esb.mp.gov.in/results/RESULT_26/PNST_RES26/PNST_2026_Result_Note.pdf';
+        if (category === 'ANSWER_KEY') return 'https://esb.mp.gov.in/results/RESULT_26/PNST_RES26/PNST_2026_Key_Comm_reports.pdf';
+        if (t.includes('tet') || t.includes('teacher')) return 'https://esb.mp.gov.in/Rulebooks/RB_2026/MSPSTET_2026_RuleBookforTeachers_17082026.pdf';
+        return 'https://esb.mp.gov.in/Rulebooks/RB_2026/Steno_ASI_2026_Rulebook_17092026.pdf';
+      }
+      if (t.includes('rrb') || t.includes('railway') || t.includes('rrc')) {
+        return 'https://rrcjaipur.in/storeWebFiles/1006_11602307.PDF';
+      }
+      if (t.includes('delhi high court')) {
+        return category === 'RESULT'
+          ? 'https://delhihighcourt.nic.in/files/2026-09/recuritment/stage-2_despatch_rider_result.pdf'
+          : 'https://delhihighcourt.nic.in/files/2026-10/admit_card_dhjs_2026_main_written_0.pdf';
+      }
+      if (t.includes('supreme court')) return 'https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/20261012100.pdf';
+      if (t.includes('allahabad high court')) return 'https://www.allahabadhighcourt.in/event/event_19076_02-07-2024.pdf';
+      if (t.includes('drdo') || t.includes('ceptam')) {
+        return category === 'SYLLABUS'
+          ? 'https://www.drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM_11_T2_Syllabus.pdf'
+          : 'https://www.drdo.gov.in/drdo/sites/default/files/vacancy/CEPTAM-11_AdvtEnglish.pdf';
+      }
+      if (t.includes('nta') || t.includes('jee') || t.includes('neet') || t.includes('cuet') || t.includes('aiapget') || t.includes('ncet') || t.includes('niftee') || t.includes('icar') || t.includes('aissee') || t.includes('rimcee') || t.includes('cmat') || t.includes('csir') || t.includes('ugc net') || t.includes('ctet') || t.includes('nbems') || t.includes('indian army')) {
+        return 'https://nta.ac.in/NoticeBoardArchive';
+      }
       return officialSite;
     }
 
@@ -401,16 +488,20 @@ async function loadDetail() {
     const instructTitleEl = document.getElementById('instructTitle');
     const stepListEl = document.getElementById('stepList');
     const primaryLabelEl = document.getElementById('primaryActionLabel');
+    const secondaryLoginRowEl = document.getElementById('rowSecondaryLogin');
+    const secondaryLoginLabelEl = document.getElementById('secondaryLoginLabel');
+    const linkSecondaryLoginEl = document.getElementById('linkSecondaryLogin');
     const pdfLabelEl = document.getElementById('pdfDocLabel');
+    const rowOfficialEl = document.getElementById('rowOfficialWebsite');
 
     const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
     const stateVal = item.state || 'All India';
     const sectorVal = item.sector || 'Central Government';
 
-    let actionLabel = "Apply Online (Registration / Login)";
-    let primaryUrl = resolveRegistrationAndLoginUrl();
-    let pdfDocText = "Download Official Notice / Advertisement PDF";
-    let directPdfUrl = resolveOfficialNoticeOrSyllabusUrl(cat);
+    let actionLabel = "Apply Online — Registration";
+    let primaryUrl = resolveRegistrationUrl();
+    let pdfDocText = "Download Official Notification PDF";
+    let directPdfUrl = resolvePdfUrl(cat);
 
     if (cat === 'RESULT') {
       badgeEl.innerText = "RESULT & MERIT LIST";
@@ -425,27 +516,29 @@ async function loadDetail() {
         <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
         <li><span>Result Declaration Status:</span> <strong style="color:var(--green)"><i class="fa-solid fa-circle-check"></i> Declared / Merit List & Scorecard Active</strong></li>
         <li><span>Declaration / Release Date:</span> <strong>${relDate}</strong></li>
-        <li><span>Merit List & Quota Cutoff:</span> <strong>Public Official PDF (No Login Required — Search Roll No. via Ctrl + F)</strong></li>
         <li><span>Individual Marks / Scorecard:</span> <strong>Candidate Login (Registration / Roll No. + Date of Birth)</strong></li>
+        <li><span>Merit List & Quota Cutoff:</span> <strong>Official Government Result & Cutoff PDF (Search Roll No. via Ctrl + F)</strong></li>
         <li><span>Next Selection Stage:</span> <strong>Document Verification (DV) / Medical / Skill Test</strong></li>
         <li><span>State / Jurisdiction:</span> <strong>${stateVal}</strong></li>
         <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
       `;
 
-      instructTitleEl.innerText = "How to Check Merit List, Cutoff & Individual Scorecard";
+      instructTitleEl.innerText = "How to Check Result, Scorecard & Official Cutoff PDF";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on <strong>"Download Merit List & Cutoff PDF (No Login)"</strong> (Row 1) to open the official Roll Number selection list and category-wise quota cutoff directly.</li>
-        <li>Press <strong>Ctrl + F</strong> in the Merit List PDF and enter your <strong>Roll Number</strong> to verify selection.</li>
-        <li>Click on <strong>"Check Individual Scorecard / Marks (Login)"</strong> (Row 2) if you want to log in with your Registration/Roll No. & DOB to download your personal marksheet.</li>
+        <li>Click on <strong>"See Result / Individual Scorecard — Candidate Login"</strong> (Row 1) to open the official Candidate Login portal and check your personal marks/scorecard.</li>
+        <li>Click on <strong>"Download Official Result & Cutoff PDF"</strong> (Row 2) to open the original government-released Merit List and category-wise quota cutoff PDF.</li>
+        <li>Press <strong>Ctrl + F</strong> in the official PDF and enter your <strong>Roll Number</strong> to verify selection.</li>
       `;
 
-      actionLabel = "Download Merit List & Cutoff PDF (No Login)";
-      primaryUrl = resolveMeritAndCutoffUrl();
-      pdfDocText = "Check Individual Scorecard / Marks (Login)";
-      directPdfUrl = resolveScorecardLoginUrl();
-      const rowOfficial = document.getElementById('rowOfficialWebsite');
-      if (rowOfficial) rowOfficial.style.display = 'none';
+      // Row 1: Direct Candidate Login Page (NEVER a PDF!)
+      actionLabel = "See Result / Individual Scorecard — Candidate Login";
+      primaryUrl = resolveLoginUrl('RESULT');
+      // Row 2: Direct Official Government Result & Cutoff PDF (Original as released by Govt!)
+      pdfDocText = "Download Official Result & Cutoff PDF";
+      directPdfUrl = resolvePdfUrl('RESULT');
+      if (secondaryLoginRowEl) secondaryLoginRowEl.style.display = 'none';
+      if (rowOfficialEl) rowOfficialEl.style.display = 'none';
 
     } else if (cat === 'ADMIT_CARD') {
       badgeEl.innerText = "ADMIT CARD / HALL TICKET";
@@ -467,22 +560,19 @@ async function loadDetail() {
         <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
       `;
 
-      const isExamDate = (item.title || '').toLowerCase().includes('exam date') || (item.title || '').toLowerCase().includes('schedule');
-      actionLabel = isExamDate ? "Check Exam Date Notice PDF" : "Download Admit Card / Hall Ticket (Login)";
-      primaryUrl = resolveAdmitCardUrl();
+      actionLabel = "Download Admit Card / Hall Ticket — Candidate Login";
+      primaryUrl = resolveLoginUrl('ADMIT_CARD');
+      pdfDocText = "Download Official Exam Date / Hall Ticket Notice PDF";
+      directPdfUrl = resolvePdfUrl('ADMIT_CARD');
+      if (secondaryLoginRowEl) secondaryLoginRowEl.style.display = 'none';
 
-      instructTitleEl.innerText = isExamDate ? "How to Check Exam Date & Shift Schedule" : "How to Download Admit Card / Hall Ticket";
+      instructTitleEl.innerText = "How to Download Admit Card / Hall Ticket";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on the highlighted red <strong>"${actionLabel}"</strong> action button.</li>
-        <li>The official candidate login portal or exam notice will open in a new tab.</li>
-        <li>Enter your <strong>Registration / Application Number</strong> and <strong>Date of Birth (DOB) / Password</strong> if logging in.</li>
-        <li>Enter the security Captcha code and click on <strong>Login / Submit</strong>.</li>
-        <li>Carefully verify your exam center location, reporting time, shift schedule, and roll number.</li>
-        <li>Download the PDF and take at least 2 clear printouts along with the Covid/Self-Declaration instructions.</li>
+        <li>Click on <strong>"${actionLabel}"</strong> (Row 1) to open the official Candidate Login portal.</li>
+        <li>Enter your <strong>Registration / Application Number</strong> and <strong>Date of Birth (DOB) / Password</strong>.</li>
+        <li>Click on <strong>"${pdfDocText}"</strong> (Row 2) to view the official examination schedule and hall instructions PDF.</li>
       `;
-
-      pdfDocText = "Download Exam Notice / Guidelines PDF";
 
     } else if (cat === 'LATEST_JOB') {
       badgeEl.innerText = "LATEST JOB / RECRUITMENT";
@@ -505,20 +595,23 @@ async function loadDetail() {
         <li><span>Sector / Department:</span> <strong>${sectorVal}</strong></li>
       `;
 
-      instructTitleEl.innerText = "How to Fill Online Application Form";
+      instructTitleEl.innerText = "How to Register, Login & Fill Online Application Form";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on the highlighted red <strong>"Apply Online (Registration / Login)"</strong> button.</li>
-        <li>If you are a new applicant on the commission portal, complete the <strong>One-Time Registration (OTR)</strong> first.</li>
-        <li>Log in with your registration credentials and select the desired recruitment notification.</li>
-        <li>Accurately fill in personal information, educational qualifications, category, and address.</li>
-        <li>Upload scanned copy of your photograph and signature according to the official dimension guidelines.</li>
-        <li>Pay the examination fee online and take a final printout of the submitted application form for future reference.</li>
+        <li>New applicants: Click on <strong>"Apply Online — New Registration"</strong> (Row 1) to complete One-Time Registration (OTR) / New Account Registration.</li>
+        <li>Registered applicants: Click on <strong>"Candidate Login (Already Registered)"</strong> (Row 2) to log in and fill the online form.</li>
+        <li>Click on <strong>"Download Official Notification PDF"</strong> (Row 3) to read the official government advertisement before submitting.</li>
       `;
 
-      actionLabel = "Apply Online (Registration / Login)";
-      primaryUrl = resolveRegistrationAndLoginUrl();
-      pdfDocText = "Download Official Detailed Notification PDF";
+      actionLabel = "Apply Online — New Registration";
+      primaryUrl = resolveRegistrationUrl();
+      if (secondaryLoginRowEl) {
+        secondaryLoginRowEl.style.display = '';
+        if (secondaryLoginLabelEl) secondaryLoginLabelEl.innerText = "Candidate Login (Already Registered)";
+        if (linkSecondaryLoginEl) linkSecondaryLoginEl.href = resolveLoginUrl('LATEST_JOB');
+      }
+      pdfDocText = "Download Official Notification PDF";
+      directPdfUrl = resolvePdfUrl('LATEST_JOB');
 
     } else if (cat === 'ANSWER_KEY') {
       badgeEl.innerText = "ANSWER KEY & OBJECTION";
@@ -533,25 +626,24 @@ async function loadDetail() {
         <li><span>Conducting Body / Commission:</span> <strong>${org}</strong></li>
         <li><span>Answer Key Status:</span> <strong style="color:#065f46"><i class="fa-solid fa-circle-check"></i> Provisional Key & Response Sheet Live</strong></li>
         <li><span>Release Date:</span> <strong>${relDate}</strong></li>
-        <li><span>Objection Filing Mode:</span> <strong>Online Candidate Portal (via Roll No & Password)</strong></li>
+        <li><span>Objection Filing Mode:</span> <strong>Online Candidate Login (via Roll No & Password)</strong></li>
         <li><span>Challenge Fee:</span> <strong>₹50 - ₹100 per challenged question (Refundable if valid)</strong></li>
         <li><span>State / Jurisdiction:</span> <strong>${stateVal}</strong></li>
         <li><span>Sector / Department:</span> <strong>${sectorVal}</strong></li>
       `;
 
-      instructTitleEl.innerText = "How to Check Answer Key & File Objections";
+      instructTitleEl.innerText = "How to Login for Response Sheet & Download Official Answer Key PDF";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on the red <strong>"Download Answer Key & Challenge"</strong> link.</li>
-        <li>Enter your <strong>Roll Number / User ID</strong> and <strong>Password / Date of Birth</strong>.</li>
-        <li>Compare your recorded candidate response sheet with the commission's official answer key.</li>
-        <li>Calculate your tentative raw score as per the marking scheme.</li>
-        <li>If any official answer is incorrect, click on 'Raise Objection' and upload authentic reference proof before the deadline.</li>
+        <li>Click on <strong>"Check Response Sheet & Raise Objection — Candidate Login"</strong> (Row 1) to log in with your Roll Number and Password/DOB.</li>
+        <li>Click on <strong>"Download Official Answer Key PDF"</strong> (Row 2) to download the official public answer key notice PDF.</li>
       `;
 
-      actionLabel = "Download Answer Key & Challenge";
-      primaryUrl = resolveOfficialNoticeOrSyllabusUrl(cat);
-      pdfDocText = "Download Answer Key Notice / Instructions PDF";
+      actionLabel = "Check Response Sheet & Raise Objection — Candidate Login";
+      primaryUrl = resolveLoginUrl('ANSWER_KEY');
+      pdfDocText = "Download Official Answer Key PDF";
+      directPdfUrl = resolvePdfUrl('ANSWER_KEY');
+      if (secondaryLoginRowEl) secondaryLoginRowEl.style.display = 'none';
 
     } else if (cat === 'SYLLABUS') {
       badgeEl.innerText = "EXAM PATTERN & SYLLABUS";
@@ -575,14 +667,15 @@ async function loadDetail() {
       instructTitleEl.innerText = "How to Download Exam Syllabus PDF";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on the red <strong>"Download Exam Syllabus PDF"</strong> button.</li>
-        <li>Open the syllabus PDF and check the subject-wise weightage and marking criteria.</li>
-        <li>Save the PDF or print it out to plan your preparation schedule accordingly.</li>
+        <li>Click on <strong>"Download Official Exam Pattern & Syllabus PDF"</strong> to open the official syllabus PDF.</li>
+        <li>Click on <strong>"Candidate Login / OTR Portal"</strong> if you wish to log in and apply for the examination.</li>
       `;
 
-      actionLabel = "Download Exam Syllabus PDF";
-      primaryUrl = resolveOfficialNoticeOrSyllabusUrl(cat);
-      pdfDocText = "Download Official Detailed Syllabus PDF";
+      actionLabel = "Candidate Login / OTR Portal";
+      primaryUrl = resolveLoginUrl('SYLLABUS');
+      pdfDocText = "Download Official Exam Pattern & Syllabus PDF";
+      directPdfUrl = resolvePdfUrl('SYLLABUS');
+      if (secondaryLoginRowEl) secondaryLoginRowEl.style.display = 'none';
 
     } else if (cat === 'ADMISSION') {
       badgeEl.innerText = "ADMISSION & COUNSELLING";
@@ -602,33 +695,23 @@ async function loadDetail() {
         <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
       `;
 
-      instructTitleEl.innerText = "How to Apply for Admission Online";
+      instructTitleEl.innerText = "How to Register & Login for Admission Online";
       stepListEl.innerHTML = `
         <li>Scroll down to the <strong>Some Useful Important Links</strong> section below.</li>
-        <li>Click on the highlighted red <strong>"Apply Online for Admission"</strong> button.</li>
-        <li>Complete candidate registration and enter your academic / entrance test marks.</li>
-        <li>Fill and lock your course and college preferences before the choice locking deadline.</li>
-        <li>Pay the counselling / application fee online and download the allotment confirmation receipt.</li>
+        <li>Click on <strong>"Apply Online for Admission — New Registration"</strong> (Row 1) to register as a new candidate.</li>
+        <li>Click on <strong>"Candidate Login (Already Registered)"</strong> (Row 2) to log in to your admission dashboard.</li>
+        <li>Click on <strong>"Download Official Admission Information Bulletin PDF"</strong> (Row 3) to read the official brochure.</li>
       `;
 
-      actionLabel = "Apply Online for Admission";
-      pdfDocText = "Download Admission Information Brochure PDF";
-      viewerTitleText = "Official Admission Brochure Document Viewer";
-
-    } else {
-      badgeEl.innerText = "LATEST NOTIFICATION";
-      boxHeaderEl.innerHTML = `<i class="fa-solid fa-calendar-check"></i> Important Examination Details & Schedule`;
-      detailsListEl.innerHTML = `
-        <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
-        <li><span>Notification Status:</span> <strong style="color:var(--green)">Active / Released</strong></li>
-        <li><span>Release / Issue Date:</span> <strong>${relDate}</strong></li>
-        <li><span>State / Region:</span> <strong>${stateVal}</strong></li>
-        <li><span>Sector / Wing:</span> <strong>${sectorVal}</strong></li>
-      `;
-      instructTitleEl.innerText = "How to Access Online Notice";
-      actionLabel = "Access Online Notice / Form";
-      pdfDocText = "Download Official Notice PDF";
-      viewerTitleText = "Official Notice Document Viewer";
+      actionLabel = "Apply Online for Admission — New Registration";
+      primaryUrl = resolveRegistrationUrl();
+      if (secondaryLoginRowEl) {
+        secondaryLoginRowEl.style.display = '';
+        if (secondaryLoginLabelEl) secondaryLoginLabelEl.innerText = "Candidate Login (Already Registered)";
+        if (linkSecondaryLoginEl) linkSecondaryLoginEl.href = resolveLoginUrl('ADMISSION');
+      }
+      pdfDocText = "Download Official Admission Information Bulletin PDF";
+      directPdfUrl = resolvePdfUrl('ADMISSION');
     }
 
     if (primaryLabelEl) primaryLabelEl.innerText = actionLabel;
