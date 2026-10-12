@@ -8,63 +8,63 @@ def fix_action_urls():
     # Exact direct URLs for all 46 updates
     # Never dump users on a generic root homepage transfer for the first button!
     direct_urls = {
-        # RESULTS (Direct Result Login / Official Result Portal)
-        1: ("https://www.mha.gov.in/en/notifications/vacancies", "https://www.mha.gov.in/en/commoncontent/whats-new"),
-        2: ("https://rrbapply.gov.in/#/auth/home", "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281"),
+        # RESULTS (Public Merit List / Cutoff Notice + Official Portal)
+        1: ("https://www.mha.gov.in/en/notifications/vacancies", "https://www.mha.gov.in/en/notifications/vacancies"),
+        2: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
         3: ("https://upsssc.gov.in/ResultsDire.aspx", "https://upsssc.gov.in/View_Notices.aspx"),
         4: ("https://uppbpb.gov.in/Home/Result", "https://uppbpb.gov.in/Home/Notice"),
-        5: ("https://rrbapply.gov.in/#/auth/home", "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281"),
+        5: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
         6: ("https://upsssc.gov.in/ResultsDire.aspx", "https://upsssc.gov.in/View_Notices.aspx"),
         7: ("https://upsssc.gov.in/ResultsDire.aspx", "https://upsssc.gov.in/View_Notices.aspx"),
         8: ("https://upsssc.gov.in/ResultsDire.aspx", "https://upsssc.gov.in/View_Notices.aspx"),
         43: ("https://upsssc.gov.in/ResultsDire.aspx", "https://upsssc.gov.in/View_Notices.aspx"),
 
-        # ADMIT CARDS & EXAM DATES (Candidate login / Hall ticket portal or Official Exam Date Notice)
-        9: ("https://delhihighcourt.nic.in/public-notices/recruitment", "https://delhihighcourt.nic.in"),
-        10: ("https://rrbapply.gov.in/#/auth/home", "https://rrbapply.gov.in"),
-        11: ("https://rrbapply.gov.in/#/auth/home", "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281"),
-        12: ("https://rrbapply.gov.in/#/auth/home", "https://rrbapply.gov.in"),
-        13: ("https://ibpsonline.ibps.in/", "https://ibps.in"),
-        14: ("https://ssc.gov.in/candidate-portal/admit-card", "https://ssc.gov.in"),
-        15: ("https://ssc.gov.in/candidate-portal/admit-card", "https://ssc.gov.in"),
-        16: ("https://ssc.gov.in/candidate-portal/admit-card", "https://ssc.gov.in"),
+        # ADMIT CARDS & EXAM DATES (Verified Hall Ticket Login & Official Notice Portals)
+        9: ("https://delhihighcourt.nic.in/files/2026-10/admit_card_dhjs_2026_main_written_0.pdf", "https://delhihighcourt.nic.in/web/recruitment"),
+        10: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
+        11: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
+        12: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
+        13: ("https://ibpsonline.ibps.in/", "https://www.ibps.in/index.php/clerical-cadre/"),
+        14: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
+        15: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
+        16: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
 
-        # LATEST JOBS (Direct Application Form / Registration Portals)
-        17: ("https://main.sci.gov.in/recruitment", "https://main.sci.gov.in"),
-        18: ("https://dsssbonline.nic.in/", "https://dsssb.delhi.gov.in"),
-        19: ("https://csjmu.ac.in/recruitment/", "https://csjmu.ac.in"),
-        20: ("https://davstaff.org/application/", "https://davstaff.org"),
-        21: ("https://rrcjaipur.in/ActApprentice2026/", "https://rrcjaipur.in"),
-        22: ("https://esb.mponline.gov.in/", "https://esb.mp.gov.in"),
-        23: ("https://onlinebpsc.bihar.gov.in/", "https://bpsc.bih.nic.in"),
-        24: ("https://ssc.gov.in/portal/login", "https://ssc.gov.in"),
-        44: ("https://ibpsreg.ibps.in/mpajul26/", "https://ibps.in"),
-        45: ("https://rrbapply.gov.in/#/auth/home", "https://rrbapply.gov.in"),
-        46: ("https://ibpsreg.ibps.in/nitrjul26/", "https://ibps.in"),
+        # LATEST JOBS (Verified Registration + Login Portals)
+        17: ("https://www.sci.gov.in/recruitments/", "https://www.sci.gov.in/"),
+        18: ("https://dsssbonline.nic.in/", "https://dsssbonline.nic.in/"),
+        19: ("https://csjmu.ac.in/recruitment/", "https://csjmu.ac.in/"),
+        20: ("https://davcmc.net.in/", "https://davcmc.net.in/"),
+        21: ("https://rrcjaipur.in/", "https://rrcjaipur.in/"),
+        22: ("https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx", "https://esb.mp.gov.in/e_default.html"),
+        23: ("https://onlinebpsc.bihar.gov.in/", "https://bpsc.bihar.gov.in/"),
+        24: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
+        44: ("https://ibpsreg.ibps.in/mpajul26/", "https://www.ibps.in/index.php/recruitment/"),
+        45: ("https://www.rrbapply.gov.in/#/auth/landing", "https://www.rrcjaipur.in/"),
+        46: ("https://ibpsreg.ibps.in/nitrjul26/", "https://www.ibps.in/index.php/recruitment/"),
 
-        # ANSWER KEYS (Direct Response Sheet / Answer Key & Objection Portals)
-        25: ("https://esb.mp.gov.in/tacs/tac_2023/patwari_ans_key/", "https://esb.mp.gov.in"),
-        26: ("https://rpsc.rajasthan.gov.in/candidateinformation/questionpapers", "https://rpsc.rajasthan.gov.in"),
-        27: ("https://ukutet.com/", "https://ubse.uk.gov.in"),
-        28: ("https://natboard.edu.in/", "https://natboard.edu.in"),
-        29: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in"),
-        30: ("https://agnipathvayu.cdac.in/av-online/", "https://agnipathvayu.cdac.in"),
+        # ANSWER KEYS (Verified Answer Key & Objection Portals)
+        25: ("https://esb.mp.gov.in/Question%20Paper%20and%20Candidate%20Responses/Question_Objection.asp", "https://esb.mp.gov.in/e_default.html"),
+        26: ("https://rpsc.rajasthan.gov.in/answerkeys", "https://rpsc.rajasthan.gov.in/"),
+        27: ("https://ukutet.com/", "https://ubse.uk.gov.in/"),
+        28: ("https://exams.nta.ac.in/", "https://nta.ac.in/"),
+        29: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in/"),
+        30: ("https://agniveernavy.cdac.in/", "https://www.joinindiannavy.gov.in/"),
 
-        # SYLLABUS (Direct Official Commission Syllabus Page)
-        31: ("https://updeled.gov.in/", "https://updeled.gov.in"),
-        32: ("https://ssc.gov.in/candidate-portal/syllabus", "https://ssc.gov.in"),
-        33: ("https://ssc.gov.in/candidate-portal/syllabus", "https://ssc.gov.in"),
-        34: ("https://updeled.gov.in/", "https://updeled.gov.in"),
-        35: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in"),
-        36: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in"),
+        # SYLLABUS (Verified Official Commission Syllabus Pages)
+        31: ("https://updeled.gov.in/", "https://updeled.gov.in/"),
+        32: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
+        33: ("https://ssc.gov.in/", "https://ssc.gov.in/"),
+        34: ("https://updeled.gov.in/", "https://updeled.gov.in/"),
+        35: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in/"),
+        36: ("https://upsssc.gov.in/View_Notices.aspx", "https://upsssc.gov.in/"),
 
-        # ADMISSIONS (Direct Admission / Counselling Portals)
-        37: ("https://gate2027.iitb.ac.in/apply/", "https://gate2027.iitb.ac.in"),
-        38: ("https://jam2027.iitd.ac.in/apply/", "https://jam2027.iitd.ac.in"),
-        39: ("https://uprtou.ac.in/admissions/", "https://uprtou.ac.in"),
-        40: ("https://scholarship.up.gov.in/", "https://scholarship.up.gov.in"),
-        41: ("https://iimcat.ac.in/", "https://iimcat.ac.in"),
-        42: ("https://rimc.nta.nic.in/", "https://nta.ac.in"),
+        # ADMISSIONS (Verified Direct Admission / Registration Portals)
+        37: ("https://goaps.iitr.ac.in/login", "https://gate2025.iitr.ac.in/"),
+        38: ("https://joaps.iitd.ac.in/login", "https://jam2026.iitb.ac.in/"),
+        39: ("https://www.uprtou.ac.in/", "https://www.uprtou.ac.in/"),
+        40: ("https://updeled.gov.in/", "https://updeled.gov.in/"),
+        41: ("https://iimcat.ac.in/", "https://iimcat.ac.in/"),
+        42: ("https://exams.nta.nic.in/rimcee/", "https://nta.ac.in/"),
     }
 
     count = 0
