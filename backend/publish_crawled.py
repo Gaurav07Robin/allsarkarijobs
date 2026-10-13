@@ -1154,6 +1154,22 @@ def export_portal_data_js():
     pending_staging = [s for s in staging_rows if s.get("status") == "PENDING"]
     approved_staging = [s for s in staging_rows if s.get("status") == "APPROVED"]
 
+    for u in updates_desc:
+        if isinstance(u.get("meta_json"), str) and u.get("meta_json"):
+            try:
+                u["meta"] = json.loads(u["meta_json"])
+            except Exception:
+                u["meta"] = {}
+        u.pop("meta_json", None)
+
+    for u in updates_asc:
+        if isinstance(u.get("meta_json"), str) and u.get("meta_json"):
+            try:
+                u["meta"] = json.loads(u["meta_json"])
+            except Exception:
+                u["meta"] = {}
+        u.pop("meta_json", None)
+
     updates_by_id = {str(u["id"]): u for u in updates_asc}
 
     categorized = {
@@ -1188,7 +1204,7 @@ def export_portal_data_js():
         "approved_staging": len(approved_staging),
         "total_recruitments": len(recruitments_list),
         "active_watchdogs": active_watchdogs_count,
-        "last_crawl": "2026-10-10 22:20 IST",
+        "last_crawl": "2026-10-13 08:50 IST (SarkariResult.com Live Sync)",
     }
 
     payload = {

@@ -180,7 +180,7 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261012a"></script>
+<script src="/portal_data.js?v=20261013sr"></script>
 <script>
 async function loadDetail() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -228,12 +228,13 @@ async function loadDetail() {
 
     if (!item) throw new Error('Notice not found');
     const cat = item.category || 'LATEST_JOB';
+    const meta = item.meta || (typeof item.meta_json === 'string' && item.meta_json ? JSON.parse(item.meta_json) : {}) || {};
 
     document.getElementById('pageTitle').innerText = `${item.title} — AllSarkariJobs`;
     document.getElementById('bcCat').innerText = cat.replace('_', ' ');
     document.getElementById('bcTitle').innerText = item.title;
     document.getElementById('catBadge').innerText = cat.replace('_', ' ');
-    document.getElementById('noticeTitle').innerText = item.title;
+    document.getElementById('noticeTitle').innerText = meta.full_title || item.title;
 
     if (item.tag) {
       document.getElementById('noticeTagSpan').innerHTML = `<span style="background:#fce8e8;color:red;padding:2px 8px;border-radius:4px;font-weight:700">${item.tag.toUpperCase()}</span>`;
@@ -263,16 +264,20 @@ async function loadDetail() {
 
     const rawAction = (item.action_url || '').trim();
     const rawPdf = (item.pdf_url || '').trim();
+    const rawReg = (item.registration_url || '').trim();
+    const rawLogin = (item.login_url || '').trim();
+    const rawSource = (item.source_url || '').trim();
     const t = (item.title || '').toLowerCase();
 
     function isPdfOrFileUrl(u) {
       if (!u) return false;
       const ul = u.toLowerCase();
-      return ul.endsWith('.pdf') || ul.includes('open_pdf') || ul.includes('/file/') || ul.includes('/filesuploaded/') || ul.includes('/storewebfiles/');
+      return ul.endsWith('.pdf') || ul.includes('.pdf?') || ul.includes('viewpdf.aspx') || ul.includes('application%2fpdf') || ul.includes('doc.sarkariresults.org.in/') || ul.includes('open_pdf') || ul.includes('/file/') || ul.includes('/filesuploaded/') || ul.includes('/storewebfiles/');
     }
 
-    // 2. Resolve Valid Official Commission Website (Verified 200-OK domains)
+    // 2. Resolve Valid Official Commission Website
     function resolveOfficialWebsiteUrl() {
+      if (rawSource && rawSource.startsWith('http') && !rawSource.includes('india.gov.in')) return rawSource;
       if (t.includes('uppsc')) return 'https://uppsc.up.nic.in/CandidatePages/Notifications.aspx';
       if (t.includes('hssc') || t.includes('haryana')) return 'https://hssc.gov.in/';
       if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/';
@@ -311,9 +316,10 @@ async function loadDetail() {
 
     const officialSite = resolveOfficialWebsiteUrl();
 
-    // 3A. STRICT CANDIDATE LOGIN RESOLVER (NEVER returns a .pdf URL!)
+    // 3A. STRICT CANDIDATE LOGIN RESOLVER (Prioritizes scraped login_url; NEVER returns a .pdf URL!)
     function resolveLoginUrl(category) {
-      if (rawAction && rawAction.includes('ibpsreg.ibps.in/')) return rawAction;
+      if (rawLogin && rawLogin.startsWith('http') && !isPdfOrFileUrl(rawLogin) && !rawLogin.includes('india.gov.in')) return rawLogin;
+      if (rawAction && rawAction.startsWith('http') && !isPdfOrFileUrl(rawAction) && !rawAction.includes('india.gov.in')) return rawAction;
       if (t.includes('uppsc')) return 'https://otr.pariksha.nic.in/';
       if (t.includes('upsssc')) return 'https://upsssc.gov.in/ResultsDire.aspx';
       if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/DirectRecruitment';
@@ -367,14 +373,14 @@ async function loadDetail() {
       if (t.includes('csjmu')) return 'https://csjmu.ac.in/recruitment/';
       if (t.includes('dav ')) return 'https://davcmc.net.in/';
       if (t.includes('uprtou')) return 'https://www.uprtou.ac.in/';
-      if (t.includes('ssc')) return 'https://ssc.gov.in/';
-      if (rawAction && rawAction.startsWith('http') && !isPdfOrFileUrl(rawAction)) return rawAction;
+      if (t.includes('ssc')) return 'https://ssc.gov.in/login';
       return officialSite;
     }
 
-    // 3B. STRICT REGISTRATION / ONLINE FORM RESOLVER (NEVER returns a .pdf URL!)
+    // 3B. STRICT REGISTRATION / ONLINE FORM RESOLVER (Prioritizes scraped registration_url; NEVER returns a .pdf URL!)
     function resolveRegistrationUrl() {
-      if (rawAction && rawAction.includes('ibpsreg.ibps.in/')) return rawAction;
+      if (rawReg && rawReg.startsWith('http') && !isPdfOrFileUrl(rawReg) && !rawReg.includes('india.gov.in')) return rawReg;
+      if (rawAction && rawAction.startsWith('http') && !isPdfOrFileUrl(rawAction) && !rawAction.includes('india.gov.in')) return rawAction;
       if (t.includes('uppsc')) return 'https://otr.pariksha.nic.in/elocker/NewAccount?u/N57IsU8Ei3Bu2FOw5+6A==';
       if (t.includes('upsssc')) return 'https://upsssc.gov.in/AllNotifications.aspx';
       if (t.includes('up police') || t.includes('uppbpb')) return 'https://uppbpb.gov.in/Home/DirectRecruitment';
@@ -395,28 +401,9 @@ async function loadDetail() {
       return resolveLoginUrl('LATEST_JOB');
     }
 
-    // 3C. STRICT OFFICIAL GOVERNMENT PDF / NOTICE RESOLVER (Original Govt PDF or Result/Notice PDF Board)
+    // 3C. STRICT OFFICIAL GOVERNMENT PDF / NOTICE RESOLVER (Prioritizes scraped pdf_url from sarkariresult.com)
     function resolvePdfUrl(category) {
-      function isVerifiedGovtPdf(u) {
-        if (!u || !u.startsWith('http')) return false;
-        return (
-          u.includes('uppbpb.gov.in/FilesUploaded/') ||
-          u.includes('hssc.gov.in/file/') ||
-          u.includes('delhihighcourt.nic.in/files/') ||
-          u.includes('www.ibps.in/wp-content/uploads/') ||
-          u.includes('rpsc.rajasthan.gov.in/Static/') ||
-          u.includes('cdnbbsr.s3waas.gov.in/') ||
-          u.includes('esb.mp.gov.in/Rulebooks/') ||
-          u.includes('esb.mp.gov.in/results/') ||
-          u.includes('drdo.gov.in/drdo/sites/default/files/vacancy/') ||
-          u.includes('rrcjaipur.in/storeWebFiles/') ||
-          u.includes('uppsc.up.nic.in/CMS/') ||
-          u.includes('allahabadhighcourt.in/event/event_19076_02-07-2024.pdf')
-        );
-      }
-
-      if (isVerifiedGovtPdf(rawPdf)) return rawPdf.replace(/ /g, '%20');
-      if (isVerifiedGovtPdf(rawAction)) return rawAction.replace(/ /g, '%20');
+      if (rawPdf && rawPdf.startsWith('http') && !rawPdf.includes('india.gov.in')) return rawPdf.replace(/ /g, '%20');
 
       if (t.includes('uppsc')) {
         if (category === 'RESULT') return 'https://uppsc.up.nic.in/CMS/Recruitment/EI.pdf';
@@ -723,6 +710,57 @@ async function loadDetail() {
     if (linkPrimaryEl) linkPrimaryEl.href = primaryUrl;
     if (linkPdfEl) linkPdfEl.href = directPdfUrl;
     if (linkOfficialEl) linkOfficialEl.href = officialSite;
+
+    // Enrich details box with live scraped metadata from sarkariresult.com when available
+    if (detailsListEl && meta) {
+      let extraMetaHtml = '';
+      if (meta.total_vacancy) {
+        extraMetaHtml += `<li><span>Total Vacancy / Posts:</span> <strong style="color:#b91c1c">${meta.total_vacancy}</strong></li>`;
+      }
+      if (Array.isArray(meta.important_dates) && meta.important_dates.length) {
+        extraMetaHtml += `<li><span>Official Schedule / Dates:</span> <strong>${meta.important_dates.slice(0, 4).join(' &bull; ')}</strong></li>`;
+      }
+      if (Array.isArray(meta.age_limit) && meta.age_limit.length) {
+        extraMetaHtml += `<li><span>Age Limit Criteria:</span> <strong>${meta.age_limit.slice(0, 3).join(' &bull; ')}</strong></li>`;
+      }
+      if (meta.short_info) {
+        extraMetaHtml += `<li style="flex-direction:column;align-items:flex-start;gap:4px"><span>Short Information:</span> <strong style="text-align:left;max-width:100%;font-weight:500;color:#334155">${meta.short_info}</strong></li>`;
+      }
+      if (extraMetaHtml) {
+        detailsListEl.insertAdjacentHTML('beforeend', extraMetaHtml);
+      }
+    }
+
+    // Append additional curated links from sarkariresult.com (e.g. Cutoff PDF, Multi-List Result PDFs, Syllabus PDF, Corrigendum)
+    if (Array.isArray(meta.important_links) && meta.important_links.length && rowOfficialEl && rowOfficialEl.parentNode) {
+      const tbody = rowOfficialEl.parentNode;
+      const shownUrls = new Set([
+        primaryUrl,
+        directPdfUrl,
+        officialSite,
+        linkSecondaryLoginEl ? linkSecondaryLoginEl.href : ''
+      ].filter(Boolean));
+
+      meta.important_links.forEach(row => {
+        if (!row || !Array.isArray(row.links) || !row.links.length) return;
+        const lblLow = (row.label || '').toLowerCase();
+        if (lblLow.includes('official website')) return;
+        // Show rows that have multiple links (e.g. List 1 | List 2 | List 3 | List 4) or links not yet displayed
+        const hasNewLink = row.links.length > 1 || row.links.some(lk => lk.url && !shownUrls.has(lk.url));
+        if (!hasNewLink) return;
+
+        row.links.forEach(lk => { if (lk.url) shownUrls.add(lk.url); });
+        const tr = document.createElement('tr');
+        const btnsHtml = row.links.map(lk => {
+          const btnClass = lk.is_pdf ? 'click-btn secondary' : 'click-btn';
+          const iconClass = lk.is_pdf ? 'fa-file-pdf' : 'fa-up-right-from-square';
+          const btnText = (lk.text && lk.text.length <= 28) ? lk.text : 'Click Here';
+          return `<a href="${lk.url}" target="_blank" rel="noopener" class="${btnClass}" style="margin:3px"><i class="fa-solid ${iconClass}"></i> ${btnText}</a>`;
+        }).join(' ');
+        tr.innerHTML = `<td><strong>${row.label}</strong></td><td>${btnsHtml}</td>`;
+        tbody.insertBefore(tr, rowOfficialEl);
+      });
+    }
 
   } catch (err) {
     console.error(err);
