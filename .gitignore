@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+data/*.db
+data/backups/
+data/sample_notice_*.pdf
+.env
+.venv/
+env/
