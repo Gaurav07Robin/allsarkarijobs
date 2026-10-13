@@ -195,53 +195,27 @@ a{text-decoration:none;color:inherit}
       </thead>
       <tbody>
         <tr>
-          <td><strong>Apply Online (Registration / Login)</strong></td>
-          <td><a href="#" target="_blank" id="linkApply" class="click-btn">Click Here</a></td>
+          <td><strong>Apply Online — New Registration</strong></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkApply" class="click-btn"><i class="fa-solid fa-right-to-bracket"></i> Click Here</a></td>
+        </tr>
+        <tr>
+          <td><strong>Candidate Login (Already Registered)</strong></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkLogin" class="click-btn" style="background:#0f766e"><i class="fa-solid fa-user-lock"></i> Login Portal</a></td>
         </tr>
         <tr>
           <td><strong>Download Official Notification PDF</strong></td>
           <td>
-            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-              <button type="button" onclick="scrollToPdfViewer()" class="click-btn" style="background:#dc2626;border:none;cursor:pointer">
-                <i class="fa-solid fa-eye"></i> View PDF Directly
-              </button>
-              <a href="#" target="_blank" id="linkPdf" class="click-btn secondary">
-                <i class="fa-solid fa-file-pdf"></i> Download PDF
-              </a>
-            </div>
+            <a href="#" target="_blank" rel="noopener" id="linkPdf" class="click-btn secondary">
+              <i class="fa-solid fa-file-pdf"></i> Click Here
+            </a>
           </td>
         </tr>
         <tr>
-          <td><strong>Download Syllabus & Exam Pattern</strong></td>
-          <td><a href="/#syllabus" class="click-btn dark"><i class="fa-solid fa-book"></i> Click Here</a></td>
-        </tr>
-        <tr>
           <td><strong>Official Commission Website</strong></td>
-          <td><a href="#" target="_blank" id="linkOfficial" class="click-btn dark"><i class="fa-solid fa-globe"></i> Click Here</a></td>
+          <td><a href="#" target="_blank" rel="noopener" id="linkOfficial" class="click-btn dark"><i class="fa-solid fa-globe"></i> Click Here</a></td>
         </tr>
       </tbody>
     </table>
-
-    <!-- Embedded Official Notification PDF Document Viewer -->
-    <div class="pdf-viewer-container" id="pdfViewerSection">
-      <div class="pdf-viewer-header">
-        <div style="display:flex;align-items:center;gap:8px">
-          <i class="fa-solid fa-file-pdf" style="color:#ef4444;font-size:18px"></i>
-          <span style="font-weight:700;font-size:14.5px;color:#fff">Official Notification Document Viewer</span>
-        </div>
-        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-          <a href="#" id="btnPdfNewTab" target="_blank" class="click-btn secondary" style="padding:6px 14px;font-size:12px">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Full Tab
-          </a>
-          <a href="#" id="btnPdfDownload" download class="click-btn" style="padding:6px 14px;font-size:12px;background:#15803d">
-            <i class="fa-solid fa-download"></i> Download PDF
-          </a>
-        </div>
-      </div>
-      <div class="pdf-frame-wrapper">
-        <iframe id="pdfEmbedFrame" src="about:blank" title="Official Notification PDF Viewer"></iframe>
-      </div>
-    </div>
   </article>
 </div>
 
@@ -251,37 +225,32 @@ a{text-decoration:none;color:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js"></script>
+<script src="/portal_data.js?v=20261013sr"></script>
 <script>
 async function loadJobDetails() {
   const urlParams = new URLSearchParams(window.location.search);
   let slug = urlParams.get('slug');
 
-  // Also support pathname like /jobs/ssc-cgl-2026-online-form
   if (!slug && window.location.pathname.startsWith('/jobs/')) {
     slug = window.location.pathname.replace('/jobs/', '').replace(/\/+$/, '');
   }
 
   if (!slug) {
-    slug = 'ssc-cgl-2026-online-form'; // Default demo
+    slug = 'ssc-cgl-2026-online-form';
   }
 
   try {
     let job = null;
-    let usingStaticHost = false;
     try {
       const res = await fetch(`/api/jobs/${slug}`);
       if (res.ok) {
         const json = await res.json();
         job = json.job;
       }
-    } catch (apiErr) {
-      // Static edge host fallback
-    }
+    } catch (apiErr) {}
 
     if (!job && window.PORTAL_DATA && window.PORTAL_DATA.recruitments) {
       job = window.PORTAL_DATA.recruitments[slug];
-      usingStaticHost = true;
     }
 
     if (!job) throw new Error('Job not found');
@@ -304,30 +273,43 @@ async function loadJobDetails() {
     document.getElementById('postVacTable').innerText = `${job.total_posts ? job.total_posts.toLocaleString() : 'Various'} Posts`;
     document.getElementById('postQualTable').innerText = job.qualification || 'As per official notification';
 
-    // Direct Action Links
-    const directPdfUrl = (usingStaticHost && window.generateOfficialNoticePdf)
-      ? window.generateOfficialNoticePdf(job)
-      : `/api/pdf/job/${slug}`;
-    document.getElementById('linkApply').href = job.apply_url || '#';
-    document.getElementById('linkPdf').href = directPdfUrl;
-    document.getElementById('btnPdfNewTab').href = directPdfUrl;
-    document.getElementById('btnPdfDownload').href = directPdfUrl;
-    document.getElementById('pdfEmbedFrame').src = directPdfUrl;
-    document.getElementById('linkOfficial').href = job.official_website_url || '#';
+    const t = (job.title || '').toLowerCase();
+    let regUrl = job.apply_url || 'https://ssc.gov.in/';
+    let loginUrl = regUrl;
+    let pdfUrl = job.notification_pdf_url || job.official_website_url || 'https://ssc.gov.in/';
+    let siteUrl = job.official_website_url || 'https://ssc.gov.in/';
+
+    if (t.includes('rrb') || t.includes('railway')) {
+      regUrl = 'https://cdn.digialm.com/EForms/configuredHtml/33166/102294/Index.html';
+      loginUrl = 'https://cdn.digialm.com/EForms/configuredHtml/33166/102294/login.html';
+      pdfUrl = 'https://rrcjaipur.in/storeWebFiles/1006_11602307.PDF';
+      siteUrl = 'https://www.rrcjaipur.in/';
+    } else if (t.includes('up police')) {
+      regUrl = 'https://uppbpb.gov.in/Home/DirectRecruitment';
+      loginUrl = 'https://uppbpb.gov.in/Home/DirectRecruitment';
+      pdfUrl = 'https://uppbpb.gov.in/FilesUploaded/Notice/CONST%2025%20PET%20DATE%20CHANGE%2005-10-20268ce76324-7901-4b25-bfc4-4ba081a9c7fc.pdf';
+      siteUrl = 'https://uppbpb.gov.in/';
+    } else if (t.includes('supreme court')) {
+      regUrl = 'https://www.sci.gov.in/recruitments/';
+      loginUrl = 'https://scippms.bankofmaharashtra.bank.in/ppms/#/user-login';
+      pdfUrl = 'https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/20261012100.pdf';
+      siteUrl = 'https://www.sci.gov.in/recruitments/';
+    } else if (t.includes('ibps')) {
+      regUrl = 'https://ibpsonline.ibps.in/';
+      loginUrl = 'https://ibpsonline.ibps.in/';
+      pdfUrl = 'https://www.ibps.in/index.php/management-trainees/';
+      siteUrl = 'https://www.ibps.in/';
+    }
+
+    document.getElementById('linkApply').href = regUrl;
+    document.getElementById('linkLogin').href = loginUrl;
+    document.getElementById('linkPdf').href = pdfUrl;
+    document.getElementById('linkOfficial').href = siteUrl;
 
   } catch (e) {
     console.error(e);
     document.getElementById('jobTitle').innerText = 'Recruitment Notice';
     document.getElementById('jobDesc').innerText = 'Please select a job from the homepage.';
-  }
-}
-
-function scrollToPdfViewer() {
-  const el = document.getElementById('pdfViewerSection');
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    el.style.outline = '3px solid #dc2626';
-    setTimeout(() => { el.style.outline = 'none'; }, 2000);
   }
 }
 

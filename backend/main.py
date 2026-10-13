@@ -14,17 +14,30 @@ from backend.database import get_connection, init_db
 from backend.seed_data import seed
 from backend.migrate_db import migrate
 from backend.migrate_filters import migrate_filters
-from backend.fix_action_urls import fix_action_urls
-from backend.publish_crawled import publish_crawled, export_portal_data_js
+from backend.publish_crawled import export_portal_data_js
 from backend.crawler.engine import CrawlerEngine, BackgroundCrawlerScheduler
 
-# Ensure database is created, seeded, migrated, and synced with latest crawled notices
+# Ensure database is created, migrated, and synced with sarkariresult.com dataset
 init_db()
-seed()
 migrate()
 migrate_filters()
-fix_action_urls()
-publish_crawled()
+
+def _ensure_sarkariresult_seeded():
+    conn = get_connection()
+    cur = conn.cursor()
+    cols = {r[1] for r in cur.execute("PRAGMA table_info(updates)").fetchall()}
+    has_sr = False
+    if "meta_json" in cols:
+        cnt = cur.execute("SELECT COUNT(*) FROM updates WHERE meta_json IS NOT NULL AND meta_json != ''").fetchone()[0]
+        has_sr = cnt > 0
+    conn.close()
+    if not has_sr:
+        from backend.scrape_sarkariresult import scrape_all_from_sarkariresult
+        scrape_all_from_sarkariresult()
+    else:
+        export_portal_data_js()
+
+_ensure_sarkariresult_seeded()
 
 # Start background crawler scheduler (runs every 30 mins)
 BackgroundCrawlerScheduler.start(interval_minutes=30)
@@ -171,6 +184,12 @@ def get_update_detail(item_id: int):
         raise HTTPException(status_code=404, detail="Notice not found")
     update_data = dict(row)
     conn.close()
+    if isinstance(update_data.get("meta_json"), str) and update_data.get("meta_json"):
+        try:
+            update_data["meta"] = json.loads(update_data["meta_json"])
+        except Exception:
+            update_data["meta"] = {}
+    update_data.pop("meta_json", None)
     return {
         "status": "success",
         "update": update_data
@@ -463,44 +482,46 @@ def list_backups():
 
 # ----------------- Frontend & Static Routes -----------------
 
+NO_CACHE_HEADERS = {"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0"}
+
 @app.get("/")
 def serve_index():
     index_file = BASE_DIR / "index.html"
-    return FileResponse(index_file)
+    return FileResponse(index_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/admin")
 def serve_admin():
     admin_file = BASE_DIR / "admin.html"
-    return FileResponse(admin_file)
+    return FileResponse(admin_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/jobs/{slug}")
 def serve_job_page(slug: str):
     job_file = BASE_DIR / "job.html"
-    return FileResponse(job_file)
+    return FileResponse(job_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/job.html")
 def serve_job_html():
     job_file = BASE_DIR / "job.html"
-    return FileResponse(job_file)
+    return FileResponse(job_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/detail")
 def serve_detail_page():
     detail_file = BASE_DIR / "detail.html"
-    return FileResponse(detail_file)
+    return FileResponse(detail_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/detail.html")
 def serve_detail_html():
     detail_file = BASE_DIR / "detail.html"
-    return FileResponse(detail_file)
+    return FileResponse(detail_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/detail/{item_id}")
 def serve_detail_by_id(item_id: int):
     detail_file = BASE_DIR / "detail.html"
-    return FileResponse(detail_file)
+    return FileResponse(detail_file, headers=NO_CACHE_HEADERS)
 
 @app.get("/portal_data.js")
 def serve_portal_data_js():
     js_file = BASE_DIR / "portal_data.js"
-    return FileResponse(js_file, media_type="application/javascript")
+    return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
 
 

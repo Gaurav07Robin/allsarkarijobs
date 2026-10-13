@@ -240,14 +240,14 @@ button{cursor:pointer;border:none;font-family:inherit}
 <section class="highlight-grid-section">
   <div class="container">
     <div class="highlight-grid">
-      <a href="/jobs/ssc-cgl-2026-online-form" class="hl-box hl-olive">UP Primary Teacher 2026<br>Apply Online</a>
-      <a href="/jobs/supreme-court-junior-court-assistant-2026" class="hl-box hl-blue">Bihar School Teacher TRE 4<br>Apply Online</a>
-      <a href="/jobs/up-police-constable-2026" class="hl-box hl-orange">UP Anganwadi Worker<br>Apply Online</a>
-      <a href="/jobs/ssc-cgl-2026-online-form" class="hl-box hl-maroon">SSC 10+2 CHSL<br>Apply Online</a>
-      <a href="/jobs/up-police-constable-2026" class="hl-box hl-red">MP Police Constable 2026<br>Apply Online</a>
-      <a href="/detail?id=40" class="hl-box hl-green">UP Scholarship 2026<br>Apply Online</a>
-      <a href="/jobs/rrb-technician-cen-02-2026" class="hl-box hl-magenta">UP PGT Teacher 2026<br>Apply Online</a>
-      <a href="/jobs/up-police-constable-2026" class="hl-box hl-sky">UP Police Constable PET<br>Admit Card</a>
+      <a href="/detail?id=105" class="hl-box hl-olive">UPSSSC Combined JE 2026<br>Apply Online</a>
+      <a href="/detail?id=104" class="hl-box hl-blue">UPSSSC JE Mechanical 2026<br>Apply Online</a>
+      <a href="/detail?id=103" class="hl-box hl-orange">Railway RRB NTPC 10+2<br>Apply Online</a>
+      <a href="/detail?id=34" class="hl-box hl-maroon">SSC GD Constable 2026<br>Check Result</a>
+      <a href="/detail?id=33" class="hl-box hl-red">UPSSSC Moharir 2026<br>Result & Cutoff</a>
+      <a href="/detail?id=70" class="hl-box hl-green">UPSSSC PET 2026<br>Exam City / Admit Card</a>
+      <a href="/detail?id=69" class="hl-box hl-magenta">BPSC 72nd Pre Exam 2026<br>Exam Notice</a>
+      <a href="/detail?id=177" class="hl-box hl-sky">IIT GATE 2027 Form<br>Apply Online</a>
     </div>
   </div>
 </section>
@@ -425,7 +425,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261010d"></script>
+<script src="/portal_data.js?v=20261013sr"></script>
 <script>
 // Mobile Navigation
 const mn = document.getElementById('mobNav');
@@ -441,6 +441,34 @@ window.addEventListener('scroll', () => {
 // Dynamic Data Fetching (merges static edge dataset + live API + /admin approvals)
 let allPortalData = (window.PORTAL_DATA && window.PORTAL_DATA.categorized) ? window.PORTAL_DATA.categorized : null;
 let activeFilterType = 'all';
+
+function renderHighlightBoxes(data) {
+  if (!data) return;
+  const grid = document.querySelector('.highlight-grid');
+  if (!grid) return;
+  const picks = [
+    { item: (data.LATEST_JOB || [])[0], cls: 'hl-olive', action: 'Apply Online' },
+    { item: (data.LATEST_JOB || [])[1], cls: 'hl-blue', action: 'Apply Online' },
+    { item: (data.LATEST_JOB || [])[2], cls: 'hl-orange', action: 'Apply Online' },
+    { item: (data.RESULT || [])[0], cls: 'hl-maroon', action: 'Check Result' },
+    { item: (data.RESULT || [])[1], cls: 'hl-red', action: 'Result & Cutoff' },
+    { item: (data.ADMIT_CARD || [])[0], cls: 'hl-green', action: 'Admit Card' },
+    { item: (data.ADMIT_CARD || [])[1], cls: 'hl-magenta', action: 'Hall Ticket' },
+    { item: (data.ADMISSION || [])[0], cls: 'hl-sky', action: 'Apply Online' }
+  ].filter(p => p.item);
+
+  if (picks.length >= 4) {
+    grid.innerHTML = picks.map(p => {
+      const shortTitle = p.item.title.length > 36 ? p.item.title.substring(0, 34) + '…' : p.item.title;
+      return `<a href="/detail?id=${p.item.id}" class="hl-box ${p.cls}">${shortTitle}<br>${p.action}</a>`;
+    }).join('');
+  }
+
+  const ticker = document.querySelector('.ticker-content');
+  if (ticker && picks.length >= 4) {
+    ticker.innerHTML = picks.slice(0, 5).map(p => `⚡ ${p.item.title}`).join(' &nbsp;&nbsp; | &nbsp;&nbsp; ');
+  }
+}
 
 function mergeCategorizedData(baseData, apiData) {
   const cats = ['RESULT', 'ADMIT_CARD', 'LATEST_JOB', 'ANSWER_KEY', 'SYLLABUS', 'ADMISSION'];
@@ -485,6 +513,7 @@ function mergeCategorizedData(baseData, apiData) {
 async function loadPortalFeeds() {
   if (allPortalData) {
     allPortalData = mergeCategorizedData(allPortalData, null);
+    renderHighlightBoxes(allPortalData);
     renderFilteredFeeds(activeFilterType);
   }
   try {
@@ -492,6 +521,7 @@ async function loadPortalFeeds() {
     if (!res.ok) throw new Error('API offline');
     const json = await res.json();
     allPortalData = mergeCategorizedData(allPortalData, json.data);
+    renderHighlightBoxes(allPortalData);
     renderFilteredFeeds(activeFilterType);
   } catch (err) {
     if (!allPortalData) loadStaticFallback();
