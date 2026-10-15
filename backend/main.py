@@ -524,4 +524,31 @@ def serve_portal_data_js():
     js_file = BASE_DIR / "portal_data.js"
     return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
 
+@app.get("/category.html")
+@app.get("/results")
+@app.get("/latest-jobs")
+@app.get("/jobs")
+@app.get("/admit-cards")
+@app.get("/admit-card")
+@app.get("/answer-keys")
+@app.get("/syllabus")
+@app.get("/admission")
+@app.get("/categories")
+def serve_category_page():
+    category_file = BASE_DIR / "category.html"
+    return FileResponse(category_file, headers=NO_CACHE_HEADERS)
+
+@app.get("/sitemap.xml")
+def serve_sitemap():
+    sitemap_file = BASE_DIR / "sitemap.xml"
+    return FileResponse(sitemap_file, media_type="application/xml", headers=NO_CACHE_HEADERS)
+
+@app.get("/robots.txt")
+def serve_robots():
+    robots_file = BASE_DIR / "robots.txt"
+    return FileResponse(robots_file, media_type="text/plain", headers=NO_CACHE_HEADERS)
+
+
+
+
 

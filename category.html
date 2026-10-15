@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="metaTitle">Sarkari Updates 2026 — AllSarkariJobs</title>
+  <meta name="description" id="metaDesc" content="Find the latest government job updates, results, admit cards, answer keys, syllabus and admission notices on AllSarkariJobs.">
+  <link rel="canonical" id="canonicalLink" href="https://allsarkarijobs.online/">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --primary: #c2410c;
+      --primary-dark: #9a3412;
+      --navy: #0f172a;
+      --slate: #334155;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --green: #15803d;
+      --radius: 10px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--slate);
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+    /* Header */
+    .header {
+      background: #800000;
+      color: #fff;
+      padding: 14px 0;
+      border-bottom: 3px solid #ff9933;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .hdr-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: #ff9933; }
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+    }
+
+    /* Breadcrumbs */
+    .breadcrumbs {
+      padding: 14px 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .breadcrumbs span { margin: 0 6px; }
+
+    /* Category Banner */
+    .cat-banner {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .cat-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+    .cat-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .cat-desc {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 800px;
+    }
+
+    /* Filter & Search Bar */
+    .filter-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .search-box {
+      flex: 1;
+      min-width: 240px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 9px 12px 9px 36px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    .search-box i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+    .filter-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--slate);
+      transition: all 0.15s;
+    }
+    .filter-pill:hover, .filter-pill.active {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy);
+    }
+
+    /* Notices Listing Grid */
+    .notices-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+    .notice-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      transition: transform 0.15s, box-shadow 0.15s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .notice-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      border-color: #cbd5e1;
+    }
+    .notice-main { flex: 1; min-width: 0; }
+    .notice-tag-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .notice-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .tag-new { background: #fee2e2; color: #b91c1c; }
+    .tag-live { background: #ecfdf5; color: #047857; }
+    .tag-hot { background: #ffedd5; color: #c2410c; }
+    .notice-org {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    .notice-heading {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    .notice-meta {
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .notice-meta span i { margin-right: 4px; }
+    .notice-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #b91c1c;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .notice-action-btn:hover { background: #991b1b; }
+    @media (max-width: 640px) {
+      .notice-card { flex-direction: column; align-items: flex-start; }
+      .notice-action-btn { width: 100%; justify-content: center; }
+    }
+
+    /* Footer */
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 24px 0;
+      margin-top: 40px;
+      font-size: 13px;
+      border-top: 1px solid #1e293b;
+      text-align: center;
+    }
+    .footer a { color: #f1f5f9; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container hdr-inner">
+    <a href="/" class="logo">AllSarkari<span>Jobs</span></a>
+    <ul class="nav-links">
+      <li><a href="/" id="navHome">Home</a></li>
+      <li><a href="/latest-jobs" id="navJobs">Latest Jobs</a></li>
+      <li><a href="/results" id="navResults">Results</a></li>
+      <li><a href="/admit-cards" id="navAdmit">Admit Cards</a></li>
+      <li><a href="/answer-keys" id="navKeys">Answer Keys</a></li>
+      <li><a href="/syllabus" id="navSyllabus">Syllabus</a></li>
+      <li><a href="/admission" id="navAdmission">Admission</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a> <span>&gt;</span> <strong id="bcCategoryName">Category</strong>
+  </nav>
+
+  <div class="cat-banner">
+    <span class="cat-badge" id="catBadge">CATEGORY</span>
+    <h1 class="cat-title" id="catTitle">
+      <i class="fa-solid fa-folder-open" id="catIcon"></i>
+      <span id="catHeading">Loading Category...</span>
+      <span style="font-size:14px;color:var(--muted);font-weight:600" id="catCount"></span>
+    </h1>
+    <p class="cat-desc" id="catDescription">Official government notices, direct links, and verified application portals.</p>
+
+    <div class="filter-bar">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="categorySearchInput" placeholder="Filter by keyword, commission, or post (e.g. SSC, RRB, Police)...">
+      </div>
+      <div class="filter-pills">
+        <button class="filter-pill active" onclick="applyCatFilter('all', this)">All</button>
+        <button class="filter-pill" onclick="applyCatFilter('10th', this)">10th/12th</button>
+        <button class="filter-pill" onclick="applyCatFilter('graduate', this)">Graduate</button>
+        <button class="filter-pill" onclick="applyCatFilter('railway', this)">Railway & SSC</button>
+        <button class="filter-pill" onclick="applyCatFilter('police', this)">Police & Defence</button>
+        <button class="filter-pill" onclick="applyCatFilter('teaching', this)">Teaching</button>
+        <button class="filter-pill" onclick="applyCatFilter('up', this)">UP</button>
+        <button class="filter-pill" onclick="applyCatFilter('bihar', this)">Bihar</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="notices-grid" id="noticesContainer">
+    <div style="text-align:center;padding:40px;color:var(--muted)">Loading notices...</div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 AllSarkariJobs. All Rights Reserved. Not affiliated with any government agency.</p>
+  </div>
+</footer>
+
+<script src="/portal_data.js?v=20261013sr"></script>
+<script>
+const CATEGORY_CONFIG = {
+  'RESULT': {
+    code: 'RESULT',
+    slug: 'results',
+    name: 'Sarkari Results 2026',
+    singular: 'Result',
+    badge: 'EXAM RESULTS',
+    badgeBg: '#fce8e8',
+    badgeColor: '#9f1239',
+    icon: 'fa-trophy',
+    btnText: 'View Result & Scorecard',
+    title: 'Sarkari Result 2026 — Latest Exam Results, Cutoff & Merit Lists',
+    desc: 'Check live Sarkari Results, category-wise quota cutoff marks, official merit lists, and candidate login links released by government commissions.',
+    canonical: '/results'
+  },
+  'LATEST_JOB': {
+    code: 'LATEST_JOB',
+    slug: 'latest-jobs',
+    name: 'Latest Govt Jobs 2026',
+    singular: 'Latest Job',
+    badge: 'ACTIVE RECRUITMENTS',
+    badgeBg: '#fefce8',
+    badgeColor: '#854d0e',
+    icon: 'fa-briefcase',
+    btnText: 'Apply Online',
+    title: 'Latest Government Jobs 2026 — Online Application Forms & Notifications',
+    desc: 'Find all latest Central and State government job vacancies, online application forms, eligibility criteria, and official notifications.',
+    canonical: '/latest-jobs'
+  },
+  'ADMIT_CARD': {
+    code: 'ADMIT_CARD',
+    slug: 'admit-cards',
+    name: 'Admit Cards & Hall Tickets',
+    singular: 'Admit Card',
+    badge: 'HALL TICKETS',
+    badgeBg: '#eff6ff',
+    badgeColor: '#1d4ed8',
+    icon: 'fa-id-card',
+    btnText: 'Download Admit Card',
+    title: 'Sarkari Admit Card 2026 — Download Hall Tickets & Exam City Slip',
+    desc: 'Download online examination hall tickets, admit cards, exam date notices, and check exam city status for all major government competitive exams.',
+    canonical: '/admit-cards'
+  },
+  'ANSWER_KEY': {
+    code: 'ANSWER_KEY',
+    slug: 'answer-keys',
+    name: 'Answer Keys & Objections',
+    singular: 'Answer Key',
+    badge: 'PROVISIONAL KEYS',
+    badgeBg: '#ecfdf5',
+    badgeColor: '#065f46',
+    icon: 'fa-key',
+    btnText: 'Download Answer Key',
+    title: 'Official Answer Keys 2026 — Response Sheets & Objection Form',
+    desc: 'Download official provisional and final exam answer keys, candidate response sheets, and submit objection challenges online.',
+    canonical: '/answer-keys'
+  },
+  'SYLLABUS': {
+    code: 'SYLLABUS',
+    slug: 'syllabus',
+    name: 'Exam Syllabus & Pattern',
+    singular: 'Syllabus',
+    badge: 'EXAM SCHEME',
+    badgeBg: '#f5f3ff',
+    badgeColor: '#6d28d9',
+    icon: 'fa-book-open',
+    btnText: 'Download Syllabus PDF',
+    title: 'Government Exam Syllabus 2026 — Exam Pattern & Selection Scheme PDF',
+    desc: 'Download subject-wise examination syllabus, exam patterns, marking schemes, and tier-wise selection process PDFs.',
+    canonical: '/syllabus'
+  },
+  'ADMISSION': {
+    code: 'ADMISSION',
+    slug: 'admission',
+    name: 'Admissions & Entrance Exams',
+    singular: 'Admission',
+    badge: 'COUNSELLING',
+    badgeBg: '#fff7ed',
+    badgeColor: '#c2410c',
+    icon: 'fa-graduation-cap',
+    btnText: 'Apply for Admission',
+    title: 'University Admissions & Entrance Forms 2026 — Online Registration',
+    desc: 'Find national and state entrance examination notices, admission counselling schedules, seat allotment results, and application brochures.',
+    canonical: '/admission'
+  }
+};
+
+let currentCategory = 'RESULT';
+let categoryItems = [];
+let activeCatFilter = 'all';
+
+function detectCategory() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramCat = urlParams.get('cat') || urlParams.get('category');
+  if (paramCat && CATEGORY_CONFIG[paramCat.toUpperCase()]) {
+    return paramCat.toUpperCase();
+  }
+
+  const p = window.location.pathname.toLowerCase();
+  if (p.includes('job')) return 'LATEST_JOB';
+  if (p.includes('result')) return 'RESULT';
+  if (p.includes('admit')) return 'ADMIT_CARD';
+  if (p.includes('key')) return 'ANSWER_KEY';
+  if (p.includes('syllabus')) return 'SYLLABUS';
+  if (p.includes('admission')) return 'ADMISSION';
+
+  return 'LATEST_JOB';
+}
+
+function initCategoryView() {
+  currentCategory = detectCategory();
+  const cfg = CATEGORY_CONFIG[currentCategory] || CATEGORY_CONFIG['LATEST_JOB'];
+
+  // SEO Meta
+  document.title = cfg.title + ' — AllSarkariJobs';
+  const metaDescEl = document.getElementById('metaDesc');
+  if (metaDescEl) metaDescEl.content = cfg.desc;
+  const canonicalEl = document.getElementById('canonicalLink');
+  if (canonicalEl) canonicalEl.href = 'https://allsarkarijobs.online' + cfg.canonical;
+
+  // Header and Breadcrumb
+  document.getElementById('bcCategoryName').innerText = cfg.name;
+  document.getElementById('catHeading').innerText = cfg.name;
+  document.getElementById('catDescription').innerText = cfg.desc;
+
+  const badgeEl = document.getElementById('catBadge');
+  badgeEl.innerText = cfg.badge;
+  badgeEl.style.background = cfg.badgeBg;
+  badgeEl.style.color = cfg.badgeColor;
+
+  const iconEl = document.getElementById('catIcon');
+  iconEl.className = 'fa-solid ' + cfg.icon;
+  iconEl.style.color = cfg.badgeColor;
+
+  // Active Nav Link
+  const navMap = {
+    'LATEST_JOB': 'navJobs',
+    'RESULT': 'navResults',
+    'ADMIT_CARD': 'navAdmit',
+    'ANSWER_KEY': 'navKeys',
+    'SYLLABUS': 'navSyllabus',
+    'ADMISSION': 'navAdmission'
+  };
+  const activeNavId = navMap[currentCategory];
+  if (activeNavId && document.getElementById(activeNavId)) {
+    document.getElementById(activeNavId).classList.add('active');
+  }
+
+  // Load Data
+  if (window.PORTAL_DATA && window.PORTAL_DATA.categorized) {
+    categoryItems = window.PORTAL_DATA.categorized[currentCategory] || [];
+    renderNotices();
+  } else {
+    fetch('/api/updates')
+      .then(r => r.json())
+      .then(json => {
+        if (json.data && json.data[currentCategory]) {
+          categoryItems = json.data[currentCategory];
+          renderNotices();
+        }
+      })
+      .catch(() => renderNotices());
+  }
+}
+
+function renderNotices() {
+  const container = document.getElementById('noticesContainer');
+  const countEl = document.getElementById('catCount');
+  const cfg = CATEGORY_CONFIG[currentCategory] || CATEGORY_CONFIG['LATEST_JOB'];
+
+  const searchVal = (document.getElementById('categorySearchInput').value || '').toLowerCase().trim();
+
+  function matchesFilter(item) {
+    const title = (item.title || '').toLowerCase();
+    const q = (item.qualification || '').toLowerCase();
+    const sec = (item.sector || '').toLowerCase();
+    const st = (item.state || '').toLowerCase();
+
+    if (searchVal && !title.includes(searchVal) && !sec.includes(searchVal) && !st.includes(searchVal)) {
+      return false;
+    }
+
+    if (activeCatFilter === '10th') {
+      return q.includes('10th') || q.includes('12th') || title.includes('10+2') || title.includes('chsl') || title.includes('mts') || title.includes('constable') || title.includes('apprentice') || title.includes('gd');
+    }
+    if (activeCatFilter === 'graduate') {
+      return q.includes('graduate') || title.includes('cgl') || title.includes('degree') || title.includes('po') || title.includes('assistant') || title.includes('officer') || title.includes('inspector');
+    }
+    if (activeCatFilter === 'railway') {
+      return sec.includes('railway') || title.includes('rrb') || title.includes('rrc') || title.includes('ssc') || title.includes('cgl') || title.includes('ntpc');
+    }
+    if (activeCatFilter === 'police') {
+      return sec.includes('police') || sec.includes('defence') || title.includes('police') || title.includes('army') || title.includes('navy') || title.includes('constable') || title.includes('agniveer');
+    }
+    if (activeCatFilter === 'teaching') {
+      return sec.includes('teaching') || title.includes('tet') || title.includes('teacher') || title.includes('pgt') || title.includes('tgt');
+    }
+    if (activeCatFilter === 'up') return st.includes('uttar pradesh') || title.includes('up ') || title.includes('upsssc');
+    if (activeCatFilter === 'bihar') return st.includes('bihar') || title.includes('bpsc') || title.includes('csbc');
+
+    return true;
+  }
+
+  const filtered = categoryItems.filter(matchesFilter);
+  if (countEl) countEl.innerText = `(${filtered.length} Active Notices)`;
+
+  if (!filtered.length) {
+    container.innerHTML = `
+      <div style="background:#fff;border:1px solid var(--border);border-radius:8px;padding:40px;text-align:center;color:var(--muted)">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:28px;margin-bottom:12px;display:block"></i>
+        <strong>No matching notices found for this filter.</strong>
+        <p style="font-size:13px;margin-top:6px">Try clearing your search keyword or selecting "All".</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = filtered.map(item => {
+    let tagHtml = '';
+    if (item.tag) {
+      const cls = item.tag.toLowerCase() === 'hot' ? 'tag-hot' : (item.tag.toLowerCase() === 'live' ? 'tag-live' : 'tag-new');
+      tagHtml = `<span class="notice-tag ${cls}">${item.tag.toUpperCase()}</span>`;
+    }
+    const relDate = item.created_at ? item.created_at.substring(0, 10) : 'Active Today';
+    const qual = item.qualification || 'All Candidates';
+    const stateVal = item.state || 'All India';
+    const sectorVal = item.sector || 'Central Govt';
+    const targetUrl = `/detail?id=${item.id}`;
+
+    return `
+      <div class="notice-card">
+        <div class="notice-main">
+          <div class="notice-tag-wrap">
+            ${tagHtml}
+            <span class="notice-org"><i class="fa-solid fa-building-columns"></i> ${sectorVal} &bull; ${stateVal}</span>
+          </div>
+          <a href="${targetUrl}" class="notice-heading" style="text-decoration:none;display:block">${item.title}</a>
+          <div class="notice-meta">
+            <span><i class="fa-regular fa-calendar-check"></i> ${relDate}</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> ${qual}</span>
+            <span><i class="fa-solid fa-location-dot"></i> ${stateVal}</span>
+          </div>
+        </div>
+        <a href="${targetUrl}" class="notice-action-btn">
+          ${cfg.btnText} <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    `;
+  }).join('');
+}
+
+function applyCatFilter(filterType, btnElem) {
+  activeCatFilter = filterType;
+  document.querySelectorAll('.filter-pills .filter-pill').forEach(b => b.classList.remove('active'));
+  if (btnElem) btnElem.classList.add('active');
+  renderNotices();
+}
+
+document.getElementById('categorySearchInput').addEventListener('input', () => {
+  renderNotices();
+});
+
+initCategoryView();
+</script>
+</body>
+</html>

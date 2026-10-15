@@ -301,7 +301,7 @@ button{cursor:pointer;border:none;font-family:inherit}
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest results...</a></li>
         </ul>
-        <div class="col-footer"><a href="#results" id="footerResult">Showing All Results</a></div>
+        <div class="col-footer"><a href="/results" id="footerResult">View All Results <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
       <!-- Column 2: Admit Card -->
@@ -314,7 +314,7 @@ button{cursor:pointer;border:none;font-family:inherit}
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading admit cards...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admit-cards" id="footerAdmit">Showing All Admit Cards</a></div>
+        <div class="col-footer"><a href="/admit-cards" id="footerAdmit">View All Admit Cards <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
       <!-- Column 3: Latest Job -->
@@ -327,7 +327,7 @@ button{cursor:pointer;border:none;font-family:inherit}
           <!-- Populated dynamically via JS -->
           <li><a href="#">Loading latest jobs...</a></li>
         </ul>
-        <div class="col-footer"><a href="#latest-jobs" id="footerJob">Showing All Latest Jobs</a></div>
+        <div class="col-footer"><a href="/latest-jobs" id="footerJob">View All Latest Jobs <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
     </div>
@@ -351,7 +351,7 @@ button{cursor:pointer;border:none;font-family:inherit}
         <ul class="col-list" id="listAnswer">
           <li><a href="#">Loading answer keys...</a></li>
         </ul>
-        <div class="col-footer"><a href="#answer-keys" id="footerAnswer">Showing All Answer Keys</a></div>
+        <div class="col-footer"><a href="/answer-keys" id="footerAnswer">View All Answer Keys <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
       <!-- Column 5: Syllabus -->
@@ -363,7 +363,7 @@ button{cursor:pointer;border:none;font-family:inherit}
         <ul class="col-list" id="listSyllabus">
           <li><a href="#">Loading syllabus...</a></li>
         </ul>
-        <div class="col-footer"><a href="#syllabus" id="footerSyllabus">Showing All Syllabus</a></div>
+        <div class="col-footer"><a href="/syllabus" id="footerSyllabus">View All Syllabus <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
       <!-- Column 6: Admission -->
@@ -375,7 +375,7 @@ button{cursor:pointer;border:none;font-family:inherit}
         <ul class="col-list" id="listAdmission">
           <li><a href="#">Loading admissions...</a></li>
         </ul>
-        <div class="col-footer"><a href="#admission" id="footerAdmission">Showing All Admissions</a></div>
+        <div class="col-footer"><a href="/admission" id="footerAdmission">View All Admissions <i class="fa-solid fa-arrow-right"></i></a></div>
       </div>
 
     </div>
@@ -622,7 +622,7 @@ function renderList(elemId, items, countId, footerId, label) {
   const total = items ? items.length : 0;
 
   if (countEl) countEl.innerText = `${total} Notices`;
-  if (footerEl) footerEl.innerText = `Showing All ${total} ${label}`;
+  if (footerEl) footerEl.innerHTML = `View All ${label} (${total}) <i class="fa-solid fa-arrow-right" style="margin-left:4px"></i>`;
 
   if (!items || items.length === 0) {
     ul.innerHTML = '<li><a href="#" style="color:var(--muted)">No active notices found.</a></li>';
