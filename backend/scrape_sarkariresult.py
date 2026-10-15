@@ -667,7 +667,9 @@ def re_resolve_existing_db():
     conn.commit()
     conn.close()
     export_portal_data_js()
-    print(f"Re-resolved all {len(rows)} rows and synced portal_data.js.")
+    from backend.generate_sitemap import generate_sitemap
+    generate_sitemap()
+    print(f"Re-resolved all {len(rows)} rows, synced portal_data.js and updated sitemap.xml.")
 
 
 def scrape_all_from_sarkariresult():
@@ -832,7 +834,9 @@ def scrape_all_from_sarkariresult():
     conn.commit()
     conn.close()
     export_portal_data_js()
-    print(f"Successfully saved {total_inserted} scraped sarkariresult.com notices into {DB_PATH} and synced portal_data.js.")
+    from backend.generate_sitemap import generate_sitemap
+    generate_sitemap()
+    print(f"Successfully saved {total_inserted} scraped sarkariresult.com notices into {DB_PATH}, synced portal_data.js and sitemap.xml.")
     return total_inserted
 
 
