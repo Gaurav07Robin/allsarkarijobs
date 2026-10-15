@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from backend.config import DB_PATH, BASE_DIR
 
-PRIMARY_DOMAIN = "https://allsarkarijobs.online"
+PRIMARY_DOMAIN = "https://www.allsarkarijobs.online"
 
 CATEGORIES = [
     ("/latest-jobs", "daily", "0.9"),
@@ -81,12 +81,21 @@ def generate_sitemap():
     ET.indent(tree, space="  ", level=0)
     tree.write(sitemap_path, encoding="utf-8", xml_declaration=True)
 
-    # Also update robots.txt
+    # Safely ensure sitemap directive in robots.txt without wiping rules
     robots_path = BASE_DIR / "robots.txt"
-    with open(robots_path, "w", encoding="utf-8") as f:
-        f.write("User-agent: *\n")
-        f.write("Allow: /\n\n")
-        f.write(f"Sitemap: {PRIMARY_DOMAIN}/sitemap.xml\n")
+    if robots_path.exists():
+        content = robots_path.read_text(encoding="utf-8")
+        sitemap_line = f"Sitemap: {PRIMARY_DOMAIN}/sitemap.xml"
+        if sitemap_line not in content:
+            import re
+            content = re.sub(r"Sitemap:\s*https?://[^\s]+", sitemap_line, content)
+            if sitemap_line not in content:
+                content += f"\n{sitemap_line}\n"
+            robots_path.write_text(content, encoding="utf-8")
+    else:
+        with open(robots_path, "w", encoding="utf-8") as f:
+            f.write("User-agent: *\nAllow: /\n\n")
+            f.write(f"Sitemap: {PRIMARY_DOMAIN}/sitemap.xml\n")
 
     total_urls = 1 + len(CATEGORIES) + len(recruitments) + len(updates)
     print(f"Generated {sitemap_path} with {total_urls} URLs and updated {robots_path}.")
