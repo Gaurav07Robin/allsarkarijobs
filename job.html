@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title id="pageTitle">Job Details — AllSarkariJobs</title>
+<title id="pageTitle">All Sarkari Jobs – Latest Government Vacancies & Recruitment 2026</title>
+<meta name="description" id="pageMetaDesc" content="Find the latest government recruitment notices, eligibility, vacancies, exam dates, application fee, and download official notification PDFs on All Sarkari Jobs.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/job">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AllSarkariJobs">
+<meta property="og:title" id="ogTitle" content="All Sarkari Jobs – Latest Government Vacancies & Recruitment 2026">
+<meta property="og:description" id="ogDesc" content="Find the latest government recruitment notices, eligibility, vacancies, exam dates, and download official notification PDFs on All Sarkari Jobs.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -255,7 +264,21 @@ async function loadJobDetails() {
 
     if (!job) throw new Error('Job not found');
 
-    document.getElementById('pageTitle').innerText = `${job.title} — AllSarkariJobs`;
+    const cleanTitle = `${job.title} – Apply Online & Official PDF | All Sarkari Jobs`;
+    document.title = cleanTitle;
+    document.getElementById('pageTitle').innerText = cleanTitle;
+    const cleanDesc = (job.description && job.description.length > 20)
+      ? `${job.description.slice(0, 160).trim()}... Check eligibility, vacancy details, dates, and apply online on All Sarkari Jobs.`
+      : `Apply online for ${job.title} (${job.organization}). Check eligibility criteria, total ${job.total_posts || ''} vacancies, exam dates, fee, and official notification on All Sarkari Jobs.`;
+    const metaDescEl = document.getElementById('pageMetaDesc');
+    if (metaDescEl) metaDescEl.content = cleanDesc;
+    const ogTitleEl = document.getElementById('ogTitle');
+    if (ogTitleEl) ogTitleEl.content = cleanTitle;
+    const ogDescEl = document.getElementById('ogDesc');
+    if (ogDescEl) ogDescEl.content = cleanDesc;
+    const canonicalEl = document.getElementById('canonicalLink');
+    if (canonicalEl) canonicalEl.href = `https://www.allsarkarijobs.online/jobs/${slug}`;
+
     document.getElementById('bcTitle').innerText = job.title;
     document.getElementById('jobTitle').innerText = job.title;
     document.getElementById('jobOrg').innerText = job.organization;

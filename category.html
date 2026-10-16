@@ -3,9 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="metaTitle">Sarkari Updates 2026 — AllSarkariJobs</title>
-  <meta name="description" id="metaDesc" content="Find the latest government job updates, results, admit cards, answer keys, syllabus and admission notices on AllSarkariJobs.">
-  <link rel="canonical" id="canonicalLink" href="https://allsarkarijobs.online/">
+  <title id="metaTitle">All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert & Sarkari Result 2026</title>
+  <meta name="description" id="metaDesc" content="All Sarkari Jobs: Find latest Government Jobs in India, Sarkari Result, Admit Card, Answer Key & Free Job Alerts 2026 across SSC, UPSC, Railway, Banking, Police & State portals. Apply online and download official PDFs.">
+  <meta name="keywords" content="All Sarkari Jobs, Latest Government Jobs in India, Free Job Alert, Sarkari Result 2026, Sarkari Naukri, Admit Card, Answer Key">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.allsarkarijobs.online/">
+  <meta property="og:site_name" content="AllSarkariJobs">
+  <meta property="og:title" id="ogTitle" content="All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert & Sarkari Result 2026">
+  <meta property="og:description" id="ogDesc" content="All Sarkari Jobs: Find latest Government Jobs in India, Sarkari Result, Admit Card, Answer Key & Free Job Alerts 2026.">
   
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -347,8 +356,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#9f1239',
     icon: 'fa-trophy',
     btnText: 'View Result & Scorecard',
-    title: 'Sarkari Result 2026 — Latest Exam Results, Cutoff & Merit Lists',
-    desc: 'Check live Sarkari Results, category-wise quota cutoff marks, official merit lists, and candidate login links released by government commissions.',
+    title: 'Sarkari Result 2026 – Latest Govt Exam Results & Cutoff | All Sarkari Jobs',
+    desc: 'Government Exam Results | Scorecards | Cutoff Marks · Check live Sarkari Results, category-wise quota cutoff marks, official merit lists, and candidate scorecard login links on AllSarkariJobs.',
     canonical: '/results'
   },
   'LATEST_JOB': {
@@ -361,8 +370,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#854d0e',
     icon: 'fa-briefcase',
     btnText: 'Apply Online',
-    title: 'Latest Government Jobs 2026 — Online Application Forms & Notifications',
-    desc: 'Find all latest Central and State government job vacancies, online application forms, eligibility criteria, and official notifications.',
+    title: 'All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert 2026',
+    desc: 'Government Jobs | Results | Admit Card · Latest Vacancies, Exam Dates & Free Job Alerts. Browse active Central & State government job openings, eligibility, exam dates, and apply online directly on AllSarkariJobs.',
     canonical: '/latest-jobs'
   },
   'ADMIT_CARD': {
@@ -375,8 +384,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#1d4ed8',
     icon: 'fa-id-card',
     btnText: 'Download Admit Card',
-    title: 'Sarkari Admit Card 2026 — Download Hall Tickets & Exam City Slip',
-    desc: 'Download online examination hall tickets, admit cards, exam date notices, and check exam city status for all major government competitive exams.',
+    title: 'Sarkari Admit Card 2026 – Download Govt Exam Hall Tickets | All Sarkari Jobs',
+    desc: 'Admit Card | Hall Ticket | Exam City Slip · Download official exam hall tickets, admit cards, examination schedule notices, and check exam city status online on AllSarkariJobs.',
     canonical: '/admit-cards'
   },
   'ANSWER_KEY': {
@@ -389,8 +398,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#065f46',
     icon: 'fa-key',
     btnText: 'Download Answer Key',
-    title: 'Official Answer Keys 2026 — Response Sheets & Objection Form',
-    desc: 'Download official provisional and final exam answer keys, candidate response sheets, and submit objection challenges online.',
+    title: 'Sarkari Answer Key 2026 – Question Papers & Solutions | All Sarkari Jobs',
+    desc: 'Answer Key | Response Sheet | Objection Tracker · Download official provisional and final exam answer keys, candidate response sheets, and challenge question links on AllSarkariJobs.',
     canonical: '/answer-keys'
   },
   'SYLLABUS': {
@@ -403,8 +412,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#6d28d9',
     icon: 'fa-book-open',
     btnText: 'Download Syllabus PDF',
-    title: 'Government Exam Syllabus 2026 — Exam Pattern & Selection Scheme PDF',
-    desc: 'Download subject-wise examination syllabus, exam patterns, marking schemes, and tier-wise selection process PDFs.',
+    title: 'Sarkari Exam Syllabus 2026 – Exam Pattern & Selection Scheme PDF | All Sarkari Jobs',
+    desc: 'Exam Syllabus | Scheme | Pattern PDF · Download subject-wise detailed syllabus, exam pattern, marking scheme, and preparation guide for government exams on AllSarkariJobs.',
     canonical: '/syllabus'
   },
   'ADMISSION': {
@@ -417,8 +426,8 @@ const CATEGORY_CONFIG = {
     badgeColor: '#c2410c',
     icon: 'fa-graduation-cap',
     btnText: 'Apply for Admission',
-    title: 'University Admissions & Entrance Forms 2026 — Online Registration',
-    desc: 'Find national and state entrance examination notices, admission counselling schedules, seat allotment results, and application brochures.',
+    title: 'Sarkari Admission 2026 – University Entrance Forms & Counselling | All Sarkari Jobs',
+    desc: 'Admission | Entrance Exam | Counselling · Apply online for national & state entrance examinations, university admission forms, and counselling schedules on AllSarkariJobs.',
     canonical: '/admission'
   }
 };
@@ -450,11 +459,15 @@ function initCategoryView() {
   const cfg = CATEGORY_CONFIG[currentCategory] || CATEGORY_CONFIG['LATEST_JOB'];
 
   // SEO Meta
-  document.title = cfg.title + ' — AllSarkariJobs';
+  document.title = cfg.title;
   const metaDescEl = document.getElementById('metaDesc');
   if (metaDescEl) metaDescEl.content = cfg.desc;
+  const ogTitleEl = document.getElementById('ogTitle');
+  if (ogTitleEl) ogTitleEl.content = cfg.title;
+  const ogDescEl = document.getElementById('ogDesc');
+  if (ogDescEl) ogDescEl.content = cfg.desc;
   const canonicalEl = document.getElementById('canonicalLink');
-  if (canonicalEl) canonicalEl.href = 'https://allsarkarijobs.online' + cfg.canonical;
+  if (canonicalEl) canonicalEl.href = 'https://www.allsarkarijobs.online' + cfg.canonical;
 
   // Header and Breadcrumb
   document.getElementById('bcCategoryName').innerText = cfg.name;

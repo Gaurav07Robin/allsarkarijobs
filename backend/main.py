@@ -43,8 +43,8 @@ _ensure_sarkariresult_seeded()
 BackgroundCrawlerScheduler.start(interval_minutes=30)
 
 app = FastAPI(
-    title="AllSarkariJobs API",
-    description="FastAPI service for AllSarkariJobs aggregation engine and portal",
+    title="All Sarkari Jobs API",
+    description="Backend API and aggregation engine for AllSarkariJobs.online — Latest Government Jobs, Sarkari Results, Admit Cards & Exam Updates",
     version="1.0.0"
 )
 

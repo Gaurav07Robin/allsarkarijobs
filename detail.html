@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title id="pageTitle">Notification Details — AllSarkariJobs</title>
+<title id="pageTitle">All Sarkari Jobs – Notification Details & Official PDF 2026</title>
+<meta name="description" id="pageMetaDesc" content="Check official government exam notification details, eligibility, important dates, application fee, candidate login and download official PDF on All Sarkari Jobs.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/detail">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AllSarkariJobs">
+<meta property="og:title" id="ogTitle" content="All Sarkari Jobs – Notification Details & Official PDF 2026">
+<meta property="og:description" id="ogDesc" content="Check official government exam notification details, eligibility, important dates, application fee, candidate login and download official PDF on All Sarkari Jobs.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -230,7 +239,21 @@ async function loadDetail() {
     const cat = item.category || 'LATEST_JOB';
     const meta = item.meta || (typeof item.meta_json === 'string' && item.meta_json ? JSON.parse(item.meta_json) : {}) || {};
 
-    document.getElementById('pageTitle').innerText = `${item.title} — AllSarkariJobs`;
+    const cleanTitle = `${item.title} – Apply Online, Exam Date & Official PDF | All Sarkari Jobs`;
+    document.title = cleanTitle;
+    document.getElementById('pageTitle').innerText = cleanTitle;
+    const itemDesc = (meta && meta.short_info)
+      ? `${meta.short_info.slice(0, 160).trim()}... Check important dates, application fee, eligibility, candidate login, and download official PDF.`
+      : `Check ${item.title} official notification details, eligibility criteria, important dates, candidate registration, and download official government PDF on All Sarkari Jobs.`;
+    const metaDescEl = document.getElementById('pageMetaDesc');
+    if (metaDescEl) metaDescEl.content = itemDesc;
+    const ogTitleEl = document.getElementById('ogTitle');
+    if (ogTitleEl) ogTitleEl.content = cleanTitle;
+    const ogDescEl = document.getElementById('ogDesc');
+    if (ogDescEl) ogDescEl.content = itemDesc;
+    const canonicalEl = document.getElementById('canonicalLink');
+    if (canonicalEl) canonicalEl.href = `https://www.allsarkarijobs.online/detail?id=${item.id}`;
+
     document.getElementById('bcCat').innerText = cat.replace('_', ' ');
     document.getElementById('bcTitle').innerText = item.title;
     document.getElementById('catBadge').innerText = cat.replace('_', ' ');
