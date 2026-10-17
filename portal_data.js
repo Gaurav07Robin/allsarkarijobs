@@ -2,6 +2,92 @@
 window.PORTAL_DATA = {
   "updates": [
     {
+      "id": 178,
+      "recruitment_id": null,
+      "category": "ADMISSION",
+      "title": "NTA NIFTEE Admission Online Form 2027",
+      "tag": "New",
+      "action_url": "https://exams.nta.nic.in/niftee/",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:37:57",
+      "source_portal": "National Testing Agency NTA",
+      "source_url": "https://exams.nta.nic.in/niftee/",
+      "pdf_url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/202610161124929715.pdf",
+      "qualification_level": "Graduate",
+      "sector": "Education / Admission",
+      "state": "All India",
+      "registration_url": "https://exams.nta.nic.in/niftee/",
+      "login_url": "https://exams.nta.nic.in/niftee/",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "NTA NIFTEE Admissions 2027 Apply Online",
+        "post_date": "16 October 2026 | 08:51 PM",
+        "short_info": "National Testing Agency NTA has released the National Institute of Fashion Technology NIFTEE 2027 All the candidates who want to apply candidates should read the NIFTEE 2027 information brochure for all the information related to the entrance exam like syllabus, eligibility, age limit, fees, Course and University List, information and other types of information and then apply.",
+        "important_dates": [
+          "Application Begin :",
+          "16/10/2026",
+          "Last Date for Apply Online :",
+          "16/11/2026",
+          "Last Date Fee Payment :",
+          "16/11/2026",
+          "With Late Fee Last Date :",
+          "21/11/2026",
+          "Correction Date :",
+          "22-25 November 2026"
+        ],
+        "application_fee": [
+          "For Two Program :",
+          "General / OBC / EWS :",
+          "3000",
+          "/",
+          "SC / ST / PH :",
+          "750",
+          "/",
+          "For Two Program :"
+        ],
+        "age_limit": [
+          "NTA NIFTEE Admissions Notification 2027 :",
+          "For B.Des & B.F.Tech : Maximum Age : 24 Years.",
+          "Age Relaxation Extra as per NIFT Admissions 2027"
+        ],
+        "total_vacancy": "",
+        "important_links": [
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://exams.nta.nic.in/niftee/",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/202610161124929715.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "NTA NIFTEE Official Website",
+                "url": "https://exams.nta.nic.in/niftee/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2027/nta-niftee-admission/"
+      }
+    },
+    {
       "id": 177,
       "recruitment_id": null,
       "category": "ADMISSION",
@@ -407,7 +493,7 @@ window.PORTAL_DATA = {
       "recruitment_id": null,
       "category": "ADMISSION",
       "title": "IIM CAT Admission Online Form 2026 Date Extended",
-      "tag": "New",
+      "tag": "Live",
       "action_url": "https://iimcat.ac.in/",
       "is_featured": 0,
       "featured_badge": null,
@@ -1069,7 +1155,7 @@ window.PORTAL_DATA = {
       "recruitment_id": null,
       "category": "ADMISSION",
       "title": "NEET UG 2026 Online Counselling",
-      "tag": "Live",
+      "tag": "Direct",
       "action_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "is_featured": 0,
       "featured_badge": null,
@@ -4999,7 +5085,7 @@ window.PORTAL_DATA = {
       "cutoff_pdf_url": "",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
-        "post_date": "15 October 2026 | 07:52 PM",
+        "post_date": "16 October 2026 | 04:09 PM",
         "short_info": "Indian Railway Railway Recruitment Board RRB Section Controller CEN 03/2026 . Those candidates who are Enrolled with RRB Section Controller CEN 03/2026 Exam Can Download Exam Date Notice. Read the notification for RRB Section Controller Post eligibility, post information, selection procedure, Details, age limit, pay scale and all other information.",
         "important_dates": [
           "Application Begin :",
@@ -5037,7 +5123,7 @@ window.PORTAL_DATA = {
             "label": "Download Answer Key",
             "links": [
               {
-                "text": "Link Will be Activate on 16/10/2026",
+                "text": "Click Here",
                 "url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
                 "is_pdf": false
               }
@@ -11452,12 +11538,100 @@ window.PORTAL_DATA = {
       "id": 105,
       "recruitment_id": null,
       "category": "LATEST_JOB",
+      "title": "UPSSSC 10+2 Inter Level Various Post Online Form 2026",
+      "tag": "New",
+      "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "is_featured": 1,
+      "featured_badge": "Live",
+      "created_at": "2026-10-13 08:14:44",
+      "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
+      "source_url": "https://upsssc.gov.in/",
+      "pdf_url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Uttar Pradesh",
+      "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "UPSSSC Combined Lower Subordinate Services Main Examination 2026 Apply Online for 1784 Post",
+        "post_date": "16 October 2026 | 08:45 PM",
+        "short_info": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) has Released UPSSSC Combined Lower Subordinate Services Main Recruitment Notification. Those candidates who are interested in this UPSSSC Combined Lower Subordinate Services Mains Examination Vacancy 2026 can Apply Online from 10/11/2026 to 01/12/2026 . Read the notification for recruitment eligibility, post information, selection procedure, pay scale and all other information.",
+        "important_dates": [
+          "Application Begin :",
+          "10/11/2026",
+          "Last Date for Apply Online :",
+          "01/12/2026",
+          "Pay Exam Fee Last Date :",
+          "01/12/2026",
+          "Form Correction Last Date :",
+          "08/12/2026",
+          "UPSSSC Lower PCS Main Exam Date :",
+          "As per Schedule"
+        ],
+        "application_fee": [
+          "General (UR) / OBC / EWS :",
+          "25/",
+          "SC / ST :",
+          "25/",
+          "PH (Divyang) :",
+          "25/",
+          "Pay the Examination Fee Through UPI, Debit Card, Credit Card and Net Banking Mode Only."
+        ],
+        "age_limit": [
+          "UPSSSC Lower PCS Mains Online Form 2026 :",
+          "Minimum Age :",
+          "18 Years",
+          "Maximum Age :",
+          "40 Years",
+          "Age Relaxation Extra as per UPSSSC Advertisement No. 26-Exam/2026, Advertisement of Lower PCS 10+2 Level Main Examination."
+        ],
+        "total_vacancy": "1784 Post",
+        "important_links": [
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Link will be Activate on 10/11/2026",
+                "url": "https://upsssc.gov.in/AllNotifications.aspx",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "UPSSSC Official Website",
+                "url": "https://upsssc.gov.in/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-lower-pcs-26-exam-oct26/"
+      }
+    },
+    {
+      "id": 104,
+      "recruitment_id": null,
+      "category": "LATEST_JOB",
       "title": "MPESB MP Police Constable Driver Online Form 2026",
       "tag": "New",
       "action_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "is_featured": 1,
-      "featured_badge": "Live",
-      "created_at": "2026-10-13 08:14:44",
+      "featured_badge": "Hot",
+      "created_at": "2026-10-13 08:13:43",
       "source_portal": "Madhya Pradesh Employee Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "pdf_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_Driver_2026_rulebook_07102026.pdf",
@@ -11536,15 +11710,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 104,
+      "id": 103,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Supreme Court of India Junior Court Attendant Online Form 2026",
       "tag": "New",
       "action_url": "https://www.sci.gov.in/",
       "is_featured": 1,
-      "featured_badge": "Hot",
-      "created_at": "2026-10-13 08:13:43",
+      "featured_badge": "New",
+      "created_at": "2026-10-13 08:12:42",
       "source_portal": "Supreme Court of India SCI",
       "source_url": "https://www.sci.gov.in/",
       "pdf_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026101560.pdf",
@@ -11578,7 +11752,7 @@ window.PORTAL_DATA = {
           "Pay the Examination Fee Through Debit Card / Credit Card / Net Banking / Online Only."
         ],
         "age_limit": [
-          "SCI Junior Court Attendant 2026",
+          "SCI Junior Court Attendant Notification 2026",
           ":",
           "Minimum Age :",
           "18 Years.",
@@ -11622,15 +11796,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 103,
+      "id": 102,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended",
       "tag": "New",
       "action_url": "https://apply.upessc.org/register",
-      "is_featured": 1,
-      "featured_badge": "New",
-      "created_at": "2026-10-13 08:12:42",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:11:41",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "pdf_url": "https://upessc.up.gov.in/Notice/40d4-f371-4c8d-139c-599c.pdf",
@@ -11745,7 +11919,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 102,
+      "id": 101,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Railway RRB NTPC 10+2 Under Graduate Online Form 2026",
@@ -11753,7 +11927,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:11:41",
+      "created_at": "2026-10-13 08:10:40",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "pdf_url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
@@ -11854,15 +12028,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 101,
+      "id": 100,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Army 10+2 TES 57th Online Form 2026",
-      "tag": "New",
+      "tag": "Active",
       "action_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:10:40",
+      "created_at": "2026-10-13 08:59:39",
       "source_portal": "Army Recruitment (Join Indian Army)",
       "source_url": "http://joinindianarmy.nic.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
@@ -11939,7 +12113,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 100,
+      "id": 99,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "UPESSC UP PGT Teacher Online Form 2026",
@@ -11947,7 +12121,7 @@ window.PORTAL_DATA = {
       "action_url": "https://apply.upessc.org/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:59:39",
+      "created_at": "2026-10-13 08:58:38",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/Subject-Wise-Vacancy.pdf",
@@ -12037,7 +12211,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 99,
+      "id": 98,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "BPSC School Teacher TRE 4.0 Online Form 2026",
@@ -12045,7 +12219,7 @@ window.PORTAL_DATA = {
       "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:58:38",
+      "created_at": "2026-10-13 08:57:37",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "pdf_url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-cum-Corrigendum-152026-School-Teacher-Class-9-10-11-12-remaining-vacancies_BPSC-20260929-qxkdgl.pdf",
@@ -12203,7 +12377,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 98,
+      "id": 97,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Railway RRB Paramedical Online Form 2026 CEN 05/2026",
@@ -12211,7 +12385,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:57:37",
+      "created_at": "2026-10-13 08:56:36",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
@@ -12302,7 +12476,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 97,
+      "id": 96,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "UP Anganwadi Worker Bharti Online Form 2026 | Updated",
@@ -12310,7 +12484,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upanganwadibharti.in/workernew/users/registration.php",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:56:36",
+      "created_at": "2026-10-13 08:55:35",
       "source_portal": "Uttar Pradesh District Program Officer",
       "source_url": "https://upanganwadibharti.in/",
       "pdf_url": "https://upanganwadibharti.in/",
@@ -12385,86 +12559,6 @@ window.PORTAL_DATA = {
           }
         ],
         "sarkariresult_url": "https://www.sarkariresult.com/2026/up-anganwadi-worker/"
-      }
-    },
-    {
-      "id": 96,
-      "recruitment_id": null,
-      "category": "LATEST_JOB",
-      "title": "IFFCO Agriculture Graduate Trainee AGT Online Form 2026",
-      "tag": "Active",
-      "action_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "is_featured": 0,
-      "featured_badge": null,
-      "created_at": "2026-10-13 08:55:35",
-      "source_portal": "Indian Farmers Fertilizer Cooperative Limited IFFCO",
-      "source_url": "https://www.iffco.in/",
-      "pdf_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "qualification_level": "Graduate",
-      "sector": "Central Govt",
-      "state": "Uttar Pradesh",
-      "registration_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "login_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "cutoff_pdf_url": "",
-      "meta": {
-        "full_title": "IFFCO Agriculture Graduate Trainee AGT Recruitment 2026 Apply Online Form",
-        "post_date": "08 October 2026 | 11:50 PM",
-        "short_info": "Indian Farmers Fertilizer Cooperative Limited IFFCO has released Agriculture Graduate Trainee AGT Recruitment Notification for filling up vacancies in IFFCO AGT 2026. Those candidates who are interested in this IFFCO Agriculture Graduate Trainee AGT Recruitment 2026 Exam can Apply Online from 14/10/2026. Read the notification for IFFCO AGT Vacancy 2026 Exam, eligibility, Subject Details information, Document Required, age limit, How to Apply and all other information.",
-        "important_dates": [
-          "Application Begin :",
-          "NA",
-          "Last Date for Apply Online :",
-          "14/10/2026",
-          "Complete Form Last Date :",
-          "As per Schedule"
-        ],
-        "application_fee": [
-          "General / OBC :",
-          "0/",
-          "SC / ST / PH",
-          ": 0/"
-        ],
-        "age_limit": [
-          "IFFCO Agriculture Graduate Trainee AGT Notification 2026 :",
-          "Minimum Age :",
-          "NA",
-          "Maximum Age :",
-          "30 Years."
-        ],
-        "total_vacancy": "",
-        "important_links": [
-          {
-            "label": "Apply Online",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Download Notification",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Official Website",
-            "links": [
-              {
-                "text": "IFFCO Official Website",
-                "url": "https://www.iffco.in/",
-                "is_pdf": false
-              }
-            ]
-          }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/iffco-agt-oct26/"
       }
     },
     {
@@ -14899,12 +14993,131 @@ window.PORTAL_DATA = {
       "id": 70,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
+      "title": "Bihar STET 2026 Exam Date",
+      "tag": "New",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+      "is_featured": 1,
+      "featured_badge": "Live",
+      "created_at": "2026-10-13 08:29:09",
+      "source_portal": "Bihar School Examination Board (BSEB)",
+      "source_url": "https://biharboardonline.com/",
+      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Bihar",
+      "registration_url": "https://stetregistration.cbrt.co.in/",
+      "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Exam Date",
+        "post_date": "16 October 2026 | 07:06 PM",
+        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Check the Exam Date . For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
+        "important_dates": [
+          "Application Begin :",
+          "17/08/2026",
+          "Last Date for Apply Online :",
+          "22/09/2026 Date Extended",
+          "Pay Exam Fee Last Date:",
+          "15/09/2026",
+          "Dummy Admit Card Available :",
+          "24/09/2026",
+          "Bihar STET 2026 Exam Date :",
+          "25/10/2026 to 20/11/2026"
+        ],
+        "application_fee": [
+          "Single Paper :",
+          "General / BC / EWS :",
+          "960/",
+          "SC / ST / PH",
+          ": 760/",
+          "Both Paper :",
+          "General / BC / EWS",
+          ": 1440/"
+        ],
+        "age_limit": [
+          "Bihar STET Online Form 2026 :",
+          "Minimum Age :",
+          "18 Years",
+          "Maximum Age :",
+          "37 Male",
+          "Maximum Age :"
+        ],
+        "total_vacancy": "",
+        "important_links": [
+          {
+            "label": "Download Exam Date",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Dummy Admit Card",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://stetregistration.cbrt.co.in/login",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://stetregistration.cbrt.co.in/",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Download Application Form",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "BSEB Official Website",
+                "url": "https://biharboardonline.com/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
+      }
+    },
+    {
+      "id": 69,
+      "recruitment_id": null,
+      "category": "ADMIT_CARD",
       "title": "United India Insurance UIIC AO Admit Card 2026 for 225 Post",
       "tag": "New",
       "action_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
       "is_featured": 1,
-      "featured_badge": "Live",
-      "created_at": "2026-10-13 08:29:09",
+      "featured_badge": "Hot",
+      "created_at": "2026-10-13 08:28:08",
       "source_portal": "United India Insurance Company Limited (UIIC)",
       "source_url": "https://uiic.co.in/",
       "pdf_url": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
@@ -15002,15 +15215,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 69,
+      "id": 68,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC PET Admit Card 2026",
       "tag": "New",
       "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "is_featured": 1,
-      "featured_badge": "Hot",
-      "created_at": "2026-10-13 08:28:08",
+      "featured_badge": "New",
+      "created_at": "2026-10-13 08:27:07",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?jAU6hktxazvm4Lxx+kRM7RO6W5+P3HdSzrpMn1pW3TI=",
@@ -15160,15 +15373,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 68,
+      "id": 67,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Jharkhand JAC JHTET Admit Card 2026",
       "tag": "New",
       "action_url": "https://jactetonline.com/",
-      "is_featured": 1,
-      "featured_badge": "New",
-      "created_at": "2026-10-13 08:27:07",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:26:06",
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
       "pdf_url": "https://jac-projects.s3.ap-south-1.amazonaws.com/JHTET_2026/PRODUCTION_CANDIDATE_DOCS/NOTICES/1782128382_d0ef1f2df4.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYBPIGXBXP63UTJ4E%2F20260625%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260625T081039Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=79a0a8ddb6c4e46bfa1015390ae6243b1230dcb36278a40eb26e47ef52360859",
@@ -15282,7 +15495,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 67,
+      "id": 66,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "AAI Manager, Junior Executive Admit Card 2026 for 389 Post",
@@ -15290,7 +15503,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/aaioct25/oecla_sep26/login.php?appid=c29840a936e11a8543bb8d3a80f48ed4",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:26:06",
+      "created_at": "2026-10-13 08:25:05",
       "source_portal": "Airports Authority of India (AAI)",
       "source_url": "https://www.aai.aero/en",
       "pdf_url": "https://www.aai.aero/sites/default/files/examdashboard_pressnote/Exam%20Notice.pdf",
@@ -15390,15 +15603,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 66,
+      "id": 65,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB ALP CEN 01/2026 Revised Application Status",
-      "tag": "New",
+      "tag": "Live",
       "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:25:05",
+      "created_at": "2026-10-13 08:24:04",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
@@ -15544,7 +15757,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 65,
+      "id": 64,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Rajasthan High Court Stenographer Admit Card 2026",
@@ -15552,7 +15765,7 @@ window.PORTAL_DATA = {
       "action_url": "http://103.203.137.249/steno2026/index.php",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:24:04",
+      "created_at": "2026-10-13 08:23:03",
       "source_portal": "Rajasthan High Court Jodhpur RHC",
       "source_url": "https://hcraj.nic.in/hcraj/",
       "pdf_url": "https://hcraj.nic.in/hcraj/hcraj_admin/uploadfile/recruitment/revnot179188948536.pdf",
@@ -15652,7 +15865,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 64,
+      "id": 63,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Delhi High Court HJS Mains Admit Card 2026",
@@ -15660,7 +15873,7 @@ window.PORTAL_DATA = {
       "action_url": "https://applycareer.co.in/dhc/highcourt2026dhjse/DHJSE2026_AdmitMain.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:23:03",
+      "created_at": "2026-10-13 08:22:02",
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/web/job-openings",
       "pdf_url": "https://delhihighcourt.nic.in/files/2026-10/recuritment/dhjsexam2026.pdf",
@@ -15818,7 +16031,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 63,
+      "id": 62,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC Combined Graduate Level CGL 2026 Tier I Admit Card",
@@ -15826,7 +16039,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:22:02",
+      "created_at": "2026-10-13 08:21:01",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important%20Notice%202026_cgle_2026_12092026.pdf",
@@ -15957,7 +16170,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 62,
+      "id": 61,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bihar BPSC 72 Pre Exam Postponed 2026",
@@ -15965,7 +16178,7 @@ window.PORTAL_DATA = {
       "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:21:01",
+      "created_at": "2026-10-13 08:20:00",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
@@ -16105,7 +16318,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 61,
+      "id": 60,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UP Cooperative Bank Various Post Exam Date 2026 | Advt No. : A-2/G.R./2026",
@@ -16113,7 +16326,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/upcisbapr26/oecla_aug26/login.php?appid=be96f03d489b0cc2d67802ae5dcc7b35",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:20:00",
+      "created_at": "2026-10-13 08:19:59",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://upcisb.upsdc.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
@@ -16224,7 +16437,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 60,
+      "id": 59,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Section Controller Admit Card 2026",
@@ -16232,7 +16445,7 @@ window.PORTAL_DATA = {
       "action_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:19:59",
+      "created_at": "2026-10-13 08:18:58",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
@@ -16244,7 +16457,7 @@ window.PORTAL_DATA = {
       "cutoff_pdf_url": "",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
-        "post_date": "15 October 2026 | 07:52 PM",
+        "post_date": "16 October 2026 | 04:09 PM",
         "short_info": "Indian Railway Railway Recruitment Board RRB Section Controller CEN 03/2026 . Those candidates who are Enrolled with RRB Section Controller CEN 03/2026 Exam Can Download Exam Date Notice. Read the notification for RRB Section Controller Post eligibility, post information, selection procedure, Details, age limit, pay scale and all other information.",
         "important_dates": [
           "Application Begin :",
@@ -16282,7 +16495,7 @@ window.PORTAL_DATA = {
             "label": "Download Answer Key",
             "links": [
               {
-                "text": "Link Will be Activate on 16/10/2026",
+                "text": "Click Here",
                 "url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
                 "is_pdf": false
               }
@@ -16373,15 +16586,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 59,
+      "id": 58,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SKAU Kurukshetra Non Teaching Clerk Admit Card 2026",
-      "tag": "Live",
+      "tag": "Direct",
       "action_url": "https://skau.eapplynow.com/Pages/AdmitCard01Login7.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:18:58",
+      "created_at": "2026-10-13 08:17:57",
       "source_portal": "Shri Krishna Ayush University (SKAU)",
       "source_url": "https://skau.ac.in/",
       "pdf_url": "https://skau.ac.in/downloads/files/n6a689841e4009.pdf",
@@ -16492,7 +16705,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 58,
+      "id": 57,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Junior Engineer JE Application Status 2026",
@@ -16500,7 +16713,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:17:57",
+      "created_at": "2026-10-13 08:16:56",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
@@ -16661,7 +16874,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 57,
+      "id": 56,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Technician CEN 02/2026 Admit Card 2026",
@@ -16669,7 +16882,7 @@ window.PORTAL_DATA = {
       "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:16:56",
+      "created_at": "2026-10-13 08:15:55",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
@@ -16815,7 +17028,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 56,
+      "id": 55,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "IBPS Clerk 16th Admit Card 2026",
@@ -16823,7 +17036,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/csaxvijul26/oecla_sep26/login.php?appid=948c445571d2f4e9f8749da0111eee4b",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:15:55",
+      "created_at": "2026-10-13 08:14:54",
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "pdf_url": "https://www.ibps.in/wp-content/uploads/Corrigendum-for-extension_CRP_CSA_XVI.pdf",
@@ -16930,7 +17143,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 55,
+      "id": 54,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC 10+2 CHSL Tier I Exam Date 2026",
@@ -16938,7 +17151,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:14:54",
+      "created_at": "2026-10-13 08:13:53",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -17039,7 +17252,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 54,
+      "id": 53,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC CPO SI 2026 Exam Date",
@@ -17047,7 +17260,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:13:53",
+      "created_at": "2026-10-13 08:12:52",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -17148,7 +17361,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 53,
+      "id": 52,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC Junior Engineer JE 2026 Paper I Exam Date",
@@ -17156,7 +17369,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:12:52",
+      "created_at": "2026-10-13 08:11:51",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -17257,7 +17470,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 52,
+      "id": 51,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Delhi High Court Junior Judicial Assistant JJA Admit Card 2026",
@@ -17265,7 +17478,7 @@ window.PORTAL_DATA = {
       "action_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:11:51",
+      "created_at": "2026-10-13 08:10:50",
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/",
       "pdf_url": "https://delhihighcourt.nic.in/files/2026-09/announcements/83-exams-nj.pdf",
@@ -17423,7 +17636,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 51,
+      "id": 50,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPPSC Assistant Town Planner ATP 2025 Mains Exam City Details",
@@ -17431,7 +17644,7 @@ window.PORTAL_DATA = {
       "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:10:50",
+      "created_at": "2026-10-13 08:59:49",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
@@ -17581,7 +17794,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 50,
+      "id": 49,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
@@ -17589,7 +17802,7 @@ window.PORTAL_DATA = {
       "action_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:59:49",
+      "created_at": "2026-10-13 08:58:48",
       "source_portal": "Chhattisgarh Vyapam",
       "source_url": "https://vyapamcg.cgstate.gov.in/",
       "pdf_url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/db6e35f9-6c55-4b88-b2a1-6416fcdc9f66_3874.pdf",
@@ -17705,7 +17918,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 49,
+      "id": 48,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bank of Baroda Local Bank Officer LBO Admit Card 2026",
@@ -17713,7 +17926,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/bobjul26/oecla_sep26/login.php?appid=c6391b5560ed30fe3af4a2c4bc3956e3",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:58:48",
+      "created_at": "2026-10-13 08:57:47",
       "source_portal": "Bank of Baroda (BOB)",
       "source_url": "https://bankofbaroda.bank.in/",
       "pdf_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-09/Notification-23-21.pdf",
@@ -17823,7 +18036,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 48,
+      "id": 47,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Junior Assistant 2024 Typing Test New Exam Date",
@@ -17831,7 +18044,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:57:47",
+      "created_at": "2026-10-13 08:56:46",
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_12_Exam_2024_AdmitCardNotice.pdf",
@@ -18031,7 +18244,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 47,
+      "id": 46,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC PET Online Form 2026 New Exam Schedule",
@@ -18039,10 +18252,10 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:56:46",
-      "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
-      "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?jAU6hktxazvm4Lxx+kRM7RO6W5+P3HdSzrpMn1pW3TI=",
+      "created_at": "2026-10-13 08:55:45",
+      "source_portal": "Institute of Banking Personnel Selection (IBPS)",
+      "source_url": "https://ibps.in",
+      "pdf_url": "https://ibps.in",
       "qualification_level": "Graduate",
       "sector": "State",
       "state": "Uttar Pradesh",
@@ -18189,7 +18402,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 46,
+      "id": 45,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "IBPS Probationary Officer PO 16th Mains Admit Card 2026",
@@ -18197,10 +18410,10 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/crppoxvijun26/oecla_sep26/login.php?appid=023fe6088511ecf7b15bbcb47f6a855a",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:55:45",
+      "created_at": "2026-10-13 08:54:44",
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
-      "source_url": "https://ibps.in",
-      "pdf_url": "https://ibps.in",
+      "source_url": "https://www.ibps.in/",
+      "pdf_url": "https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_28.07.26.pdf",
       "qualification_level": "Graduate",
       "sector": "Bank",
       "state": "All India",
@@ -18345,7 +18558,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 45,
+      "id": 44,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UP Police Constable PET Exam Admit Card 2026",
@@ -18353,7 +18566,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upcons2025.com/upconadmitcardPET/loginpage.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:54:44",
+      "created_at": "2026-10-13 08:53:43",
       "source_portal": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
       "source_url": "https://uppbpb.gov.in/",
       "pdf_url": "https://uppbpb.gov.in/FilesUploaded/Notice/72006142970352-f7c6-493f-8cce-53044d2db864.pdf",
@@ -18661,7 +18874,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 44,
+      "id": 43,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "NTA UGC NET June 2026 E Certificate Download",
@@ -18669,7 +18882,7 @@ window.PORTAL_DATA = {
       "action_url": "https://examinationservices.nic.in/AdmitCardService/Admitcard/Login?enc=LH/Iqy2lIvm6yfwjd7BOsNPROEv0WO16vwSfOqO4R9E=",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:53:43",
+      "created_at": "2026-10-13 08:52:42",
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://ugcnet.nta.nic.in/",
       "pdf_url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
@@ -18958,15 +19171,15 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 43,
+      "id": 42,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bihar STET Dummy Admit Card 2026",
       "tag": "Direct",
-      "action_url": "https://stetregistration.cbrt.co.in/login",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:52:42",
+      "created_at": "2026-10-13 08:51:41",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
       "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
@@ -18974,12 +19187,12 @@ window.PORTAL_DATA = {
       "sector": "State",
       "state": "Bihar",
       "registration_url": "https://stetregistration.cbrt.co.in/",
-      "login_url": "https://stetregistration.cbrt.co.in/login",
+      "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
       "cutoff_pdf_url": "",
       "meta": {
-        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Dummy Admit Card",
-        "post_date": "24 September 2026 | 11:18 AM",
-        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Apply Online from 17/08/2026 to 22/09/2026. For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
+        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Exam Date",
+        "post_date": "16 October 2026 | 07:06 PM",
+        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Check the Exam Date . For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
         "important_dates": [
           "Application Begin :",
           "17/08/2026",
@@ -18989,8 +19202,8 @@ window.PORTAL_DATA = {
           "15/09/2026",
           "Dummy Admit Card Available :",
           "24/09/2026",
-          "Bihar STET 2026 Paper I Exam Date :",
-          "As per Schedule"
+          "Bihar STET 2026 Exam Date :",
+          "25/10/2026 to 20/11/2026"
         ],
         "application_fee": [
           "Single Paper :",
@@ -19012,6 +19225,16 @@ window.PORTAL_DATA = {
         ],
         "total_vacancy": "",
         "important_links": [
+          {
+            "label": "Download Exam Date",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+                "is_pdf": false
+              }
+            ]
+          },
           {
             "label": "Download Dummy Admit Card",
             "links": [
@@ -19067,7 +19290,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 42,
+      "id": 41,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Scientific and Lab Assistant Mains Admit Card 2026",
@@ -19075,7 +19298,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:51:41",
+      "created_at": "2026-10-13 08:50:40",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://upsssc.gov.in/ViewPdf.aspx?sW91nE7NciLdHO1e8e0+/nDq8f/eUYUtQ+d+3wwM2mw=",
@@ -19255,7 +19478,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 41,
+      "id": 40,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Forest Guard / Wild Life Guard Mains Admit Card 2026",
@@ -19263,7 +19486,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:50:40",
+      "created_at": "2026-10-13 08:49:39",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "pdf_url": "https://upsssc.gov.in/ViewPdf.aspx?sW91nE7NciLVMJix89SvwOUZnDhCCcG45DKA0V6jiNI=",
@@ -19443,7 +19666,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 40,
+      "id": 39,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Uttarakhand UK TET UTET Admit Card 2026",
@@ -19451,7 +19674,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ukutet.com/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:49:39",
+      "created_at": "2026-10-13 08:48:38",
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
@@ -19545,7 +19768,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 39,
+      "id": 38,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPPSC 2025 ACF RFO Interview Letter 2026 Admit Card",
@@ -19553,7 +19776,7 @@ window.PORTAL_DATA = {
       "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=ac",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:48:38",
+      "created_at": "2026-10-13 08:47:37",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/Home",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/03/Sarkariresult_UPPSC_ACF_RFO_Main_2025_Schedule.pdf",
@@ -19773,7 +19996,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 38,
+      "id": 37,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB NTPC Graduate Level CBTST Admit Card 2026 , Mock Test | CEN 06/2025",
@@ -19781,7 +20004,7 @@ window.PORTAL_DATA = {
       "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/98228/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:47:37",
+      "created_at": "2026-10-13 08:46:36",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
       "pdf_url": "https://doc.sarkariresults.org.in/CBTST_SChedule.pdf",
@@ -20327,7 +20550,7 @@ window.PORTAL_DATA = {
       }
     },
     {
-      "id": 37,
+      "id": 36,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB ALP Exam Date 2026 \u2013 Released | CEN 01/2026",
@@ -20335,7 +20558,7 @@ window.PORTAL_DATA = {
       "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:46:36",
+      "created_at": "2026-10-13 08:45:35",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
@@ -20478,112 +20701,6 @@ window.PORTAL_DATA = {
           }
         ],
         "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2026/"
-      }
-    },
-    {
-      "id": 36,
-      "recruitment_id": null,
-      "category": "ADMIT_CARD",
-      "title": "SBI Junior Associates Clerk Admit Card 2026",
-      "tag": "Direct",
-      "action_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-      "is_featured": 0,
-      "featured_badge": null,
-      "created_at": "2026-10-13 08:45:35",
-      "source_portal": "State Bank of India SBI",
-      "source_url": "https://sbi.bank.in/",
-      "pdf_url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
-      "qualification_level": "Graduate",
-      "sector": "Bank",
-      "state": "All India",
-      "registration_url": "https://ibpsreg.ibps.in/sbijajul26/",
-      "login_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-      "cutoff_pdf_url": "",
-      "meta": {
-        "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Admit Card for 9124 Post",
-        "post_date": "21 September 2026 | 12:30 PM",
-        "short_info": "State Bank of India SBI has released Junior Associates Clerk Recruitment 2026 Admit Card. Those candidates Are Interested to the Following SBI Clerk Recruitment 2026 Can Apply Online from 11/08/2026 to 31/08/2026 . Read the notification for recruitment eligibility, post information, selection procedure, age limit, pay scale and all other information.",
-        "important_dates": [
-          "Application Begin :",
-          "11/08/2026",
-          "Last Date for Apply Online :",
-          "31/08/2026",
-          "Pay Exam Fee Last Date :",
-          "31/08/2026",
-          "SBI Clerk Phase I Pre Exam Date :",
-          "26 to 27 September 2026",
-          "Admit Card Available :",
-          "21/09/2026"
-        ],
-        "application_fee": [
-          "General / EWS / OBC :",
-          "750/",
-          "SC / ST / PH :",
-          "0/",
-          "Pay the Exam Fee Through Debit Card / Credit Card / Net Banking / UPI Fee Mode Only."
-        ],
-        "age_limit": [
-          "SBI Junior Associates Clerk Online Form 2026 :",
-          "01/04/2026",
-          "Minimum Age :",
-          "20 Years.",
-          "Maximum Age :",
-          "28 Years."
-        ],
-        "total_vacancy": "9124Post",
-        "important_links": [
-          {
-            "label": "Download Admit Card",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "PRE Trainee Exam Latter",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://sbi.bank.in/web/careers/ja-studymat-reg-202627",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Apply Online",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://ibpsreg.ibps.in/sbijajul26/",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Download Notification",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
-                "is_pdf": true
-              }
-            ]
-          },
-          {
-            "label": "Official Website",
-            "links": [
-              {
-                "text": "SBI Official Website",
-                "url": "https://sbi.bank.in/",
-                "is_pdf": false
-              }
-            ]
-          }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-j-a-clerk-august26/"
       }
     },
     {
@@ -35518,118 +35635,12 @@ window.PORTAL_DATA = {
       "id": 36,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
-      "title": "SBI Junior Associates Clerk Admit Card 2026",
-      "tag": "Direct",
-      "action_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-      "is_featured": 0,
-      "featured_badge": null,
-      "created_at": "2026-10-13 08:45:35",
-      "source_portal": "State Bank of India SBI",
-      "source_url": "https://sbi.bank.in/",
-      "pdf_url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
-      "qualification_level": "Graduate",
-      "sector": "Bank",
-      "state": "All India",
-      "registration_url": "https://ibpsreg.ibps.in/sbijajul26/",
-      "login_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-      "cutoff_pdf_url": "",
-      "meta": {
-        "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Admit Card for 9124 Post",
-        "post_date": "21 September 2026 | 12:30 PM",
-        "short_info": "State Bank of India SBI has released Junior Associates Clerk Recruitment 2026 Admit Card. Those candidates Are Interested to the Following SBI Clerk Recruitment 2026 Can Apply Online from 11/08/2026 to 31/08/2026 . Read the notification for recruitment eligibility, post information, selection procedure, age limit, pay scale and all other information.",
-        "important_dates": [
-          "Application Begin :",
-          "11/08/2026",
-          "Last Date for Apply Online :",
-          "31/08/2026",
-          "Pay Exam Fee Last Date :",
-          "31/08/2026",
-          "SBI Clerk Phase I Pre Exam Date :",
-          "26 to 27 September 2026",
-          "Admit Card Available :",
-          "21/09/2026"
-        ],
-        "application_fee": [
-          "General / EWS / OBC :",
-          "750/",
-          "SC / ST / PH :",
-          "0/",
-          "Pay the Exam Fee Through Debit Card / Credit Card / Net Banking / UPI Fee Mode Only."
-        ],
-        "age_limit": [
-          "SBI Junior Associates Clerk Online Form 2026 :",
-          "01/04/2026",
-          "Minimum Age :",
-          "20 Years.",
-          "Maximum Age :",
-          "28 Years."
-        ],
-        "total_vacancy": "9124Post",
-        "important_links": [
-          {
-            "label": "Download Admit Card",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "PRE Trainee Exam Latter",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://sbi.bank.in/web/careers/ja-studymat-reg-202627",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Apply Online",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://ibpsreg.ibps.in/sbijajul26/",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Download Notification",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
-                "is_pdf": true
-              }
-            ]
-          },
-          {
-            "label": "Official Website",
-            "links": [
-              {
-                "text": "SBI Official Website",
-                "url": "https://sbi.bank.in/",
-                "is_pdf": false
-              }
-            ]
-          }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-j-a-clerk-august26/"
-      }
-    },
-    "37": {
-      "id": 37,
-      "recruitment_id": null,
-      "category": "ADMIT_CARD",
       "title": "Railway RRB ALP Exam Date 2026 \u2013 Released | CEN 01/2026",
       "tag": "Direct",
       "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:46:36",
+      "created_at": "2026-10-13 08:45:35",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
@@ -35774,8 +35785,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2026/"
       }
     },
-    "38": {
-      "id": 38,
+    "37": {
+      "id": 37,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB NTPC Graduate Level CBTST Admit Card 2026 , Mock Test | CEN 06/2025",
@@ -35783,7 +35794,7 @@ window.PORTAL_DATA = {
       "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/98228/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:47:37",
+      "created_at": "2026-10-13 08:46:36",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
       "pdf_url": "https://doc.sarkariresults.org.in/CBTST_SChedule.pdf",
@@ -36328,8 +36339,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-ntpc-graduate-06-2025/"
       }
     },
-    "39": {
-      "id": 39,
+    "38": {
+      "id": 38,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPPSC 2025 ACF RFO Interview Letter 2026 Admit Card",
@@ -36337,7 +36348,7 @@ window.PORTAL_DATA = {
       "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=ac",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:48:38",
+      "created_at": "2026-10-13 08:47:37",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/Home",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/03/Sarkariresult_UPPSC_ACF_RFO_Main_2025_Schedule.pdf",
@@ -36556,8 +36567,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2025/uppsc-pre-2025/"
       }
     },
-    "40": {
-      "id": 40,
+    "39": {
+      "id": 39,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Uttarakhand UK TET UTET Admit Card 2026",
@@ -36565,7 +36576,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ukutet.com/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:49:39",
+      "created_at": "2026-10-13 08:48:38",
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
@@ -36658,8 +36669,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/uttarakhand-utet-2026/"
       }
     },
-    "41": {
-      "id": 41,
+    "40": {
+      "id": 40,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Forest Guard / Wild Life Guard Mains Admit Card 2026",
@@ -36667,7 +36678,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:50:40",
+      "created_at": "2026-10-13 08:49:39",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "pdf_url": "https://upsssc.gov.in/ViewPdf.aspx?sW91nE7NciLVMJix89SvwOUZnDhCCcG45DKA0V6jiNI=",
@@ -36846,8 +36857,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-forest-guard-12-exam-2026/"
       }
     },
-    "42": {
-      "id": 42,
+    "41": {
+      "id": 41,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Scientific and Lab Assistant Mains Admit Card 2026",
@@ -36855,7 +36866,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:51:41",
+      "created_at": "2026-10-13 08:50:40",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://upsssc.gov.in/ViewPdf.aspx?sW91nE7NciLdHO1e8e0+/nDq8f/eUYUtQ+d+3wwM2mw=",
@@ -37034,16 +37045,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-paramedical-fsl-15-exam-2026/"
       }
     },
-    "43": {
-      "id": 43,
+    "42": {
+      "id": 42,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bihar STET Dummy Admit Card 2026",
       "tag": "Direct",
-      "action_url": "https://stetregistration.cbrt.co.in/login",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:52:42",
+      "created_at": "2026-10-13 08:51:41",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
       "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
@@ -37051,12 +37062,12 @@ window.PORTAL_DATA = {
       "sector": "State",
       "state": "Bihar",
       "registration_url": "https://stetregistration.cbrt.co.in/",
-      "login_url": "https://stetregistration.cbrt.co.in/login",
+      "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
       "cutoff_pdf_url": "",
       "meta": {
-        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Dummy Admit Card",
-        "post_date": "24 September 2026 | 11:18 AM",
-        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Apply Online from 17/08/2026 to 22/09/2026. For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
+        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Exam Date",
+        "post_date": "16 October 2026 | 07:06 PM",
+        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Check the Exam Date . For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
         "important_dates": [
           "Application Begin :",
           "17/08/2026",
@@ -37066,8 +37077,8 @@ window.PORTAL_DATA = {
           "15/09/2026",
           "Dummy Admit Card Available :",
           "24/09/2026",
-          "Bihar STET 2026 Paper I Exam Date :",
-          "As per Schedule"
+          "Bihar STET 2026 Exam Date :",
+          "25/10/2026 to 20/11/2026"
         ],
         "application_fee": [
           "Single Paper :",
@@ -37089,6 +37100,16 @@ window.PORTAL_DATA = {
         ],
         "total_vacancy": "",
         "important_links": [
+          {
+            "label": "Download Exam Date",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+                "is_pdf": false
+              }
+            ]
+          },
           {
             "label": "Download Dummy Admit Card",
             "links": [
@@ -37143,8 +37164,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
       }
     },
-    "44": {
-      "id": 44,
+    "43": {
+      "id": 43,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "NTA UGC NET June 2026 E Certificate Download",
@@ -37152,7 +37173,7 @@ window.PORTAL_DATA = {
       "action_url": "https://examinationservices.nic.in/AdmitCardService/Admitcard/Login?enc=LH/Iqy2lIvm6yfwjd7BOsNPROEv0WO16vwSfOqO4R9E=",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:53:43",
+      "created_at": "2026-10-13 08:52:42",
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://ugcnet.nta.nic.in/",
       "pdf_url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
@@ -37440,8 +37461,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-ugc-net-june-2026/"
       }
     },
-    "45": {
-      "id": 45,
+    "44": {
+      "id": 44,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UP Police Constable PET Exam Admit Card 2026",
@@ -37449,7 +37470,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upcons2025.com/upconadmitcardPET/loginpage.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:54:44",
+      "created_at": "2026-10-13 08:53:43",
       "source_portal": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
       "source_url": "https://uppbpb.gov.in/",
       "pdf_url": "https://uppbpb.gov.in/FilesUploaded/Notice/72006142970352-f7c6-493f-8cce-53044d2db864.pdf",
@@ -37756,8 +37777,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/up-police-constable-jan26/"
       }
     },
-    "46": {
-      "id": 46,
+    "45": {
+      "id": 45,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "IBPS Probationary Officer PO 16th Mains Admit Card 2026",
@@ -37765,10 +37786,10 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/crppoxvijun26/oecla_sep26/login.php?appid=023fe6088511ecf7b15bbcb47f6a855a",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:55:45",
+      "created_at": "2026-10-13 08:54:44",
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
-      "source_url": "https://ibps.in",
-      "pdf_url": "https://ibps.in",
+      "source_url": "https://www.ibps.in/",
+      "pdf_url": "https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_28.07.26.pdf",
       "qualification_level": "Graduate",
       "sector": "Bank",
       "state": "All India",
@@ -37912,8 +37933,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-po-xvi-mt-june26/"
       }
     },
-    "47": {
-      "id": 47,
+    "46": {
+      "id": 46,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC PET Online Form 2026 New Exam Schedule",
@@ -37921,10 +37942,10 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:56:46",
-      "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
-      "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?jAU6hktxazvm4Lxx+kRM7RO6W5+P3HdSzrpMn1pW3TI=",
+      "created_at": "2026-10-13 08:55:45",
+      "source_portal": "Institute of Banking Personnel Selection (IBPS)",
+      "source_url": "https://ibps.in",
+      "pdf_url": "https://ibps.in",
       "qualification_level": "Graduate",
       "sector": "State",
       "state": "Uttar Pradesh",
@@ -38070,8 +38091,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
       }
     },
-    "48": {
-      "id": 48,
+    "47": {
+      "id": 47,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC Junior Assistant 2024 Typing Test New Exam Date",
@@ -38079,7 +38100,7 @@ window.PORTAL_DATA = {
       "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:57:47",
+      "created_at": "2026-10-13 08:56:46",
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_12_Exam_2024_AdmitCardNotice.pdf",
@@ -38278,8 +38299,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-jr-assistant-12-exam-2024/"
       }
     },
-    "49": {
-      "id": 49,
+    "48": {
+      "id": 48,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bank of Baroda Local Bank Officer LBO Admit Card 2026",
@@ -38287,7 +38308,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/bobjul26/oecla_sep26/login.php?appid=c6391b5560ed30fe3af4a2c4bc3956e3",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:58:48",
+      "created_at": "2026-10-13 08:57:47",
       "source_portal": "Bank of Baroda (BOB)",
       "source_url": "https://bankofbaroda.bank.in/",
       "pdf_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-09/Notification-23-21.pdf",
@@ -38396,8 +38417,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/bob-lbo-aug26/"
       }
     },
-    "50": {
-      "id": 50,
+    "49": {
+      "id": 49,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
@@ -38405,7 +38426,7 @@ window.PORTAL_DATA = {
       "action_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:59:49",
+      "created_at": "2026-10-13 08:58:48",
       "source_portal": "Chhattisgarh Vyapam",
       "source_url": "https://vyapamcg.cgstate.gov.in/",
       "pdf_url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/db6e35f9-6c55-4b88-b2a1-6416fcdc9f66_3874.pdf",
@@ -38520,8 +38541,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/chhattisgarh-set-jul26/"
       }
     },
-    "51": {
-      "id": 51,
+    "50": {
+      "id": 50,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPPSC Assistant Town Planner ATP 2025 Mains Exam City Details",
@@ -38529,7 +38550,7 @@ window.PORTAL_DATA = {
       "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:10:50",
+      "created_at": "2026-10-13 08:59:49",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
@@ -38678,8 +38699,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/uppsc-atp-november25/"
       }
     },
-    "52": {
-      "id": 52,
+    "51": {
+      "id": 51,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Delhi High Court Junior Judicial Assistant JJA Admit Card 2026",
@@ -38687,7 +38708,7 @@ window.PORTAL_DATA = {
       "action_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:11:51",
+      "created_at": "2026-10-13 08:10:50",
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/",
       "pdf_url": "https://delhihighcourt.nic.in/files/2026-09/announcements/83-exams-nj.pdf",
@@ -38844,8 +38865,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/delhi/delhi-hc-jja-restorer-feb26/"
       }
     },
-    "53": {
-      "id": 53,
+    "52": {
+      "id": 52,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC Junior Engineer JE 2026 Paper I Exam Date",
@@ -38853,7 +38874,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:12:52",
+      "created_at": "2026-10-13 08:11:51",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -38953,8 +38974,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
       }
     },
-    "54": {
-      "id": 54,
+    "53": {
+      "id": 53,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC CPO SI 2026 Exam Date",
@@ -38962,7 +38983,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:13:53",
+      "created_at": "2026-10-13 08:12:52",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -39062,8 +39083,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-cpo-si-capf-2026/"
       }
     },
-    "55": {
-      "id": 55,
+    "54": {
+      "id": 54,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC 10+2 CHSL Tier I Exam Date 2026",
@@ -39071,7 +39092,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:14:54",
+      "created_at": "2026-10-13 08:13:53",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
@@ -39171,8 +39192,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-chsl-2026-sep/"
       }
     },
-    "56": {
-      "id": 56,
+    "55": {
+      "id": 55,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "IBPS Clerk 16th Admit Card 2026",
@@ -39180,7 +39201,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/csaxvijul26/oecla_sep26/login.php?appid=948c445571d2f4e9f8749da0111eee4b",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:15:55",
+      "created_at": "2026-10-13 08:14:54",
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "pdf_url": "https://www.ibps.in/wp-content/uploads/Corrigendum-for-extension_CRP_CSA_XVI.pdf",
@@ -39286,8 +39307,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-clerk-16th-august26/"
       }
     },
-    "57": {
-      "id": 57,
+    "56": {
+      "id": 56,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Technician CEN 02/2026 Admit Card 2026",
@@ -39295,7 +39316,7 @@ window.PORTAL_DATA = {
       "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:16:56",
+      "created_at": "2026-10-13 08:15:55",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
@@ -39440,8 +39461,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2026/"
       }
     },
-    "58": {
-      "id": 58,
+    "57": {
+      "id": 57,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Junior Engineer JE Application Status 2026",
@@ -39449,7 +39470,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:17:57",
+      "created_at": "2026-10-13 08:16:56",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
@@ -39609,16 +39630,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-junior-engineer-cen-04-2026/"
       }
     },
-    "59": {
-      "id": 59,
+    "58": {
+      "id": 58,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SKAU Kurukshetra Non Teaching Clerk Admit Card 2026",
-      "tag": "Live",
+      "tag": "Direct",
       "action_url": "https://skau.eapplynow.com/Pages/AdmitCard01Login7.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:18:58",
+      "created_at": "2026-10-13 08:17:57",
       "source_portal": "Shri Krishna Ayush University (SKAU)",
       "source_url": "https://skau.ac.in/",
       "pdf_url": "https://skau.ac.in/downloads/files/n6a689841e4009.pdf",
@@ -39728,8 +39749,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/skau-non-teaching-post-july26/"
       }
     },
-    "60": {
-      "id": 60,
+    "59": {
+      "id": 59,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB Section Controller Admit Card 2026",
@@ -39737,7 +39758,7 @@ window.PORTAL_DATA = {
       "action_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:19:59",
+      "created_at": "2026-10-13 08:18:58",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
@@ -39749,7 +39770,7 @@ window.PORTAL_DATA = {
       "cutoff_pdf_url": "",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
-        "post_date": "15 October 2026 | 07:52 PM",
+        "post_date": "16 October 2026 | 04:09 PM",
         "short_info": "Indian Railway Railway Recruitment Board RRB Section Controller CEN 03/2026 . Those candidates who are Enrolled with RRB Section Controller CEN 03/2026 Exam Can Download Exam Date Notice. Read the notification for RRB Section Controller Post eligibility, post information, selection procedure, Details, age limit, pay scale and all other information.",
         "important_dates": [
           "Application Begin :",
@@ -39787,7 +39808,7 @@ window.PORTAL_DATA = {
             "label": "Download Answer Key",
             "links": [
               {
-                "text": "Link Will be Activate on 16/10/2026",
+                "text": "Click Here",
                 "url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
                 "is_pdf": false
               }
@@ -39877,8 +39898,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/"
       }
     },
-    "61": {
-      "id": 61,
+    "60": {
+      "id": 60,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UP Cooperative Bank Various Post Exam Date 2026 | Advt No. : A-2/G.R./2026",
@@ -39886,7 +39907,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/upcisbapr26/oecla_aug26/login.php?appid=be96f03d489b0cc2d67802ae5dcc7b35",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:20:00",
+      "created_at": "2026-10-13 08:19:59",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://upcisb.upsdc.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
@@ -39996,8 +40017,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upcisb-various-post-may26/"
       }
     },
-    "62": {
-      "id": 62,
+    "61": {
+      "id": 61,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Bihar BPSC 72 Pre Exam Postponed 2026",
@@ -40005,7 +40026,7 @@ window.PORTAL_DATA = {
       "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:21:01",
+      "created_at": "2026-10-13 08:20:00",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
@@ -40144,8 +40165,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-72-pre-exam-2026/"
       }
     },
-    "63": {
-      "id": 63,
+    "62": {
+      "id": 62,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "SSC Combined Graduate Level CGL 2026 Tier I Admit Card",
@@ -40153,7 +40174,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ssc.gov.in/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:22:02",
+      "created_at": "2026-10-13 08:21:01",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important%20Notice%202026_cgle_2026_12092026.pdf",
@@ -40283,8 +40304,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-cgl-2026/"
       }
     },
-    "64": {
-      "id": 64,
+    "63": {
+      "id": 63,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Delhi High Court HJS Mains Admit Card 2026",
@@ -40292,7 +40313,7 @@ window.PORTAL_DATA = {
       "action_url": "https://applycareer.co.in/dhc/highcourt2026dhjse/DHJSE2026_AdmitMain.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:23:03",
+      "created_at": "2026-10-13 08:22:02",
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/web/job-openings",
       "pdf_url": "https://delhihighcourt.nic.in/files/2026-10/recuritment/dhjsexam2026.pdf",
@@ -40449,8 +40470,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/delhi-hc-hjs-july26/"
       }
     },
-    "65": {
-      "id": 65,
+    "64": {
+      "id": 64,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Rajasthan High Court Stenographer Admit Card 2026",
@@ -40458,7 +40479,7 @@ window.PORTAL_DATA = {
       "action_url": "http://103.203.137.249/steno2026/index.php",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:24:04",
+      "created_at": "2026-10-13 08:23:03",
       "source_portal": "Rajasthan High Court Jodhpur RHC",
       "source_url": "https://hcraj.nic.in/hcraj/",
       "pdf_url": "https://hcraj.nic.in/hcraj/hcraj_admin/uploadfile/recruitment/revnot179188948536.pdf",
@@ -40557,16 +40578,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-high-court-july26/"
       }
     },
-    "66": {
-      "id": 66,
+    "65": {
+      "id": 65,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Railway RRB ALP CEN 01/2026 Revised Application Status",
-      "tag": "New",
+      "tag": "Live",
       "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:25:05",
+      "created_at": "2026-10-13 08:24:04",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
@@ -40711,8 +40732,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2026/"
       }
     },
-    "67": {
-      "id": 67,
+    "66": {
+      "id": 66,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "AAI Manager, Junior Executive Admit Card 2026 for 389 Post",
@@ -40720,7 +40741,7 @@ window.PORTAL_DATA = {
       "action_url": "https://ibpsreg.ibps.in/aaioct25/oecla_sep26/login.php?appid=c29840a936e11a8543bb8d3a80f48ed4",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:26:06",
+      "created_at": "2026-10-13 08:25:05",
       "source_portal": "Airports Authority of India (AAI)",
       "source_url": "https://www.aai.aero/en",
       "pdf_url": "https://www.aai.aero/sites/default/files/examdashboard_pressnote/Exam%20Notice.pdf",
@@ -40819,16 +40840,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/aai-manager-junior-executive-july26/"
       }
     },
-    "68": {
-      "id": 68,
+    "67": {
+      "id": 67,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "Jharkhand JAC JHTET Admit Card 2026",
       "tag": "New",
       "action_url": "https://jactetonline.com/",
-      "is_featured": 1,
-      "featured_badge": "New",
-      "created_at": "2026-10-13 08:27:07",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:26:06",
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
       "pdf_url": "https://jac-projects.s3.ap-south-1.amazonaws.com/JHTET_2026/PRODUCTION_CANDIDATE_DOCS/NOTICES/1782128382_d0ef1f2df4.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYBPIGXBXP63UTJ4E%2F20260625%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260625T081039Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=79a0a8ddb6c4e46bfa1015390ae6243b1230dcb36278a40eb26e47ef52360859",
@@ -40941,16 +40962,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/jac-jhtet-2026/"
       }
     },
-    "69": {
-      "id": 69,
+    "68": {
+      "id": 68,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "UPSSSC PET Admit Card 2026",
       "tag": "New",
       "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "is_featured": 1,
-      "featured_badge": "Hot",
-      "created_at": "2026-10-13 08:28:08",
+      "featured_badge": "New",
+      "created_at": "2026-10-13 08:27:07",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?jAU6hktxazvm4Lxx+kRM7RO6W5+P3HdSzrpMn1pW3TI=",
@@ -41099,16 +41120,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
       }
     },
-    "70": {
-      "id": 70,
+    "69": {
+      "id": 69,
       "recruitment_id": null,
       "category": "ADMIT_CARD",
       "title": "United India Insurance UIIC AO Admit Card 2026 for 225 Post",
       "tag": "New",
       "action_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
       "is_featured": 1,
-      "featured_badge": "Live",
-      "created_at": "2026-10-13 08:29:09",
+      "featured_badge": "Hot",
+      "created_at": "2026-10-13 08:28:08",
       "source_portal": "United India Insurance Company Limited (UIIC)",
       "source_url": "https://uiic.co.in/",
       "pdf_url": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
@@ -41203,6 +41224,125 @@ window.PORTAL_DATA = {
           }
         ],
         "sarkariresult_url": "https://www.sarkariresult.com/2026/uiic-ao-sep26/"
+      }
+    },
+    "70": {
+      "id": 70,
+      "recruitment_id": null,
+      "category": "ADMIT_CARD",
+      "title": "Bihar STET 2026 Exam Date",
+      "tag": "New",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+      "is_featured": 1,
+      "featured_badge": "Live",
+      "created_at": "2026-10-13 08:29:09",
+      "source_portal": "Bihar School Examination Board (BSEB)",
+      "source_url": "https://biharboardonline.com/",
+      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Bihar",
+      "registration_url": "https://stetregistration.cbrt.co.in/",
+      "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Exam Date",
+        "post_date": "16 October 2026 | 07:06 PM",
+        "short_info": "Bihar School Examination Board (BSEB) has released the Secondary Teacher Eligibility Test 2026 Notification. Those Candidates Are Enrolled with STET Exam 2026 Can Check the Exam Date . For recruitment eligibility, age limit, Post wise Eligibility, selection procedure, syllabus and all other information read the advertisement and then apply 2026.",
+        "important_dates": [
+          "Application Begin :",
+          "17/08/2026",
+          "Last Date for Apply Online :",
+          "22/09/2026 Date Extended",
+          "Pay Exam Fee Last Date:",
+          "15/09/2026",
+          "Dummy Admit Card Available :",
+          "24/09/2026",
+          "Bihar STET 2026 Exam Date :",
+          "25/10/2026 to 20/11/2026"
+        ],
+        "application_fee": [
+          "Single Paper :",
+          "General / BC / EWS :",
+          "960/",
+          "SC / ST / PH",
+          ": 760/",
+          "Both Paper :",
+          "General / BC / EWS",
+          ": 1440/"
+        ],
+        "age_limit": [
+          "Bihar STET Online Form 2026 :",
+          "Minimum Age :",
+          "18 Years",
+          "Maximum Age :",
+          "37 Male",
+          "Maximum Age :"
+        ],
+        "total_vacancy": "",
+        "important_links": [
+          {
+            "label": "Download Exam Date",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Dummy Admit Card",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://stetregistration.cbrt.co.in/login",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://stetregistration.cbrt.co.in/",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Download Application Form",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "BSEB Official Website",
+                "url": "https://biharboardonline.com/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
       }
     },
     "71": {
@@ -43637,92 +43777,12 @@ window.PORTAL_DATA = {
       "id": 96,
       "recruitment_id": null,
       "category": "LATEST_JOB",
-      "title": "IFFCO Agriculture Graduate Trainee AGT Online Form 2026",
-      "tag": "Active",
-      "action_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "is_featured": 0,
-      "featured_badge": null,
-      "created_at": "2026-10-13 08:55:35",
-      "source_portal": "Indian Farmers Fertilizer Cooperative Limited IFFCO",
-      "source_url": "https://www.iffco.in/",
-      "pdf_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "qualification_level": "Graduate",
-      "sector": "Central Govt",
-      "state": "Uttar Pradesh",
-      "registration_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "login_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "cutoff_pdf_url": "",
-      "meta": {
-        "full_title": "IFFCO Agriculture Graduate Trainee AGT Recruitment 2026 Apply Online Form",
-        "post_date": "08 October 2026 | 11:50 PM",
-        "short_info": "Indian Farmers Fertilizer Cooperative Limited IFFCO has released Agriculture Graduate Trainee AGT Recruitment Notification for filling up vacancies in IFFCO AGT 2026. Those candidates who are interested in this IFFCO Agriculture Graduate Trainee AGT Recruitment 2026 Exam can Apply Online from 14/10/2026. Read the notification for IFFCO AGT Vacancy 2026 Exam, eligibility, Subject Details information, Document Required, age limit, How to Apply and all other information.",
-        "important_dates": [
-          "Application Begin :",
-          "NA",
-          "Last Date for Apply Online :",
-          "14/10/2026",
-          "Complete Form Last Date :",
-          "As per Schedule"
-        ],
-        "application_fee": [
-          "General / OBC :",
-          "0/",
-          "SC / ST / PH",
-          ": 0/"
-        ],
-        "age_limit": [
-          "IFFCO Agriculture Graduate Trainee AGT Notification 2026 :",
-          "Minimum Age :",
-          "NA",
-          "Maximum Age :",
-          "30 Years."
-        ],
-        "total_vacancy": "",
-        "important_links": [
-          {
-            "label": "Apply Online",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Download Notification",
-            "links": [
-              {
-                "text": "Click Here",
-                "url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-                "is_pdf": false
-              }
-            ]
-          },
-          {
-            "label": "Official Website",
-            "links": [
-              {
-                "text": "IFFCO Official Website",
-                "url": "https://www.iffco.in/",
-                "is_pdf": false
-              }
-            ]
-          }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/iffco-agt-oct26/"
-      }
-    },
-    "97": {
-      "id": 97,
-      "recruitment_id": null,
-      "category": "LATEST_JOB",
       "title": "UP Anganwadi Worker Bharti Online Form 2026 | Updated",
       "tag": "Active",
       "action_url": "https://upanganwadibharti.in/workernew/users/registration.php",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:56:36",
+      "created_at": "2026-10-13 08:55:35",
       "source_portal": "Uttar Pradesh District Program Officer",
       "source_url": "https://upanganwadibharti.in/",
       "pdf_url": "https://upanganwadibharti.in/",
@@ -43799,8 +43859,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/up-anganwadi-worker/"
       }
     },
-    "98": {
-      "id": 98,
+    "97": {
+      "id": 97,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Railway RRB Paramedical Online Form 2026 CEN 05/2026",
@@ -43808,7 +43868,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:57:37",
+      "created_at": "2026-10-13 08:56:36",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
@@ -43898,8 +43958,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-paramedical-cen-05-2026/"
       }
     },
-    "99": {
-      "id": 99,
+    "98": {
+      "id": 98,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "BPSC School Teacher TRE 4.0 Online Form 2026",
@@ -43907,7 +43967,7 @@ window.PORTAL_DATA = {
       "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:58:38",
+      "created_at": "2026-10-13 08:57:37",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "pdf_url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-cum-Corrigendum-152026-School-Teacher-Class-9-10-11-12-remaining-vacancies_BPSC-20260929-qxkdgl.pdf",
@@ -44064,8 +44124,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-tre-4-2026/"
       }
     },
-    "100": {
-      "id": 100,
+    "99": {
+      "id": 99,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "UPESSC UP PGT Teacher Online Form 2026",
@@ -44073,7 +44133,7 @@ window.PORTAL_DATA = {
       "action_url": "https://apply.upessc.org/",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:59:39",
+      "created_at": "2026-10-13 08:58:38",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/Subject-Wise-Vacancy.pdf",
@@ -44162,16 +44222,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-pgt-teacher-sept26/"
       }
     },
-    "101": {
-      "id": 101,
+    "100": {
+      "id": 100,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Army 10+2 TES 57th Online Form 2026",
-      "tag": "New",
+      "tag": "Active",
       "action_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:10:40",
+      "created_at": "2026-10-13 08:59:39",
       "source_portal": "Army Recruitment (Join Indian Army)",
       "source_url": "http://joinindianarmy.nic.in/",
       "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
@@ -44247,8 +44307,8 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/army-tes-57th-oct26/"
       }
     },
-    "102": {
-      "id": 102,
+    "101": {
+      "id": 101,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Railway RRB NTPC 10+2 Under Graduate Online Form 2026",
@@ -44256,7 +44316,7 @@ window.PORTAL_DATA = {
       "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "is_featured": 0,
       "featured_badge": null,
-      "created_at": "2026-10-13 08:11:41",
+      "created_at": "2026-10-13 08:10:40",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "pdf_url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
@@ -44356,16 +44416,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/railway/railway-rrb-ntpc-ug-level-07-2026/"
       }
     },
-    "103": {
-      "id": 103,
+    "102": {
+      "id": 102,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended",
       "tag": "New",
       "action_url": "https://apply.upessc.org/register",
-      "is_featured": 1,
-      "featured_badge": "New",
-      "created_at": "2026-10-13 08:12:42",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:11:41",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "pdf_url": "https://upessc.up.gov.in/Notice/40d4-f371-4c8d-139c-599c.pdf",
@@ -44479,16 +44539,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-primary-teacher-05-2026/"
       }
     },
-    "104": {
-      "id": 104,
+    "103": {
+      "id": 103,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "Supreme Court of India Junior Court Attendant Online Form 2026",
       "tag": "New",
       "action_url": "https://www.sci.gov.in/",
       "is_featured": 1,
-      "featured_badge": "Hot",
-      "created_at": "2026-10-13 08:13:43",
+      "featured_badge": "New",
+      "created_at": "2026-10-13 08:12:42",
       "source_portal": "Supreme Court of India SCI",
       "source_url": "https://www.sci.gov.in/",
       "pdf_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026101560.pdf",
@@ -44522,7 +44582,7 @@ window.PORTAL_DATA = {
           "Pay the Examination Fee Through Debit Card / Credit Card / Net Banking / Online Only."
         ],
         "age_limit": [
-          "SCI Junior Court Attendant 2026",
+          "SCI Junior Court Attendant Notification 2026",
           ":",
           "Minimum Age :",
           "18 Years.",
@@ -44565,16 +44625,16 @@ window.PORTAL_DATA = {
         "sarkariresult_url": "https://www.sarkariresult.com/2026/supreme-court-of-india-jca-oct26/"
       }
     },
-    "105": {
-      "id": 105,
+    "104": {
+      "id": 104,
       "recruitment_id": null,
       "category": "LATEST_JOB",
       "title": "MPESB MP Police Constable Driver Online Form 2026",
       "tag": "New",
       "action_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "is_featured": 1,
-      "featured_badge": "Live",
-      "created_at": "2026-10-13 08:14:44",
+      "featured_badge": "Hot",
+      "created_at": "2026-10-13 08:13:43",
       "source_portal": "Madhya Pradesh Employee Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "pdf_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_Driver_2026_rulebook_07102026.pdf",
@@ -44650,6 +44710,94 @@ window.PORTAL_DATA = {
           }
         ],
         "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-mpp-constable-driver-oct26/"
+      }
+    },
+    "105": {
+      "id": 105,
+      "recruitment_id": null,
+      "category": "LATEST_JOB",
+      "title": "UPSSSC 10+2 Inter Level Various Post Online Form 2026",
+      "tag": "New",
+      "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "is_featured": 1,
+      "featured_badge": "Live",
+      "created_at": "2026-10-13 08:14:44",
+      "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
+      "source_url": "https://upsssc.gov.in/",
+      "pdf_url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+      "qualification_level": "Graduate",
+      "sector": "State",
+      "state": "Uttar Pradesh",
+      "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "UPSSSC Combined Lower Subordinate Services Main Examination 2026 Apply Online for 1784 Post",
+        "post_date": "16 October 2026 | 08:45 PM",
+        "short_info": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) has Released UPSSSC Combined Lower Subordinate Services Main Recruitment Notification. Those candidates who are interested in this UPSSSC Combined Lower Subordinate Services Mains Examination Vacancy 2026 can Apply Online from 10/11/2026 to 01/12/2026 . Read the notification for recruitment eligibility, post information, selection procedure, pay scale and all other information.",
+        "important_dates": [
+          "Application Begin :",
+          "10/11/2026",
+          "Last Date for Apply Online :",
+          "01/12/2026",
+          "Pay Exam Fee Last Date :",
+          "01/12/2026",
+          "Form Correction Last Date :",
+          "08/12/2026",
+          "UPSSSC Lower PCS Main Exam Date :",
+          "As per Schedule"
+        ],
+        "application_fee": [
+          "General (UR) / OBC / EWS :",
+          "25/",
+          "SC / ST :",
+          "25/",
+          "PH (Divyang) :",
+          "25/",
+          "Pay the Examination Fee Through UPI, Debit Card, Credit Card and Net Banking Mode Only."
+        ],
+        "age_limit": [
+          "UPSSSC Lower PCS Mains Online Form 2026 :",
+          "Minimum Age :",
+          "18 Years",
+          "Maximum Age :",
+          "40 Years",
+          "Age Relaxation Extra as per UPSSSC Advertisement No. 26-Exam/2026, Advertisement of Lower PCS 10+2 Level Main Examination."
+        ],
+        "total_vacancy": "1784 Post",
+        "important_links": [
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Link will be Activate on 10/11/2026",
+                "url": "https://upsssc.gov.in/AllNotifications.aspx",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "UPSSSC Official Website",
+                "url": "https://upsssc.gov.in/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-lower-pcs-26-exam-oct26/"
       }
     },
     "106": {
@@ -50994,7 +51142,7 @@ window.PORTAL_DATA = {
       "cutoff_pdf_url": "",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
-        "post_date": "15 October 2026 | 07:52 PM",
+        "post_date": "16 October 2026 | 04:09 PM",
         "short_info": "Indian Railway Railway Recruitment Board RRB Section Controller CEN 03/2026 . Those candidates who are Enrolled with RRB Section Controller CEN 03/2026 Exam Can Download Exam Date Notice. Read the notification for RRB Section Controller Post eligibility, post information, selection procedure, Details, age limit, pay scale and all other information.",
         "important_dates": [
           "Application Begin :",
@@ -51032,7 +51180,7 @@ window.PORTAL_DATA = {
             "label": "Download Answer Key",
             "links": [
               {
-                "text": "Link Will be Activate on 16/10/2026",
+                "text": "Click Here",
                 "url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
                 "is_pdf": false
               }
@@ -54597,7 +54745,7 @@ window.PORTAL_DATA = {
       "recruitment_id": null,
       "category": "ADMISSION",
       "title": "NEET UG 2026 Online Counselling",
-      "tag": "Live",
+      "tag": "Direct",
       "action_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "is_featured": 0,
       "featured_badge": null,
@@ -55614,7 +55762,7 @@ window.PORTAL_DATA = {
       "recruitment_id": null,
       "category": "ADMISSION",
       "title": "IIM CAT Admission Online Form 2026 Date Extended",
-      "tag": "New",
+      "tag": "Live",
       "action_url": "https://iimcat.ac.in/",
       "is_featured": 0,
       "featured_badge": null,
@@ -56098,6 +56246,92 @@ window.PORTAL_DATA = {
         ],
         "sarkariresult_url": "https://www.sarkariresult.com/2027/gate-2027/"
       }
+    },
+    "178": {
+      "id": 178,
+      "recruitment_id": null,
+      "category": "ADMISSION",
+      "title": "NTA NIFTEE Admission Online Form 2027",
+      "tag": "New",
+      "action_url": "https://exams.nta.nic.in/niftee/",
+      "is_featured": 0,
+      "featured_badge": null,
+      "created_at": "2026-10-13 08:37:57",
+      "source_portal": "National Testing Agency NTA",
+      "source_url": "https://exams.nta.nic.in/niftee/",
+      "pdf_url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/202610161124929715.pdf",
+      "qualification_level": "Graduate",
+      "sector": "Education / Admission",
+      "state": "All India",
+      "registration_url": "https://exams.nta.nic.in/niftee/",
+      "login_url": "https://exams.nta.nic.in/niftee/",
+      "cutoff_pdf_url": "",
+      "meta": {
+        "full_title": "NTA NIFTEE Admissions 2027 Apply Online",
+        "post_date": "16 October 2026 | 08:51 PM",
+        "short_info": "National Testing Agency NTA has released the National Institute of Fashion Technology NIFTEE 2027 All the candidates who want to apply candidates should read the NIFTEE 2027 information brochure for all the information related to the entrance exam like syllabus, eligibility, age limit, fees, Course and University List, information and other types of information and then apply.",
+        "important_dates": [
+          "Application Begin :",
+          "16/10/2026",
+          "Last Date for Apply Online :",
+          "16/11/2026",
+          "Last Date Fee Payment :",
+          "16/11/2026",
+          "With Late Fee Last Date :",
+          "21/11/2026",
+          "Correction Date :",
+          "22-25 November 2026"
+        ],
+        "application_fee": [
+          "For Two Program :",
+          "General / OBC / EWS :",
+          "3000",
+          "/",
+          "SC / ST / PH :",
+          "750",
+          "/",
+          "For Two Program :"
+        ],
+        "age_limit": [
+          "NTA NIFTEE Admissions Notification 2027 :",
+          "For B.Des & B.F.Tech : Maximum Age : 24 Years.",
+          "Age Relaxation Extra as per NIFT Admissions 2027"
+        ],
+        "total_vacancy": "",
+        "important_links": [
+          {
+            "label": "Apply Online",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://exams.nta.nic.in/niftee/",
+                "is_pdf": false
+              }
+            ]
+          },
+          {
+            "label": "Download Notification",
+            "links": [
+              {
+                "text": "Click Here",
+                "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/202610161124929715.pdf",
+                "is_pdf": true
+              }
+            ]
+          },
+          {
+            "label": "Official Website",
+            "links": [
+              {
+                "text": "NTA NIFTEE Official Website",
+                "url": "https://exams.nta.nic.in/niftee/",
+                "is_pdf": false
+              }
+            ]
+          }
+        ],
+        "sarkariresult_url": "https://www.sarkariresult.com/2027/nta-niftee-admission/"
+      }
     }
   },
   "categorized": {
@@ -56526,42 +56760,54 @@ window.PORTAL_DATA = {
     "ADMIT_CARD": [
       {
         "id": 70,
-        "title": "United India Insurance UIIC AO Admit Card 2026 for 225 Post",
+        "title": "Bihar STET 2026 Exam Date",
         "tag": "New",
-        "action_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
+        "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
         "is_featured": true,
         "featured_badge": "Live",
         "qualification": "Graduate",
-        "sector": "Central Govt",
-        "state": "All India",
+        "sector": "State",
+        "state": "Bihar",
         "created_at": "2026-10-13 08:29:09"
       },
       {
         "id": 69,
-        "title": "UPSSSC PET Admit Card 2026",
+        "title": "United India Insurance UIIC AO Admit Card 2026 for 225 Post",
         "tag": "New",
-        "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
+        "action_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
         "is_featured": true,
         "featured_badge": "Hot",
         "qualification": "Graduate",
-        "sector": "State",
-        "state": "Uttar Pradesh",
+        "sector": "Central Govt",
+        "state": "All India",
         "created_at": "2026-10-13 08:28:08"
       },
       {
         "id": 68,
-        "title": "Jharkhand JAC JHTET Admit Card 2026",
+        "title": "UPSSSC PET Admit Card 2026",
         "tag": "New",
-        "action_url": "https://jactetonline.com/",
+        "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
         "is_featured": true,
         "featured_badge": "New",
-        "qualification": "B.Ed / Teaching",
-        "sector": "Teaching",
-        "state": "Haryana",
+        "qualification": "Graduate",
+        "sector": "State",
+        "state": "Uttar Pradesh",
         "created_at": "2026-10-13 08:27:07"
       },
       {
         "id": 67,
+        "title": "Jharkhand JAC JHTET Admit Card 2026",
+        "tag": "New",
+        "action_url": "https://jactetonline.com/",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "B.Ed / Teaching",
+        "sector": "Teaching",
+        "state": "Haryana",
+        "created_at": "2026-10-13 08:26:06"
+      },
+      {
+        "id": 66,
         "title": "AAI Manager, Junior Executive Admit Card 2026 for 389 Post",
         "tag": "New",
         "action_url": "https://ibpsreg.ibps.in/aaioct25/oecla_sep26/login.php?appid=c29840a936e11a8543bb8d3a80f48ed4",
@@ -56570,22 +56816,22 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Central Govt",
         "state": "All India",
-        "created_at": "2026-10-13 08:26:06"
+        "created_at": "2026-10-13 08:25:05"
       },
       {
-        "id": 66,
+        "id": 65,
         "title": "Railway RRB ALP CEN 01/2026 Revised Application Status",
-        "tag": "New",
+        "tag": "Live",
         "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "10th/12th/Graduate",
         "sector": "Railway",
         "state": "All India",
-        "created_at": "2026-10-13 08:25:05"
+        "created_at": "2026-10-13 08:24:04"
       },
       {
-        "id": 65,
+        "id": 64,
         "title": "Rajasthan High Court Stenographer Admit Card 2026",
         "tag": "Live",
         "action_url": "http://103.203.137.249/steno2026/index.php",
@@ -56594,10 +56840,10 @@ window.PORTAL_DATA = {
         "qualification": "12th Pass",
         "sector": "Judiciary",
         "state": "Rajasthan",
-        "created_at": "2026-10-13 08:24:04"
+        "created_at": "2026-10-13 08:23:03"
       },
       {
-        "id": 64,
+        "id": 63,
         "title": "Delhi High Court HJS Mains Admit Card 2026",
         "tag": "Live",
         "action_url": "https://applycareer.co.in/dhc/highcourt2026dhjse/DHJSE2026_AdmitMain.aspx",
@@ -56606,10 +56852,10 @@ window.PORTAL_DATA = {
         "qualification": "Law / LLB",
         "sector": "Judiciary",
         "state": "Delhi",
-        "created_at": "2026-10-13 08:23:03"
+        "created_at": "2026-10-13 08:22:02"
       },
       {
-        "id": 63,
+        "id": 62,
         "title": "SSC Combined Graduate Level CGL 2026 Tier I Admit Card",
         "tag": "Live",
         "action_url": "https://ssc.gov.in/login",
@@ -56618,10 +56864,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Central Govt",
         "state": "All India",
-        "created_at": "2026-10-13 08:22:02"
+        "created_at": "2026-10-13 08:21:01"
       },
       {
-        "id": 62,
+        "id": 61,
         "title": "Bihar BPSC 72 Pre Exam Postponed 2026",
         "tag": "Live",
         "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
@@ -56630,10 +56876,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "State",
         "state": "Bihar",
-        "created_at": "2026-10-13 08:21:01"
+        "created_at": "2026-10-13 08:20:00"
       },
       {
-        "id": 61,
+        "id": 60,
         "title": "UP Cooperative Bank Various Post Exam Date 2026 | Advt No. : A-2/G.R./2026",
         "tag": "Live",
         "action_url": "https://ibpsreg.ibps.in/upcisbapr26/oecla_aug26/login.php?appid=be96f03d489b0cc2d67802ae5dcc7b35",
@@ -56642,10 +56888,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Bank",
         "state": "All India",
-        "created_at": "2026-10-13 08:20:00"
+        "created_at": "2026-10-13 08:19:59"
       },
       {
-        "id": 60,
+        "id": 59,
         "title": "Railway RRB Section Controller Admit Card 2026",
         "tag": "Live",
         "action_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
@@ -56654,37 +56900,25 @@ window.PORTAL_DATA = {
         "qualification": "10th/12th/Graduate",
         "sector": "Railway",
         "state": "All India",
-        "created_at": "2026-10-13 08:19:59"
+        "created_at": "2026-10-13 08:18:58"
       },
       {
-        "id": 59,
+        "id": 58,
         "title": "SKAU Kurukshetra Non Teaching Clerk Admit Card 2026",
-        "tag": "Live",
+        "tag": "Direct",
         "action_url": "https://skau.eapplynow.com/Pages/AdmitCard01Login7.aspx",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "Graduate",
         "sector": "Central Govt",
         "state": "All India",
-        "created_at": "2026-10-13 08:18:58"
-      },
-      {
-        "id": 58,
-        "title": "Railway RRB Junior Engineer JE Application Status 2026",
-        "tag": "Direct",
-        "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
-        "is_featured": false,
-        "featured_badge": null,
-        "qualification": "10th/12th/Graduate",
-        "sector": "Railway",
-        "state": "All India",
         "created_at": "2026-10-13 08:17:57"
       },
       {
         "id": 57,
-        "title": "Railway RRB Technician CEN 02/2026 Admit Card 2026",
+        "title": "Railway RRB Junior Engineer JE Application Status 2026",
         "tag": "Direct",
-        "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
+        "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "10th/12th/Graduate",
@@ -56694,6 +56928,18 @@ window.PORTAL_DATA = {
       },
       {
         "id": 56,
+        "title": "Railway RRB Technician CEN 02/2026 Admit Card 2026",
+        "tag": "Direct",
+        "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "10th/12th/Graduate",
+        "sector": "Railway",
+        "state": "All India",
+        "created_at": "2026-10-13 08:15:55"
+      },
+      {
+        "id": 55,
         "title": "IBPS Clerk 16th Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://ibpsreg.ibps.in/csaxvijul26/oecla_sep26/login.php?appid=948c445571d2f4e9f8749da0111eee4b",
@@ -56702,10 +56948,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Bank",
         "state": "All India",
-        "created_at": "2026-10-13 08:15:55"
+        "created_at": "2026-10-13 08:14:54"
       },
       {
-        "id": 55,
+        "id": 54,
         "title": "SSC 10+2 CHSL Tier I Exam Date 2026",
         "tag": "Direct",
         "action_url": "https://ssc.gov.in/login",
@@ -56714,10 +56960,10 @@ window.PORTAL_DATA = {
         "qualification": "12th",
         "sector": "Central",
         "state": "All India",
-        "created_at": "2026-10-13 08:14:54"
+        "created_at": "2026-10-13 08:13:53"
       },
       {
-        "id": 54,
+        "id": 53,
         "title": "SSC CPO SI 2026 Exam Date",
         "tag": "Direct",
         "action_url": "https://ssc.gov.in/login",
@@ -56726,10 +56972,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Banking",
         "state": "Delhi",
-        "created_at": "2026-10-13 08:13:53"
+        "created_at": "2026-10-13 08:12:52"
       },
       {
-        "id": 53,
+        "id": 52,
         "title": "SSC Junior Engineer JE 2026 Paper I Exam Date",
         "tag": "Direct",
         "action_url": "https://ssc.gov.in/login",
@@ -56738,10 +56984,10 @@ window.PORTAL_DATA = {
         "qualification": "Diploma / Engineering",
         "sector": "Central Govt",
         "state": "All India",
-        "created_at": "2026-10-13 08:12:52"
+        "created_at": "2026-10-13 08:11:51"
       },
       {
-        "id": 52,
+        "id": 51,
         "title": "Delhi High Court Junior Judicial Assistant JJA Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/login.html",
@@ -56750,10 +56996,10 @@ window.PORTAL_DATA = {
         "qualification": "Law / LLB",
         "sector": "Judiciary",
         "state": "Delhi",
-        "created_at": "2026-10-13 08:11:51"
+        "created_at": "2026-10-13 08:10:50"
       },
       {
-        "id": 51,
+        "id": 50,
         "title": "UPPSC Assistant Town Planner ATP 2025 Mains Exam City Details",
         "tag": "Direct",
         "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
@@ -56762,10 +57008,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "State",
         "state": "Uttar Pradesh",
-        "created_at": "2026-10-13 08:10:50"
+        "created_at": "2026-10-13 08:59:49"
       },
       {
-        "id": 50,
+        "id": 49,
         "title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://vyapamprofile.cgstate.gov.in/online/",
@@ -56774,10 +57020,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Central Govt",
         "state": "Madhya Pradesh",
-        "created_at": "2026-10-13 08:59:49"
+        "created_at": "2026-10-13 08:58:48"
       },
       {
-        "id": 49,
+        "id": 48,
         "title": "Bank of Baroda Local Bank Officer LBO Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://ibpsreg.ibps.in/bobjul26/oecla_sep26/login.php?appid=c6391b5560ed30fe3af4a2c4bc3956e3",
@@ -56786,25 +57032,13 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Bank",
         "state": "All India",
-        "created_at": "2026-10-13 08:58:48"
-      },
-      {
-        "id": 48,
-        "title": "UPSSSC Junior Assistant 2024 Typing Test New Exam Date",
-        "tag": "Direct",
-        "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
-        "is_featured": false,
-        "featured_badge": null,
-        "qualification": "Graduate",
-        "sector": "State",
-        "state": "Uttar Pradesh",
         "created_at": "2026-10-13 08:57:47"
       },
       {
         "id": 47,
-        "title": "UPSSSC PET Online Form 2026 New Exam Schedule",
+        "title": "UPSSSC Junior Assistant 2024 Typing Test New Exam Date",
         "tag": "Direct",
-        "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
+        "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "Graduate",
@@ -56814,6 +57048,18 @@ window.PORTAL_DATA = {
       },
       {
         "id": 46,
+        "title": "UPSSSC PET Online Form 2026 New Exam Schedule",
+        "tag": "Direct",
+        "action_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "Graduate",
+        "sector": "State",
+        "state": "Uttar Pradesh",
+        "created_at": "2026-10-13 08:55:45"
+      },
+      {
+        "id": 45,
         "title": "IBPS Probationary Officer PO 16th Mains Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://ibpsreg.ibps.in/crppoxvijun26/oecla_sep26/login.php?appid=023fe6088511ecf7b15bbcb47f6a855a",
@@ -56822,10 +57068,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "Bank",
         "state": "All India",
-        "created_at": "2026-10-13 08:55:45"
+        "created_at": "2026-10-13 08:54:44"
       },
       {
-        "id": 45,
+        "id": 44,
         "title": "UP Police Constable PET Exam Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://upcons2025.com/upconadmitcardPET/loginpage.aspx",
@@ -56834,10 +57080,10 @@ window.PORTAL_DATA = {
         "qualification": "12th",
         "sector": "Police",
         "state": "Uttar Pradesh",
-        "created_at": "2026-10-13 08:54:44"
+        "created_at": "2026-10-13 08:53:43"
       },
       {
-        "id": 44,
+        "id": 43,
         "title": "NTA UGC NET June 2026 E Certificate Download",
         "tag": "Direct",
         "action_url": "https://examinationservices.nic.in/AdmitCardService/Admitcard/Login?enc=LH/Iqy2lIvm6yfwjd7BOsNPROEv0WO16vwSfOqO4R9E=",
@@ -56846,35 +57092,23 @@ window.PORTAL_DATA = {
         "qualification": "Post Graduate",
         "sector": "Banking",
         "state": "All India",
-        "created_at": "2026-10-13 08:53:43"
+        "created_at": "2026-10-13 08:52:42"
       },
       {
-        "id": 43,
+        "id": 42,
         "title": "Bihar STET Dummy Admit Card 2026",
         "tag": "Direct",
-        "action_url": "https://stetregistration.cbrt.co.in/login",
+        "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "Graduate",
         "sector": "State",
         "state": "Bihar",
-        "created_at": "2026-10-13 08:52:42"
-      },
-      {
-        "id": 42,
-        "title": "UPSSSC Scientific and Lab Assistant Mains Admit Card 2026",
-        "tag": "Direct",
-        "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
-        "is_featured": false,
-        "featured_badge": null,
-        "qualification": "Graduate",
-        "sector": "State",
-        "state": "Uttar Pradesh",
         "created_at": "2026-10-13 08:51:41"
       },
       {
         "id": 41,
-        "title": "UPSSSC Forest Guard / Wild Life Guard Mains Admit Card 2026",
+        "title": "UPSSSC Scientific and Lab Assistant Mains Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
         "is_featured": false,
@@ -56886,6 +57120,18 @@ window.PORTAL_DATA = {
       },
       {
         "id": 40,
+        "title": "UPSSSC Forest Guard / Wild Life Guard Mains Admit Card 2026",
+        "tag": "Direct",
+        "action_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "Graduate",
+        "sector": "State",
+        "state": "Uttar Pradesh",
+        "created_at": "2026-10-13 08:49:39"
+      },
+      {
+        "id": 39,
         "title": "Uttarakhand UK TET UTET Admit Card 2026",
         "tag": "Direct",
         "action_url": "https://ukutet.com/",
@@ -56894,10 +57140,10 @@ window.PORTAL_DATA = {
         "qualification": "B.Ed / Teaching",
         "sector": "Teaching",
         "state": "Uttarakhand",
-        "created_at": "2026-10-13 08:49:39"
+        "created_at": "2026-10-13 08:48:38"
       },
       {
-        "id": 39,
+        "id": 38,
         "title": "UPPSC 2025 ACF RFO Interview Letter 2026 Admit Card",
         "tag": "Direct",
         "action_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=ac",
@@ -56906,25 +57152,13 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "State",
         "state": "Uttar Pradesh",
-        "created_at": "2026-10-13 08:48:38"
-      },
-      {
-        "id": 38,
-        "title": "Railway RRB NTPC Graduate Level CBTST Admit Card 2026 , Mock Test | CEN 06/2025",
-        "tag": "Direct",
-        "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/98228/login.html",
-        "is_featured": false,
-        "featured_badge": null,
-        "qualification": "10th/12th/Graduate",
-        "sector": "Railway",
-        "state": "All India",
         "created_at": "2026-10-13 08:47:37"
       },
       {
         "id": 37,
-        "title": "Railway RRB ALP Exam Date 2026 \u2013 Released | CEN 01/2026",
+        "title": "Railway RRB NTPC Graduate Level CBTST Admit Card 2026 , Mock Test | CEN 06/2025",
         "tag": "Direct",
-        "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
+        "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/98228/login.html",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "10th/12th/Graduate",
@@ -56934,13 +57168,13 @@ window.PORTAL_DATA = {
       },
       {
         "id": 36,
-        "title": "SBI Junior Associates Clerk Admit Card 2026",
+        "title": "Railway RRB ALP Exam Date 2026 \u2013 Released | CEN 01/2026",
         "tag": "Direct",
-        "action_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
+        "action_url": "https://rrb.indianrailways.gov.in/-/image/1789988819651ALP_NOTICE_ENGLISH.pdf/examsDocuments",
         "is_featured": false,
         "featured_badge": null,
-        "qualification": "Graduate",
-        "sector": "Bank",
+        "qualification": "10th/12th/Graduate",
+        "sector": "Railway",
         "state": "All India",
         "created_at": "2026-10-13 08:45:35"
       }
@@ -56948,42 +57182,54 @@ window.PORTAL_DATA = {
     "LATEST_JOB": [
       {
         "id": 105,
-        "title": "MPESB MP Police Constable Driver Online Form 2026",
+        "title": "UPSSSC 10+2 Inter Level Various Post Online Form 2026",
         "tag": "New",
-        "action_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
+        "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
         "is_featured": true,
         "featured_badge": "Live",
-        "qualification": "12th/Graduate",
+        "qualification": "Graduate",
         "sector": "State",
-        "state": "Madhya Pradesh",
+        "state": "Uttar Pradesh",
         "created_at": "2026-10-13 08:14:44"
       },
       {
         "id": 104,
-        "title": "Supreme Court of India Junior Court Attendant Online Form 2026",
+        "title": "MPESB MP Police Constable Driver Online Form 2026",
         "tag": "New",
-        "action_url": "https://www.sci.gov.in/",
+        "action_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
         "is_featured": true,
         "featured_badge": "Hot",
-        "qualification": "12th Pass",
-        "sector": "Defence",
-        "state": "All India",
+        "qualification": "12th/Graduate",
+        "sector": "State",
+        "state": "Madhya Pradesh",
         "created_at": "2026-10-13 08:13:43"
       },
       {
         "id": 103,
-        "title": "UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended",
+        "title": "Supreme Court of India Junior Court Attendant Online Form 2026",
         "tag": "New",
-        "action_url": "https://apply.upessc.org/register",
+        "action_url": "https://www.sci.gov.in/",
         "is_featured": true,
         "featured_badge": "New",
-        "qualification": "Graduate",
-        "sector": "State",
-        "state": "Uttar Pradesh",
+        "qualification": "12th Pass",
+        "sector": "Defence",
+        "state": "All India",
         "created_at": "2026-10-13 08:12:42"
       },
       {
         "id": 102,
+        "title": "UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended",
+        "tag": "New",
+        "action_url": "https://apply.upessc.org/register",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "Graduate",
+        "sector": "State",
+        "state": "Uttar Pradesh",
+        "created_at": "2026-10-13 08:11:41"
+      },
+      {
+        "id": 101,
         "title": "Railway RRB NTPC 10+2 Under Graduate Online Form 2026",
         "tag": "New",
         "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
@@ -56992,22 +57238,22 @@ window.PORTAL_DATA = {
         "qualification": "10th/12th/Graduate",
         "sector": "Railway",
         "state": "All India",
-        "created_at": "2026-10-13 08:11:41"
+        "created_at": "2026-10-13 08:10:40"
       },
       {
-        "id": 101,
+        "id": 100,
         "title": "Army 10+2 TES 57th Online Form 2026",
-        "tag": "New",
+        "tag": "Active",
         "action_url": "https://joinindianarmy.nic.in/Authentication.aspx",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "10th/12th",
         "sector": "Defence",
         "state": "All India",
-        "created_at": "2026-10-13 08:10:40"
+        "created_at": "2026-10-13 08:59:39"
       },
       {
-        "id": 100,
+        "id": 99,
         "title": "UPESSC UP PGT Teacher Online Form 2026",
         "tag": "Active",
         "action_url": "https://apply.upessc.org/",
@@ -57016,10 +57262,10 @@ window.PORTAL_DATA = {
         "qualification": "Post Graduate",
         "sector": "Teaching",
         "state": "Uttar Pradesh",
-        "created_at": "2026-10-13 08:59:39"
+        "created_at": "2026-10-13 08:58:38"
       },
       {
-        "id": 99,
+        "id": 98,
         "title": "BPSC School Teacher TRE 4.0 Online Form 2026",
         "tag": "Active",
         "action_url": "https://bpsconline.bihar.gov.in/candidate/login",
@@ -57028,10 +57274,10 @@ window.PORTAL_DATA = {
         "qualification": "Graduate",
         "sector": "State",
         "state": "Bihar",
-        "created_at": "2026-10-13 08:58:38"
+        "created_at": "2026-10-13 08:57:37"
       },
       {
-        "id": 98,
+        "id": 97,
         "title": "Railway RRB Paramedical Online Form 2026 CEN 05/2026",
         "tag": "Active",
         "action_url": "https://www.rrbapply.gov.in/#/auth/landing",
@@ -57040,25 +57286,13 @@ window.PORTAL_DATA = {
         "qualification": "10th/12th/Graduate",
         "sector": "Railway",
         "state": "All India",
-        "created_at": "2026-10-13 08:57:37"
-      },
-      {
-        "id": 97,
-        "title": "UP Anganwadi Worker Bharti Online Form 2026 | Updated",
-        "tag": "Active",
-        "action_url": "https://upanganwadibharti.in/workernew/users/registration.php",
-        "is_featured": false,
-        "featured_badge": null,
-        "qualification": "Graduate",
-        "sector": "Central Govt",
-        "state": "Uttar Pradesh",
         "created_at": "2026-10-13 08:56:36"
       },
       {
         "id": 96,
-        "title": "IFFCO Agriculture Graduate Trainee AGT Online Form 2026",
+        "title": "UP Anganwadi Worker Bharti Online Form 2026 | Updated",
         "tag": "Active",
-        "action_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
+        "action_url": "https://upanganwadibharti.in/workernew/users/registration.php",
         "is_featured": false,
         "featured_badge": null,
         "qualification": "Graduate",
@@ -58057,6 +58291,18 @@ window.PORTAL_DATA = {
     ],
     "ADMISSION": [
       {
+        "id": 178,
+        "title": "NTA NIFTEE Admission Online Form 2027",
+        "tag": "New",
+        "action_url": "https://exams.nta.nic.in/niftee/",
+        "is_featured": false,
+        "featured_badge": null,
+        "qualification": "Graduate",
+        "sector": "Education / Admission",
+        "state": "All India",
+        "created_at": "2026-10-13 08:37:57"
+      },
+      {
         "id": 177,
         "title": "IIT GATE 2027 Online Form | Re-Open",
         "tag": "New",
@@ -58107,7 +58353,7 @@ window.PORTAL_DATA = {
       {
         "id": 173,
         "title": "IIM CAT Admission Online Form 2026 Date Extended",
-        "tag": "New",
+        "tag": "Live",
         "action_url": "https://iimcat.ac.in/",
         "is_featured": false,
         "featured_badge": null,
@@ -58191,7 +58437,7 @@ window.PORTAL_DATA = {
       {
         "id": 166,
         "title": "NEET UG 2026 Online Counselling",
-        "tag": "Live",
+        "tag": "Direct",
         "action_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
         "is_featured": false,
         "featured_badge": null,
@@ -58346,9 +58592,9 @@ window.PORTAL_DATA = {
     }
   },
   "adminStats": {
-    "total_updates": 177,
+    "total_updates": 178,
     "pending_staging": 0,
-    "approved_staging": 177,
+    "approved_staging": 178,
     "total_recruitments": 5,
     "active_watchdogs": 95,
     "last_crawl": "2026-10-13 08:50 IST (SarkariResult.com Live Sync)"
@@ -58356,7 +58602,7 @@ window.PORTAL_DATA = {
   "stagingPending": [],
   "stagingApproved": [
     {
-      "id": 4150,
+      "id": 4381,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Assistant Store Keeper 2024 Final Result",
@@ -58378,7 +58624,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4149,
+      "id": 4380,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPTET Download Certificate 2026 | Correction Notice",
@@ -58400,7 +58646,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4148,
+      "id": 4379,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://csirnet.nta.nic.in/",
       "title": "NTA CSIR UGC NET E Certificate 2026",
@@ -58422,7 +58668,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4147,
+      "id": 4378,
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://www.bsebdeled.com/login",
       "title": "Bihar DELED 2026 Face to Face Course Result",
@@ -58444,7 +58690,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 4146,
+      "id": 4377,
       "source_portal": "Rajasthan Staff Selection Board RSSB RSMSSB",
       "source_url": "https://rssb.rajasthan.gov.in/",
       "title": "Rajasthan RSSB LDC Result 2026",
@@ -58466,7 +58712,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4145,
+      "id": 4376,
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "title": "IBPS Probationary Officer PO 16th Pre Score Card 2026",
@@ -58488,7 +58734,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4144,
+      "id": 4375,
       "source_portal": "UPSSSC Platoon Commander, Block Organizer",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPSSSC Platoon Commander, Block Organizer Result 2026",
@@ -58510,7 +58756,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4143,
+      "id": 4374,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "title": "UPSSSC Havildar Instructor Result 2026",
@@ -58532,7 +58778,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4142,
+      "id": 4373,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Enforcement Constable 2023 Final Result",
@@ -58554,7 +58800,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4141,
+      "id": 4372,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "RRB Assistant Loco Pilot ALP CEN 01/2025 CBT II Result 2026",
@@ -58576,7 +58822,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4140,
+      "id": 4371,
       "source_portal": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
       "source_url": "https://uppbpb.gov.in/",
       "title": "UP Police Home Guard Final Result 2026",
@@ -58598,7 +58844,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4139,
+      "id": 4370,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Forest Guard 2023 PMT Result 2026 for 709 Post",
@@ -58620,7 +58866,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4138,
+      "id": 4369,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://www.mha.gov.in/",
       "title": "MHA IB MTS 2025 Final Result",
@@ -58642,7 +58888,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4137,
+      "id": 4368,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://updeled.gov.in/",
       "title": "UPTET 2021 Result",
@@ -58664,7 +58910,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4136,
+      "id": 4367,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Multi Tasking MTS, Havaldar 2025 Additional Result",
@@ -58686,7 +58932,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4135,
+      "id": 4366,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC 10+2 CHSL 2025 Final Result",
@@ -58708,7 +58954,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4134,
+      "id": 4365,
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
       "title": "UPPSC LT Grade Assistant Teacher 2025 Final Result",
@@ -58730,7 +58976,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4133,
+      "id": 4364,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Stenographer 2025 Marks",
@@ -58752,7 +58998,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4132,
+      "id": 4363,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB Ministerial and Isolated CEN 08/2025 Result with Marks",
@@ -58774,7 +59020,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4131,
+      "id": 4362,
       "source_portal": "National Insurance Company Limited (NICL)",
       "source_url": "https://nationalinsurance.nic.co.in/",
       "title": "National Insurance NICL Assistant Pre Result 2026",
@@ -58796,7 +59042,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4130,
+      "id": 4361,
       "source_portal": "Central Selection Board of Constable CSBC",
       "source_url": "http://csbc.bih.nic.in/Default.htm",
       "title": "CSBC Bihar Police Constable Special Branch Final Result 2026",
@@ -58818,7 +59064,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 4129,
+      "id": 4360,
       "source_portal": "All India Institute of Medical Sciences (AIIMS)",
       "source_url": "https://www.aiimsexams.ac.in/",
       "title": "AIIMS NORCET Nursing Officer 11th Stage II Result 2026",
@@ -58840,7 +59086,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4128,
+      "id": 4359,
       "source_portal": "Department of Post India Post",
       "source_url": "https://indiapost.gov.in/gdsonlineengagement",
       "title": "India Post GDS First Merit List 2026",
@@ -58862,7 +59108,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4127,
+      "id": 4358,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "title": "UPSSSC UP Ganna Parvekshak Cane Supervisor Eligibility Result 2026",
@@ -58884,7 +59130,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4126,
+      "id": 4357,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Moharir 2022 Eligibility Result 2026 for 92 Post",
@@ -58906,7 +59152,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4125,
+      "id": 4356,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC GD Constable Result 2026",
@@ -58928,7 +59174,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4124,
+      "id": 4355,
       "source_portal": "Uttar Pradesh Madhyamic Shiksha Parishad UPMSP",
       "source_url": "https://upmsp.edu.in/",
       "title": "UP Board Time Table 2027",
@@ -58950,7 +59196,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4123,
+      "id": 4354,
       "source_portal": "Delhi Subordinate Service Selection Board",
       "source_url": "http://dsssb.delhi.gov.in",
       "title": "DSSSB Assistant Teacher Primary Result 2026",
@@ -58972,7 +59218,7 @@ window.PORTAL_DATA = {
       "state": "Delhi"
     },
     {
-      "id": 4122,
+      "id": 4353,
       "source_portal": "Rajasthan Public Service Commission",
       "source_url": "https://rpsc.rajasthan.gov.in/news",
       "title": "RPSC TGT Senior Teacher Gr II Result 2026",
@@ -58994,7 +59240,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4121,
+      "id": 4352,
       "source_portal": "Union Public Service Commission (UPSC)",
       "source_url": "https://upsc.gov.in/whats-new",
       "title": "UPSC CPF CAPF AC 2024 Marks Details 2026",
@@ -59016,7 +59262,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4120,
+      "id": 4351,
       "source_portal": "Union Public Service Commission (UPSC)",
       "source_url": "http://upsc.gov.in/",
       "title": "UPSC NDA II Written Exam Result 2026 | Name Wise List",
@@ -59038,7 +59284,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4119,
+      "id": 4350,
       "source_portal": "Government Recruitment Commission",
       "source_url": "http://www.ssbrectt.gov.in/default.aspx",
       "title": "SSB Head Constable Ministerial 2020 Result / Marks 2026",
@@ -59060,7 +59306,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4118,
+      "id": 4349,
       "source_portal": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
       "source_url": "https://uppbpb.gov.in/",
       "title": "UP Police Constable Final Result 2026",
@@ -59082,7 +59328,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4117,
+      "id": 4348,
       "source_portal": "State Bank of India SBI",
       "source_url": "https://sbi.bank.in/",
       "title": "SBI Probationary Officers PO Mains Result 2026",
@@ -59104,7 +59350,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4116,
+      "id": 4347,
       "source_portal": "Institute of Banking Personal Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "title": "IBPS Specialist Officer SO SPL 16th Pre Result 2026",
@@ -59126,29 +59372,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4115,
-      "source_portal": "State Bank of India SBI",
-      "source_url": "https://sbi.bank.in/",
-      "title": "SBI Junior Associates Clerk Admit Card 2026",
-      "category": "ADMIT_CARD",
-      "detected_date": "2026-10-13",
-      "pdf_url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
-      "action_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec",
-      "extracted_data": {
-        "education": "Graduate",
-        "last_date": "Active 2026",
-        "registration_url": "https://ibpsreg.ibps.in/sbijajul26/",
-        "login_url": "https://ibpsreg.ibps.in/sbijajul26/oecla_sep26/login.php?appid=24c6ba07c29762dbe2586e1f533198ec"
-      },
-      "status": "APPROVED",
-      "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:45:35",
-      "qualification_level": "Graduate",
-      "sector": "Banking",
-      "state": "All India"
-    },
-    {
-      "id": 4114,
+      "id": 4346,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB ALP Exam Date 2026 \u2013 Released | CEN 01/2026",
@@ -59164,13 +59388,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:46:36",
+      "created_at": "2026-10-13 08:45:35",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4113,
+      "id": 4345,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
       "title": "Railway RRB NTPC Graduate Level CBTST Admit Card 2026 , Mock Test | CEN 06/2025",
@@ -59186,13 +59410,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:47:37",
+      "created_at": "2026-10-13 08:46:36",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4112,
+      "id": 4344,
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/Home",
       "title": "UPPSC 2025 ACF RFO Interview Letter 2026 Admit Card",
@@ -59208,13 +59432,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:48:38",
+      "created_at": "2026-10-13 08:47:37",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4111,
+      "id": 4343,
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
       "title": "Uttarakhand UK TET UTET Admit Card 2026",
@@ -59230,13 +59454,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:49:39",
+      "created_at": "2026-10-13 08:48:38",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttarakhand"
     },
     {
-      "id": 4110,
+      "id": 4342,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "title": "UPSSSC Forest Guard / Wild Life Guard Mains Admit Card 2026",
@@ -59252,13 +59476,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:50:40",
+      "created_at": "2026-10-13 08:49:39",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4109,
+      "id": 4341,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Scientific and Lab Assistant Mains Admit Card 2026",
@@ -59274,35 +59498,35 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:51:41",
+      "created_at": "2026-10-13 08:50:40",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4108,
+      "id": 4340,
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
       "title": "Bihar STET Dummy Admit Card 2026",
       "category": "ADMIT_CARD",
       "detected_date": "2026-10-13",
       "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
-      "action_url": "https://stetregistration.cbrt.co.in/login",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
       "extracted_data": {
         "education": "12th Pass",
         "last_date": "Active 2026",
         "registration_url": "https://stetregistration.cbrt.co.in/",
-        "login_url": "https://stetregistration.cbrt.co.in/login"
+        "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large"
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:52:42",
+      "created_at": "2026-10-13 08:51:41",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Bihar"
     },
     {
-      "id": 4107,
+      "id": 4339,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://ugcnet.nta.nic.in/",
       "title": "NTA UGC NET June 2026 E Certificate Download",
@@ -59318,13 +59542,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:53:43",
+      "created_at": "2026-10-13 08:52:42",
       "qualification_level": "Post Graduate",
       "sector": "Banking",
       "state": "All India"
     },
     {
-      "id": 4106,
+      "id": 4338,
       "source_portal": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
       "source_url": "https://uppbpb.gov.in/",
       "title": "UP Police Constable PET Exam Admit Card 2026",
@@ -59340,13 +59564,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:54:44",
+      "created_at": "2026-10-13 08:53:43",
       "qualification_level": "10th Pass",
       "sector": "Banking",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4105,
+      "id": 4337,
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "title": "IBPS Probationary Officer PO 16th Mains Admit Card 2026",
@@ -59362,13 +59586,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:55:45",
+      "created_at": "2026-10-13 08:54:44",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "All India"
     },
     {
-      "id": 4104,
+      "id": 4336,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC PET Online Form 2026 New Exam Schedule",
@@ -59384,13 +59608,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:56:46",
+      "created_at": "2026-10-13 08:55:45",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4103,
+      "id": 4335,
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Junior Assistant 2024 Typing Test New Exam Date",
@@ -59406,13 +59630,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:57:47",
+      "created_at": "2026-10-13 08:56:46",
       "qualification_level": "12th Pass",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4102,
+      "id": 4334,
       "source_portal": "Bank of Baroda (BOB)",
       "source_url": "https://bankofbaroda.bank.in/",
       "title": "Bank of Baroda Local Bank Officer LBO Admit Card 2026",
@@ -59428,13 +59652,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:58:48",
+      "created_at": "2026-10-13 08:57:47",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "All India"
     },
     {
-      "id": 4101,
+      "id": 4333,
       "source_portal": "Chhattisgarh Vyapam",
       "source_url": "https://vyapamcg.cgstate.gov.in/",
       "title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
@@ -59450,13 +59674,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:59:49",
+      "created_at": "2026-10-13 08:58:48",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Madhya Pradesh"
     },
     {
-      "id": 4100,
+      "id": 4332,
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
       "title": "UPPSC Assistant Town Planner ATP 2025 Mains Exam City Details",
@@ -59472,13 +59696,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:10:50",
+      "created_at": "2026-10-13 08:59:49",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4099,
+      "id": 4331,
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/",
       "title": "Delhi High Court Junior Judicial Assistant JJA Admit Card 2026",
@@ -59494,13 +59718,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:11:51",
+      "created_at": "2026-10-13 08:10:50",
       "qualification_level": "Law / LLB",
       "sector": "Judiciary",
       "state": "Delhi"
     },
     {
-      "id": 4098,
+      "id": 4330,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Junior Engineer JE 2026 Paper I Exam Date",
@@ -59516,13 +59740,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:12:52",
+      "created_at": "2026-10-13 08:11:51",
       "qualification_level": "Diploma / Engineering",
       "sector": "Central Govt",
       "state": "All India"
     },
     {
-      "id": 4097,
+      "id": 4329,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC CPO SI 2026 Exam Date",
@@ -59538,13 +59762,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:13:53",
+      "created_at": "2026-10-13 08:12:52",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Delhi"
     },
     {
-      "id": 4096,
+      "id": 4328,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC 10+2 CHSL Tier I Exam Date 2026",
@@ -59560,13 +59784,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:14:54",
+      "created_at": "2026-10-13 08:13:53",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "All India"
     },
     {
-      "id": 4095,
+      "id": 4327,
       "source_portal": "Institute of Banking Personnel Selection (IBPS)",
       "source_url": "https://www.ibps.in/",
       "title": "IBPS Clerk 16th Admit Card 2026",
@@ -59582,13 +59806,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:15:55",
+      "created_at": "2026-10-13 08:14:54",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "All India"
     },
     {
-      "id": 4094,
+      "id": 4326,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB Technician CEN 02/2026 Admit Card 2026",
@@ -59604,13 +59828,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:16:56",
+      "created_at": "2026-10-13 08:15:55",
       "qualification_level": "ITI / Diploma",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4093,
+      "id": 4325,
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "title": "Railway RRB Junior Engineer JE Application Status 2026",
@@ -59626,13 +59850,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:17:57",
+      "created_at": "2026-10-13 08:16:56",
       "qualification_level": "Diploma / Engineering",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4092,
+      "id": 4324,
       "source_portal": "Shri Krishna Ayush University (SKAU)",
       "source_url": "https://skau.ac.in/",
       "title": "SKAU Kurukshetra Non Teaching Clerk Admit Card 2026",
@@ -59648,13 +59872,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:18:58",
+      "created_at": "2026-10-13 08:17:57",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India"
     },
     {
-      "id": 4091,
+      "id": 4323,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
       "title": "Railway RRB Section Controller Admit Card 2026",
@@ -59670,13 +59894,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:19:59",
+      "created_at": "2026-10-13 08:18:58",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4090,
+      "id": 4322,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://upcisb.upsdc.gov.in/",
       "title": "UP Cooperative Bank Various Post Exam Date 2026 | Advt No. : A-2/G.R./2026",
@@ -59692,13 +59916,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:20:00",
+      "created_at": "2026-10-13 08:19:59",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4089,
+      "id": 4321,
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "title": "Bihar BPSC 72 Pre Exam Postponed 2026",
@@ -59714,13 +59938,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:21:01",
+      "created_at": "2026-10-13 08:20:00",
       "qualification_level": "ITI / Diploma",
       "sector": "Banking",
       "state": "Bihar"
     },
     {
-      "id": 4088,
+      "id": 4320,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Combined Graduate Level CGL 2026 Tier I Admit Card",
@@ -59736,13 +59960,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:22:02",
+      "created_at": "2026-10-13 08:21:01",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India"
     },
     {
-      "id": 4087,
+      "id": 4319,
       "source_portal": "High Court of Delhi, New Delhi",
       "source_url": "https://delhihighcourt.nic.in/web/job-openings",
       "title": "Delhi High Court HJS Mains Admit Card 2026",
@@ -59758,13 +59982,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:23:03",
+      "created_at": "2026-10-13 08:22:02",
       "qualification_level": "Law / LLB",
       "sector": "Judiciary",
       "state": "Delhi"
     },
     {
-      "id": 4086,
+      "id": 4318,
       "source_portal": "Rajasthan High Court Jodhpur RHC",
       "source_url": "https://hcraj.nic.in/hcraj/",
       "title": "Rajasthan High Court Stenographer Admit Card 2026",
@@ -59780,13 +60004,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:24:04",
+      "created_at": "2026-10-13 08:23:03",
       "qualification_level": "12th Pass",
       "sector": "Judiciary",
       "state": "Rajasthan"
     },
     {
-      "id": 4085,
+      "id": 4317,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB ALP CEN 01/2026 Revised Application Status",
@@ -59802,13 +60026,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:25:05",
+      "created_at": "2026-10-13 08:24:04",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4084,
+      "id": 4316,
       "source_portal": "Airports Authority of India (AAI)",
       "source_url": "https://www.aai.aero/en",
       "title": "AAI Manager, Junior Executive Admit Card 2026 for 389 Post",
@@ -59824,13 +60048,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:26:06",
+      "created_at": "2026-10-13 08:25:05",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India"
     },
     {
-      "id": 4083,
+      "id": 4315,
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
       "title": "Jharkhand JAC JHTET Admit Card 2026",
@@ -59846,13 +60070,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:27:07",
+      "created_at": "2026-10-13 08:26:06",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Haryana"
     },
     {
-      "id": 4082,
+      "id": 4314,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC PET Admit Card 2026",
@@ -59868,13 +60092,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:28:08",
+      "created_at": "2026-10-13 08:27:07",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4081,
+      "id": 4313,
       "source_portal": "United India Insurance Company Limited (UIIC)",
       "source_url": "https://uiic.co.in/",
       "title": "United India Insurance UIIC AO Admit Card 2026 for 225 Post",
@@ -59890,13 +60114,35 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:29:09",
+      "created_at": "2026-10-13 08:28:08",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India"
     },
     {
-      "id": 4080,
+      "id": 4312,
+      "source_portal": "Bihar School Examination Board (BSEB)",
+      "source_url": "https://biharboardonline.com/",
+      "title": "Bihar STET 2026 Exam Date",
+      "category": "ADMIT_CARD",
+      "detected_date": "2026-10-13",
+      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "action_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large",
+      "extracted_data": {
+        "education": "12th Pass",
+        "last_date": "Active 2026",
+        "registration_url": "https://stetregistration.cbrt.co.in/",
+        "login_url": "https://pbs.twimg.com/media/HUwGMSuaEAAC86p?format=jpg&name=large"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.99,
+      "created_at": "2026-10-13 08:29:09",
+      "qualification_level": "12th Pass",
+      "sector": "Defence",
+      "state": "Bihar"
+    },
+    {
+      "id": 4311,
       "source_portal": "Indo-Tibetan Border Police (ITBP)",
       "source_url": "https://recruitment.itbpolice.nic.in/",
       "title": "ITBP Head Constable Online Form 2026",
@@ -59918,7 +60164,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4079,
+      "id": 4310,
       "source_portal": "Assam Rifles AR",
       "source_url": "https://www.assamrifles.gov.in/",
       "title": "Assam Rifles Rally Recruitment Online Form 2026",
@@ -59940,7 +60186,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4078,
+      "id": 4309,
       "source_portal": "Jharkhand Staff Selection Commission (JSSC)",
       "source_url": "https://jssc.jharkhand.gov.in/",
       "title": "Jharkhand JSSC Para Teacher Online Form 2026",
@@ -59962,7 +60208,7 @@ window.PORTAL_DATA = {
       "state": "Jharkhand"
     },
     {
-      "id": 4077,
+      "id": 4308,
       "source_portal": "Local Self Government Department, Rajasthan",
       "source_url": "https://lsg.rajasthan.gov.in/home",
       "title": "Rajasthan Safai Karamchari Online Form 2026 Date Extended",
@@ -59984,7 +60230,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4076,
+      "id": 4307,
       "source_portal": "Uttar Pradesh District Program Officer",
       "source_url": "https://upanganwadibharti.in/",
       "title": "UP Anganwadi Helper Bharti Siddharth Nagar, Hamipur Online Form 2026",
@@ -60006,7 +60252,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4075,
+      "id": 4306,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Sports Directorate Online Form 2026",
@@ -60028,7 +60274,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4074,
+      "id": 4305,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Physical Instructor & Other Post Online Form 2026",
@@ -60050,7 +60296,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4073,
+      "id": 4304,
       "source_portal": "Canara Bank",
       "source_url": "https://www.canarabank.bank.in/pages/career",
       "title": "Canara Bank Apprentices Online Form 2026",
@@ -60072,7 +60318,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4072,
+      "id": 4303,
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
       "title": "Bihar Library Eligibility Test BLET Online Form 2026",
@@ -60094,7 +60340,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 4071,
+      "id": 4302,
       "source_portal": "North Western Railway NWR Railway Recruitment Cell RRC NWR Jaipur Region",
       "source_url": "https://www.rrcjaipur.in/",
       "title": "NWR RRC Jaipur Apprentices Online Form 2026",
@@ -60116,7 +60362,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4070,
+      "id": 4301,
       "source_portal": "Chhatrapati Shahu Ji Maharaj University, Kanpur",
       "source_url": "https://csjmu.ac.in/",
       "title": "CSJMU Kanpur Teaching Post Online Form 2026",
@@ -60138,7 +60384,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4069,
+      "id": 4300,
       "source_portal": "Delhi Subordinate Service Selection Board (DSSSB)",
       "source_url": "https://dsssb.delhi.gov.in/",
       "title": "Delhi DSSSB Various Post Online Form 2026",
@@ -60160,7 +60406,7 @@ window.PORTAL_DATA = {
       "state": "Delhi"
     },
     {
-      "id": 4068,
+      "id": 4299,
       "source_portal": "High Court of Madhya Pradesh (MPHC)",
       "source_url": "https://portal.mphc.gov.in/",
       "title": "MP High Court MPHC Stenographer Grade II Online Form 2026",
@@ -60182,7 +60428,7 @@ window.PORTAL_DATA = {
       "state": "Madhya Pradesh"
     },
     {
-      "id": 4067,
+      "id": 4298,
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://cgept.parikshasaarthi.in/candidate/login",
       "title": "Coast Guard Navik / Yantrik Online Form 2026",
@@ -60204,7 +60450,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4066,
+      "id": 4297,
       "source_portal": "Supreme Court of India SCI",
       "source_url": "https://www.sci.gov.in/",
       "title": "Supreme Court of India Junior Court Assistant Online Form 2026",
@@ -60226,7 +60472,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4065,
+      "id": 4296,
       "source_portal": "National Insurance Company Limited NICL",
       "source_url": "https://nationalinsurance.nic.co.in/",
       "title": "National Insurance NICL Administrative Officers AO Online Form 2026",
@@ -60248,7 +60494,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4064,
+      "id": 4295,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "title": "Railway RRB NTPC Graduate Level Online Form 2026 | CEN 06/2026",
@@ -60270,7 +60516,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4063,
+      "id": 4294,
       "source_portal": "Join Indian Army",
       "source_url": "https://joinindianarmy.nic.in/index.htm",
       "title": "Army TGC 145 Online Form 2026 for July 2027 Batch",
@@ -60292,7 +60538,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4062,
+      "id": 4293,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://csirnet.nta.nic.in/",
       "title": "NTA CSIR UGC NET December 2026 Online Form",
@@ -60314,7 +60560,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4061,
+      "id": 4292,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://ugcnet.nta.nic.in/",
       "title": "NTA UGC NET JRF December 2026 Online Form",
@@ -60336,7 +60582,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4060,
+      "id": 4291,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Combined Junior Engineer (Mechanical) Online Form 2026",
@@ -60358,7 +60604,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4059,
+      "id": 4290,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Combined Junior Engineer (Electrical) Online Form 2026",
@@ -60380,7 +60626,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4058,
+      "id": 4289,
       "source_portal": "Delhi Subordinate Service Selection Board (DSSSB)",
       "source_url": "https://dsssb.delhi.gov.in/",
       "title": "Delhi DSSSB Sweeper, Safai Karamchari, Chowkidar Post Online Form 2026",
@@ -60402,7 +60648,7 @@ window.PORTAL_DATA = {
       "state": "Delhi"
     },
     {
-      "id": 4057,
+      "id": 4288,
       "source_portal": "Madhya Pradesh Employees Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "title": "MPESB Group 3 Sub Engineer Online Form 2026 Re Open",
@@ -60424,7 +60670,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4056,
+      "id": 4287,
       "source_portal": "Supreme Court of India SCI",
       "source_url": "https://www.sci.gov.in/",
       "title": "Supreme Court of India Senior Personal Assistant Online Form 2026",
@@ -60446,29 +60692,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4055,
-      "source_portal": "Indian Farmers Fertilizer Cooperative Limited IFFCO",
-      "source_url": "https://www.iffco.in/",
-      "title": "IFFCO Agriculture Graduate Trainee AGT Online Form 2026",
-      "category": "LATEST_JOB",
-      "detected_date": "2026-10-13",
-      "pdf_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "action_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-      "extracted_data": {
-        "education": "Graduate",
-        "last_date": "Active 2026",
-        "registration_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026",
-        "login_url": "https://careers.iffco-recruitments.in/jobs/agriculture-graduate-trainee-2026"
-      },
-      "status": "APPROVED",
-      "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:55:35",
-      "qualification_level": "Graduate",
-      "sector": "Central Govt",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "id": 4054,
+      "id": 4286,
       "source_portal": "Uttar Pradesh District Program Officer",
       "source_url": "https://upanganwadibharti.in/",
       "title": "UP Anganwadi Worker Bharti Online Form 2026 | Updated",
@@ -60484,13 +60708,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:56:36",
+      "created_at": "2026-10-13 08:55:35",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4053,
+      "id": 4285,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB Paramedical Online Form 2026 CEN 05/2026",
@@ -60506,13 +60730,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:57:37",
+      "created_at": "2026-10-13 08:56:36",
       "qualification_level": "Medical / Nursing",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4052,
+      "id": 4284,
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
       "title": "BPSC School Teacher TRE 4.0 Online Form 2026",
@@ -60528,13 +60752,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:58:38",
+      "created_at": "2026-10-13 08:57:37",
       "qualification_level": "12th Pass",
       "sector": "Banking",
       "state": "Bihar"
     },
     {
-      "id": 4051,
+      "id": 4283,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC UP PGT Teacher Online Form 2026",
@@ -60550,13 +60774,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:59:39",
+      "created_at": "2026-10-13 08:58:38",
       "qualification_level": "Post Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4050,
+      "id": 4282,
       "source_portal": "Army Recruitment (Join Indian Army)",
       "source_url": "http://joinindianarmy.nic.in/",
       "title": "Army 10+2 TES 57th Online Form 2026",
@@ -60572,13 +60796,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:10:40",
+      "created_at": "2026-10-13 08:59:39",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "All India"
     },
     {
-      "id": 4049,
+      "id": 4281,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "title": "Railway RRB NTPC 10+2 Under Graduate Online Form 2026",
@@ -60594,13 +60818,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:11:41",
+      "created_at": "2026-10-13 08:10:40",
       "qualification_level": "12th Pass",
       "sector": "Railways",
       "state": "All India"
     },
     {
-      "id": 4048,
+      "id": 4280,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended",
@@ -60616,13 +60840,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:12:42",
+      "created_at": "2026-10-13 08:11:41",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4047,
+      "id": 4279,
       "source_portal": "Supreme Court of India SCI",
       "source_url": "https://www.sci.gov.in/",
       "title": "Supreme Court of India Junior Court Attendant Online Form 2026",
@@ -60638,13 +60862,13 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:13:43",
+      "created_at": "2026-10-13 08:12:42",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "All India"
     },
     {
-      "id": 4046,
+      "id": 4278,
       "source_portal": "Madhya Pradesh Employee Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "title": "MPESB MP Police Constable Driver Online Form 2026",
@@ -60660,13 +60884,35 @@ window.PORTAL_DATA = {
       },
       "status": "APPROVED",
       "confidence_score": 0.99,
-      "created_at": "2026-10-13 08:14:44",
+      "created_at": "2026-10-13 08:13:43",
       "qualification_level": "10th Pass",
       "sector": "Banking",
       "state": "Madhya Pradesh"
     },
     {
-      "id": 4045,
+      "id": 4277,
+      "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
+      "source_url": "https://upsssc.gov.in/",
+      "title": "UPSSSC 10+2 Inter Level Various Post Online Form 2026",
+      "category": "LATEST_JOB",
+      "detected_date": "2026-10-13",
+      "pdf_url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+      "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
+      "extracted_data": {
+        "education": "12th Pass",
+        "last_date": "Active 2026",
+        "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
+        "login_url": "https://upsssc.gov.in/AllNotifications.aspx"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.99,
+      "created_at": "2026-10-13 08:14:44",
+      "qualification_level": "12th Pass",
+      "sector": "Central Govt",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 4276,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://csirnet.nta.nic.in/",
       "title": "NTA CSIR UGC NET Final Answer Key 2026",
@@ -60688,7 +60934,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4044,
+      "id": 4275,
       "source_portal": "Bharat Sanchar Nigam Limited BSNL",
       "source_url": "https://externalexam.bsnl.co.in/",
       "title": "BSNL JTO Answer Key 2026",
@@ -60710,7 +60956,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4043,
+      "id": 4274,
       "source_portal": "Board of Secondary Education, BSEH Haryana",
       "source_url": "https://bseh.org.in/",
       "title": "Haryana Teacher Eligibility Test HTET OMR Sheet 2026",
@@ -60732,7 +60978,7 @@ window.PORTAL_DATA = {
       "state": "Haryana"
     },
     {
-      "id": 4042,
+      "id": 4273,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://exams.nta.nic.in/aiapget/",
       "title": "NTA AIAPGET Answer Key 2026",
@@ -60754,7 +61000,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4041,
+      "id": 4272,
       "source_portal": "Rajasthan Public Service Commission ( RPSC )",
       "source_url": "https://rpsc.rajasthan.gov.in/",
       "title": "Rajasthan RPSC APO Answer Key 2026",
@@ -60776,7 +61022,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4040,
+      "id": 4271,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "RRB Railway Group Answer Key 2026 CEN 09/2025",
@@ -60798,7 +61044,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4039,
+      "id": 4270,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://ugcnet.nta.nic.in/",
       "title": "NTA UGC NET Re Exam Answer Key 2026",
@@ -60820,7 +61066,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4038,
+      "id": 4269,
       "source_portal": "Delhi Subordinate Services Selection Board (DSSSB)",
       "source_url": "http://dsssb.delhi.gov.in",
       "title": "Delhi DSSSB MTS Answer Key 2026",
@@ -60842,7 +61088,7 @@ window.PORTAL_DATA = {
       "state": "Delhi"
     },
     {
-      "id": 4037,
+      "id": 4268,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Assistant Boring Technician Revised Answer Key 2026",
@@ -60864,7 +61110,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4036,
+      "id": 4267,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Teacher Cadre JTC Revised Answer Key 2026",
@@ -60886,7 +61132,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4035,
+      "id": 4266,
       "source_portal": "Union Public Service Commission (UPSC)",
       "source_url": "http://upsc.gov.in/",
       "title": "UPSC NDA II Answer Key 2026",
@@ -60908,7 +61154,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4034,
+      "id": 4265,
       "source_portal": "Union Public Service Commission (UPSC)",
       "source_url": "https://upsc.gov.in/",
       "title": "UPSC CDS II Answer Key 2026",
@@ -60930,7 +61176,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4033,
+      "id": 4264,
       "source_portal": "Rajasthan Staff Selection Board RSSB RSMSSB",
       "source_url": "https://rssb.rajasthan.gov.in/",
       "title": "Rajasthan RSSB Computer Instructor Answer Key 2026",
@@ -60952,7 +61198,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4032,
+      "id": 4263,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://exams.nta.nic.in/aiapget/",
       "title": "NTA AIAPGET Final Answer Key 2026",
@@ -60974,7 +61220,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4031,
+      "id": 4262,
       "source_portal": "Madhya Pradesh Employee Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "title": "MPESB Group 2 Sub Group 1 Krishi Vistar Adhikari Answer Key 2026",
@@ -60996,7 +61242,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4030,
+      "id": 4261,
       "source_portal": "Border Security Force (BSF)",
       "source_url": "https://bsf.gov.in/",
       "title": "BSF HC Ministerial and ASI Steno Answer Key / Objection 2026",
@@ -61018,7 +61264,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4029,
+      "id": 4260,
       "source_portal": "SSC Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Combined Hindi Translators JHT Answer Key 2026",
@@ -61040,7 +61286,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4028,
+      "id": 4259,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC UP Excise Constable Answer Key 2026",
@@ -61062,7 +61308,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4027,
+      "id": 4258,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Pharmacist Ayurvedic 2024 Answer Key 2026",
@@ -61084,7 +61330,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4026,
+      "id": 4257,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Stenographer 2026 Answer Key",
@@ -61106,7 +61352,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4025,
+      "id": 4256,
       "source_portal": "High Court of Judicature at Patna (PHC)",
       "source_url": "https://patnahighcourt.gov.in/",
       "title": "Patna High Court Assistant Group C Answer Key 2026",
@@ -61128,7 +61374,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4024,
+      "id": 4255,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB NTPC 10+2 UG Level CBT II Answer Key 2026 | CEN 07/2025",
@@ -61150,7 +61396,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4023,
+      "id": 4254,
       "source_portal": "Indian Space Research Organization (ISRO) Centralized Recruitment Board ICRB",
       "source_url": "https://www.isro.gov.in/",
       "title": "ISRO ICRB Assistant and Other Post Answer Key 2026",
@@ -61172,7 +61418,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4022,
+      "id": 4253,
       "source_portal": "Uttar Pradesh Education Service Selection Commission UPESSC",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC UP Principal Answer Key 2026",
@@ -61194,7 +61440,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4021,
+      "id": 4252,
       "source_portal": "IAF Indian Air Force",
       "source_url": "https://iafrecruitment.edcil.co.in/airmen/",
       "title": "Indian Air Force Airmen Group Y Medical Assistant INET 02/2027 Answer Key",
@@ -61216,7 +61462,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4020,
+      "id": 4251,
       "source_portal": "Join Indian Airforce",
       "source_url": "https://iafrecruitment.edcil.co.in/agniveervayu/",
       "title": "Indian Airforce Agniveervayu Intake 02/2027 Answer Key 2026",
@@ -61238,7 +61484,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4019,
+      "id": 4250,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Scientific and Lab Assistant Mains Answer Key 2026",
@@ -61260,7 +61506,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4018,
+      "id": 4249,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in//default.aspx",
       "title": "UPSSSC Forest Guard / Wild Life Guard Mains Answer Key 2026",
@@ -61282,7 +61528,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4017,
+      "id": 4248,
       "source_portal": "National Board of Examination (NBE)",
       "source_url": "https://natboard.edu.in/",
       "title": "NBEMS NAT Board Group A B C Various Post Answer Key 2026",
@@ -61304,7 +61550,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4016,
+      "id": 4247,
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
       "title": "Uttarakhand UK TET UTET Answer Key 2026",
@@ -61326,7 +61572,7 @@ window.PORTAL_DATA = {
       "state": "Uttarakhand"
     },
     {
-      "id": 4015,
+      "id": 4246,
       "source_portal": "University of Kota Rajasthan",
       "source_url": "https://uok.ac.in/category.php?catid=89&pageid=721&page=SET%20Examination%202026",
       "title": "Rajasthan State Eligibility Test SET Answer Key 2026",
@@ -61348,7 +61594,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4014,
+      "id": 4245,
       "source_portal": "Madhya Pradesh Employee Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "title": "MPESB Group 2 Sub Group 4 Patwari and Other Post Answer Key 2026",
@@ -61370,7 +61616,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4013,
+      "id": 4244,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Selection Post 14th Answer Key 2026",
@@ -61392,7 +61638,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4012,
+      "id": 4243,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
       "title": "Railway RRB Technician CEN 02/2026 Answer Key 2026",
@@ -61414,7 +61660,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4011,
+      "id": 4242,
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
       "title": "Railway RRB Section Controller Answer Key 2026 | CEN 03/2026",
@@ -61436,7 +61682,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 4010,
+      "id": 4241,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPTET 2026 Syllabus",
@@ -61458,7 +61704,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4009,
+      "id": 4240,
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
       "title": "Jharkhand Teacher Eligibility Test JHTET Syllabus 2026",
@@ -61480,7 +61726,7 @@ window.PORTAL_DATA = {
       "state": "Haryana"
     },
     {
-      "id": 4008,
+      "id": 4239,
       "source_portal": "Patna High Court PHC",
       "source_url": "https://patnahighcourt.gov.in/",
       "title": "Patna High Court Technical Assistant Syllabus 2026",
@@ -61502,7 +61748,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 4007,
+      "id": 4238,
       "source_portal": "Madhya Pradesh Employees Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
       "title": "MPESB Nursing Officer, Sister Tutor Syllabus 2026",
@@ -61524,7 +61770,7 @@ window.PORTAL_DATA = {
       "state": "Madhya Pradesh"
     },
     {
-      "id": 4006,
+      "id": 4237,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC UP Vidhan Bhawan Guard / Fireman Syllabus 2026",
@@ -61546,7 +61792,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4005,
+      "id": 4236,
       "source_portal": "Allahabad High Court",
       "source_url": "https://www.allahabadhighcourt.in/",
       "title": "Allahabad High Court RO, ARO, Computer Assistant Exam Syllabus 2026",
@@ -61568,7 +61814,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4004,
+      "id": 4235,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Auditor and Assistant Accountant Syllabus 2026",
@@ -61590,7 +61836,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4003,
+      "id": 4234,
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
       "title": "Rajasthan RSSB 10+2 Senior Secondary CET Syllabus 2026",
@@ -61612,7 +61858,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4002,
+      "id": 4233,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Pharmacist Ayurvedic 2024 Syllabus",
@@ -61634,7 +61880,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 4001,
+      "id": 4232,
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
       "title": "RSSB Graduate Level CET Syllabus 2026",
@@ -61656,7 +61902,7 @@ window.PORTAL_DATA = {
       "state": "Rajasthan"
     },
     {
-      "id": 4000,
+      "id": 4231,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
       "title": "UPSSSC Moharir 2022 Exam Syllabus",
@@ -61678,7 +61924,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3999,
+      "id": 4230,
       "source_portal": "Uttar Pradesh Education Service Selection Commission UPESSC",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC Principal Syllabus 2026",
@@ -61700,7 +61946,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3998,
+      "id": 4229,
       "source_portal": "Consortium of National Law Universities",
       "source_url": "https://consortiumofnlus.ac.in/",
       "title": "CLAT 2027 UG PG Syllabus",
@@ -61722,7 +61968,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3997,
+      "id": 4228,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC PET 2026 Syllabus",
@@ -61744,7 +61990,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3996,
+      "id": 4227,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC UP TGT, UP PGT Syllabus 2026",
@@ -61766,7 +62012,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3995,
+      "id": 4226,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Scientific / Lab Assistant Exam Syllabus 2026",
@@ -61788,7 +62034,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3994,
+      "id": 4225,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Livestock Extension Officer Syllabus 2026",
@@ -61810,7 +62056,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3993,
+      "id": 4224,
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
       "title": "UPSSSC Veterinary Pharmacist Syllabus 2026",
@@ -61832,7 +62078,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3992,
+      "id": 4223,
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UPESSC UP Super TET (Assistant Teacher) Primary & Junior Level Syllabus 2026",
@@ -61854,7 +62100,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3991,
+      "id": 4222,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC Junior Engineer JE 2026 Paper I & II Exam Syllabus",
@@ -61876,7 +62122,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3990,
+      "id": 4221,
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
       "title": "SSC 10+2 CHSL Tier I, Tier II Exam Syllabus 2026",
@@ -61898,7 +62144,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3989,
+      "id": 4220,
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
       "title": "UP Assistant Teacher Primary Class 1 to 5 Exam Syllabus 2026",
@@ -61920,7 +62166,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3988,
+      "id": 4219,
       "source_portal": "Consortium of National Law Universities",
       "source_url": "https://consortiumofnlus.ac.in/",
       "title": "CLAT 2027 Admission Online Form",
@@ -61942,7 +62188,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3987,
+      "id": 4218,
       "source_portal": "State Council for Vocational Training, UP",
       "source_url": "https://scvtup.in/en",
       "title": "UP SCVTUP ITI Admissions Online Form 2026",
@@ -61964,7 +62210,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3986,
+      "id": 4217,
       "source_portal": "Simultala Awasiya Vidyalaya SAV",
       "source_url": "https://savbihar.ac.in/",
       "title": "SAV Jamui Bihar Class VI 6th Admission Online Form 2027",
@@ -61986,7 +62232,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 3985,
+      "id": 4216,
       "source_portal": "National Testing Agency NTA",
       "source_url": "https://mcc.nic.in/ug-medical-counselling/",
       "title": "NEET UG 2026 Online Counselling",
@@ -62008,7 +62254,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3984,
+      "id": 4215,
       "source_portal": "Jawahar Navodaya Vidyalaya JNV",
       "source_url": "https://cbseitms.rcil.gov.in/nvs/",
       "title": "NVS Class 6th Admissions Online Form 2027 Date Extended",
@@ -62030,7 +62276,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3983,
+      "id": 4214,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://updeled.gov.in/",
       "title": "UP DELED Online Counselling 2026",
@@ -62052,7 +62298,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3982,
+      "id": 4213,
       "source_portal": "All India Bar Examination AIBE 22nd",
       "source_url": "https://www.allindiabarexamination.com/",
       "title": "All India Bar Exam AIBE 22nd XXII Online Form 2026",
@@ -62074,7 +62320,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3981,
+      "id": 4212,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://allduniv.ac.in/",
       "title": "Allahabad University PHd Admissions Online Form 2026",
@@ -62096,7 +62342,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3980,
+      "id": 4211,
       "source_portal": "National Testing Agency (NTA)",
       "source_url": "https://exams.nta.nic.in/",
       "title": "NTA RIMCEE Class 8th Admissions Online Form 2027",
@@ -62118,7 +62364,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3979,
+      "id": 4210,
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
       "title": "Bihar Library Eligibility Test BLET Online Form 2026",
@@ -62140,7 +62386,7 @@ window.PORTAL_DATA = {
       "state": "Bihar"
     },
     {
-      "id": 3978,
+      "id": 4209,
       "source_portal": "IIM Indian Institute of Management IIM",
       "source_url": "https://iimcat.ac.in/",
       "title": "IIM CAT Admission Online Form 2026 Date Extended",
@@ -62162,7 +62408,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3977,
+      "id": 4208,
       "source_portal": "UP SWD Social Welfare Department, Uttar Pradesh",
       "source_url": "https://scholarship.up.gov.in/",
       "title": "UP Scholarship Online Form 2026 (All Course)",
@@ -62184,7 +62430,7 @@ window.PORTAL_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "id": 3976,
+      "id": 4207,
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://uprtou.ac.in/",
       "title": "UPRTOU Ph.D Entrance Exam Admission Online Form 2026",
@@ -62206,7 +62452,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3975,
+      "id": 4206,
       "source_portal": "Indian Institute of Technology IIT Kharagpur",
       "source_url": "https://jam.iitkgp.ac.in/",
       "title": "IIT JAM 2027 Online Form",
@@ -62228,7 +62474,7 @@ window.PORTAL_DATA = {
       "state": "All India"
     },
     {
-      "id": 3974,
+      "id": 4205,
       "source_portal": "Indian Institute of Technology IIT Madras",
       "source_url": "https://gate2027.iitm.ac.in/",
       "title": "IIT GATE 2027 Online Form | Re-Open",
@@ -62246,6 +62492,28 @@ window.PORTAL_DATA = {
       "confidence_score": 0.99,
       "created_at": "2026-10-13 08:36:56",
       "qualification_level": "Post Graduate",
+      "sector": "Education / Admission",
+      "state": "All India"
+    },
+    {
+      "id": 4204,
+      "source_portal": "National Testing Agency NTA",
+      "source_url": "https://exams.nta.nic.in/niftee/",
+      "title": "NTA NIFTEE Admission Online Form 2027",
+      "category": "ADMISSION",
+      "detected_date": "2026-10-13",
+      "pdf_url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/202610161124929715.pdf",
+      "action_url": "https://exams.nta.nic.in/niftee/",
+      "extracted_data": {
+        "education": "Graduate",
+        "last_date": "Active 2026",
+        "registration_url": "https://exams.nta.nic.in/niftee/",
+        "login_url": "https://exams.nta.nic.in/niftee/"
+      },
+      "status": "APPROVED",
+      "confidence_score": 0.99,
+      "created_at": "2026-10-13 08:37:57",
+      "qualification_level": "Graduate",
       "sector": "Education / Admission",
       "state": "All India"
     }
