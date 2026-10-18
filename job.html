@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title id="pageTitle">All Sarkari Jobs – Latest Government Vacancies & Recruitment 2026</title>
 <meta name="description" id="pageMetaDesc" content="Find the latest government recruitment notices, eligibility, vacancies, exam dates, application fee, and download official notification PDFs on All Sarkari Jobs.">
+<meta name="keywords" id="pageKeywords" content="Sarkari Job, Government Jobs 2026, Free Job Alert, Online Form 2026, Notification PDF, Eligibility Criteria, Sarkari Naukri, All Sarkari Jobs">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/job">
 
@@ -278,6 +279,71 @@ async function loadJobDetails() {
     if (ogDescEl) ogDescEl.content = cleanDesc;
     const canonicalEl = document.getElementById('canonicalLink');
     if (canonicalEl) canonicalEl.href = `https://www.allsarkarijobs.online/jobs/${slug}`;
+
+    // Dynamic Keywords
+    const pageKeywordsEl = document.getElementById('pageKeywords');
+    if (pageKeywordsEl) {
+      pageKeywordsEl.content = `${job.title}, ${job.title} 2026, ${job.title} apply online, ${job.organization}, ${job.qualification || 'Govt Jobs'}, Sarkari Job, Sarkari Result, Free Job Alert, All Sarkari Jobs`;
+    }
+
+    // Google for Jobs Schema.org JobPosting & BreadcrumbList
+    let jobSchemaEl = document.getElementById('jobPostingSchemaJsonLd');
+    if (!jobSchemaEl) {
+      jobSchemaEl = document.createElement('script');
+      jobSchemaEl.id = 'jobPostingSchemaJsonLd';
+      jobSchemaEl.type = 'application/ld+json';
+      document.head.appendChild(jobSchemaEl);
+    }
+    jobSchemaEl.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.allsarkarijobs.online/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Latest Jobs",
+              "item": "https://www.allsarkarijobs.online/latest-jobs"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": job.title,
+              "item": `https://www.allsarkarijobs.online/jobs/${slug}`
+            }
+          ]
+        },
+        {
+          "@type": "JobPosting",
+          "title": job.title,
+          "description": job.description || cleanDesc,
+          "datePosted": job.start_date || "2026-10-18",
+          "validThrough": job.last_date || "2026-12-31",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": job.organization || "Government Recruitment Commission",
+            "sameAs": "https://www.allsarkarijobs.online/"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "IN"
+            }
+          },
+          "directApply": true,
+          "url": `https://www.allsarkarijobs.online/jobs/${slug}`
+        }
+      ]
+    });
 
     document.getElementById('bcTitle').innerText = job.title;
     document.getElementById('jobTitle').innerText = job.title;
