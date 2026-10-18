@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="metaTitle">All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert & Sarkari Result 2026</title>
   <meta name="description" id="metaDesc" content="All Sarkari Jobs: Find latest Government Jobs in India, Sarkari Result, Admit Card, Answer Key & Free Job Alerts 2026 across SSC, UPSC, Railway, Banking, Police & State portals. Apply online and download official PDFs.">
-  <meta name="keywords" content="All Sarkari Jobs, Latest Government Jobs in India, Free Job Alert, Sarkari Result 2026, Sarkari Naukri, Admit Card, Answer Key">
+  <meta name="keywords" id="metaKeywords" content="All Sarkari Jobs, Latest Government Jobs in India, Free Job Alert, Sarkari Result 2026, Sarkari Naukri, Admit Card, Answer Key">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/">
 
@@ -358,7 +358,8 @@ const CATEGORY_CONFIG = {
     btnText: 'View Result & Scorecard',
     title: 'Sarkari Result 2026 – Latest Govt Exam Results & Cutoff | All Sarkari Jobs',
     desc: 'Government Exam Results | Scorecards | Cutoff Marks · Check live Sarkari Results, category-wise quota cutoff marks, official merit lists, and candidate scorecard login links on AllSarkariJobs.',
-    canonical: '/results'
+    canonical: '/results',
+    keywords: 'Sarkari Result, Sarkari Result 2026, Check Govt Exam Results, Official Cutoff Marks, Merit List PDF, Scorecard Login, SSC Result, RRB Result, UP Police Result, how to check sarkari result'
   },
   'LATEST_JOB': {
     code: 'LATEST_JOB',
@@ -372,7 +373,8 @@ const CATEGORY_CONFIG = {
     btnText: 'Apply Online',
     title: 'All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert 2026',
     desc: 'Government Jobs | Results | Admit Card · Latest Vacancies, Exam Dates & Free Job Alerts. Browse active Central & State government job openings, eligibility, exam dates, and apply online directly on AllSarkariJobs.',
-    canonical: '/latest-jobs'
+    canonical: '/latest-jobs',
+    keywords: 'Latest Sarkari Jobs 2026, Government Jobs for 12th Pass, 10th Pass Govt Jobs, Graduate Vacancies, Free Job Alert, Online Application Form, SSC CGL, RRB NTPC, State Police Bharti, how to apply online for government jobs'
   },
   'ADMIT_CARD': {
     code: 'ADMIT_CARD',
@@ -386,7 +388,8 @@ const CATEGORY_CONFIG = {
     btnText: 'Download Admit Card',
     title: 'Sarkari Admit Card 2026 – Download Govt Exam Hall Tickets | All Sarkari Jobs',
     desc: 'Admit Card | Hall Ticket | Exam City Slip · Download official exam hall tickets, admit cards, examination schedule notices, and check exam city status online on AllSarkariJobs.',
-    canonical: '/admit-cards'
+    canonical: '/admit-cards',
+    keywords: 'Sarkari Admit Card 2026, Download Hall Ticket, Exam City Intimation Slip, Call Letter Login, SSC Admit Card, RRB Hall Ticket, Exam Schedule, download admit card with registration number'
   },
   'ANSWER_KEY': {
     code: 'ANSWER_KEY',
@@ -400,7 +403,8 @@ const CATEGORY_CONFIG = {
     btnText: 'Download Answer Key',
     title: 'Sarkari Answer Key 2026 – Question Papers & Solutions | All Sarkari Jobs',
     desc: 'Answer Key | Response Sheet | Objection Tracker · Download official provisional and final exam answer keys, candidate response sheets, and challenge question links on AllSarkariJobs.',
-    canonical: '/answer-keys'
+    canonical: '/answer-keys',
+    keywords: 'Sarkari Answer Key 2026, Download Question Papers, Official Response Sheet, Challenge Objection Form, Solved Question Paper PDF, answer key challenge objection link'
   },
   'SYLLABUS': {
     code: 'SYLLABUS',
@@ -414,7 +418,8 @@ const CATEGORY_CONFIG = {
     btnText: 'Download Syllabus PDF',
     title: 'Sarkari Exam Syllabus 2026 – Exam Pattern & Selection Scheme PDF | All Sarkari Jobs',
     desc: 'Exam Syllabus | Scheme | Pattern PDF · Download subject-wise detailed syllabus, exam pattern, marking scheme, and preparation guide for government exams on AllSarkariJobs.',
-    canonical: '/syllabus'
+    canonical: '/syllabus',
+    keywords: 'Sarkari Exam Syllabus 2026, Exam Pattern PDF, Subject Wise Syllabus, Tier 1 Tier 2 Exam Scheme, Selection Process, download exam syllabus pdf'
   },
   'ADMISSION': {
     code: 'ADMISSION',
@@ -428,7 +433,8 @@ const CATEGORY_CONFIG = {
     btnText: 'Apply for Admission',
     title: 'Sarkari Admission 2026 – University Entrance Forms & Counselling | All Sarkari Jobs',
     desc: 'Admission | Entrance Exam | Counselling · Apply online for national & state entrance examinations, university admission forms, and counselling schedules on AllSarkariJobs.',
-    canonical: '/admission'
+    canonical: '/admission',
+    keywords: 'Sarkari Admission 2026, Online Application Forms, University Counselling Schedule, Entrance Exam Brochure, NTA CUET GATE, admission counselling result'
   }
 };
 
@@ -462,12 +468,51 @@ function initCategoryView() {
   document.title = cfg.title;
   const metaDescEl = document.getElementById('metaDesc');
   if (metaDescEl) metaDescEl.content = cfg.desc;
+  const metaKeywordsEl = document.getElementById('metaKeywords');
+  if (metaKeywordsEl && cfg.keywords) metaKeywordsEl.content = cfg.keywords;
   const ogTitleEl = document.getElementById('ogTitle');
   if (ogTitleEl) ogTitleEl.content = cfg.title;
   const ogDescEl = document.getElementById('ogDesc');
   if (ogDescEl) ogDescEl.content = cfg.desc;
   const canonicalEl = document.getElementById('canonicalLink');
   if (canonicalEl) canonicalEl.href = 'https://www.allsarkarijobs.online' + cfg.canonical;
+
+  // Structured Data (JSON-LD BreadcrumbList & CollectionPage)
+  let schemaEl = document.getElementById('catSchemaJsonLd');
+  if (!schemaEl) {
+    schemaEl = document.createElement('script');
+    schemaEl.id = 'catSchemaJsonLd';
+    schemaEl.type = 'application/ld+json';
+    document.head.appendChild(schemaEl);
+  }
+  schemaEl.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.allsarkarijobs.online/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": cfg.name,
+            "item": "https://www.allsarkarijobs.online" + cfg.canonical
+          }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "name": cfg.title,
+        "description": cfg.desc,
+        "url": "https://www.allsarkarijobs.online" + cfg.canonical
+      }
+    ]
+  });
 
   // Header and Breadcrumb
   document.getElementById('bcCategoryName').innerText = cfg.name;
