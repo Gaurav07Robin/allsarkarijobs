@@ -240,12 +240,58 @@ async function loadDetail() {
     const cat = item.category || 'LATEST_JOB';
     const meta = item.meta || (typeof item.meta_json === 'string' && item.meta_json ? JSON.parse(item.meta_json) : {}) || {};
 
-    const cleanTitle = `${item.title} – Apply Online, Exam Date & Official PDF | All Sarkari Jobs`;
+    // 1. Determine Commission / Organization
+    let org = item.source_portal || "Government Recruitment Commission";
+    if (org === "Government Recruitment Commission") {
+      if (item.title.includes("SSC")) org = "Staff Selection Commission (SSC)";
+      else if (item.title.includes("UPSC")) org = "Union Public Service Commission (UPSC)";
+      else if (item.title.includes("RRB") || item.title.includes("Railway") || item.title.includes("RRC")) org = "Railway Recruitment Boards (RRB)";
+      else if (item.title.includes("UPSSSC")) org = "Uttar Pradesh Subordinate Services (UPSSSC)";
+      else if (item.title.includes("UP Police")) org = "UP Police Recruitment & Promotion Board";
+      else if (item.title.includes("UPPSC")) org = "Uttar Pradesh Public Service Commission (UPPSC)";
+      else if (item.title.includes("IBPS") || item.title.includes("NIT") || item.title.includes("Canara") || item.title.includes("KUCBL")) org = "Institute of Banking Personnel Selection (IBPS)";
+      else if (item.title.includes("SBI")) org = "State Bank of India (SBI CRPD)";
+      else if (item.title.includes("MPESB")) org = "Madhya Pradesh Employees Selection Board";
+      else if (item.title.includes("RPSC")) org = "Rajasthan Public Service Commission (RPSC)";
+      else if (item.title.includes("HSSC")) org = "Haryana Staff Selection Commission (HSSC)";
+      else if (item.title.includes("DSSSB")) org = "Delhi Subordinate Services Selection Board (DSSSB)";
+      else if (item.title.includes("Delhi High Court")) org = "Delhi High Court (Judicial Service)";
+      else if (item.title.includes("Allahabad High Court")) org = "High Court of Judicature at Allahabad";
+      else if (item.title.includes("Supreme Court")) org = "Supreme Court of India";
+      else if (item.title.includes("NTA") || item.title.includes("JEE") || item.title.includes("NEET") || item.title.includes("CUET")) org = "National Testing Agency (NTA)";
+    }
+
+    let cleanTitle = `${item.title} Notification PDF, Direct Apply Link & Eligibility 2026 | All Sarkari Jobs`;
+    let targetKeywords = `${item.title}, ${item.title} 2026, ${item.title} official notification pdf download, ${item.title} direct apply link, ${item.title} eligibility criteria age limit, ${org} recruitment 2026, 10th 12th graduate govt jobs`;
+    let defaultDesc = `Download official ${item.title} notification PDF. Check exact eligibility criteria, important dates, application fee, candidate registration, and apply online directly on All Sarkari Jobs.`;
+
+    if (cat === 'RESULT') {
+      cleanTitle = `${item.title} Result, Cutoff Marks & Scorecard Login 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} result 2026, ${item.title} cutoff marks category wise pdf, ${item.title} scorecard login link, ${item.title} merit list download, ${org} exam result`;
+      defaultDesc = `Check ${item.title} exam result declaration date, category-wise quota cutoff marks, official merit list PDF, and candidate scorecard login link on All Sarkari Jobs.`;
+    } else if (cat === 'ADMIT_CARD') {
+      cleanTitle = `${item.title} Admit Card, Exam City Slip & Hall Ticket Download 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} admit card 2026 download, ${item.title} exam city intimation slip, ${item.title} hall ticket direct login, ${org} admit card release date`;
+      defaultDesc = `Download ${item.title} exam admit card, hall ticket, and exam city intimation slip. Access direct candidate login with registration number and exam day guidelines on All Sarkari Jobs.`;
+    } else if (cat === 'ANSWER_KEY') {
+      cleanTitle = `${item.title} Answer Key, Response Sheet & Objection Link 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} answer key 2026, ${item.title} response sheet download, ${item.title} raise objection challenge link, ${org} question paper solutions`;
+      defaultDesc = `Download official ${item.title} provisional answer key and candidate response sheet. Check question paper solutions and raise online objections before the last date on All Sarkari Jobs.`;
+    } else if (cat === 'SYLLABUS') {
+      cleanTitle = `${item.title} Syllabus PDF & Exam Pattern in Hindi/English 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} syllabus pdf download, ${item.title} exam pattern topic wise marks, ${item.title} selection scheme in hindi english, ${org} exam syllabus`;
+      defaultDesc = `Download detailed ${item.title} syllabus and examination pattern PDF in Hindi and English. Check topic-wise marks weightage, negative marking rules, and selection scheme on All Sarkari Jobs.`;
+    } else if (cat === 'ADMISSION') {
+      cleanTitle = `${item.title} Admission Form, Eligibility & Counseling Date 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} admission form 2026, ${item.title} eligibility criteria counseling schedule, ${item.title} entrance exam seat allotment, ${org} admission`;
+      defaultDesc = `Apply online for ${item.title} entrance examination. Check eligibility criteria, seat allotment, counseling dates, and download official information brochure on All Sarkari Jobs.`;
+    }
+
     document.title = cleanTitle;
     document.getElementById('pageTitle').innerText = cleanTitle;
     const itemDesc = (meta && meta.short_info)
-      ? `${meta.short_info.slice(0, 160).trim()}... Check important dates, application fee, eligibility, candidate login, and download official PDF.`
-      : `Check ${item.title} official notification details, eligibility criteria, important dates, candidate registration, and download official government PDF on All Sarkari Jobs.`;
+      ? `${meta.short_info.slice(0, 160).trim()}... ${defaultDesc}`
+      : defaultDesc;
     const metaDescEl = document.getElementById('pageMetaDesc');
     if (metaDescEl) metaDescEl.content = itemDesc;
     const ogTitleEl = document.getElementById('ogTitle');
@@ -255,10 +301,10 @@ async function loadDetail() {
     const canonicalEl = document.getElementById('canonicalLink');
     if (canonicalEl) canonicalEl.href = `https://www.allsarkarijobs.online/detail?id=${item.id}`;
 
-    // Dynamic Keywords
+    // Dynamic 3-Tier Keywords
     const pageKeywordsEl = document.getElementById('pageKeywords');
     if (pageKeywordsEl) {
-      pageKeywordsEl.content = `${item.title}, ${item.title} 2026, ${item.title} apply online, ${item.title} admit card, ${item.title} cut off marks, ${item.title} syllabus, ${item.title} official notification pdf, ${org}, Sarkari Result, All Sarkari Jobs, Sarkari Naukri`;
+      pageKeywordsEl.content = `${targetKeywords}, All Sarkari Jobs, Sarkari Result, Sarkari Naukri, Free Job Alert`;
     }
 
     // Dynamic Structured Data (BreadcrumbList & Article Schema)
@@ -315,32 +361,11 @@ async function loadDetail() {
     document.getElementById('bcTitle').innerText = item.title;
     document.getElementById('catBadge').innerText = cat.replace('_', ' ');
     document.getElementById('noticeTitle').innerText = meta.full_title || item.title;
+    document.getElementById('noticeOrg').innerText = org;
 
     if (item.tag) {
       document.getElementById('noticeTagSpan').innerHTML = `<span style="background:#fce8e8;color:red;padding:2px 8px;border-radius:4px;font-weight:700">${item.tag.toUpperCase()}</span>`;
     }
-
-    // 1. Determine Commission / Organization
-    let org = item.source_portal || "Government Recruitment Commission";
-    if (org === "Government Recruitment Commission") {
-      if (item.title.includes("SSC")) org = "Staff Selection Commission (SSC)";
-      else if (item.title.includes("UPSC")) org = "Union Public Service Commission (UPSC)";
-      else if (item.title.includes("RRB") || item.title.includes("Railway") || item.title.includes("RRC")) org = "Railway Recruitment Boards (RRB)";
-      else if (item.title.includes("UPSSSC")) org = "Uttar Pradesh Subordinate Services (UPSSSC)";
-      else if (item.title.includes("UP Police")) org = "UP Police Recruitment & Promotion Board";
-      else if (item.title.includes("UPPSC")) org = "Uttar Pradesh Public Service Commission (UPPSC)";
-      else if (item.title.includes("IBPS") || item.title.includes("NIT") || item.title.includes("Canara") || item.title.includes("KUCBL")) org = "Institute of Banking Personnel Selection (IBPS)";
-      else if (item.title.includes("SBI")) org = "State Bank of India (SBI CRPD)";
-      else if (item.title.includes("MPESB")) org = "Madhya Pradesh Employees Selection Board";
-      else if (item.title.includes("RPSC")) org = "Rajasthan Public Service Commission (RPSC)";
-      else if (item.title.includes("HSSC")) org = "Haryana Staff Selection Commission (HSSC)";
-      else if (item.title.includes("DSSSB")) org = "Delhi Subordinate Services Selection Board (DSSSB)";
-      else if (item.title.includes("Delhi High Court")) org = "Delhi High Court (Judicial Service)";
-      else if (item.title.includes("Allahabad High Court")) org = "High Court of Judicature at Allahabad";
-      else if (item.title.includes("Supreme Court")) org = "Supreme Court of India";
-      else if (item.title.includes("NTA") || item.title.includes("JEE") || item.title.includes("NEET") || item.title.includes("CUET")) org = "National Testing Agency (NTA)";
-    }
-    document.getElementById('noticeOrg').innerText = org;
 
     const rawAction = (item.action_url || '').trim();
     const rawPdf = (item.pdf_url || '').trim();
