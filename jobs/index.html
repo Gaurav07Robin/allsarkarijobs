@@ -90,6 +90,25 @@ a{text-decoration:none;color:inherit}
 .wa-alert{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;margin:20px 0;gap:12px;flex-wrap:wrap}
 .wa-alert strong{color:#166534;font-size:14px}
 
+/* On-Page Keyword Pills & Related Searches */
+.kw-tags-box{background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin:28px 0 20px}
+.kw-tags-box h4{font-size:13.5px;font-weight:700;color:var(--slate);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.kw-pills{display:flex;flex-wrap:wrap;gap:8px}
+.kw-pill{background:#fff;border:1px solid #cbd5e1;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:5px;text-decoration:none;transition:all .15s}
+.kw-pill:hover{border-color:var(--maroon);color:var(--maroon);background:#fff1f2}
+.kw-pill.highlight{background:#fef3c7;border-color:#f59e0b;color:#92400e}
+
+/* On-Page FAQs */
+.detail-faq-wrap{margin:28px 0 16px}
+.detail-faq-wrap h3{font-size:16.5px;font-weight:800;color:var(--maroon);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.detail-faq-item{border:1px solid var(--border);border-radius:8px;margin-bottom:10px;background:#fff;overflow:hidden;transition:border-color .2s}
+.detail-faq-item:hover{border-color:#cbd5e1}
+.detail-faq-item summary{font-size:14px;font-weight:700;color:var(--ink);padding:12px 16px;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;user-select:none}
+.detail-faq-item summary::-webkit-details-marker{display:none}
+.detail-faq-item summary::after{content:'+';font-size:16px;font-weight:700;color:var(--muted);transition:transform .2s}
+.detail-faq-item[open] summary::after{content:'−';color:var(--maroon)}
+.detail-faq-item p{padding:0 16px 14px;font-size:13px;color:var(--slate);line-height:1.6;margin:0}
+
 /* Footer */
 .footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;font-size:13px;text-align:center;margin-top:40px}
 .footer a{color:var(--saffron)}
@@ -226,6 +245,18 @@ a{text-decoration:none;color:inherit}
         </tr>
       </tbody>
     </table>
+
+    <!-- Related Search Queries & Keyword Highlights (Visible On-Page SEO) -->
+    <div class="kw-tags-box" id="jobKwTagsBox">
+      <h4><i class="fa-solid fa-tags"></i> Related Search Queries & Key Topics</h4>
+      <div class="kw-pills" id="jobKwPillsContainer"></div>
+    </div>
+
+    <!-- Candidate FAQs Section -->
+    <div class="detail-faq-wrap" id="jobFaqWrap">
+      <h3 id="jobFaqHeading"><i class="fa-solid fa-circle-question"></i> Frequently Asked Questions</h3>
+      <div id="jobFaqItemsContainer"></div>
+    </div>
   </article>
 </div>
 
@@ -394,6 +425,50 @@ async function loadJobDetails() {
     document.getElementById('linkLogin').href = loginUrl;
     document.getElementById('linkPdf').href = pdfUrl;
     document.getElementById('linkOfficial').href = siteUrl;
+
+    // Render Visible On-Page Keyword Tags & Pills
+    const kwContainer = document.getElementById('jobKwPillsContainer');
+    if (kwContainer) {
+      const pills = [
+        { text: job.title, highlight: true },
+        { text: `${job.title} 2026`, highlight: false },
+        { text: `${job.organization}`, highlight: false },
+        { text: `${job.qualification || 'Govt Jobs'}`, highlight: false },
+        { text: 'Official Notification PDF Download', highlight: true },
+        { text: 'Direct Online Form Apply Link', highlight: false },
+        { text: 'Eligibility Criteria & Age Limit', highlight: false },
+        { text: 'Selection Process & CBT Exam', highlight: false },
+        { text: '10th / 12th / Graduate Vacancy', highlight: false },
+        { text: 'No Ad Sarkari Job Portal Direct Link', highlight: false }
+      ];
+
+      kwContainer.innerHTML = pills.map(p => {
+        const cls = p.highlight ? 'kw-pill highlight' : 'kw-pill';
+        return `<span class="${cls}"><i class="fa-solid fa-tag"></i> ${p.text}</span>`;
+      }).join('');
+    }
+
+    // Render Visible On-Page Job FAQs
+    const faqContainer = document.getElementById('jobFaqItemsContainer');
+    const faqHeading = document.getElementById('jobFaqHeading');
+    if (faqContainer) {
+      if (faqHeading) faqHeading.innerHTML = `<i class="fa-solid fa-circle-question"></i> Frequently Asked Questions – ${job.title}`;
+
+      faqContainer.innerHTML = `
+        <details class="detail-faq-item" open>
+          <summary>Where can I download the official ${job.title} notification PDF?</summary>
+          <p>You can download the original government-released official advertisement PDF directly from the 'Some Useful Important Links' table above by clicking on the red 'Click Here' button next to 'Download Official Notification PDF'.</p>
+        </details>
+        <details class="detail-faq-item">
+          <summary>How can I apply online for ${job.title}?</summary>
+          <p>Click on the 'Apply Online — New Registration' button in the links table above. You will be taken directly to the official <strong>${job.organization}</strong> portal to complete One-Time Registration (OTR) and submit your online application form.</p>
+        </details>
+        <details class="detail-faq-item">
+          <summary>What are the eligibility criteria and total vacancies?</summary>
+          <p>This recruitment features <strong>${job.total_posts || 'multiple'}</strong> total vacancies. Check the 'Important Dates & Eligibility' boxes above for minimum educational qualifications (${job.qualification || 'Graduate / 12th Pass'}) and age limit relaxation guidelines.</p>
+        </details>
+      `;
+    }
 
   } catch (e) {
     console.error(e);

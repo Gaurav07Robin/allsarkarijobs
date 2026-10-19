@@ -270,6 +270,15 @@
       .notice-action-btn { width: 100%; justify-content: center; }
     }
 
+    /* Category SEO FAQs */
+    .cat-faq-item{border:1px solid var(--border);border-radius:8px;margin-bottom:10px;background:#f8fafc;overflow:hidden;transition:border-color .2s}
+    .cat-faq-item:hover{border-color:#cbd5e1}
+    .cat-faq-item summary{font-size:14px;font-weight:700;color:var(--navy);padding:12px 16px;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;user-select:none}
+    .cat-faq-item summary::-webkit-details-marker{display:none}
+    .cat-faq-item summary::after{content:'+';font-size:16px;font-weight:700;color:var(--muted);transition:transform .2s}
+    .cat-faq-item[open] summary::after{content:'−';color:var(--primary)}
+    .cat-faq-item p{padding:0 16px 14px;font-size:13px;color:var(--slate);line-height:1.6;margin:0}
+
     /* Footer */
     .footer {
       background: #0f172a;
@@ -334,6 +343,19 @@
 
   <section class="notices-grid" id="noticesContainer">
     <div style="text-align:center;padding:40px;color:var(--muted)">Loading notices...</div>
+  </section>
+
+  <!-- High-Intent Keyword Highlights & Category FAQs (Visible On-Page SEO) -->
+  <section class="cat-seo-block" style="background:#fff;border:1px solid var(--border);border-radius:10px;padding:24px 28px;margin:28px 0;box-shadow:0 1px 4px rgba(0,0,0,.03);">
+    <h3 id="catSeoHeading" style="font-size:18px;font-weight:800;color:var(--navy);margin-bottom:12px;display:flex;align-items:center;gap:8px;">
+      <i class="fa-solid fa-tags" style="color:var(--primary)"></i> Key Topics & Trending Searches
+    </h3>
+    <div id="catKwPills" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;"></div>
+    
+    <h4 id="catFaqTitle" style="font-size:16px;font-weight:800;color:var(--navy);margin:20px 0 12px;display:flex;align-items:center;gap:8px;">
+      <i class="fa-solid fa-circle-question" style="color:var(--primary)"></i> Frequently Asked Questions
+    </h4>
+    <div id="catFaqContainer"></div>
   </section>
 </main>
 
@@ -540,6 +562,45 @@ function initCategoryView() {
   const activeNavId = navMap[currentCategory];
   if (activeNavId && document.getElementById(activeNavId)) {
     document.getElementById(activeNavId).classList.add('active');
+  }
+
+  // On-page Keyword Pills
+  const catKwPillsEl = document.getElementById('catKwPills');
+  if (catKwPillsEl && cfg.keywords) {
+    const list = cfg.keywords.split(',').map(s => s.trim()).filter(Boolean);
+    catKwPillsEl.innerHTML = list.map((kw, i) => {
+      const isHigh = i < 3;
+      const bg = isHigh ? '#fef3c7' : '#fff';
+      const border = isHigh ? '#f59e0b' : '#cbd5e1';
+      const color = isHigh ? '#92400e' : '#1e293b';
+      return `<span style="background:${bg};border:1px solid ${border};color:${color};padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:5px"><i class="fa-solid fa-tag"></i> ${kw}</span>`;
+    }).join('');
+  }
+
+  // On-page Category FAQs
+  const catFaqEl = document.getElementById('catFaqContainer');
+  if (catFaqEl) {
+    let q1 = `How often are ${cfg.name} updated on All Sarkari Jobs?`;
+    let a1 = `All Sarkari Jobs scans official central and state government commissions (SSC, UPSC, RRB, IBPS, State PSCs, Police boards) continuously. When a new notice or update is released, it appears live on this page within minutes.`;
+    let q2 = `Are official notification PDFs provided directly without ads?`;
+    let a2 = `Yes. Every listing on All Sarkari Jobs provides direct verified links to the official government commission PDF notice and direct candidate registration/login portals without misleading redirects or paywalls.`;
+    let q3 = `How can I find 10th pass, 12th pass, and graduate vacancies?`;
+    let a3 = `Use the filter buttons at the top of the list above (10th/12th, Graduate, Railway & SSC, Police, Teaching, UP, Bihar) to instantly filter notices tailored to your educational qualifications and state.`;
+
+    catFaqEl.innerHTML = `
+      <details class="cat-faq-item" open>
+        <summary>${q1}</summary>
+        <p>${a1}</p>
+      </details>
+      <details class="cat-faq-item">
+        <summary>${q2}</summary>
+        <p>${a2}</p>
+      </details>
+      <details class="cat-faq-item">
+        <summary>${q3}</summary>
+        <p>${a3}</p>
+      </details>
+    `;
   }
 
   // Load Data

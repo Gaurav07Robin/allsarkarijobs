@@ -86,6 +86,25 @@ a{text-decoration:none;color:inherit}
 .pdf-frame-wrapper{width:100%;height:650px;background:#f8fafc;position:relative}
 .pdf-frame-wrapper iframe{width:100%;height:100%;border:none}
 
+/* On-Page Keyword Pills & Related Searches */
+.kw-tags-box{background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin:28px 0 20px}
+.kw-tags-box h4{font-size:13.5px;font-weight:700;color:var(--slate);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.kw-pills{display:flex;flex-wrap:wrap;gap:8px}
+.kw-pill{background:#fff;border:1px solid #cbd5e1;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:5px;text-decoration:none;transition:all .15s}
+.kw-pill:hover{border-color:var(--maroon);color:var(--maroon);background:#fff1f2}
+.kw-pill.highlight{background:#fef3c7;border-color:#f59e0b;color:#92400e}
+
+/* On-Page Detail FAQs */
+.detail-faq-wrap{margin:28px 0 16px}
+.detail-faq-wrap h3{font-size:16.5px;font-weight:800;color:var(--maroon);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.detail-faq-item{border:1px solid var(--border);border-radius:8px;margin-bottom:10px;background:#fff;overflow:hidden;transition:border-color .2s}
+.detail-faq-item:hover{border-color:#cbd5e1}
+.detail-faq-item summary{font-size:14px;font-weight:700;color:var(--ink);padding:12px 16px;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;user-select:none}
+.detail-faq-item summary::-webkit-details-marker{display:none}
+.detail-faq-item summary::after{content:'+';font-size:16px;font-weight:700;color:var(--muted);transition:transform .2s}
+.detail-faq-item[open] summary::after{content:'−';color:var(--maroon)}
+.detail-faq-item p{padding:0 16px 14px;font-size:13px;color:var(--slate);line-height:1.6;margin:0}
+
 .footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;font-size:13px;text-align:center;margin-top:40px}
 </style>
 </head>
@@ -181,6 +200,18 @@ a{text-decoration:none;color:inherit}
         </tr>
       </tbody>
     </table>
+
+    <!-- Related Search Queries & Keyword Highlights (Visible On-Page SEO) -->
+    <div class="kw-tags-box" id="kwTagsBox">
+      <h4><i class="fa-solid fa-tags"></i> Related Search Queries & Key Topics</h4>
+      <div class="kw-pills" id="kwPillsContainer"></div>
+    </div>
+
+    <!-- Candidate FAQs Section -->
+    <div class="detail-faq-wrap" id="detailFaqWrap">
+      <h3 id="faqHeading"><i class="fa-solid fa-circle-question"></i> Frequently Asked Questions</h3>
+      <div id="faqItemsContainer"></div>
+    </div>
   </article>
 </div>
 
@@ -865,6 +896,116 @@ async function loadDetail() {
         tr.innerHTML = `<td><strong>${row.label}</strong></td><td>${btnsHtml}</td>`;
         tbody.insertBefore(tr, rowOfficialEl);
       });
+    }
+
+    // Render Visible On-Page Keyword Tags & Pills
+    const kwContainer = document.getElementById('kwPillsContainer');
+    if (kwContainer) {
+      const pills = [
+        { text: item.title, highlight: true },
+        { text: `${item.title} 2026`, highlight: false },
+        { text: `${org}`, highlight: false },
+        { text: `${stateVal} Govt Jobs`, highlight: false }
+      ];
+
+      if (cat === 'RESULT') {
+        pills.push(
+          { text: 'Check Result Roll Number Wise', highlight: true },
+          { text: 'Official Cutoff Marks PDF', highlight: false },
+          { text: 'Candidate Scorecard Login', highlight: false },
+          { text: 'Merit List PDF Download', highlight: false },
+          { text: 'Document Verification DV Schedule', highlight: false }
+        );
+      } else if (cat === 'ADMIT_CARD') {
+        pills.push(
+          { text: 'Download Hall Ticket Direct Login', highlight: true },
+          { text: 'Exam City Intimation Slip Link', highlight: false },
+          { text: 'Official Exam Center Guidelines', highlight: false },
+          { text: 'Roll Number / DOB Login Portal', highlight: false },
+          { text: 'Exam Date & Shift Timing Notice', highlight: false }
+        );
+      } else if (cat === 'ANSWER_KEY') {
+        pills.push(
+          { text: 'Candidate Response Sheet Download', highlight: true },
+          { text: 'Provisional Answer Key PDF', highlight: false },
+          { text: 'Raise Online Objection Challenge Link', highlight: false },
+          { text: 'Question Paper with Solutions', highlight: false },
+          { text: 'Final Answer Key Release Date', highlight: false }
+        );
+      } else if (cat === 'SYLLABUS') {
+        pills.push(
+          { text: 'Topic Wise Syllabus PDF in Hindi English', highlight: true },
+          { text: 'Tier 1 & Tier 2 Exam Pattern', highlight: false },
+          { text: 'Negative Marking & Time Duration', highlight: false },
+          { text: 'Subject Wise Marks Weightage', highlight: false },
+          { text: 'Selection Scheme & Preparation Guide', highlight: false }
+        );
+      } else if (cat === 'ADMISSION') {
+        pills.push(
+          { text: 'Entrance Exam Online Form Apply Link', highlight: true },
+          { text: 'University Counselling Schedule', highlight: false },
+          { text: 'Seat Allotment Result', highlight: false },
+          { text: 'Information Brochure PDF Download', highlight: false },
+          { text: 'Eligibility Criteria & Application Fee', highlight: false }
+        );
+      } else {
+        // LATEST_JOB
+        pills.push(
+          { text: 'Official Notification PDF Download', highlight: true },
+          { text: 'Direct Online Form Apply Link', highlight: false },
+          { text: 'Eligibility Criteria & Age Limit', highlight: false },
+          { text: 'Selection Process & CBT Exam', highlight: false },
+          { text: '10th / 12th / Graduate Vacancy', highlight: false },
+          { text: 'No Ad Sarkari Job Portal Direct Link', highlight: false }
+        );
+      }
+
+      kwContainer.innerHTML = pills.map(p => {
+        const cls = p.highlight ? 'kw-pill highlight' : 'kw-pill';
+        return `<span class="${cls}"><i class="fa-solid fa-tag"></i> ${p.text}</span>`;
+      }).join('');
+    }
+
+    // Render Visible On-Page Notice FAQs
+    const faqContainer = document.getElementById('faqItemsContainer');
+    const faqHeading = document.getElementById('faqHeading');
+    if (faqContainer) {
+      if (faqHeading) faqHeading.innerHTML = `<i class="fa-solid fa-circle-question"></i> Frequently Asked Questions – ${item.title}`;
+
+      let actionQuestion = "How do I apply online for this recruitment?";
+      let actionAnswer = `Click on the direct <strong>'Apply Online — Registration'</strong> or <strong>'Candidate Login'</strong> link in the table above. You will be taken directly to the official <strong>${org}</strong> candidate portal to complete your application safely.`;
+
+      if (cat === 'RESULT') {
+        actionQuestion = "How can I check my marks and download the merit list PDF?";
+        actionAnswer = `Click on <strong>'See Result / Scorecard — Candidate Login'</strong> to check your individual scorecard using your roll number and password, or click <strong>'Download Official Result & Cutoff PDF'</strong> to check the category-wise merit list.`;
+      } else if (cat === 'ADMIT_CARD') {
+        actionQuestion = "How do I download the exam hall ticket and check my exam city?";
+        actionAnswer = `Click on <strong>'Download Admit Card / Hall Ticket'</strong> above. Enter your application number and date of birth on the official <strong>${org}</strong> portal to print your hall ticket and check your designated exam city.`;
+      } else if (cat === 'ANSWER_KEY') {
+        actionQuestion = "How can I check the response sheet and raise objections?";
+        actionAnswer = `Click on <strong>'Check Response Sheet & Raise Objection'</strong> above. Log in with your exam credentials to compare your answers with the provisional key and submit online challenges for any questions before the deadline.`;
+      } else if (cat === 'SYLLABUS') {
+        actionQuestion = "Where can I download the complete topic-wise syllabus and exam pattern?";
+        actionAnswer = `Click on <strong>'Download Official Exam Pattern & Syllabus PDF'</strong> in the table above to download the official PDF detailing the examination scheme, topic weightage, and negative marking rules.`;
+      } else if (cat === 'ADMISSION') {
+        actionQuestion = "How do I register for admission and counseling?";
+        actionAnswer = `Click on <strong>'Apply for Admission — Online Form'</strong> above to open the official admission counseling registration portal.`;
+      }
+
+      faqContainer.innerHTML = `
+        <details class="detail-faq-item" open>
+          <summary>Where can I download the official ${item.title} PDF notice?</summary>
+          <p>You can download the original government-released official PDF directly from the 'Some Useful Important Links' table on this page. All links connect straight to the official <strong>${org}</strong> server without misleading ad redirects.</p>
+        </details>
+        <details class="detail-faq-item">
+          <summary>${actionQuestion}</summary>
+          <p>${actionAnswer}</p>
+        </details>
+        <details class="detail-faq-item">
+          <summary>Who is the official conducting authority for this notice?</summary>
+          <p>This notification is officially issued and administered by <strong>${org}</strong> for state/central jurisdiction (<strong>${stateVal}</strong> &bull; <strong>${sectorVal}</strong>).</p>
+        </details>
+      `;
     }
 
   } catch (err) {
