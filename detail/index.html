@@ -115,13 +115,18 @@ a{text-decoration:none;color:inherit}
     <a href="/" class="logo">AllSarkari<span>Jobs</span></a>
     <div class="nav-links">
       <a href="/" class="btn btn-outline"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="/latest-jobs" class="btn btn-outline">Jobs</a>
+      <a href="/results" class="btn btn-outline">Results</a>
+      <a href="/admit-cards" class="btn btn-outline">Admit Cards</a>
+      <a href="/answer-keys" class="btn btn-outline">Answer Keys</a>
+      <a href="/syllabus" class="btn btn-outline">Syllabus</a>
     </div>
   </div>
 </header>
 
 <div class="container">
   <div class="breadcrumb">
-    <a href="/">Home</a> &raquo; <span id="bcCat">Notification</span> &raquo; <span id="bcTitle">Details</span>
+    <a href="/">Home</a> &raquo; <a href="/latest-jobs" id="bcCatLink"><span id="bcCat">Notification</span></a> &raquo; <span id="bcTitle">Details</span>
   </div>
 
   <article class="post-card">
@@ -338,6 +343,16 @@ async function loadDetail() {
       pageKeywordsEl.content = `${targetKeywords}, All Sarkari Jobs, Sarkari Result, Sarkari Naukri, Free Job Alert`;
     }
 
+    const catMap = {
+      'LATEST_JOB': { name: 'Latest Jobs', path: '/latest-jobs' },
+      'RESULT': { name: 'Results', path: '/results' },
+      'ADMIT_CARD': { name: 'Admit Cards', path: '/admit-cards' },
+      'ANSWER_KEY': { name: 'Answer Keys', path: '/answer-keys' },
+      'SYLLABUS': { name: 'Syllabus', path: '/syllabus' },
+      'ADMISSION': { name: 'Admission', path: '/admission' }
+    };
+    const catInfo = catMap[cat] || { name: 'Latest Jobs', path: '/latest-jobs' };
+
     // Dynamic Structured Data (BreadcrumbList & Article Schema)
     let detailSchema = document.getElementById('detailSchemaJsonLd');
     if (!detailSchema) {
@@ -361,8 +376,8 @@ async function loadDetail() {
             {
               "@type": "ListItem",
               "position": 2,
-              "name": cat.replace('_', ' '),
-              "item": "https://www.allsarkarijobs.online/"
+              "name": catInfo.name,
+              "item": "https://www.allsarkarijobs.online" + catInfo.path
             },
             {
               "@type": "ListItem",
@@ -388,7 +403,9 @@ async function loadDetail() {
       ]
     });
 
-    document.getElementById('bcCat').innerText = cat.replace('_', ' ');
+    document.getElementById('bcCat').innerText = catInfo.name;
+    const bcCatLinkEl = document.getElementById('bcCatLink');
+    if (bcCatLinkEl) bcCatLinkEl.href = catInfo.path;
     document.getElementById('bcTitle').innerText = item.title;
     document.getElementById('catBadge').innerText = cat.replace('_', ' ');
     document.getElementById('noticeTitle').innerText = meta.full_title || item.title;
