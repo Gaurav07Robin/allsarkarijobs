@@ -265,12 +265,12 @@ async function loadJobDetails() {
 
     if (!job) throw new Error('Job not found');
 
-    const cleanTitle = `${job.title} – Apply Online & Official PDF | All Sarkari Jobs`;
+    const cleanTitle = `${job.title} Notification PDF, Direct Apply Link & Eligibility 2026 | All Sarkari Jobs`;
     document.title = cleanTitle;
     document.getElementById('pageTitle').innerText = cleanTitle;
     const cleanDesc = (job.description && job.description.length > 20)
-      ? `${job.description.slice(0, 160).trim()}... Check eligibility, vacancy details, dates, and apply online on All Sarkari Jobs.`
-      : `Apply online for ${job.title} (${job.organization}). Check eligibility criteria, total ${job.total_posts || ''} vacancies, exam dates, fee, and official notification on All Sarkari Jobs.`;
+      ? `${job.description.slice(0, 160).trim()}... Check eligibility, age limit, vacancy breakdown, selection process, and apply online on All Sarkari Jobs.`
+      : `Download official ${job.title} (${job.organization}) notification PDF. Check eligibility criteria, total ${job.total_posts || ''} vacancies, exam dates, fee, and direct online form link on All Sarkari Jobs.`;
     const metaDescEl = document.getElementById('pageMetaDesc');
     if (metaDescEl) metaDescEl.content = cleanDesc;
     const ogTitleEl = document.getElementById('ogTitle');
@@ -280,10 +280,10 @@ async function loadJobDetails() {
     const canonicalEl = document.getElementById('canonicalLink');
     if (canonicalEl) canonicalEl.href = `https://www.allsarkarijobs.online/jobs/${slug}`;
 
-    // Dynamic Keywords
+    // Dynamic 3-Tier Keywords (Short, Mid, Long-tail)
     const pageKeywordsEl = document.getElementById('pageKeywords');
     if (pageKeywordsEl) {
-      pageKeywordsEl.content = `${job.title}, ${job.title} 2026, ${job.title} apply online, ${job.organization}, ${job.qualification || 'Govt Jobs'}, Sarkari Job, Sarkari Result, Free Job Alert, All Sarkari Jobs`;
+      pageKeywordsEl.content = `${job.title}, ${job.title} 2026, ${job.title} official notification pdf download, ${job.title} direct apply link, ${job.title} eligibility criteria age limit, ${job.title} selection process syllabus, ${job.organization} recruitment 2026, 10th 12th graduate govt jobs, All Sarkari Jobs, Free Job Alert`;
     }
 
     // Google for Jobs Schema.org JobPosting & BreadcrumbList
