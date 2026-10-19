@@ -548,6 +548,11 @@ def serve_robots():
     robots_file = BASE_DIR / "robots.txt"
     return FileResponse(robots_file, media_type="text/plain", headers=NO_CACHE_HEADERS)
 
+# Serve local PDFs
+PDFS_DIR = BASE_DIR / "pdfs"
+PDFS_DIR.mkdir(exist_ok=True)
+app.mount("/pdfs", StaticFiles(directory=PDFS_DIR), name="pdfs")
+
 
 
 
