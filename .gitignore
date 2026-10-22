@@ -8,3 +8,7 @@ data/sample_notice_*.pdf
 .env
 .venv/
 env/
+*service_account*.json
+*credentials*.json
+*client_secret*.json
+*token*.json

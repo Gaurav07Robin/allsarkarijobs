@@ -496,6 +496,9 @@ def serve_admin():
 
 @app.get("/jobs/{slug}")
 def serve_job_page(slug: str):
+    landing_index = BASE_DIR / "jobs" / slug / "index.html"
+    if landing_index.exists():
+        return FileResponse(landing_index, headers=NO_CACHE_HEADERS)
     job_file = BASE_DIR / "job.html"
     return FileResponse(job_file, headers=NO_CACHE_HEADERS)
 

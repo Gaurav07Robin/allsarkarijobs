@@ -54,6 +54,18 @@ def generate_sitemap():
         ET.SubElement(url_el, "changefreq").text = freq
         ET.SubElement(url_el, "priority").text = prio
 
+    # 2b. Programmatic SEO Landing Pages (/jobs/:slug)
+    try:
+        from backend.generate_programmatic_seo import LANDING_PAGES
+        for p in LANDING_PAGES:
+            url_el = ET.SubElement(urlset, "url")
+            ET.SubElement(url_el, "loc").text = f"{PRIMARY_DOMAIN}/jobs/{p['slug']}"
+            ET.SubElement(url_el, "lastmod").text = today_str
+            ET.SubElement(url_el, "changefreq").text = "daily"
+            ET.SubElement(url_el, "priority").text = "0.9"
+    except Exception as e:
+        print(f"Warning adding programmatic pages to sitemap: {e}")
+
     # 3. Individual Job Postings (/jobs/:slug)
     for r in recruitments:
         slug = r.get("slug")
