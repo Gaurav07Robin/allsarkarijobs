@@ -603,6 +603,26 @@ function initCategoryView() {
     `;
   }
 
+  // Handle URL Query Params (?filter=... & ?q=...)
+  const urlParams = new URLSearchParams(window.location.search);
+  const qParam = urlParams.get('q');
+  const filterParam = urlParams.get('filter');
+  if (qParam) {
+    const sInput = document.getElementById('categorySearchInput');
+    if (sInput) sInput.value = qParam;
+  }
+  if (filterParam) {
+    activeCatFilter = filterParam.toLowerCase();
+    const pills = document.querySelectorAll('.filter-pill');
+    pills.forEach(p => {
+      const onclickAttr = p.getAttribute('onclick') || '';
+      if (onclickAttr.includes(`'${activeCatFilter}'`)) {
+        pills.forEach(btn => btn.classList.remove('active'));
+        p.classList.add('active');
+      }
+    });
+  }
+
   // Load Data
   if (window.PORTAL_DATA && window.PORTAL_DATA.categorized) {
     categoryItems = window.PORTAL_DATA.categorized[currentCategory] || [];

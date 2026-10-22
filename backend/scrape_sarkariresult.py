@@ -439,6 +439,14 @@ def parse_post_page(url: str) -> dict:
                     # Skip internal sarkariresult.com non-PDF pages
                     if ("sarkariresult.com" in href_low or "sarkariresults.org.in" in href_low) and not is_pdf_url(href):
                         continue
+                    # Intercept competitor redirects and replace with local clean PDFs
+                    if "rojgarresult.com" in href_low and not is_pdf_url(href):
+                        if "ssc-chsl-syllabus" in href_low:
+                            href = "/pdfs/ssc-chsl-10-plus-2-tier-1-and-2-syllabus-2026.pdf"
+                        elif "uiic-ao-syllabus" in href_low:
+                            href = "/pdfs/uiic-ao-exam-syllabus-2026.pdf"
+                        else:
+                            continue
                     row_links.append({"text": ltext, "url": href, "is_pdf": is_pdf_url(href)})
 
                 if row_links:
@@ -765,7 +773,8 @@ def scrape_all_from_sarkariresult():
                 "sarkariresult_url": post_url,
             }
 
-            ts = f"2026-10-13 08:{(total_inserted % 50) + 10:02d}:{(total_inserted % 60):02d}"
+            from datetime import datetime
+            ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             c.execute(
                 """
@@ -809,13 +818,14 @@ def scrape_all_from_sarkariresult():
                 source_portal, source_url, title, category, detected_date,
                 pdf_url, action_url, extracted_data, status, confidence_score,
                 qualification_level, sector, state, created_at
-            ) VALUES (?, ?, ?, ?, '2026-10-13', ?, ?, ?, 'APPROVED', 0.99, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'APPROVED', 0.99, ?, ?, ?, ?)
             """,
             (
                 u.get("source_portal") or "Official Government Commission",
                 u.get("source_url") or u.get("action_url"),
                 u["title"],
                 u["category"],
+                datetime.now().strftime("%Y-%m-%d"),
                 u.get("pdf_url"),
                 u["action_url"],
                 json.dumps({
