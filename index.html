@@ -968,65 +968,161 @@ function closeJobModal() {
   document.getElementById('jobModalOverlay').classList.remove('active');
 }
 
-// Real-Time Global Search
+// Real-Time Semantic Global Search
 const searchInput = document.getElementById('globalSearchInput');
 const dropdown = document.getElementById('searchResultsDropdown');
+const searchGoBtn = document.querySelector('.search-go');
+
+const SEO_HUBS = [
+  { match: ['up', 'uttar pradesh', 'upsssc', 'uppsc'], title: 'Uttar Pradesh (UP) Govt Jobs 2026–2027 Hub', url: '/jobs/uttar-pradesh', badge: 'STATE PORTAL' },
+  { match: ['bihar', 'bpsc', 'bssc', 'csbc'], title: 'Bihar Government Vacancies 2026–2027 Hub', url: '/jobs/bihar', badge: 'STATE PORTAL' },
+  { match: ['telangana', 'tspsc', 'singareni'], title: 'Telangana State Govt Jobs 2026–2027 Hub', url: '/jobs/telangana', badge: 'STATE PORTAL' },
+  { match: ['delhi', 'dsssb', 'ncr'], title: 'Delhi & NCR Vacancies (DSSSB, Courts) Hub', url: '/jobs/delhi', badge: 'STATE PORTAL' },
+  { match: ['rajasthan', 'rpsc', 'rsmssb', 'mp', 'mpesb'], title: 'Rajasthan & MP Govt Jobs 2026–2027 Hub', url: '/jobs/rajasthan', badge: 'STATE PORTAL' },
+  { match: ['central', 'all india', 'mha', 'ib'], title: 'Central Govt / All India Vacancies Hub', url: '/jobs/central', badge: 'CENTRAL GOVT' },
+  { match: ['10th', 'matric', 'gds', 'group d', 'mts'], title: '10th Pass Government Jobs 2026–2027 Hub', url: '/jobs/10th-pass', badge: 'QUALIFICATION' },
+  { match: ['12th', 'inter', '10+2', 'chsl', 'constable'], title: '12th Pass Sarkari Naukri 2026–2027 Hub', url: '/jobs/12th-pass', badge: 'QUALIFICATION' },
+  { match: ['graduate', 'degree', 'cgl', 'po', 'si', 'btech'], title: 'Graduate Government Jobs 2026–2027 Hub', url: '/jobs/graduate', badge: 'QUALIFICATION' },
+  { match: ['apprentice', 'iti', 'engineering', 'diploma'], title: 'Engineering, Diploma & ITI Jobs Hub', url: '/jobs/engineering-iti', badge: 'TECHNICAL' },
+  { match: ['teaching', 'tet', 'ctet', 'uptet', 'teacher', 'kvs'], title: 'Teaching & Education Jobs Hub', url: '/jobs/teaching', badge: 'TEACHING' },
+  { match: ['ssc', 'cgl', 'chsl', 'gd'], title: 'Staff Selection Commission (SSC) Hub', url: '/jobs/ssc', badge: 'EXAM BOARD' },
+  { match: ['railway', 'rrb', 'rrc', 'ntpc', 'alp'], title: 'Railway Recruitment Boards (RRB) Hub', url: '/jobs/railway', badge: 'EXAM BOARD' },
+  { match: ['upsc', 'ias', 'civil services', 'nda', 'cds'], title: 'Union Public Service Commission (UPSC) Hub', url: '/jobs/upsc', badge: 'EXAM BOARD' },
+  { match: ['bank', 'ibps', 'sbi', 'rbi', 'insurance', 'uiic'], title: 'Banking & Insurance Recruitment Hub', url: '/jobs/banking', badge: 'BANKING' },
+  { match: ['police', 'defence', 'army', 'navy', 'agniveer'], title: 'Police & Defence Forces Recruitment Hub', url: '/jobs/police-defence', badge: 'DEFENCE' },
+  { match: ['result', 'cutoff', 'merit', 'score'], title: 'Sarkari Results & Scorecards Portal', url: '/results', badge: 'RESULTS' },
+  { match: ['admit', 'hall ticket', 'city slip'], title: 'Sarkari Admit Cards & Hall Tickets Portal', url: '/admit-cards', badge: 'ADMIT CARDS' }
+];
 
 let searchDebounce = null;
+let currentTopHubUrl = null;
+
+function executeSearchQuery() {
+  const query = searchInput.value.trim();
+  if (!query) return;
+  if (currentTopHubUrl) {
+    window.location.href = currentTopHubUrl;
+  } else {
+    window.location.href = `/latest-jobs?q=${encodeURIComponent(query)}`;
+  }
+}
+
+if (searchGoBtn) {
+  searchGoBtn.onclick = (e) => {
+    e.preventDefault();
+    executeSearchQuery();
+  };
+}
+
+searchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    executeSearchQuery();
+  }
+});
+
 searchInput.addEventListener('input', (e) => {
-  const query = e.target.value.trim();
+  const rawQuery = e.target.value.trim();
   clearTimeout(searchDebounce);
-  if (query.length < 2) {
+  if (rawQuery.length < 2) {
     dropdown.style.display = 'none';
+    currentTopHubUrl = null;
     return;
   }
-  searchDebounce = setTimeout(async () => {
-    let results = [];
-    try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-      if (res.ok) {
-        const data = await res.json();
-        results = data.results || [];
-      }
-    } catch (err) {}
 
-    if (results.length === 0 && window.PORTAL_DATA && window.PORTAL_DATA.updates) {
-      const qLower = query.toLowerCase();
-      results = window.PORTAL_DATA.updates
-        .filter(u => (u.title || '').toLowerCase().includes(qLower) || (u.category || '').toLowerCase().includes(qLower))
-        .slice(0, 10)
-        .map(u => ({
-          title: u.title,
-          category: u.category,
-          action_url: (u.action_url && u.action_url.startsWith('/jobs/')) ? u.action_url : `/detail?id=${u.id}`,
-          type: 'update'
-        }));
+  searchDebounce = setTimeout(() => {
+    const qLower = rawQuery.toLowerCase();
+    const noiseWords = new Set(['government', 'govt', 'jobs', 'job', 'sarkari', 'naukri', 'vacancy', 'vacancies', 'online', 'form', '2026', '2027', 'latest', 'for', 'in', 'and']);
+    const tokens = qLower.split(/\s+/).filter(w => !noiseWords.has(w) && w.length >= 2);
+    if (tokens.length === 0) tokens.push(qLower);
+
+    // 1. Check for Matching SEO Category Hub
+    let matchedHubs = [];
+    for (const hub of SEO_HUBS) {
+      if (hub.match.some(m => qLower.includes(m) || tokens.some(t => m.includes(t)))) {
+        matchedHubs.push(hub);
+      }
+    }
+    currentTopHubUrl = matchedHubs.length > 0 ? matchedHubs[0].url : null;
+
+    // 2. Score Individual Job Notices
+    let noticeMatches = [];
+    if (window.PORTAL_DATA && window.PORTAL_DATA.updates) {
+      for (const u of window.PORTAL_DATA.updates) {
+        const title = (u.title || '').toLowerCase();
+        const state = (u.state || '').toLowerCase();
+        const sec = (u.sector || '').toLowerCase();
+        const qual = (u.qualification_level || u.qualification || '').toLowerCase();
+        const portal = (u.source_portal || '').toLowerCase();
+        const combined = `${title} ${state} ${sec} ${qual} ${portal}`;
+
+        let score = 0;
+        for (const t of tokens) {
+          if (title.includes(t)) score += 3;
+          if (state.includes(t) || portal.includes(t)) score += 2;
+          if (sec.includes(t) || qual.includes(t)) score += 1;
+        }
+
+        // UP / Bihar special check
+        if ((qLower.includes('up') || tokens.includes('up')) && (state.includes('uttar pradesh') || title.includes('up ') || portal.includes('up ') || portal.includes('upsssc'))) {
+          score += 4;
+        }
+        if ((qLower.includes('bihar') || tokens.includes('bihar')) && (state.includes('bihar') || title.includes('bpsc') || portal.includes('bihar'))) {
+          score += 4;
+        }
+
+        if (score > 0) {
+          noticeMatches.push({
+            score,
+            title: u.title,
+            category: u.category,
+            action_url: `/detail?id=${u.id}`,
+            type: 'notice'
+          });
+        }
+      }
+      noticeMatches.sort((a, b) => b.score - a.score);
     }
 
-    if (!results || results.length === 0) {
-      dropdown.innerHTML = `<div style="padding:16px;text-align:center;color:var(--muted);font-size:13px">No notices found matching "<strong>${query}</strong>"</div>`;
+    if (matchedHubs.length === 0 && noticeMatches.length === 0) {
+      dropdown.innerHTML = `<div style="padding:16px;text-align:center;color:var(--muted);font-size:13px">No notices found matching "<strong>${rawQuery}</strong>". <br><a href="/latest-jobs" style="color:var(--saffron);font-weight:700;display:inline-block;margin-top:6px">Browse All Government Jobs &rarr;</a></div>`;
       dropdown.style.display = 'block';
       return;
     }
-    dropdown.innerHTML = results.map(r => `
-      <div class="search-result-item" onclick="handleSearchResultClick('${r.action_url}', '${r.type}')">
-        <div>
-          <strong>${r.title}</strong>
+
+    let html = '';
+    // Display Hub Shortcut
+    if (matchedHubs.length > 0) {
+      const topHub = matchedHubs[0];
+      html += `
+        <div class="search-result-item" style="background:#fffbeb;border-left:4px solid #f59e0b;cursor:pointer" onclick="handleSearchResultClick('${topHub.url}', 'hub')">
+          <div>
+            <div style="font-size:11px;font-weight:700;color:#b45309;margin-bottom:2px"><i class="fa-solid fa-folder-open"></i> DIRECT CATEGORY PORTAL</div>
+            <strong style="color:#92400e;font-size:14px">${topHub.title}</strong>
+          </div>
+          <span style="background:#fef3c7;color:#92400e;font-weight:700;padding:4px 8px;border-radius:6px;font-size:11px">${topHub.badge}</span>
         </div>
-        <span style="background:#edf2f7;color:#4a5568">${r.category.replace('_', ' ')}</span>
+      `;
+    }
+
+    // Display Matched Notices
+    html += noticeMatches.slice(0, 8).map(r => `
+      <div class="search-result-item" onclick="handleSearchResultClick('${r.action_url}', 'notice')">
+        <div>
+          <strong style="font-size:13px">${r.title}</strong>
+        </div>
+        <span style="background:#edf2f7;color:#4a5568;font-size:11px;padding:3px 8px;border-radius:4px">${(r.category || 'JOB').replace('_', ' ')}</span>
       </div>
     `).join('');
+
+    dropdown.innerHTML = html;
     dropdown.style.display = 'block';
-  }, 150);
+  }, 120);
 });
 
 function handleSearchResultClick(url, type) {
   dropdown.style.display = 'none';
-  if (url.startsWith('/jobs/') || url.startsWith('/detail')) {
-    window.location.href = url;
-  } else {
-    window.open(url, '_blank');
-  }
+  window.location.href = url;
 }
 
 document.addEventListener('click', (e) => {
