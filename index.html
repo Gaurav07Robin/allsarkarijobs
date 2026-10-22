@@ -127,13 +127,22 @@
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" media="print" onload="this.media='all'">
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</noscript>
 <style>
+@font-face{font-family:'Font Awesome 6 Free';font-display:swap}
+@font-face{font-family:'Font Awesome 6 Brands';font-display:swap}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --ink:#1a1a2e;--navy:#16213e;--slate:#4a5568;--muted:#718096;--border:#e8ecf1;
-  --saffron:#c2956a;--saffron-dark:#a67c52;--red:#c53030;--green:#2f855a;
+  --ink:#1a1a2e;--navy:#16213e;--slate:#4a5568;--muted:#475569;--border:#e8ecf1;
+  --saffron:#9a5b28;--saffron-dark:#7c461d;--red:#c53030;--green:#2f855a;
   --maroon:#8b263e;--maroon-dark:#701c30;
   --bg:#f7f8fa;--surface:#fff;--radius:12px;
 }
@@ -180,14 +189,14 @@ button{cursor:pointer;border:none;font-family:inherit}
 @media(min-width:768px){.highlight-grid{grid-template-columns:repeat(4,1fr);gap:12px}}
 .hl-box{color:#fff;font-weight:700;font-size:13px;padding:16px 14px;border-radius:8px;text-align:center;display:flex;align-items:center;justify-content:center;min-height:64px;box-shadow:0 2px 6px rgba(0,0,0,.08);transition:all .2s;text-decoration:none;line-height:1.35}
 .hl-box:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.15);filter:brightness(1.08)}
-.hl-olive{background:#758309}
+.hl-olive{background:#4d5904}
 .hl-blue{background:#1d4ed8}
-.hl-orange{background:#ea580c}
+.hl-orange{background:#c2410c}
 .hl-maroon{background:#881337}
 .hl-red{background:#dc2626}
 .hl-green{background:#15803d}
 .hl-magenta{background:#c026d3}
-.hl-sky{background:#0284c7}
+.hl-sky{background:#0369a1}
 
 /* ── Featured Hero ────────────────────────────── */
 .featured{padding:20px 0 0}
@@ -309,7 +318,7 @@ button{cursor:pointer;border:none;font-family:inherit}
 @media(min-width:640px){.seo-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1024px){.seo-grid{grid-template-columns:repeat(4,1fr)}}
 .seo-card{background:#f8fafc;border:1px solid var(--border);border-radius:10px;padding:20px}
-.seo-card h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.seo-card h3{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:10px;display:flex;align-items:center;gap:8px}
 .seo-card ul{list-style:none;padding:0}
 .seo-card ul li{font-size:13px;color:var(--slate);padding:6px 0;border-bottom:1px dashed #e2e8f0;line-height:1.4}
 .seo-card ul li:last-child{border-bottom:none}
@@ -353,7 +362,7 @@ button{cursor:pointer;border:none;font-family:inherit}
       <li><a href="/admission">Admission</a></li>
     </ul>
     <div class="hdr-right">
-      <button class="hamburger" id="hamBtn"><i class="fa-solid fa-bars"></i></button>
+      <button class="hamburger" id="hamBtn" aria-label="Open Navigation Menu"><i class="fa-solid fa-bars"></i></button>
     </div>
   </div>
 </header>
@@ -362,7 +371,7 @@ button{cursor:pointer;border:none;font-family:inherit}
 <div class="mob-nav" id="mobNav">
   <div class="overlay" id="mobOv"></div>
   <div class="panel">
-    <button class="x" id="mobX"><i class="fa-solid fa-xmark"></i></button>
+    <button class="x" id="mobX" aria-label="Close Navigation Menu"><i class="fa-solid fa-xmark"></i></button>
     <a href="/">Home</a>
     <a href="/latest-jobs">Latest Jobs</a>
     <a href="/results">Results</a>
@@ -373,6 +382,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </div>
 
+<main id="mainContent">
 <!-- News Ticker -->
 <div class="news-ticker">
   <div class="container">
@@ -420,7 +430,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   <div class="container">
     <div class="search-bar">
       <input type="text" id="globalSearchInput" class="search-input" placeholder="Search any job, result, admit card, or commission (e.g. SSC, RRB, UP Police)…" autocomplete="off">
-      <button class="search-go"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="search-go" aria-label="Search Government Jobs"><i class="fa-solid fa-magnifying-glass"></i></button>
       <div id="searchResultsDropdown" class="search-results-box"></div>
     </div>
   </div>
@@ -555,7 +565,7 @@ button{cursor:pointer;border:none;font-family:inherit}
 
     <div class="seo-grid">
       <div class="seo-card">
-        <h4><i class="fa-solid fa-user-graduate" style="color:#2563eb"></i> Govt Jobs by Qualification</h4>
+        <h3><i class="fa-solid fa-user-graduate" style="color:#2563eb"></i> Govt Jobs by Qualification</h3>
         <ul>
           <li><a href="/jobs/10th-pass">10th Pass Government Jobs (MTS, GDS, Group D)</a></li>
           <li><a href="/jobs/12th-pass">12th Pass Sarkari Naukri (CHSL, Constable, Clerk)</a></li>
@@ -566,7 +576,7 @@ button{cursor:pointer;border:none;font-family:inherit}
       </div>
 
       <div class="seo-card">
-        <h4><i class="fa-solid fa-building-columns" style="color:#c2410c"></i> Major Recruitment Boards</h4>
+        <h3><i class="fa-solid fa-building-columns" style="color:#c2410c"></i> Major Recruitment Boards</h3>
         <ul>
           <li><a href="/jobs/ssc">Staff Selection Commission (SSC CGL, CHSL, GD, MTS)</a></li>
           <li><a href="/jobs/railway">Railway Recruitment Boards (RRB NTPC, ALP, Tech)</a></li>
@@ -577,7 +587,7 @@ button{cursor:pointer;border:none;font-family:inherit}
       </div>
 
       <div class="seo-card">
-        <h4><i class="fa-solid fa-bolt" style="color:#15803d"></i> Quick Candidate Portals</h4>
+        <h3><i class="fa-solid fa-bolt" style="color:#15803d"></i> Quick Candidate Portals</h3>
         <ul>
           <li><a href="/results">Live Sarkari Results & Cutoff Scorecards 2026</a></li>
           <li><a href="/admit-cards">Download Exam Admit Cards & Hall Tickets</a></li>
@@ -588,7 +598,7 @@ button{cursor:pointer;border:none;font-family:inherit}
       </div>
 
       <div class="seo-card">
-        <h4><i class="fa-solid fa-map-location-dot" style="color:#e11d48"></i> Govt Jobs by State & Region</h4>
+        <h3><i class="fa-solid fa-map-location-dot" style="color:#e11d48"></i> Govt Jobs by State & Region</h3>
         <ul>
           <li><a href="/jobs/uttar-pradesh">Uttar Pradesh Sarkari Naukri (UPSSSC, UP Police)</a></li>
           <li><a href="/jobs/bihar">Bihar Government Vacancies (BPSC, BSSC, STET)</a></li>
@@ -633,7 +643,7 @@ button{cursor:pointer;border:none;font-family:inherit}
 <!-- Job Detail Modal Dialog -->
 <div class="modal-overlay" id="jobModalOverlay">
   <div class="modal-box">
-    <button class="modal-close" onclick="closeJobModal()"><i class="fa-solid fa-xmark"></i></button>
+    <button class="modal-close" onclick="closeJobModal()" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></button>
     <h3 class="modal-title" id="mJobTitle">Recruitment Title</h3>
     <p style="color:var(--muted);font-size:13px;margin-bottom:14px" id="mJobOrg">Organization</p>
 
@@ -656,6 +666,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </div>
 
+</main>
 <!-- Footer -->
 <footer class="footer">
   <div class="container">
@@ -673,7 +684,7 @@ button{cursor:pointer;border:none;font-family:inherit}
   </div>
 </footer>
 
-<script src="/portal_data.js?v=20261013sr"></script>
+<script src="/portal_data.js?v=20261013sr" defer></script>
 <script>
 // Mobile Navigation
 const mn = document.getElementById('mobNav');
@@ -758,22 +769,36 @@ function mergeCategorizedData(baseData, apiData) {
   return merged;
 }
 
-async function loadPortalFeeds() {
+function initPortalData() {
+  if (!allPortalData && window.PORTAL_DATA && window.PORTAL_DATA.categorized) {
+    allPortalData = window.PORTAL_DATA.categorized;
+  }
   if (allPortalData) {
     allPortalData = mergeCategorizedData(allPortalData, null);
     renderHighlightBoxes(allPortalData);
     renderFilteredFeeds(activeFilterType);
+    return;
   }
-  try {
-    const res = await fetch('/api/updates');
-    if (!res.ok) throw new Error('API offline');
-    const json = await res.json();
-    allPortalData = mergeCategorizedData(allPortalData, json.data);
-    renderHighlightBoxes(allPortalData);
-    renderFilteredFeeds(activeFilterType);
-  } catch (err) {
-    if (!allPortalData) loadStaticFallback();
+  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    fetch('/api/updates')
+      .then(r => r.ok ? r.json() : null)
+      .then(json => {
+        if (json && json.data) {
+          allPortalData = mergeCategorizedData(allPortalData, json.data);
+          renderHighlightBoxes(allPortalData);
+          renderFilteredFeeds(activeFilterType);
+        } else {
+          loadStaticFallback();
+        }
+      })
+      .catch(() => loadStaticFallback());
+  } else {
+    loadStaticFallback();
   }
+}
+
+async function loadPortalFeeds() {
+  initPortalData();
 }
 
 try {
@@ -1011,7 +1036,11 @@ document.addEventListener('click', (e) => {
 });
 
 // Initial Load
-loadPortalFeeds();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initPortalData);
+} else {
+  initPortalData();
+}
 </script>
 </body>
 </html>
