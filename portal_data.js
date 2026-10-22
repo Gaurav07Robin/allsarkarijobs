@@ -58011,13 +58011,30 @@ window.PORTAL_DATA = {
   },
   "adminStats": {
     "total_updates": 178,
-    "pending_staging": 47,
+    "pending_staging": 48,
     "approved_staging": 178,
     "total_recruitments": 5,
     "active_watchdogs": 95,
     "last_crawl": "2026-10-13 08:50 IST (SarkariResult.com Live Sync)"
   },
   "stagingPending": [
+    {
+      "id": 5341,
+      "source_portal": "Haryana Staff Selection Commission (HSSC)",
+      "source_url": "https://hssc.gov.in",
+      "title": "Declaration of final result for the posts of Forest Ranger (Category No. 102) and Deputy Ranger (Category No. 295) against Advt. No. 09/2024 and 11/2024 respectively of Forest Department, Haryana",
+      "category": "RESULT",
+      "detected_date": null,
+      "pdf_url": null,
+      "action_url": "https://hssc.gov.in/file/ac1f23cd-9fda-137e-81a1-64139825000e/result",
+      "extracted_data": {},
+      "status": "PENDING",
+      "confidence_score": 0.75,
+      "created_at": "2026-10-22 14:57:21",
+      "qualification_level": "All",
+      "sector": "Central",
+      "state": "All India"
+    },
     {
       "id": 5340,
       "source_portal": "State Bank of India (SBI Careers)",

@@ -1,20 +1,15 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/categories", "destination": "/latest-jobs", "permanent": true },
+    { "source": "/jobs", "destination": "/latest-jobs", "permanent": true },
+    { "source": "/admit-card", "destination": "/admit-cards", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/detail", "destination": "/detail.html" },
     { "source": "/detail/:id*", "destination": "/detail.html" },
-    { "source": "/jobs/:slug*", "destination": "/job.html" },
-    { "source": "/jobs", "destination": "/category.html" },
     { "source": "/job/:slug*", "destination": "/job.html" },
     { "source": "/job", "destination": "/job.html" },
-    { "source": "/admin", "destination": "/admin.html" },
-    { "source": "/results", "destination": "/category.html" },
-    { "source": "/latest-jobs", "destination": "/category.html" },
-    { "source": "/admit-cards", "destination": "/category.html" },
-    { "source": "/admit-card", "destination": "/category.html" },
-    { "source": "/answer-keys", "destination": "/category.html" },
-    { "source": "/syllabus", "destination": "/category.html" },
-    { "source": "/admission", "destination": "/category.html" },
-    { "source": "/categories", "destination": "/category.html" }
+    { "source": "/admin", "destination": "/admin.html" }
   ]
 }

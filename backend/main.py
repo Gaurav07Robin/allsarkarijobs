@@ -6,7 +6,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Query, Body, status, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from pydantic import BaseModel
 
 from backend.config import BASE_DIR
@@ -527,19 +527,48 @@ def serve_portal_data_js():
     js_file = BASE_DIR / "portal_data.js"
     return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
 
-@app.get("/category.html")
-@app.get("/results")
-@app.get("/latest-jobs")
-@app.get("/jobs")
-@app.get("/admit-cards")
-@app.get("/admit-card")
-@app.get("/answer-keys")
-@app.get("/syllabus")
-@app.get("/admission")
 @app.get("/categories")
+@app.get("/jobs")
+def redirect_to_latest_jobs():
+    return RedirectResponse(url="/latest-jobs", status_code=301)
+
+@app.get("/admit-card")
+def redirect_to_admit_cards():
+    return RedirectResponse(url="/admit-cards", status_code=301)
+
+@app.get("/results")
+def serve_results_page():
+    f = BASE_DIR / "results" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/latest-jobs")
+def serve_latest_jobs_page():
+    f = BASE_DIR / "latest-jobs" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/admit-cards")
+def serve_admit_cards_page():
+    f = BASE_DIR / "admit-cards" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/answer-keys")
+def serve_answer_keys_page():
+    f = BASE_DIR / "answer-keys" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/syllabus")
+def serve_syllabus_page():
+    f = BASE_DIR / "syllabus" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/admission")
+def serve_admission_page():
+    f = BASE_DIR / "admission" / "index.html"
+    return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
+
+@app.get("/category.html")
 def serve_category_page():
-    category_file = BASE_DIR / "category.html"
-    return FileResponse(category_file, headers=NO_CACHE_HEADERS)
+    return FileResponse(BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
 
 @app.get("/sitemap.xml")
 def serve_sitemap():

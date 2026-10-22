@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="metaTitle">All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert & Sarkari Result 2026</title>
-  <meta name="description" id="metaDesc" content="All Sarkari Jobs: Find latest Government Jobs in India, Sarkari Result, Admit Card, Answer Key & Free Job Alerts 2026 across SSC, UPSC, Railway, Banking, Police & State portals. Apply online and download official PDFs.">
-  <meta name="keywords" id="metaKeywords" content="All Sarkari Jobs, Latest Government Jobs in India, Free Job Alert, Sarkari Result 2026, Sarkari Naukri, Admit Card, Answer Key">
+  <title id="metaTitle">Sarkari Admit Card 2026 – Download Hall Ticket & Exam City Slip Direct Link | All Sarkari Jobs</title>
+  <meta name="description" id="metaDesc" content="Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.">
+  <meta name="keywords" id="metaKeywords" content="sarkari admit card 2026, download hall ticket registration number wise, exam city intimation slip download, call letter direct login portal, ssc admit card download link, railway rrb hall ticket 2026, exam date schedule notice pdf, All Sarkari Jobs">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/">
+  <link rel="canonical" id="canonicalLink" href="https://www.allsarkarijobs.online/admit-cards">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.allsarkarijobs.online/">
+  <meta property="og:url" content="https://www.allsarkarijobs.online/admit-cards">
   <meta property="og:site_name" content="AllSarkariJobs">
-  <meta property="og:title" id="ogTitle" content="All Sarkari Jobs – Latest Government Jobs in India | Free Job Alert & Sarkari Result 2026">
-  <meta property="og:description" id="ogDesc" content="All Sarkari Jobs: Find latest Government Jobs in India, Sarkari Result, Admit Card, Answer Key & Free Job Alerts 2026.">
+  <meta property="og:title" id="ogTitle" content="Sarkari Admit Card 2026 – Download Hall Ticket & Exam City Slip Direct Link | All Sarkari Jobs">
+  <meta property="og:description" id="ogDesc" content="Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.">
   
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -291,6 +291,18 @@
     }
     .footer a { color: #f1f5f9; text-decoration: none; }
   </style>
+
+  <script>
+    window.INITIAL_PAGE_CONFIG = {
+      category: 'ADMIT_CARD',
+      filterPill: 'all',
+      searchTerm: '',
+      pageTitle: "Sarkari Admit Card 2026 \u2013 Download Hall Ticket & Exam City Slip Direct Link | All Sarkari Jobs",
+      pageDesc: "Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.",
+      pageHeading: "Admit Cards & Hall Tickets",
+      canonical: 'https://www.allsarkarijobs.online/admit-cards'
+    };
+  </script>
 </head>
 <body>
 
@@ -318,10 +330,10 @@
     <span class="cat-badge" id="catBadge">CATEGORY</span>
     <h1 class="cat-title" id="catTitle">
       <i class="fa-solid fa-folder-open" id="catIcon"></i>
-      <span id="catHeading">Loading Category...</span>
+      <span id="catHeading">Admit Cards & Hall Tickets</span>
       <span style="font-size:14px;color:var(--muted);font-weight:600" id="catCount"></span>
     </h1>
-    <p class="cat-desc" id="catDescription">Official government notices, direct links, and verified application portals.</p>
+    <p class="cat-desc" id="catDescription">Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.</p>
 
     <div class="filter-bar">
       <div class="search-box">
@@ -483,21 +495,32 @@ function detectCategory() {
 }
 
 function initCategoryView() {
-  currentCategory = detectCategory();
+  const isCustomLanding = !!(window.INITIAL_PAGE_CONFIG && window.INITIAL_PAGE_CONFIG.pageTitle);
+  currentCategory = (window.INITIAL_PAGE_CONFIG && window.INITIAL_PAGE_CONFIG.category) || detectCategory();
   const cfg = CATEGORY_CONFIG[currentCategory] || CATEGORY_CONFIG['LATEST_JOB'];
 
   // SEO Meta
-  document.title = cfg.title;
-  const metaDescEl = document.getElementById('metaDesc');
-  if (metaDescEl) metaDescEl.content = cfg.desc;
-  const metaKeywordsEl = document.getElementById('metaKeywords');
-  if (metaKeywordsEl && cfg.keywords) metaKeywordsEl.content = cfg.keywords;
-  const ogTitleEl = document.getElementById('ogTitle');
-  if (ogTitleEl) ogTitleEl.content = cfg.title;
-  const ogDescEl = document.getElementById('ogDesc');
-  if (ogDescEl) ogDescEl.content = cfg.desc;
-  const canonicalEl = document.getElementById('canonicalLink');
-  if (canonicalEl) canonicalEl.href = 'https://www.allsarkarijobs.online' + cfg.canonical;
+  if (isCustomLanding) {
+    document.title = window.INITIAL_PAGE_CONFIG.pageTitle;
+    const metaDescEl = document.getElementById('metaDesc');
+    if (metaDescEl && window.INITIAL_PAGE_CONFIG.pageDesc) metaDescEl.content = window.INITIAL_PAGE_CONFIG.pageDesc;
+    const ogTitleEl = document.getElementById('ogTitle');
+    if (ogTitleEl) ogTitleEl.content = window.INITIAL_PAGE_CONFIG.pageTitle;
+    const ogDescEl = document.getElementById('ogDesc');
+    if (ogDescEl && window.INITIAL_PAGE_CONFIG.pageDesc) ogDescEl.content = window.INITIAL_PAGE_CONFIG.pageDesc;
+  } else {
+    document.title = cfg.title;
+    const metaDescEl = document.getElementById('metaDesc');
+    if (metaDescEl) metaDescEl.content = cfg.desc;
+    const metaKeywordsEl = document.getElementById('metaKeywords');
+    if (metaKeywordsEl && cfg.keywords) metaKeywordsEl.content = cfg.keywords;
+    const ogTitleEl = document.getElementById('ogTitle');
+    if (ogTitleEl) ogTitleEl.content = cfg.title;
+    const ogDescEl = document.getElementById('ogDesc');
+    if (ogDescEl) ogDescEl.content = cfg.desc;
+    const canonicalEl = document.getElementById('canonicalLink');
+    if (canonicalEl) canonicalEl.href = 'https://www.allsarkarijobs.online' + cfg.canonical;
+  }
 
   // Structured Data (JSON-LD BreadcrumbList & CollectionPage)
   let schemaEl = document.getElementById('catSchemaJsonLd');
@@ -507,39 +530,83 @@ function initCategoryView() {
     schemaEl.type = 'application/ld+json';
     document.head.appendChild(schemaEl);
   }
-  schemaEl.textContent = JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.allsarkarijobs.online/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": cfg.name,
-            "item": "https://www.allsarkarijobs.online" + cfg.canonical
-          }
-        ]
-      },
-      {
-        "@type": "CollectionPage",
-        "name": cfg.title,
-        "description": cfg.desc,
-        "url": "https://www.allsarkarijobs.online" + cfg.canonical
-      }
-    ]
-  });
+
+  if (isCustomLanding) {
+    const landingHeading = window.INITIAL_PAGE_CONFIG.pageHeading || window.INITIAL_PAGE_CONFIG.pageTitle;
+    const landingDesc = window.INITIAL_PAGE_CONFIG.pageDesc || cfg.desc;
+    const landingUrl = window.location.href.split('?')[0];
+    schemaEl.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.allsarkarijobs.online/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": landingHeading,
+              "item": landingUrl
+            }
+          ]
+        },
+        {
+          "@type": "CollectionPage",
+          "name": window.INITIAL_PAGE_CONFIG.pageTitle,
+          "description": landingDesc,
+          "url": landingUrl
+        }
+      ]
+    });
+  } else {
+    schemaEl.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.allsarkarijobs.online/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": cfg.name,
+              "item": "https://www.allsarkarijobs.online" + cfg.canonical
+            }
+          ]
+        },
+        {
+          "@type": "CollectionPage",
+          "name": cfg.title,
+          "description": cfg.desc,
+          "url": "https://www.allsarkarijobs.online" + cfg.canonical
+        }
+      ]
+    });
+  }
 
   // Header and Breadcrumb
-  document.getElementById('bcCategoryName').innerText = cfg.name;
-  document.getElementById('catHeading').innerText = cfg.name;
-  document.getElementById('catDescription').innerText = cfg.desc;
+  if (isCustomLanding) {
+    const headingText = window.INITIAL_PAGE_CONFIG.pageHeading || window.INITIAL_PAGE_CONFIG.pageTitle;
+    document.getElementById('bcCategoryName').innerText = headingText;
+    document.getElementById('catHeading').innerText = headingText;
+    if (window.INITIAL_PAGE_CONFIG.pageDesc) {
+      document.getElementById('catDescription').innerText = window.INITIAL_PAGE_CONFIG.pageDesc;
+    }
+  } else {
+    document.getElementById('bcCategoryName').innerText = cfg.name;
+    document.getElementById('catHeading').innerText = cfg.name;
+    document.getElementById('catDescription').innerText = cfg.desc;
+  }
 
   const badgeEl = document.getElementById('catBadge');
   badgeEl.innerText = cfg.badge;
@@ -603,15 +670,15 @@ function initCategoryView() {
     `;
   }
 
-  // Handle URL Query Params (?filter=... & ?q=...)
+  // Handle URL Query Params (?filter=... & ?q=...) or INITIAL_PAGE_CONFIG
   const urlParams = new URLSearchParams(window.location.search);
-  const qParam = urlParams.get('q');
-  const filterParam = urlParams.get('filter');
+  const qParam = urlParams.get('q') || (window.INITIAL_PAGE_CONFIG && window.INITIAL_PAGE_CONFIG.searchTerm);
+  const filterParam = urlParams.get('filter') || (window.INITIAL_PAGE_CONFIG && window.INITIAL_PAGE_CONFIG.filterPill);
   if (qParam) {
     const sInput = document.getElementById('categorySearchInput');
     if (sInput) sInput.value = qParam;
   }
-  if (filterParam) {
+  if (filterParam && filterParam !== 'all') {
     activeCatFilter = filterParam.toLowerCase();
     const pills = document.querySelectorAll('.filter-pill');
     pills.forEach(p => {
@@ -649,11 +716,12 @@ function renderNotices() {
 
   function matchesFilter(item) {
     const title = (item.title || '').toLowerCase();
-    const q = (item.qualification || '').toLowerCase();
+    const q = (item.qualification_level || item.qualification || '').toLowerCase();
     const sec = (item.sector || '').toLowerCase();
     const st = (item.state || '').toLowerCase();
+    const portal = (item.source_portal || '').toLowerCase();
 
-    if (searchVal && !title.includes(searchVal) && !sec.includes(searchVal) && !st.includes(searchVal)) {
+    if (searchVal && !title.includes(searchVal) && !sec.includes(searchVal) && !st.includes(searchVal) && !portal.includes(searchVal) && !q.includes(searchVal)) {
       return false;
     }
 
@@ -664,16 +732,16 @@ function renderNotices() {
       return q.includes('graduate') || title.includes('cgl') || title.includes('degree') || title.includes('po') || title.includes('assistant') || title.includes('officer') || title.includes('inspector');
     }
     if (activeCatFilter === 'railway') {
-      return sec.includes('railway') || title.includes('rrb') || title.includes('rrc') || title.includes('ssc') || title.includes('cgl') || title.includes('ntpc');
+      return sec.includes('railway') || title.includes('rrb') || title.includes('rrc') || title.includes('ssc') || title.includes('cgl') || title.includes('ntpc') || portal.includes('railway') || portal.includes('ssc');
     }
     if (activeCatFilter === 'police') {
-      return sec.includes('police') || sec.includes('defence') || title.includes('police') || title.includes('army') || title.includes('navy') || title.includes('constable') || title.includes('agniveer');
+      return sec.includes('police') || sec.includes('defence') || title.includes('police') || title.includes('army') || title.includes('navy') || title.includes('constable') || title.includes('agniveer') || portal.includes('police') || portal.includes('defence');
     }
     if (activeCatFilter === 'teaching') {
-      return sec.includes('teaching') || title.includes('tet') || title.includes('teacher') || title.includes('pgt') || title.includes('tgt');
+      return sec.includes('teaching') || sec.includes('education') || title.includes('tet') || title.includes('teacher') || title.includes('pgt') || title.includes('tgt') || portal.includes('teaching');
     }
-    if (activeCatFilter === 'up') return st.includes('uttar pradesh') || title.includes('up ') || title.includes('upsssc');
-    if (activeCatFilter === 'bihar') return st.includes('bihar') || title.includes('bpsc') || title.includes('csbc');
+    if (activeCatFilter === 'up') return st.includes('uttar pradesh') || title.includes('up ') || title.includes('upsssc') || portal.includes('up ') || portal.includes('uttar pradesh');
+    if (activeCatFilter === 'bihar') return st.includes('bihar') || title.includes('bpsc') || title.includes('csbc') || title.includes('bssc') || portal.includes('bihar');
 
     return true;
   }

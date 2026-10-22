@@ -155,64 +155,174 @@ LANDING_PAGES = [
     }
 ]
 
-def generate_programmatic_landing_pages():
+PORTAL_HUBS = [
+    {
+        "dir": "results",
+        "category": "RESULT",
+        "canonical_path": "/results",
+        "title": "Sarkari Result 2026 – Check Latest Exam Results, Cutoff Marks & Merit List | All Sarkari Jobs",
+        "desc": "Check latest Sarkari Result 2026, exam cutoff marks, score cards, and selection merit lists. Direct official server links with roll number and name-wise search.",
+        "keywords": "sarkari result 2026, sarkari result hindi, govt exam results 2026, sarkari result direct link, cut off marks 2026, merit list pdf download, score card login, All Sarkari Jobs",
+        "heading": "Results & Merit Lists",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "latest-jobs",
+        "category": "LATEST_JOB",
+        "canonical_path": "/latest-jobs",
+        "title": "Latest Sarkari Jobs 2026 – Apply Online for 10th, 12th, Graduate Vacancies | All Sarkari Jobs",
+        "desc": "Find all latest government job vacancies 2026 across India. Apply online for central and state recruitments with eligibility, syllabus, and notification PDFs.",
+        "keywords": "latest sarkari jobs 2026, sarkari naukri apply online, 10th pass govt jobs, 12th pass sarkari vacancy, graduate govt jobs 2026, railway ssc upsc recruitment, All Sarkari Jobs",
+        "heading": "Latest Government Jobs",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "admit-cards",
+        "category": "ADMIT_CARD",
+        "canonical_path": "/admit-cards",
+        "title": "Sarkari Admit Card 2026 – Download Hall Ticket & Exam City Slip Direct Link | All Sarkari Jobs",
+        "desc": "Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.",
+        "keywords": "sarkari admit card 2026, download hall ticket registration number wise, exam city intimation slip download, call letter direct login portal, ssc admit card download link, railway rrb hall ticket 2026, exam date schedule notice pdf, All Sarkari Jobs",
+        "heading": "Admit Cards & Hall Tickets",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "admit-card",
+        "category": "ADMIT_CARD",
+        "canonical_path": "/admit-cards",
+        "title": "Sarkari Admit Card 2026 – Download Hall Ticket & Exam City Slip Direct Link | All Sarkari Jobs",
+        "desc": "Download official government exam admit cards, hall tickets, and exam city intimation slips 2026. Direct candidate login with registration number, date of birth, and examination center guidelines.",
+        "keywords": "sarkari admit card 2026, download hall ticket registration number wise, exam city intimation slip download, call letter direct login portal, ssc admit card download link, railway rrb hall ticket 2026, exam date schedule notice pdf, All Sarkari Jobs",
+        "heading": "Admit Cards & Hall Tickets",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "answer-keys",
+        "category": "ANSWER_KEY",
+        "canonical_path": "/answer-keys",
+        "title": "Sarkari Answer Key 2026 – Official Response Sheet & Challenge Objection Portal | All Sarkari Jobs",
+        "desc": "Download official provisional and final exam answer keys with question papers 2026. Access candidate response sheet login and raise online challenge objections before the deadline.",
+        "keywords": "sarkari answer key 2026, candidate response sheet download, official question paper with answer key pdf, raise objection challenge answer key link, provisional answer key marks calculation, final answer key release date, All Sarkari Jobs",
+        "heading": "Answer Keys & Objections",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "syllabus",
+        "category": "SYLLABUS",
+        "canonical_path": "/syllabus",
+        "title": "Sarkari Exam Syllabus 2026 – Topic Wise Syllabus & Exam Pattern PDF | All Sarkari Jobs",
+        "desc": "Download latest government exam syllabus in Hindi & English PDF. Check topic-wise marks weightage, Tier 1 and Tier 2 examination pattern, negative marking rules, and selection schemes.",
+        "keywords": "sarkari exam syllabus 2026, topic wise exam pattern pdf download, govt exam scheme hindi english, negative marking details tier 1 tier 2, selection process marks distribution, ssc rrb upsc syllabus pdf, All Sarkari Jobs",
+        "heading": "Exam Syllabus & Pattern",
+        "filter_pill": "all",
+        "search_term": ""
+    },
+    {
+        "dir": "admission",
+        "category": "ADMISSION",
+        "canonical_path": "/admission",
+        "title": "Sarkari Admission 2026 – Entrance Exam Online Form, Eligibility & Counseling | All Sarkari Jobs",
+        "desc": "Apply online for national and state entrance examinations 2026. Check university admission eligibility, counseling schedules, seat allotment results, and download information brochures.",
+        "keywords": "sarkari admission 2026, entrance exam online application form, university counseling schedule seat allotment, nta cuet admission brochure pdf, polytechnic bted bed admission 2026, All Sarkari Jobs",
+        "heading": "Admissions & Entrance Exams",
+        "filter_pill": "all",
+        "search_term": ""
+    }
+]
+
+def render_page(template, title, desc, keywords, heading, canonical_url, category, filter_pill, search_term):
+    page_html = template
+
+    # Replace Title
+    page_html = re.sub(r'<title[^>]*>.*?</title>', f'<title id="metaTitle">{title}</title>', page_html)
+    # Replace Meta Description
+    page_html = re.sub(r'<meta[^>]*name="description"[^>]*>', f'<meta name="description" id="metaDesc" content="{desc}">', page_html)
+    # Replace Meta Keywords
+    page_html = re.sub(r'<meta[^>]*name="keywords"[^>]*>', f'<meta name="keywords" id="metaKeywords" content="{keywords}">', page_html)
+    # Replace Canonical
+    page_html = re.sub(r'<link[^>]*rel="canonical"[^>]*>', f'<link rel="canonical" id="canonicalLink" href="{canonical_url}">', page_html)
+    # Replace OG Tags
+    page_html = re.sub(r'<meta[^>]*property="og:title"[^>]*>', f'<meta property="og:title" id="ogTitle" content="{title}">', page_html)
+    page_html = re.sub(r'<meta[^>]*property="og:description"[^>]*>', f'<meta property="og:description" id="ogDesc" content="{desc}">', page_html)
+    page_html = re.sub(r'<meta[^>]*property="og:url"[^>]*>', f'<meta property="og:url" content="{canonical_url}">', page_html)
+
+    # Replace H1 heading and breadcrumb text in initial HTML
+    page_html = page_html.replace('Loading Category...', heading)
+    page_html = page_html.replace('Official government notices, direct links, and verified application portals.', desc)
+
+    # Inject default filter state script right before </head>
+    preset_script = f"""
+  <script>
+    window.INITIAL_PAGE_CONFIG = {{
+      category: '{category}',
+      filterPill: '{filter_pill}',
+      searchTerm: '{search_term}',
+      pageTitle: {json.dumps(title)},
+      pageDesc: {json.dumps(desc)},
+      pageHeading: {json.dumps(heading)},
+      canonical: '{canonical_url}'
+    }};
+  </script>
+</head>"""
+    page_html = page_html.replace('</head>', preset_script, 1)
+    return page_html
+
+def generate_all_pages():
     template_path = BASE_DIR / "category.html"
     with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
 
-    generated_count = 0
-    clean_urls = []
-
+    # 1. Generate 16 Programmatic Sub-pages in jobs/*/
     for item in LANDING_PAGES:
         slug = item["slug"]
         out_dir = BASE_DIR / "jobs" / slug
         out_dir.mkdir(parents=True, exist_ok=True)
         out_file = out_dir / "index.html"
-        clean_url = f"https://www.allsarkarijobs.online/jobs/{slug}"
-        clean_urls.append(clean_url)
+        canonical_url = f"https://www.allsarkarijobs.online/jobs/{slug}"
 
-        page_html = template
-
-        # Replace Title
-        page_html = re.sub(r'<title[^>]*>.*?</title>', f'<title id="metaTitle">{item["title"]}</title>', page_html)
-        # Replace Meta Description
-        page_html = re.sub(r'<meta[^>]*name="description"[^>]*>', f'<meta name="description" id="metaDesc" content="{item["desc"]}">', page_html)
-        # Replace Meta Keywords
-        page_html = re.sub(r'<meta[^>]*name="keywords"[^>]*>', f'<meta name="keywords" id="metaKeywords" content="{item["keywords"]}">', page_html)
-        # Replace Canonical
-        page_html = re.sub(r'<link[^>]*rel="canonical"[^>]*>', f'<link rel="canonical" id="canonicalLink" href="{clean_url}">', page_html)
-        # Replace OG Tags
-        page_html = re.sub(r'<meta[^>]*property="og:title"[^>]*>', f'<meta property="og:title" id="ogTitle" content="{item["title"]}">', page_html)
-        page_html = re.sub(r'<meta[^>]*property="og:description"[^>]*>', f'<meta property="og:description" id="ogDesc" content="{item["desc"]}">', page_html)
-        page_html = re.sub(r'<meta[^>]*property="og:url"[^>]*>', f'<meta property="og:url" content="{clean_url}">', page_html)
-
-        # Replace H1 heading and breadcrumb text in initial HTML
-        page_html = page_html.replace('Loading Category...', item["heading"])
-        page_html = page_html.replace('Official government notices, direct links, and verified application portals.', item["desc"])
-
-        # Inject default filter state script right before </head>
-        preset_script = f"""
-  <script>
-    window.INITIAL_PAGE_CONFIG = {{
-      category: 'LATEST_JOB',
-      filterPill: '{item["filter_pill"]}',
-      searchTerm: '{item["search_term"]}',
-      pageTitle: {json.dumps(item["title"])},
-      pageDesc: {json.dumps(item["desc"])},
-      heading: {json.dumps(item["heading"])},
-      canonical: '{clean_url}'
-    }};
-  </script>
-</head>"""
-        page_html = page_html.replace('</head>', preset_script, 1)
-
+        html = render_page(
+            template,
+            title=item["title"],
+            desc=item["desc"],
+            keywords=item["keywords"],
+            heading=item["heading"],
+            canonical_url=canonical_url,
+            category="LATEST_JOB",
+            filter_pill=item["filter_pill"],
+            search_term=item["search_term"]
+        )
         with open(out_file, "w", encoding="utf-8") as f:
-            f.write(page_html)
+            f.write(html)
 
-        generated_count += 1
+    print(f"Generated {len(LANDING_PAGES)} programmatic landing pages in jobs/*/")
 
-    print(f"Generated {generated_count} pre-rendered programmatic SEO landing pages in jobs/*/")
-    return clean_urls
+    # 2. Pre-render 6 Core Portal Hubs
+    for hub in PORTAL_HUBS:
+        out_dir = BASE_DIR / hub["dir"]
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_file = out_dir / "index.html"
+        canonical_url = f"https://www.allsarkarijobs.online{hub['canonical_path']}"
+
+        html = render_page(
+            template,
+            title=hub["title"],
+            desc=hub["desc"],
+            keywords=hub["keywords"],
+            heading=hub["heading"],
+            canonical_url=canonical_url,
+            category=hub["category"],
+            filter_pill=hub["filter_pill"],
+            search_term=hub["search_term"]
+        )
+        with open(out_file, "w", encoding="utf-8") as f:
+            f.write(html)
+
+    print(f"Pre-rendered {len(PORTAL_HUBS)} core portal hub index.html pages with dedicated titles and canonicals.")
 
 if __name__ == "__main__":
-    generate_programmatic_landing_pages()
+    generate_all_pages()
