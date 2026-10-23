@@ -109,7 +109,7 @@ def generate_sitemap():
             f.write("User-agent: *\nAllow: /\n\n")
             f.write(f"Sitemap: {PRIMARY_DOMAIN}/sitemap.xml\n")
 
-    total_urls = 1 + len(CATEGORIES) + len(recruitments) + len(updates)
+    total_urls = len(urlset)
     print(f"Generated {sitemap_path} with {total_urls} URLs and updated {robots_path}.")
     return total_urls
 
