@@ -117,6 +117,45 @@ SECTION_MAP = {
     "Admission": "ADMISSION",
 }
 
+COMPETITOR_DOMAINS = (
+    "rojgarresult.com",
+    "cdn.rojgarresult.com",
+    "sarkariresult.com",
+    "sarkariresults.org.in",
+    "freejobalert.com",
+    "sarkariexam.com",
+    "fresherslive.com",
+    "fastjobsearchers.com",
+    "jobrasta.com",
+)
+
+
+def sanitize_link_to_official(href: str, title: str = "", org: str = "", source_url: str = "") -> str:
+    """Intercepts any competitor/aggregator link or PDF and rewrites to the verified official government portal."""
+    if not href:
+        return ""
+    href_low = href.lower()
+    if not any(cd in href_low for cd in COMPETITOR_DOMAINS):
+        return href
+    t_low = f"{title} {org} {href}".lower()
+    if "blet" in t_low or "bihar library" in t_low:
+        return "https://biharboardonline.com/"
+    if "htet" in t_low or "haryana tet" in t_low:
+        return "https://bseh.org.in/"
+    if "uptet" in t_low or "up tet" in t_low:
+        return "https://updeled.gov.in/"
+    if "ssc" in t_low:
+        return "https://ssc.gov.in/"
+    if "upsssc" in t_low:
+        return "https://upsssc.gov.in/View_Notices.aspx"
+    if "dsssb" in t_low:
+        return "https://dsssb.delhi.gov.in/"
+    if "skau" in t_low:
+        return "https://skau.ac.in/"
+    if source_url and source_url.startswith("http") and not any(cd in source_url.lower() for cd in COMPETITOR_DOMAINS):
+        return source_url
+    return "https://www.india.gov.in/"
+
 SKIP_ROW_KEYWORDS = (
     "android app",
     "apple ios",
@@ -436,15 +475,11 @@ def parse_post_page(url: str) -> dict:
                         continue
                     if any(sk in ltext.lower() for sk in SKIP_ROW_KEYWORDS):
                         continue
-                    # Skip internal sarkariresult.com non-PDF pages
-                    if ("sarkariresult.com" in href_low or "sarkariresults.org.in" in href_low) and not is_pdf_url(href):
-                        continue
-                    # Intercept competitor redirects and replace with local clean PDFs
-                    if "rojgarresult.com" in href_low and not is_pdf_url(href):
-                        if "ssc-chsl-syllabus" in href_low:
-                            href = "/pdfs/ssc-chsl-10-plus-2-tier-1-and-2-syllabus-2026.pdf"
-                        elif "uiic-ao-syllabus" in href_low:
-                            href = "/pdfs/uiic-ao-exam-syllabus-2026.pdf"
+                    # Intercept ANY competitor/private aggregator links and replace with official government portal
+                    if any(cd in href_low for cd in COMPETITOR_DOMAINS):
+                        clean_href = sanitize_link_to_official(href, result.get("full_title", ""), result.get("organization", ""), result.get("official_website_url", ""))
+                        if clean_href and not any(cd in clean_href.lower() for cd in COMPETITOR_DOMAINS):
+                            href = clean_href
                         else:
                             continue
                     row_links.append({"text": ltext, "url": href, "is_pdf": is_pdf_url(href)})
@@ -750,6 +785,10 @@ def scrape_all_from_sarkariresult():
             org = infer_organization(title, short_info)
             qual, sector, state = infer_filters(title, short_info)
             resolved = resolve_category_urls(cat, title, org, parsed)
+            resolved["official_pdf"] = sanitize_link_to_official(resolved.get("official_pdf", ""), title, org, resolved.get("official_website", ""))
+            resolved["registration_url"] = sanitize_link_to_official(resolved.get("registration_url", ""), title, org, resolved.get("official_website", ""))
+            resolved["login_url"] = sanitize_link_to_official(resolved.get("login_url", ""), title, org, resolved.get("official_website", ""))
+            resolved["official_website"] = sanitize_link_to_official(resolved.get("official_website", ""), title, org, "")
 
             is_featured = 1 if (cat in ("LATEST_JOB", "RESULT", "ADMIT_CARD") and orig_rank < 3) else 0
             featured_badge = featured_Badges[orig_rank % len(featured_Badges)] if is_featured else None
@@ -770,7 +809,7 @@ def scrape_all_from_sarkariresult():
                 "age_limit": parsed.get("age_limit") or [],
                 "total_vacancy": parsed.get("total_vacancy") or "",
                 "important_links": parsed.get("important_links") or [],
-                "sarkariresult_url": post_url,
+                "source_feed_id": post_url.rstrip("/").split("/")[-1],
             }
 
             from datetime import datetime

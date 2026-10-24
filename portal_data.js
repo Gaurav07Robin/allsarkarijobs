@@ -123,8 +123,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-scholarship-postmatric-jul26/"
+        ]
       }
     },
     {
@@ -210,8 +209,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/nta-niftee-admission/"
+        ]
       }
     },
     {
@@ -309,8 +307,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/gate-2027/"
+        ]
       }
     },
     {
@@ -402,8 +399,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/iit-jam-august26/"
+        ]
       }
     },
     {
@@ -489,8 +485,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uprtou-ph-d-entrance-exam-sep26/"
+        ]
       }
     },
     {
@@ -579,8 +574,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/iim-cat-jul26/"
+        ]
       }
     },
     {
@@ -595,7 +589,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "Graduate",
       "sector": "Education / Admission",
       "state": "Bihar",
@@ -650,7 +644,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -665,8 +659,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/blet-september26/"
+        ]
       }
     },
     {
@@ -761,8 +754,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-rimcee-class-8th-sep26/"
+        ]
       }
     },
     {
@@ -835,7 +827,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Phd2-merged.pdf",
+                "url": "https://allduniv.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -850,8 +842,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/university-of-allahabad-au-sep26/"
+        ]
       }
     },
     {
@@ -933,8 +924,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aibe-22nd-august26/"
+        ]
       }
     },
     {
@@ -1058,7 +1048,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/updeled2026-compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -1073,8 +1063,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/updeled-admissions-2/"
+        ]
       }
     },
     {
@@ -1158,8 +1147,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nvs-class-6th-admission-july26/"
+        ]
       }
     },
     {
@@ -1578,7 +1566,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NEETUG_2026.pdf",
+                "url": "https://mcc.nic.in/ug-medical-counselling/",
                 "is_pdf": true
               }
             ]
@@ -1603,8 +1591,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-neet-ug-2026/"
+        ]
       }
     },
     {
@@ -1722,8 +1709,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sav-class-6th-admission-august26/"
+        ]
       }
     },
     {
@@ -1834,8 +1820,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upiti-admission-july2026/"
+        ]
       }
     },
     {
@@ -1959,8 +1944,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/clat-admission-jul26/"
+        ]
       }
     },
     {
@@ -1975,7 +1959,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -2048,7 +2032,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2058,7 +2042,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/District.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2068,7 +2052,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Primary_teacher_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2083,8 +2067,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-primary-teacher-05-2026/"
+        ]
       }
     },
     {
@@ -2178,7 +2161,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_Notice_of_adv_chsl_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2193,8 +2176,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-chsl-2026-sep/"
+        ]
       }
     },
     {
@@ -2209,7 +2191,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Diploma / Engineering",
       "sector": "Central Govt",
       "state": "All India",
@@ -2298,7 +2280,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2323,8 +2305,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     {
@@ -2339,7 +2320,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Exam_Syllabus.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -2383,12 +2364,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Class I to V",
-                "url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Class VI to VIII",
-                "url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Junior_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2403,8 +2384,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-super-tet-2026/"
+        ]
       }
     },
     {
@@ -2419,7 +2399,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Veterinary%20Pharmacist_Syllabus%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -2477,7 +2457,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Veterinary%20Pharmacist_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2487,7 +2467,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPSSSC_Veterinary%20Pharmacist_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2502,8 +2482,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-veterinary-18-exam-2026/"
+        ]
       }
     },
     {
@@ -2518,7 +2497,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/Syllabus_UPSSSC_Livestock_Extension_officer_SarkariResult.Com_UPSSSC_17Exam_2026-1-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -2576,7 +2555,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/Syllabus_UPSSSC_Livestock_Extension_officer_SarkariResult.Com_UPSSSC_17Exam_2026-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2586,7 +2565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPSSSC_17Exam_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2601,8 +2580,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-livestock-17-exam-2026/"
+        ]
       }
     },
     {
@@ -2617,7 +2595,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -2765,7 +2743,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2790,8 +2768,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-paramedical-fsl-15-exam-2026/"
+        ]
       }
     },
     {
@@ -2806,7 +2783,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Post Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -2850,22 +2827,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_English%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_English%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2875,12 +2852,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Physical_Education_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Physical_Education_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2890,12 +2867,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Urdu_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Urdu_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2905,12 +2882,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Art_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Art_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2920,7 +2897,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Sociology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2930,7 +2907,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Education_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2940,7 +2917,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Civics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2950,12 +2927,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Commerce_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Commerce_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2965,7 +2942,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Biology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2975,12 +2952,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Sanskrit_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Sanskrit_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -2990,12 +2967,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_English_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_English_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3005,7 +2982,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Chemistry_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3015,7 +2992,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Physics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3025,12 +3002,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Mathematical_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Mathematics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3040,12 +3017,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Hindi_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Hindi_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3055,7 +3032,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Psychology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3065,7 +3042,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Logic_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3075,7 +3052,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_History_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3085,7 +3062,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Geography_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3095,7 +3072,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Economics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3105,7 +3082,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Military_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3115,12 +3092,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Music_Instrumental_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Music_Instrumental_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3130,12 +3107,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Musci_Vocal_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Music_Vocal_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3145,12 +3122,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Agriculture_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Agriculture_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3160,12 +3137,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Home_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Home_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3175,7 +3152,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Social_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3185,13 +3162,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-uptgt-uppgt-syllabus/"
+        ]
       }
     },
     {
@@ -3206,7 +3182,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -3344,7 +3320,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upsssc-Pet_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3354,7 +3330,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3369,8 +3345,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
+        ]
       }
     },
     {
@@ -3494,8 +3469,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/clat-admission-jul26/"
+        ]
       }
     },
     {
@@ -3510,7 +3484,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission UPESSC",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -3604,7 +3578,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Split-SarkariResult-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3614,7 +3588,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3624,7 +3598,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UPESSC_Principal_02_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3639,8 +3613,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-principal-02-2026/"
+        ]
       }
     },
     {
@@ -3655,7 +3628,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -3723,7 +3696,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3768,8 +3741,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-moharir-07-2022/"
+        ]
       }
     },
     {
@@ -3784,7 +3756,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_Syllabus-PDF.pdf",
+      "pdf_url": "https://rssb.rajasthan.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Rajasthan",
@@ -3843,7 +3815,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_2026.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3853,7 +3825,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_Syllabus-PDF.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -3868,8 +3840,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rssb-cet-graduate-level-july26/"
+        ]
       }
     },
     {
@@ -3884,7 +3855,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -4032,7 +4003,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4067,8 +4038,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-pharmaceutical-01-2024/"
+        ]
       }
     },
     {
@@ -4083,7 +4053,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RSSB-CET_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://rssb.rajasthan.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Banking",
       "state": "Rajasthan",
@@ -4142,7 +4112,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RSSB-CET_Syllabus_2026%20(1).pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4152,7 +4122,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/RSSB-CET.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4167,8 +4137,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rssb-cet-june26/"
+        ]
       }
     },
     {
@@ -4183,7 +4152,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc14exam2026_syllabus_compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -4261,7 +4230,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/UPSSSC_14_Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4271,7 +4240,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc14exam2026_syllabus_compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4286,8 +4255,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-14-exam-2026/"
+        ]
       }
     },
     {
@@ -4302,7 +4270,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Allahabad High Court",
       "source_url": "https://www.allahabadhighcourt.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/ahc_ro-aro-ca-syllabus_2026.pdf",
+      "pdf_url": "https://www.allahabadhighcourt.in/",
       "qualification_level": "Graduate",
       "sector": "Judiciary",
       "state": "Uttar Pradesh",
@@ -4360,7 +4328,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ahc_ro-aro-ca-syllabus_2026.pdf",
+                "url": "https://www.allahabadhighcourt.in/",
                 "is_pdf": true
               }
             ]
@@ -4380,7 +4348,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ahc_ro_aro_ca_2026.pdf",
+                "url": "https://www.allahabadhighcourt.in/",
                 "is_pdf": true
               }
             ]
@@ -4395,8 +4363,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ahc-ro-aro-ca-june2026/"
+        ]
       }
     },
     {
@@ -4411,7 +4378,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/sarkariresult.com_UP_VidhabBhawan_Guard_Fireman_Syllabus_2026-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -4474,7 +4441,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_UP_VidhabBhawan_Guard_Fireman_Syllabus_2026-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4484,7 +4451,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_UPSSSC_09Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4499,8 +4466,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-vidhan-09-exam-2026/"
+        ]
       }
     },
     {
@@ -4515,7 +4481,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Madhya Pradesh Employees Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
-      "pdf_url": "https://www.sarkariresult.com/upload/SarkariResult.Com_MP_Nursing_officer_Tutor_Mar26_Syllabus.pdf",
+      "pdf_url": "https://esb.mp.gov.in/e_default.html",
       "qualification_level": "Medical / Nursing",
       "sector": "Education / Admission",
       "state": "Madhya Pradesh",
@@ -4593,7 +4559,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/SarkariResult.Com_MP_Nursing_officer_Tutor_Mar26_Syllabus.pdf",
+                "url": "https://esb.mp.gov.in/e_default.html",
                 "is_pdf": true
               }
             ]
@@ -4603,7 +4569,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Health_Nursing_2026RuleBook02_04_2026.pdf",
+                "url": "https://esb.mp.gov.in/e_default.html",
                 "is_pdf": true
               }
             ]
@@ -4618,8 +4584,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/mp/mpesb-nursing-officer-tutor-mar26/"
+        ]
       }
     },
     {
@@ -4634,7 +4599,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Patna High Court PHC",
       "source_url": "https://patnahighcourt.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_PHC_TA_Syllabus.pdf",
+      "pdf_url": "https://patnahighcourt.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Judiciary",
       "state": "Bihar",
@@ -4692,7 +4657,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_PHC_TA_Syllabus.pdf",
+                "url": "https://patnahighcourt.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4717,8 +4682,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/phc-technical-assistant-01-2026/"
+        ]
       }
     },
     {
@@ -4733,7 +4697,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+      "pdf_url": "https://bseh.org.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Haryana",
@@ -4805,7 +4769,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -4815,7 +4779,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_NOTIFICATION.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -4825,7 +4789,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_2026_JHTET_PRESS_ADV.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -4840,8 +4804,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/jac-jhtet-2026/"
+        ]
       }
     },
     {
@@ -4856,7 +4819,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/upload/UPTET_2026_Primary_Syllabus_SarkariResult_Com_compressed.pdf",
+      "pdf_url": "https://updeled.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -4978,7 +4941,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/SarkariResult.Com_UPTET_Junior_Level_Final_AnswerKye.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -4988,7 +4951,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/08/UPTET-2026-Final-Answer-Key-with-Question-Paper-Primary-Level.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5048,7 +5011,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/uptet_exam_city_Notice_20269c8e-14b0-4277-4524-50a4.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5098,7 +5061,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Notification_SR.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5108,12 +5071,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Primary",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Primary_Syllabus_SarkariResult_Com_compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Junior",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Junior_Level_Syllabus_compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5138,8 +5101,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uptet-2026/"
+        ]
       }
     },
     {
@@ -5154,7 +5116,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -5253,7 +5215,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5273,7 +5235,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5288,8 +5250,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/"
+        ]
       }
     },
     {
@@ -5304,7 +5265,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Railways",
       "state": "All India",
@@ -5383,7 +5344,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5403,7 +5364,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SarkariResult-RRB_Technician_Detailed_CEN_02_20262.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5443,8 +5404,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2026/"
+        ]
       }
     },
     {
@@ -5568,7 +5528,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_SSC_Selection_Post_Notice_of_RHQ_2026_phase_xiv.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5588,7 +5548,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/05/ssc-selection-syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -5603,8 +5563,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-selection-post-14th-2026/"
+        ]
       }
     },
     {
@@ -5732,8 +5691,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group2-subgroup-4-aug26/"
+        ]
       }
     },
     {
@@ -5858,7 +5816,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Revised%20Notification%20SET-2016%2027-Jun-2026%2012-56-19.pdf",
+                "url": "https://uok.ac.in/category.php?catid=89&pageid=721&page=SET%20Examination%202026",
                 "is_pdf": true
               }
             ]
@@ -5883,8 +5841,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-set-jun/"
+        ]
       }
     },
     {
@@ -5899,7 +5856,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
+      "pdf_url": "https://ukutet.com/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttarakhand",
@@ -5971,7 +5928,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
+                "url": "https://ukutet.com/",
                 "is_pdf": true
               }
             ]
@@ -5986,8 +5943,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uttarakhand-utet-2026/"
+        ]
       }
     },
     {
@@ -6116,8 +6072,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nbe-various-post-june26/"
+        ]
       }
     },
     {
@@ -6280,7 +6235,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_forest_Guard_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -6305,8 +6260,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-forest-guard-12-exam-2026/"
+        ]
       }
     },
     {
@@ -6469,7 +6423,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -6494,8 +6448,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-paramedical-fsl-15-exam-2026/"
+        ]
       }
     },
     {
@@ -6612,8 +6565,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/indian-airforce-agniveervayu-02-2027/"
+        ]
       }
     },
     {
@@ -6731,8 +6683,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/indian-air-force-medical-assistant/"
+        ]
       }
     },
     {
@@ -6841,7 +6792,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Split-SarkariResult-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -6851,7 +6802,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -6861,7 +6812,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UPESSC_Principal_02_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -6876,8 +6827,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-principal-02-2026/"
+        ]
       }
     },
     {
@@ -6981,7 +6931,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Microsoft%20Word%20-%20Final%20Advertisement%20Assistant%20JPA%2024%20july%20-%20Bilingual%20Advertisement_Asst_JPA_UDC_Steno_ICRB_2026_27072026.pdf",
+                "url": "https://www.isro.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7006,8 +6956,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/isro-various-post-jul26/"
+        ]
       }
     },
     {
@@ -7022,7 +6971,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/rb_ntpc_aNSWERKEY.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Railways",
       "state": "All India",
@@ -7081,7 +7030,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/rb_ntpc_aNSWERKEY.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7121,7 +7070,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Secunderabad_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7131,12 +7080,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_AJMER_NTPC_UG_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_ntpc_aJMER_cUTOFF_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7146,12 +7095,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Bhopal_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_BhopalUG_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7161,12 +7110,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Bengaluru_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRBBengaluru_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7176,12 +7125,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Malda_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Malda_NTPC_UG_Cutopff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7191,7 +7140,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_result_Cutoff_NTPC_UG2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7201,12 +7150,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Patna_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Patna_NTPC_UG_Cutoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7216,7 +7165,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_MumbaI_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7226,7 +7175,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_NTPC_UG_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7236,12 +7185,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chennai_UG_Result_NTPC_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_cHENNAI_cUTOFF_ntpc_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7251,12 +7200,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/rrb_kOLKATA_ntpc_ug_rESULT_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_kOLKATA-ntpc_ug2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7266,7 +7215,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bhubaneshwar_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7276,7 +7225,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Guwahati_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
@@ -7291,7 +7240,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Ranchi_Result_Cutoff_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7301,12 +7250,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chandigarh_NTPC_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chandigarh_NTPC_CUtoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7316,12 +7265,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Thrivandram_NTPC_UG_CBT1_result_pub_report.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_THrivdanram_NTPC_Cutoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7331,12 +7280,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_GKP_NTPCUGResult2408%20(1).pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7346,12 +7295,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Siliguri_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Siliguri_Cutoff-NTPC2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7361,12 +7310,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_MuzaffarPur_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/RRB_Muzaffarpur_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7376,12 +7325,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Ahemdabad_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/RRB_Ahemdabad_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7391,12 +7340,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bilaspur_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bilaspur_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7416,7 +7365,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Phase_II_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7441,7 +7390,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/Objection-Tracker-CEN-07-2025-Hindi-Notice-1.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7481,7 +7430,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_CEN-07-2025-Tentative-Schedule-Eng-1.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7501,7 +7450,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%2007_2025_Application_Status.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7571,8 +7520,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-ntpc-ug-07-2025/"
+        ]
       }
     },
     {
@@ -7698,8 +7646,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/patna-high-court-july26/"
+        ]
       }
     },
     {
@@ -7833,7 +7780,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_SSC_Stenographer_Notification_Notice_of_adv_steno_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7843,7 +7790,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC Stenographer Syllabus",
-                "url": "https://doc.sarkariresults.org.in/ssc%20stenographer%20syllabus%20sarkariresult.com%20direct%20link%20pdf.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -7858,8 +7805,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-stenographer-2026/"
+        ]
       }
     },
     {
@@ -8022,7 +7968,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -8057,8 +8003,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-pharmaceutical-01-2024/"
+        ]
       }
     },
     {
@@ -8236,7 +8181,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult_UPSSSC_Excise_Constable_Syllabus2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -8246,7 +8191,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_UPSSSC_Excise_Constable_08Exam2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -8261,8 +8206,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-excise-constable-08-exam2026/"
+        ]
       }
     },
     {
@@ -8398,8 +8342,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-jht-2026/"
+        ]
       }
     },
     {
@@ -8532,7 +8475,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/06/SARKARIRESULT.COM-BSF-HC-ASI-NOTICE-2024_compressed.pdf",
+                "url": "https://bsf.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -8547,8 +8490,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/bsf-hcmin-asisteno-june24/"
+        ]
       }
     },
     {
@@ -8666,8 +8608,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group2-sub1-krashi-vistar/"
+        ]
       }
     },
     {
@@ -8878,8 +8819,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-aiapget-admissions-july26/"
+        ]
       }
     },
     {
@@ -9008,7 +8948,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RSSB_Computer_Instructor_2026.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9023,8 +8963,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/rpsc/rssb-computer-instructor-07-2026/"
+        ]
       }
     },
     {
@@ -9160,8 +9099,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cds-ii-exam-2026/"
+        ]
       }
     },
     {
@@ -9296,8 +9234,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-nda-ii-exam-2026/"
+        ]
       }
     },
     {
@@ -9312,7 +9249,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Teacher_Cadre_Revised_AnswerKey.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -9360,7 +9297,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Teacher_Cadre_Revised_AnswerKey.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9445,7 +9382,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/UPSSSC_EligibilityResult_JTC.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9465,7 +9402,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPSSSC_03_Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9480,8 +9417,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-teacher-03-exam-2026/"
+        ]
       }
     },
     {
@@ -9496,7 +9432,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Assistant_Boring_Technician_Revised_AnswerKey_12092026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -9544,7 +9480,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Assistant_Boring_Technician_Revised_AnswerKey_12092026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9644,7 +9580,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPSSSC04Exam2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9659,8 +9595,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-asst-boring-tech-04-2026/"
+        ]
       }
     },
     {
@@ -9759,7 +9694,7 @@ window.PORTAL_DATA = {
               },
               {
                 "text": "Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AnswerKey.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9779,7 +9714,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_SarkariResult.Com_Exam_Date_Sep26notification_2.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9829,7 +9764,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_SarkariResult.Com_Exam_Date_Sep26notification_2.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9869,7 +9804,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/notification_for_during_feb_to_may_2026_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9889,7 +9824,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_scan20250604_0434_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9899,7 +9834,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_JUNE_JUly_scan20250523_0305_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9909,7 +9844,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AnswerKey_April_Exam.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -9944,7 +9879,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/scan20250326_0229_1%20(1).pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -9954,7 +9889,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_Various_Post_Exam_Date_2025.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10034,7 +9969,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com%20DSSSB%20Exam%20Date%20August%202024.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10189,8 +10124,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/dsssb-admit-card-download/"
+        ]
       }
     },
     {
@@ -10487,8 +10421,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-ugc-net-june-2026/"
+        ]
       }
     },
     {
@@ -10503,7 +10436,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RRB_Group_Form_Status.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "Uttar Pradesh",
@@ -10582,7 +10515,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Wise_Data.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10612,7 +10545,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RRB_Group_Form_Status.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10682,7 +10615,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%20092025%20Zone%20Wise%20Vacancy%20SarkariResult_Com.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10692,7 +10625,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%20092025%20SarkariResult_Com.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10707,8 +10640,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-group-d-cen-09-2025/"
+        ]
       }
     },
     {
@@ -10822,7 +10754,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/RPSC_APO_2026_Notification_SarkariREsult_Com.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -10837,8 +10769,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rpsc-apo-june26/"
+        ]
       }
     },
     {
@@ -11049,8 +10980,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-aiapget-admissions-july26/"
+        ]
       }
     },
     {
@@ -11065,7 +10995,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Board of Secondary Education, BSEH Haryana",
       "source_url": "https://bseh.org.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/HTETAnswerkey2026.pdf",
+      "pdf_url": "https://bseh.org.in/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Haryana",
@@ -11167,7 +11097,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/HTETAnswerkey2026.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -11237,7 +11167,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/04/HTET-Syllabus-2026.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -11252,8 +11182,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/htet-dec-2025/"
+        ]
       }
     },
     {
@@ -11381,8 +11310,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bsnl-jto-2026/"
+        ]
       }
     },
     {
@@ -11623,32 +11551,32 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "C",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/csir-net-ugc-syllabus-for-chemical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "hemical Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/csir-net-ugc-syllabus-for-chemical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Earth Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Earth-Sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Life Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Life-Sciens.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Mathematics Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Mathematical-Sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Physical Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/physical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -11663,8 +11591,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-csir-net-june2026/"
+        ]
       }
     },
     {
@@ -11679,7 +11606,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_TGT_NOtification_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Post Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -11737,7 +11664,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_TGT_Subject_Wise_Eligibility_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -11747,7 +11674,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_TGT_NOtification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -11762,8 +11689,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-tgt-07-2026/"
+        ]
       }
     },
     {
@@ -11778,7 +11704,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Sarkariresult.com_School_WiseVacancy_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -11836,7 +11762,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Sarkariresult.com_School_WiseVacancy_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -11846,7 +11772,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -11861,8 +11787,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-headmaster-09-2026/"
+        ]
       }
     },
     {
@@ -11960,8 +11885,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/lic-hfl-apprentice-oct26/"
+        ]
       }
     },
     {
@@ -11976,7 +11900,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_Principal_SchoolWise_Vacancy_SarkariResult_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -12034,7 +11958,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Principal_SchoolWise_Vacancy_SarkariResult_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -12044,7 +11968,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Principal_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -12059,8 +11983,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-principal-08-2026/"
+        ]
       }
     },
     {
@@ -12144,8 +12067,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nwr-rrc-jaipur-apprentices-04-2026/"
+        ]
       }
     },
     {
@@ -12233,8 +12155,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bhel-artisan-various-trade-oct26/"
+        ]
       }
     },
     {
@@ -12249,7 +12170,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/ViewPdf-1.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -12307,7 +12228,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/ViewPdf-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -12322,8 +12243,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-23-exam-2026/"
+        ]
       }
     },
     {
@@ -12338,7 +12258,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -12397,7 +12317,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Link Will be Activate on 27/10/2026",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -12412,8 +12332,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-station-master-08-26/"
+        ]
       }
     },
     {
@@ -12499,8 +12418,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-court-master-oct26/"
+        ]
       }
     },
     {
@@ -12595,8 +12513,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/icsil-data-entry-operator-deo-oct26/"
+        ]
       }
     },
     {
@@ -12682,8 +12599,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/cwc-am-je-oct26/"
+        ]
       }
     },
     {
@@ -12698,7 +12614,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -12756,7 +12672,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -12771,8 +12687,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-lower-pcs-26-exam-oct26/"
+        ]
       }
     },
     {
@@ -12859,8 +12774,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-mpp-constable-driver-oct26/"
+        ]
       }
     },
     {
@@ -12946,8 +12860,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/supreme-court-of-india-jca-oct26/"
+        ]
       }
     },
     {
@@ -13035,7 +12948,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13045,7 +12958,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/District.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13055,7 +12968,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Primary_teacher_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13070,8 +12983,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-primary-teacher-05-2026/"
+        ]
       }
     },
     {
@@ -13086,7 +12998,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "12th Pass",
       "sector": "Railways",
       "state": "All India",
@@ -13145,7 +13057,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_07_2026_Syllabus%20(1).pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -13155,7 +13067,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -13165,7 +13077,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_CEN_07_2026_Zone_WiseVacancy.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -13180,8 +13092,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/railway-rrb-ntpc-ug-level-07-2026/"
+        ]
       }
     },
     {
@@ -13196,7 +13107,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Army Recruitment (Join Indian Army)",
       "source_url": "http://joinindianarmy.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
+      "pdf_url": "http://joinindianarmy.nic.in/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "All India",
@@ -13251,7 +13162,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
+                "url": "http://joinindianarmy.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -13266,8 +13177,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/army-tes-57th-oct26/"
+        ]
       }
     },
     {
@@ -13358,7 +13268,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/bpsc_Syllabus_TRE_SarkariResult.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13388,7 +13298,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Bihar_STET_Self_Declaration_Format_Form_Download.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13433,8 +13343,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-tre-4-2026/"
+        ]
       }
     },
     {
@@ -13449,7 +13358,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Railways",
       "state": "All India",
@@ -13508,7 +13417,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13518,7 +13427,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_CEN_05_2026_FAQ.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13533,8 +13442,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-paramedical-cen-05-2026/"
+        ]
       }
     },
     {
@@ -13620,8 +13528,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-anganwadi-worker/"
+        ]
       }
     },
     {
@@ -13707,8 +13614,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-senior-personal-assistant-oct26/"
+        ]
       }
     },
     {
@@ -13806,8 +13712,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group-3-sub-engineer-august26/"
+        ]
       }
     },
     {
@@ -13895,8 +13800,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/delhi-dsssb-advt-no-05-2026/"
+        ]
       }
     },
     {
@@ -13911,7 +13815,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_JE_Electrical_Notification_Oct26.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Diploma / Engineering",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -13969,7 +13873,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_JE_Electrical_Notification_Oct26.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -13984,8 +13888,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-cje-electrical-adv-25-exam/"
+        ]
       }
     },
     {
@@ -14073,8 +13976,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-junior-engg-adv-24-exam/"
+        ]
       }
     },
     {
@@ -14162,8 +14064,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/nta-ugc-net-december2026/"
+        ]
       }
     },
     {
@@ -14251,8 +14152,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/nta-csir-ugc-net-dec2026/"
+        ]
       }
     },
     {
@@ -14267,7 +14167,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Join Indian Army",
       "source_url": "https://joinindianarmy.nic.in/index.htm",
-      "pdf_url": "https://doc.sarkariresults.org.in/Army_TGC_145_Notification.pdf",
+      "pdf_url": "https://joinindianarmy.nic.in/index.htm",
       "qualification_level": "ITI / Diploma",
       "sector": "Defence",
       "state": "All India",
@@ -14318,7 +14218,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Army_TGC_145_Notification.pdf",
+                "url": "https://joinindianarmy.nic.in/index.htm",
                 "is_pdf": true
               }
             ]
@@ -14333,8 +14233,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/army-tgc-145-sep26/"
+        ]
       }
     },
     {
@@ -14349,7 +14248,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_NTPC_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -14408,7 +14307,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_06_2026_Exam_Date.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -14418,7 +14317,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Zone_Wise_Vacancy_CEN_062026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -14428,7 +14327,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_RRB_NTPC_CEN_06_2026_Notification.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -14443,8 +14342,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-ntpc-graduate-cen-06-2026/"
+        ]
       }
     },
     {
@@ -14530,8 +14428,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-ao-oct2026/"
+        ]
       }
     },
     {
@@ -14617,8 +14514,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-junior-court-assistant-sep26/"
+        ]
       }
     },
     {
@@ -14709,8 +14605,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mphc-stenographer-grade-ii-666-exam/"
+        ]
       }
     },
     {
@@ -14725,7 +14620,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Delhi Subordinate Service Selection Board (DSSSB)",
       "source_url": "https://dsssb.delhi.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/final_adv_1.pdf",
+      "pdf_url": "https://dsssb.delhi.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Defence",
       "state": "Delhi",
@@ -14783,7 +14678,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/final_adv_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -14798,8 +14693,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/dsssb-various-post-oct26/"
+        ]
       }
     },
     {
@@ -14814,7 +14708,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Chhatrapati Shahu Ji Maharaj University, Kanpur",
       "source_url": "https://csjmu.ac.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/980.-Advertisement-For-Teaching-post.pdf",
+      "pdf_url": "https://csjmu.ac.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India",
@@ -14868,7 +14762,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/980.-Advertisement-For-Teaching-post.pdf",
+                "url": "https://csjmu.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -14883,8 +14777,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/csjmu-kanpur-teaching-oct26/"
+        ]
       }
     },
     {
@@ -14899,7 +14792,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "Graduate",
       "sector": "Education / Admission",
       "state": "Bihar",
@@ -14954,7 +14847,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -14969,8 +14862,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/blet-september26/"
+        ]
       }
     },
     {
@@ -15078,8 +14970,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bank-of-baroda-so-august26/"
+        ]
       }
     },
     {
@@ -15094,7 +14985,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -15163,7 +15054,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15218,7 +15109,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/RRB_ALP_CEN_01_2026_Syllabus.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15228,7 +15119,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_SarkariResult.Com_CEN%2001-2026%20Eng-639143539720035538.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15243,8 +15134,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2026/"
+        ]
       }
     },
     {
@@ -15259,7 +15149,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission (UPPSC)",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_Scientific%20Officer_Exam_Date.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -15337,7 +15227,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Scientific%20Officer_Exam_Date.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -15347,7 +15237,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Unani_Medical_Officer.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -15447,8 +15337,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2023/uppsc-various-june23/"
+        ]
       }
     },
     {
@@ -15548,7 +15437,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariREsult.Com_UP_Special_TET_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15563,8 +15452,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-special-tet-exam/"
+        ]
       }
     },
     {
@@ -15668,7 +15556,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15693,8 +15581,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     {
@@ -15847,7 +15734,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upsssc-Pet_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15857,7 +15744,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -15872,8 +15759,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
+        ]
       }
     },
     {
@@ -15888,7 +15774,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Bihar",
@@ -15977,7 +15863,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -15987,7 +15873,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -16002,8 +15888,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
+        ]
       }
     },
     {
@@ -16018,7 +15903,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Diploma / Engineering",
       "sector": "Railways",
       "state": "All India",
@@ -16077,7 +15962,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16097,7 +15982,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Application_Status_2026_07102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16107,7 +15992,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16117,7 +16002,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_JE_Exam_Date_16092026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16137,7 +16022,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Vacancy_Increase_Notice.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16147,7 +16032,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Syllabus_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16157,7 +16042,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Zone_Wise_Vacancy_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16167,7 +16052,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Post_Wise_Eligibility_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16177,7 +16062,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Notification_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -16192,8 +16077,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-junior-engineer-cen-04-2026/"
+        ]
       }
     },
     {
@@ -16208,7 +16092,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "National Insurance Company Limited (NICL)",
       "source_url": "https://nationalinsurance.nic.co.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+      "pdf_url": "https://nationalinsurance.nic.co.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India",
@@ -16294,7 +16178,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+                "url": "https://nationalinsurance.nic.co.in/",
                 "is_pdf": true
               }
             ]
@@ -16309,8 +16193,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-assistant-july26/"
+        ]
       }
     },
     {
@@ -16341,8 +16224,7 @@ window.PORTAL_DATA = {
         "application_fee": [],
         "age_limit": [],
         "total_vacancy": "",
-        "important_links": [],
-        "sarkariresult_url": "https://tinyurl.com/mrxs93fc"
+        "important_links": []
       }
     },
     {
@@ -16478,8 +16360,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     {
@@ -16494,7 +16375,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Madhya Pradesh Public Service Commission (MPPSC)",
       "source_url": "https://mppsc.mp.gov.in/Applyonline",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_MPPSC_ADPPO_Exam_2026%20(1).pdf",
+      "pdf_url": "https://mppsc.mp.gov.in/Applyonline",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Madhya Pradesh",
@@ -16553,7 +16434,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_MPPSC_ADPPO_Exam_2026%20(1).pdf",
+                "url": "https://mppsc.mp.gov.in/Applyonline",
                 "is_pdf": true
               }
             ]
@@ -16583,7 +16464,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Corrigendum_01_03_2026_Dated_06_07_2026-1.pdf",
+                "url": "https://mppsc.mp.gov.in/Applyonline",
                 "is_pdf": true
               }
             ]
@@ -16608,8 +16489,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/mp/mppsc-adpo-2026/"
+        ]
       }
     },
     {
@@ -16624,7 +16504,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -16693,7 +16573,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -16703,7 +16583,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result | Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -16713,7 +16593,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Mumbai_ALP_CBT_II_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -16723,7 +16603,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_ALP_CBT_II_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -16898,7 +16778,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/rrb-prayagraj.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -17013,7 +16893,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/CorrigendumCEN012025ALPEnglish-638824224301710145.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -17023,12 +16903,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/FAQ%20CEN%2001-2025%20(ALP)_English.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/RRBA_LP_FAQ_Hindi_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -17038,7 +16918,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CEN_01_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -17048,7 +16928,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Final_CEN_01_2025_ALP.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -17063,8 +16943,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2025/"
+        ]
       }
     },
     {
@@ -17180,8 +17059,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-clerk-backlog-aug26/"
+        ]
       }
     },
     {
@@ -17196,7 +17074,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Bihar",
@@ -17285,7 +17163,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -17295,7 +17173,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -17310,8 +17188,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
+        ]
       }
     },
     {
@@ -17417,8 +17294,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uiic-ao-sep26/"
+        ]
       }
     },
     {
@@ -17505,7 +17381,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -17515,7 +17391,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_NOTIFICATION.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -17525,7 +17401,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_2026_JHTET_PRESS_ADV.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -17540,8 +17416,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/jac-jhtet-2026/"
+        ]
       }
     },
     {
@@ -17649,8 +17524,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aai-manager-junior-executive-july26/"
+        ]
       }
     },
     {
@@ -17758,8 +17632,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-high-court-july26/"
+        ]
       }
     },
     {
@@ -17925,8 +17798,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/delhi-hc-hjs-july26/"
+        ]
       }
     },
     {
@@ -18050,7 +17922,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC CGL Tier I & II Syllabus",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/06/SarkariResult.Com-SSC-CGL-New-Syllabus-2024-for-tier-ii-and-tier-New-New.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18065,8 +17937,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-cgl-2026/"
+        ]
       }
     },
     {
@@ -18081,7 +17952,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
+      "pdf_url": "https://bpsc.bihar.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Banking",
       "state": "Bihar",
@@ -18129,7 +18000,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18189,7 +18060,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC_SarkariResult.Com_SarkariResult_Advertisement-Integrated-72th-CCE-PT_BPSC-20260505.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18199,7 +18070,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC_70th_SarkariResult_Com_Syllabus-CC-Exam-Updated.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18214,8 +18085,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-72-pre-exam-2026/"
+        ]
       }
     },
     {
@@ -18230,7 +18100,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://upcisb.upsdc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
+      "pdf_url": "https://upcisb.upsdc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -18289,7 +18159,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18309,7 +18179,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NoticeBoard.pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18319,7 +18189,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Cooperative_Bank_SyllabusMay26%20(1).pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18334,8 +18204,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upcisb-various-post-may26/"
+        ]
       }
     },
     {
@@ -18350,7 +18219,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -18449,7 +18318,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18469,7 +18338,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18484,8 +18353,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/"
+        ]
       }
     },
     {
@@ -18589,7 +18457,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/SKAU-Syllabus-2026.pdf",
+                "url": "https://skau.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -18604,8 +18472,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/skau-non-teaching-post-july26/"
+        ]
       }
     },
     {
@@ -18620,7 +18487,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Diploma / Engineering",
       "sector": "Railways",
       "state": "All India",
@@ -18679,7 +18546,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18699,7 +18566,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Application_Status_2026_07102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18709,7 +18576,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18719,7 +18586,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_JE_Exam_Date_16092026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18739,7 +18606,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Vacancy_Increase_Notice.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18749,7 +18616,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Syllabus_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18759,7 +18626,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Zone_Wise_Vacancy_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18769,7 +18636,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Post_Wise_Eligibility_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18779,7 +18646,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Notification_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -18794,8 +18661,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-junior-engineer-cen-04-2026/"
+        ]
       }
     },
     {
@@ -18810,7 +18676,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Railways",
       "state": "All India",
@@ -18889,7 +18755,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18909,7 +18775,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SarkariResult-RRB_Technician_Detailed_CEN_02_20262.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -18949,8 +18815,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2026/"
+        ]
       }
     },
     {
@@ -19065,8 +18930,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-clerk-16th-august26/"
+        ]
       }
     },
     {
@@ -19160,7 +19024,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_Notice_of_adv_chsl_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -19175,8 +19039,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-chsl-2026-sep/"
+        ]
       }
     },
     {
@@ -19260,7 +19123,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/09/SSC-CPO-SI-Syllabus-2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -19285,8 +19148,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-cpo-si-capf-2026/"
+        ]
       }
     },
     {
@@ -19390,7 +19252,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -19415,8 +19277,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     {
@@ -19567,7 +19428,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Delhi_High_Court_2026vacancy_notice_jja_0.pdf",
+                "url": "https://delhihighcourt.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -19582,8 +19443,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/delhi-hc-jja-restorer-feb26/"
+        ]
       }
     },
     {
@@ -19598,7 +19458,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -19666,7 +19526,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Question Paper with Answer Key",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
@@ -19741,8 +19601,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uppsc-atp-november25/"
+        ]
       }
     },
     {
@@ -19866,8 +19725,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/chhattisgarh-set-jul26/"
+        ]
       }
     },
     {
@@ -19985,8 +19843,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bob-lbo-aug26/"
+        ]
       }
     },
     {
@@ -20090,7 +19947,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Microsoft%20Word%20-%20Final%20Advertisement%20Assistant%20JPA%2024%20july%20-%20Bilingual%20Advertisement_Asst_JPA_UDC_Steno_ICRB_2026_27072026.pdf",
+                "url": "https://www.isro.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20115,8 +19972,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/isro-various-post-jul26/"
+        ]
       }
     },
     {
@@ -20267,7 +20123,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_PET_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20337,7 +20193,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/DVPST_SHORTLISTED6ab0ebfd-2a09-419f-bbcb-5b51450c85c2.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20357,7 +20213,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/HG_ANSWER_KEY4250ea18-8d87-4470-9fb3-bd116581ca03.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20407,7 +20263,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/PRPB-31-202659d7b0ba32-6635-44e3-a392-b7b0af577ab5%20(1).pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20437,7 +20293,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_Sample_OMR_Sheet.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20532,8 +20388,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/up-police-home-guard-02-2025/"
+        ]
       }
     },
     {
@@ -20634,7 +20489,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/cotcorp_notification_SarkariResult_Com.pdf",
+                "url": "https://cotcorp.org.in/",
                 "is_pdf": true
               }
             ]
@@ -20649,8 +20504,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ccl-various-post-july26/"
+        ]
       }
     },
     {
@@ -20734,22 +20588,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "List 1",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST1_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 2",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_LIST2_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 3",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST3_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 4",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST4_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20759,7 +20613,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_writeup_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20809,7 +20663,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_SSC_CTGD_2026_Notice_11042026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20829,7 +20683,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ssc_gd_Syllabus_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -20904,8 +20758,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-gd-2025-exam-2026/"
+        ]
       }
     },
     {
@@ -21041,8 +20894,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     {
@@ -21178,8 +21030,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cds-ii-exam-2026/"
+        ]
       }
     },
     {
@@ -21295,8 +21146,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-clerk-backlog-aug26/"
+        ]
       }
     },
     {
@@ -21311,7 +21161,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_Final_Result_07102026.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -21359,12 +21209,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Sanskrit",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_Final_Result_07102026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Home Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Home_Science_Final_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21394,12 +21244,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Commerce",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Mains_Exam_Result_Commerce.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Agri / Horti",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Mains_Agriculture_HortiCulture.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21439,7 +21289,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/uppscltcomputer.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21479,7 +21329,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Computer_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21499,7 +21349,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_New_Exam_Date-05May.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21529,7 +21379,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Computer_PaperwithAnswerKey.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21539,7 +21389,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Social Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Grade_Social_SCience_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21559,7 +21409,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Physical Education",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_UPPSC_LT_Computer_Exam_notice.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21569,7 +21419,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Physical Education",
-                "url": "https://www.sarkariresult.com/upload/UPPSC_LT_BPED_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21579,22 +21429,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Horti / Agri",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Agri_Horti_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Music",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Music_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Arts",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Arts_Result%20(1).pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Urdu",
-                "url": "https://doc.sarkariresults.org.in/UPSSC_LT_Urdu_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21604,12 +21454,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_SarkariResult_Com_LT_English.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Biology",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Biology_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21619,22 +21469,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_SarkariResult_COM_Science.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Sanskrit",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Home Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Home_Science_SarkariResult_LT.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Commerce",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Commerce_LT_SarkariResult.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21644,12 +21494,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Maths",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Math_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Hindi_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -21714,8 +21564,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/uppsc-lt-grade-teacher-2025/"
+        ]
       }
     },
     {
@@ -21851,8 +21700,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     {
@@ -21943,7 +21791,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SBIPO2026-Prelims-WTRESULT-15_columns.pdf",
+                "url": "https://sbi.bank.in/",
                 "is_pdf": true
               }
             ]
@@ -21983,7 +21831,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SBI_PO_Notification_18062026_1_Detailed_Adv.2026.pdf",
+                "url": "https://sbi.bank.in/",
                 "is_pdf": true
               }
             ]
@@ -21998,8 +21846,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-po-june26/"
+        ]
       }
     },
     {
@@ -22150,7 +21997,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Result%20PDFShortlisted_for_DVPST_M5D7P3JX9K-merged.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -22160,7 +22007,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Cutoff_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -22230,7 +22077,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPP_Constable_Sample_OMR.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -22240,7 +22087,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPP%20Exam%20Date.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -22315,8 +22162,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-police-constable-jan26/"
+        ]
       }
     },
     {
@@ -22331,7 +22177,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "http://www.ssbrectt.gov.in/default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/Circular0__2026_10_14_12_00_16_957.pdf",
+      "pdf_url": "http://www.ssbrectt.gov.in/default.aspx",
       "qualification_level": "10th Pass",
       "sector": "Defence",
       "state": "All India",
@@ -22389,7 +22235,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Circular0__2026_10_14_12_00_16_957.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -22409,7 +22255,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Circular0__2026_07_13_19_32_08_434.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -22439,7 +22285,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/02/Circular0__2026_06_09_19_12_10_467-1.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -22479,7 +22325,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/07/ADVT_338_HC_MIN_2020.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -22494,8 +22340,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/ssb-hc-ministerial-jul21/"
+        ]
       }
     },
     {
@@ -22630,8 +22475,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-nda-ii-exam-2026/"
+        ]
       }
     },
     {
@@ -22707,7 +22551,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSC_CPF_AC_Interview_Schedule_2025.pdf",
+                "url": "https://upsc.gov.in/whats-new",
                 "is_pdf": true
               }
             ]
@@ -22767,8 +22611,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cpf-ac-2024/"
+        ]
       }
     },
     {
@@ -22846,7 +22689,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/rpsc_tgt_vacancy_increase.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/news",
                 "is_pdf": true
               }
             ]
@@ -22896,7 +22739,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RPSC_SR_Teacher_Exam_Date.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/news",
                 "is_pdf": true
               }
             ]
@@ -22931,8 +22774,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-rpsc-senior-teacher-07-2025/"
+        ]
       }
     },
     {
@@ -23014,7 +22856,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_PGT_Agriculture_Result.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23084,7 +22926,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/pgt-sanskrit.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23094,7 +22936,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/pgt-chemistry.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23114,7 +22956,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/result-tgt-english.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23124,7 +22966,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/tgt-english-rejection-notice.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23269,7 +23111,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/Delhi_DSSSB_Nursing_officer_Result_2025.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -23284,7 +23126,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AE_Civil_Post_803_22_Result.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -23754,7 +23596,7 @@ window.PORTAL_DATA = {
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/02/RN0045.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23789,8 +23631,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/dsssb-latest-result/"
+        ]
       }
     },
     {
@@ -23805,7 +23646,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Madhyamic Shiksha Parishad UPMSP",
       "source_url": "https://upmsp.edu.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPBoard_TimeTable_2027_Vigyapti.pdf",
+      "pdf_url": "https://upmsp.edu.in/",
       "qualification_level": "10th Pass",
       "sector": "Education / Admission",
       "state": "Uttar Pradesh",
@@ -23834,7 +23675,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPBoard_TimeTable_2027_Vigyapti.pdf",
+                "url": "https://upmsp.edu.in/",
                 "is_pdf": true
               }
             ]
@@ -23849,8 +23690,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/up-board-exam-2027/"
+        ]
       }
     },
     {
@@ -23933,7 +23773,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -23978,8 +23818,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-moharir-07-2022/"
+        ]
       }
     },
     {
@@ -24072,7 +23911,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Cane_supervisor_Syllabus_By_SarkariResult_Com_Since2012.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -24082,7 +23921,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_13_Exam_2026_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -24097,8 +23936,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-cane-13-exam-2026/"
+        ]
       }
     },
     {
@@ -24221,8 +24059,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/india-post-gds-july2026/"
+        ]
       }
     },
     {
@@ -24237,7 +24074,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "All India Institute of Medical Sciences (AIIMS)",
       "source_url": "https://www.aiimsexams.ac.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_StageII_Result_10102026.pdf",
+      "pdf_url": "https://www.aiimsexams.ac.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Medical / Health",
       "state": "All India",
@@ -24285,7 +24122,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_StageII_Result_10102026.pdf",
+                "url": "https://www.aiimsexams.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -24325,7 +24162,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_11th_Full_Notification.pdf",
+                "url": "https://www.aiimsexams.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -24340,8 +24177,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aiims-norcet-11th-july26/"
+        ]
       }
     },
     {
@@ -24497,8 +24333,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/csbc-bihar-constable-special-01-2026/"
+        ]
       }
     },
     {
@@ -24599,7 +24434,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+                "url": "https://nationalinsurance.nic.co.in/",
                 "is_pdf": true
               }
             ]
@@ -24614,8 +24449,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-assistant-july26/"
+        ]
       }
     },
     {
@@ -24630,7 +24464,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RB_Ajmer_Result_05102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -24689,7 +24523,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_Ajmer_Result_05102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -24804,8 +24638,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-isolated-cen-08-2025/"
+        ]
       }
     },
     {
@@ -24974,7 +24807,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_SSC_Notice_of_adv_steno_2025.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -24984,7 +24817,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC Stenographer Syllabus",
-                "url": "https://doc.sarkariresults.org.in/ssc%20stenographer%20syllabus%20sarkariresult.com%20direct%20link%20pdf.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -24999,8 +24832,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-stenographer-2025/"
+        ]
       }
     },
     {
@@ -25328,7 +25160,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://cdn.rojgarresult.com/wp-content/uploads/2025/06/23200008/SSC_CHSL_Notice_of_adv_chsl_2025.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25343,8 +25175,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-chsl-2025/"
+        ]
       }
     },
     {
@@ -25577,8 +25408,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-mts-2025/"
+        ]
       }
     },
     {
@@ -25593,7 +25423,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://updeled.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.com_UPTET%20RESULT%202021.pdf",
+      "pdf_url": "https://updeled.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -25635,7 +25465,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.com_UPTET%20RESULT%202021.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25680,12 +25510,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Primary",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/01/UPTET_2021_PRIMARY_ANSWER_KEY.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Junior",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/01/UPTET_2021_UPPER_PRIMARY_ANSWER_KEY.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25705,7 +25535,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/UPTET-NOTICE-.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25800,8 +25630,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2021/uptet-november-2021/"
+        ]
       }
     },
     {
@@ -25816,7 +25645,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://www.mha.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+      "pdf_url": "https://www.mha.gov.in/",
       "qualification_level": "10th Pass",
       "sector": "Central Govt",
       "state": "All India",
@@ -25838,13 +25667,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+                "url": "https://www.mha.gov.in/",
                 "is_pdf": true
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf"
+        ]
       }
     },
     {
@@ -25937,7 +25765,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10Exam_2023_Medical_Date.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25947,7 +25775,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC10Exam2023_Result.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25967,7 +25795,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10_Exam_AdmitCard.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -25987,7 +25815,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10-Exam_2023_Eligibility_Result_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26007,7 +25835,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/05/SARKARIRESULT.COM-UPSSSC-FOREST-GUARD-SYLLABUS-2024.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26032,8 +25860,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-forest-10-2023/"
+        ]
       }
     },
     {
@@ -26184,7 +26011,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_PET_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26254,7 +26081,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/DVPST_SHORTLISTED6ab0ebfd-2a09-419f-bbcb-5b51450c85c2.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26274,7 +26101,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/HG_ANSWER_KEY4250ea18-8d87-4470-9fb3-bd116581ca03.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26324,7 +26151,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/PRPB-31-202659d7b0ba32-6635-44e3-a392-b7b0af577ab5%20(1).pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26354,7 +26181,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_Sample_OMR_Sheet.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26449,8 +26276,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/up-police-home-guard-02-2025/"
+        ]
       }
     },
     {
@@ -26465,7 +26291,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -26534,7 +26360,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26544,7 +26370,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result | Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26554,7 +26380,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Mumbai_ALP_CBT_II_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26564,7 +26390,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_ALP_CBT_II_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26739,7 +26565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/rrb-prayagraj.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26854,7 +26680,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/CorrigendumCEN012025ALPEnglish-638824224301710145.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26864,12 +26690,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/FAQ%20CEN%2001-2025%20(ALP)_English.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/RRBA_LP_FAQ_Hindi_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26879,7 +26705,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CEN_01_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26889,7 +26715,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Final_CEN_01_2025_ALP.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -26904,8 +26730,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2025/"
+        ]
       }
     },
     {
@@ -26998,7 +26823,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_04_Exam_2023_Result_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27018,7 +26843,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_Constable.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27028,7 +26853,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/USSSC_04_Exam_2023%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27038,7 +26863,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/CE-03%20Provisional%20Answers%20Master%20Set.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27048,7 +26873,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_Constable_AnswerKey_%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27068,7 +26893,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_ENforcement_Constable_AdmitCard%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27088,7 +26913,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSC_Enforcement_Exam_City.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27108,7 +26933,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_04_Exam_2023_FeePayment_Notice%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27118,7 +26943,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_SarkariResult_COm_Exam_Date.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27173,8 +26998,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-enforcement-04-2023/"
+        ]
       }
     },
     {
@@ -27267,7 +27091,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/04/UPSSSC-Havaldar-Instructor-Notification-2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27282,8 +27106,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-havaldar-11-exam-2026/"
+        ]
       }
     },
     {
@@ -27381,7 +27204,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_UPSSSC_10_Exam_2026_Notification%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27396,8 +27219,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-10-exam-2026/"
+        ]
       }
     }
   ],
@@ -27497,7 +27319,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_UPSSSC_10_Exam_2026_Notification%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27512,8 +27334,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-10-exam-2026/"
+        ]
       }
     },
     "2": {
@@ -27606,7 +27427,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/04/UPSSSC-Havaldar-Instructor-Notification-2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27621,8 +27442,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-havaldar-11-exam-2026/"
+        ]
       }
     },
     "3": {
@@ -27715,7 +27535,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_04_Exam_2023_Result_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27735,7 +27555,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_Constable.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27745,7 +27565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/USSSC_04_Exam_2023%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27755,7 +27575,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/CE-03%20Provisional%20Answers%20Master%20Set.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27765,7 +27585,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_Constable_AnswerKey_%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27785,7 +27605,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_ENforcement_Constable_AdmitCard%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27805,7 +27625,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSC_Enforcement_Exam_City.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27825,7 +27645,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_04_Exam_2023_FeePayment_Notice%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27835,7 +27655,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Enforcement_SarkariResult_COm_Exam_Date.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27890,8 +27710,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-enforcement-04-2023/"
+        ]
       }
     },
     "4": {
@@ -27906,7 +27725,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -27975,7 +27794,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27985,7 +27804,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result | Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -27995,7 +27814,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Mumbai_ALP_CBT_II_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28005,7 +27824,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_ALP_CBT_II_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28180,7 +27999,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/rrb-prayagraj.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28295,7 +28114,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/CorrigendumCEN012025ALPEnglish-638824224301710145.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28305,12 +28124,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/FAQ%20CEN%2001-2025%20(ALP)_English.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/RRBA_LP_FAQ_Hindi_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28320,7 +28139,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CEN_01_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28330,7 +28149,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Final_CEN_01_2025_ALP.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28345,8 +28164,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2025/"
+        ]
       }
     },
     "5": {
@@ -28497,7 +28315,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_PET_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28567,7 +28385,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/DVPST_SHORTLISTED6ab0ebfd-2a09-419f-bbcb-5b51450c85c2.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28587,7 +28405,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/HG_ANSWER_KEY4250ea18-8d87-4470-9fb3-bd116581ca03.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28637,7 +28455,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/PRPB-31-202659d7b0ba32-6635-44e3-a392-b7b0af577ab5%20(1).pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28667,7 +28485,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_Sample_OMR_Sheet.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28762,8 +28580,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/up-police-home-guard-02-2025/"
+        ]
       }
     },
     "6": {
@@ -28856,7 +28673,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10Exam_2023_Medical_Date.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28866,7 +28683,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC10Exam2023_Result.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28886,7 +28703,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10_Exam_AdmitCard.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28906,7 +28723,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_10-Exam_2023_Eligibility_Result_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28926,7 +28743,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/05/SARKARIRESULT.COM-UPSSSC-FOREST-GUARD-SYLLABUS-2024.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -28951,8 +28768,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-forest-10-2023/"
+        ]
       }
     },
     "7": {
@@ -28967,7 +28783,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://www.mha.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+      "pdf_url": "https://www.mha.gov.in/",
       "qualification_level": "10th Pass",
       "sector": "Central Govt",
       "state": "All India",
@@ -28989,13 +28805,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+                "url": "https://www.mha.gov.in/",
                 "is_pdf": true
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf"
+        ]
       }
     },
     "8": {
@@ -29010,7 +28825,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://updeled.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.com_UPTET%20RESULT%202021.pdf",
+      "pdf_url": "https://updeled.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -29052,7 +28867,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.com_UPTET%20RESULT%202021.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29097,12 +28912,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Primary",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/01/UPTET_2021_PRIMARY_ANSWER_KEY.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Junior",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/01/UPTET_2021_UPPER_PRIMARY_ANSWER_KEY.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29122,7 +28937,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/UPTET-NOTICE-.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29217,8 +29032,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2021/uptet-november-2021/"
+        ]
       }
     },
     "9": {
@@ -29451,8 +29265,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-mts-2025/"
+        ]
       }
     },
     "10": {
@@ -29780,7 +29593,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://cdn.rojgarresult.com/wp-content/uploads/2025/06/23200008/SSC_CHSL_Notice_of_adv_chsl_2025.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29795,8 +29608,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-chsl-2025/"
+        ]
       }
     },
     "11": {
@@ -29965,7 +29777,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_SSC_Notice_of_adv_steno_2025.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29975,7 +29787,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC Stenographer Syllabus",
-                "url": "https://doc.sarkariresults.org.in/ssc%20stenographer%20syllabus%20sarkariresult.com%20direct%20link%20pdf.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -29990,8 +29802,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-stenographer-2025/"
+        ]
       }
     },
     "12": {
@@ -30006,7 +29817,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RB_Ajmer_Result_05102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -30065,7 +29876,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_Ajmer_Result_05102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -30180,8 +29991,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-isolated-cen-08-2025/"
+        ]
       }
     },
     "13": {
@@ -30282,7 +30092,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+                "url": "https://nationalinsurance.nic.co.in/",
                 "is_pdf": true
               }
             ]
@@ -30297,8 +30107,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-assistant-july26/"
+        ]
       }
     },
     "14": {
@@ -30454,8 +30263,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/csbc-bihar-constable-special-01-2026/"
+        ]
       }
     },
     "15": {
@@ -30470,7 +30278,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "All India Institute of Medical Sciences (AIIMS)",
       "source_url": "https://www.aiimsexams.ac.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_StageII_Result_10102026.pdf",
+      "pdf_url": "https://www.aiimsexams.ac.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Medical / Health",
       "state": "All India",
@@ -30518,7 +30326,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_StageII_Result_10102026.pdf",
+                "url": "https://www.aiimsexams.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -30558,7 +30366,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/AIIMS_NORCET_11th_Full_Notification.pdf",
+                "url": "https://www.aiimsexams.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -30573,8 +30381,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aiims-norcet-11th-july26/"
+        ]
       }
     },
     "16": {
@@ -30697,8 +30504,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/india-post-gds-july2026/"
+        ]
       }
     },
     "17": {
@@ -30791,7 +30597,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Cane_supervisor_Syllabus_By_SarkariResult_Com_Since2012.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -30801,7 +30607,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_13_Exam_2026_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -30816,8 +30622,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-cane-13-exam-2026/"
+        ]
       }
     },
     "18": {
@@ -30900,7 +30705,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -30945,8 +30750,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-moharir-07-2022/"
+        ]
       }
     },
     "19": {
@@ -30961,7 +30765,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Madhyamic Shiksha Parishad UPMSP",
       "source_url": "https://upmsp.edu.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPBoard_TimeTable_2027_Vigyapti.pdf",
+      "pdf_url": "https://upmsp.edu.in/",
       "qualification_level": "10th Pass",
       "sector": "Education / Admission",
       "state": "Uttar Pradesh",
@@ -30990,7 +30794,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPBoard_TimeTable_2027_Vigyapti.pdf",
+                "url": "https://upmsp.edu.in/",
                 "is_pdf": true
               }
             ]
@@ -31005,8 +30809,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/up-board-exam-2027/"
+        ]
       }
     },
     "20": {
@@ -31088,7 +30891,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_PGT_Agriculture_Result.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31158,7 +30961,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/pgt-sanskrit.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31168,7 +30971,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/pgt-chemistry.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31188,7 +30991,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/result-tgt-english.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31198,7 +31001,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/tgt-english-rejection-notice.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31343,7 +31146,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/Delhi_DSSSB_Nursing_officer_Result_2025.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -31358,7 +31161,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AE_Civil_Post_803_22_Result.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -31828,7 +31631,7 @@ window.PORTAL_DATA = {
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/02/RN0045.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -31863,8 +31666,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/dsssb-latest-result/"
+        ]
       }
     },
     "21": {
@@ -31942,7 +31744,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/rpsc_tgt_vacancy_increase.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/news",
                 "is_pdf": true
               }
             ]
@@ -31992,7 +31794,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RPSC_SR_Teacher_Exam_Date.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/news",
                 "is_pdf": true
               }
             ]
@@ -32027,8 +31829,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-rpsc-senior-teacher-07-2025/"
+        ]
       }
     },
     "22": {
@@ -32104,7 +31905,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSC_CPF_AC_Interview_Schedule_2025.pdf",
+                "url": "https://upsc.gov.in/whats-new",
                 "is_pdf": true
               }
             ]
@@ -32164,8 +31965,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cpf-ac-2024/"
+        ]
       }
     },
     "23": {
@@ -32300,8 +32100,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-nda-ii-exam-2026/"
+        ]
       }
     },
     "24": {
@@ -32316,7 +32115,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "http://www.ssbrectt.gov.in/default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/Circular0__2026_10_14_12_00_16_957.pdf",
+      "pdf_url": "http://www.ssbrectt.gov.in/default.aspx",
       "qualification_level": "10th Pass",
       "sector": "Defence",
       "state": "All India",
@@ -32374,7 +32173,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Circular0__2026_10_14_12_00_16_957.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -32394,7 +32193,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Circular0__2026_07_13_19_32_08_434.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -32424,7 +32223,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/02/Circular0__2026_06_09_19_12_10_467-1.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -32464,7 +32263,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/07/ADVT_338_HC_MIN_2020.pdf",
+                "url": "http://www.ssbrectt.gov.in/default.aspx",
                 "is_pdf": true
               }
             ]
@@ -32479,8 +32278,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/ssb-hc-ministerial-jul21/"
+        ]
       }
     },
     "25": {
@@ -32631,7 +32429,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Result%20PDFShortlisted_for_DVPST_M5D7P3JX9K-merged.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -32641,7 +32439,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Cutoff_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -32711,7 +32509,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPP_Constable_Sample_OMR.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -32721,7 +32519,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPP%20Exam%20Date.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -32796,8 +32594,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-police-constable-jan26/"
+        ]
       }
     },
     "26": {
@@ -32888,7 +32685,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SBIPO2026-Prelims-WTRESULT-15_columns.pdf",
+                "url": "https://sbi.bank.in/",
                 "is_pdf": true
               }
             ]
@@ -32928,7 +32725,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SBI_PO_Notification_18062026_1_Detailed_Adv.2026.pdf",
+                "url": "https://sbi.bank.in/",
                 "is_pdf": true
               }
             ]
@@ -32943,8 +32740,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-po-june26/"
+        ]
       }
     },
     "27": {
@@ -33080,8 +32876,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     "28": {
@@ -33096,7 +32891,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_Final_Result_07102026.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -33144,12 +32939,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Sanskrit",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_Final_Result_07102026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Home Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Home_Science_Final_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33179,12 +32974,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Commerce",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Mains_Exam_Result_Commerce.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Agri / Horti",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Mains_Agriculture_HortiCulture.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33224,7 +33019,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/uppscltcomputer.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33264,7 +33059,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Computer_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33284,7 +33079,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_New_Exam_Date-05May.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33314,7 +33109,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Computer_PaperwithAnswerKey.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33324,7 +33119,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Social Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Grade_Social_SCience_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33344,7 +33139,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Physical Education",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_UPPSC_LT_Computer_Exam_notice.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33354,7 +33149,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Physical Education",
-                "url": "https://www.sarkariresult.com/upload/UPPSC_LT_BPED_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33364,22 +33159,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Horti / Agri",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Agri_Horti_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Music",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Music_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Arts",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Arts_Result%20(1).pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Urdu",
-                "url": "https://doc.sarkariresults.org.in/UPSSC_LT_Urdu_Result.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33389,12 +33184,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_SarkariResult_Com_LT_English.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Biology",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Biology_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33404,22 +33199,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_SarkariResult_COM_Science.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Sanskrit",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Sanskrit_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Home Science",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Home_Science_SarkariResult_LT.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Commerce",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Commerce_LT_SarkariResult.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33429,12 +33224,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Maths",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Math_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_LT_Hindi_Result_2026.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -33499,8 +33294,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/uppsc-lt-grade-teacher-2025/"
+        ]
       }
     },
     "29": {
@@ -33616,8 +33410,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-clerk-backlog-aug26/"
+        ]
       }
     },
     "30": {
@@ -33753,8 +33546,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cds-ii-exam-2026/"
+        ]
       }
     },
     "31": {
@@ -33890,8 +33682,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     "32": {
@@ -33975,22 +33766,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "List 1",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST1_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 2",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_LIST2_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 3",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST3_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "List 4",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_Result_LIST4_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34000,7 +33791,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_GD_writeup_12102026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34050,7 +33841,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_SSC_CTGD_2026_Notice_11042026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34070,7 +33861,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ssc_gd_Syllabus_SarkariResult_Com.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34145,8 +33936,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-gd-2025-exam-2026/"
+        ]
       }
     },
     "33": {
@@ -34247,7 +34037,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/cotcorp_notification_SarkariResult_Com.pdf",
+                "url": "https://cotcorp.org.in/",
                 "is_pdf": true
               }
             ]
@@ -34262,8 +34052,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ccl-various-post-july26/"
+        ]
       }
     },
     "34": {
@@ -34414,7 +34203,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_PET_Notice.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34484,7 +34273,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/DVPST_SHORTLISTED6ab0ebfd-2a09-419f-bbcb-5b51450c85c2.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34504,7 +34293,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/HG_ANSWER_KEY4250ea18-8d87-4470-9fb3-bd116581ca03.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34554,7 +34343,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/PRPB-31-202659d7b0ba32-6635-44e3-a392-b7b0af577ab5%20(1).pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34584,7 +34373,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Police_Home_Guard_Sample_OMR_Sheet.pdf",
+                "url": "https://uppbpb.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34679,8 +34468,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2025/up-police-home-guard-02-2025/"
+        ]
       }
     },
     "35": {
@@ -34784,7 +34572,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Microsoft%20Word%20-%20Final%20Advertisement%20Assistant%20JPA%2024%20july%20-%20Bilingual%20Advertisement_Asst_JPA_UDC_Steno_ICRB_2026_27072026.pdf",
+                "url": "https://www.isro.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -34809,8 +34597,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/isro-various-post-jul26/"
+        ]
       }
     },
     "36": {
@@ -34928,8 +34715,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bob-lbo-aug26/"
+        ]
       }
     },
     "37": {
@@ -35053,8 +34839,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/chhattisgarh-set-jul26/"
+        ]
       }
     },
     "38": {
@@ -35069,7 +34854,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission UPPSC",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -35137,7 +34922,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Question Paper with Answer Key",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_ATP_Pre_QuestionPaper_with_AnswerKey_SarkariResult_Com.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               },
               {
@@ -35212,8 +34997,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uppsc-atp-november25/"
+        ]
       }
     },
     "39": {
@@ -35364,7 +35148,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Delhi_High_Court_2026vacancy_notice_jja_0.pdf",
+                "url": "https://delhihighcourt.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -35379,8 +35163,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/delhi-hc-jja-restorer-feb26/"
+        ]
       }
     },
     "40": {
@@ -35484,7 +35267,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -35509,8 +35292,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     "41": {
@@ -35594,7 +35376,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/09/SSC-CPO-SI-Syllabus-2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -35619,8 +35401,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-cpo-si-capf-2026/"
+        ]
       }
     },
     "42": {
@@ -35714,7 +35495,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_Notice_of_adv_chsl_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -35729,8 +35510,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-chsl-2026-sep/"
+        ]
       }
     },
     "43": {
@@ -35845,8 +35625,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-clerk-16th-august26/"
+        ]
       }
     },
     "44": {
@@ -35861,7 +35640,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Railways",
       "state": "All India",
@@ -35940,7 +35719,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -35960,7 +35739,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SarkariResult-RRB_Technician_Detailed_CEN_02_20262.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36000,8 +35779,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2026/"
+        ]
       }
     },
     "45": {
@@ -36016,7 +35794,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Diploma / Engineering",
       "sector": "Railways",
       "state": "All India",
@@ -36075,7 +35853,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36095,7 +35873,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Application_Status_2026_07102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36105,7 +35883,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36115,7 +35893,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_JE_Exam_Date_16092026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36135,7 +35913,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Vacancy_Increase_Notice.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36145,7 +35923,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Syllabus_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36155,7 +35933,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Zone_Wise_Vacancy_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36165,7 +35943,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Post_Wise_Eligibility_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36175,7 +35953,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Notification_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -36190,8 +35968,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-junior-engineer-cen-04-2026/"
+        ]
       }
     },
     "46": {
@@ -36295,7 +36072,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/07/SKAU-Syllabus-2026.pdf",
+                "url": "https://skau.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -36310,8 +36087,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/skau-non-teaching-post-july26/"
+        ]
       }
     },
     "47": {
@@ -36326,7 +36102,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -36425,7 +36201,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36445,7 +36221,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36460,8 +36236,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/"
+        ]
       }
     },
     "48": {
@@ -36476,7 +36251,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Government Recruitment Commission",
       "source_url": "https://upcisb.upsdc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
+      "pdf_url": "https://upcisb.upsdc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -36535,7 +36310,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NoticeBoard-8.pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36555,7 +36330,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NoticeBoard.pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36565,7 +36340,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Cooperative_Bank_SyllabusMay26%20(1).pdf",
+                "url": "https://upcisb.upsdc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36580,8 +36355,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upcisb-various-post-may26/"
+        ]
       }
     },
     "49": {
@@ -36596,7 +36370,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar Public Service Commission (BPSC)",
       "source_url": "https://bpsc.bihar.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
+      "pdf_url": "https://bpsc.bihar.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Banking",
       "state": "Bihar",
@@ -36644,7 +36418,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC3-merged.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36704,7 +36478,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC_SarkariResult.Com_SarkariResult_Advertisement-Integrated-72th-CCE-PT_BPSC-20260505.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36714,7 +36488,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/BPSC_70th_SarkariResult_Com_Syllabus-CC-Exam-Updated.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36729,8 +36503,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-72-pre-exam-2026/"
+        ]
       }
     },
     "50": {
@@ -36854,7 +36627,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC CGL Tier I & II Syllabus",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/06/SarkariResult.Com-SSC-CGL-New-Syllabus-2024-for-tier-ii-and-tier-New-New.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -36869,8 +36642,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-cgl-2026/"
+        ]
       }
     },
     "51": {
@@ -37036,8 +36808,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/delhi-hc-hjs-july26/"
+        ]
       }
     },
     "52": {
@@ -37145,8 +36916,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-high-court-july26/"
+        ]
       }
     },
     "53": {
@@ -37254,8 +37024,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aai-manager-junior-executive-july26/"
+        ]
       }
     },
     "54": {
@@ -37342,7 +37111,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -37352,7 +37121,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_NOTIFICATION.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -37362,7 +37131,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_2026_JHTET_PRESS_ADV.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -37377,8 +37146,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/jac-jhtet-2026/"
+        ]
       }
     },
     "55": {
@@ -37484,8 +37252,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uiic-ao-sep26/"
+        ]
       }
     },
     "56": {
@@ -37500,7 +37267,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Bihar",
@@ -37589,7 +37356,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -37599,7 +37366,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -37614,8 +37381,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
+        ]
       }
     },
     "57": {
@@ -37731,8 +37497,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sbi-clerk-backlog-aug26/"
+        ]
       }
     },
     "58": {
@@ -37747,7 +37512,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -37816,7 +37581,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CBAT_ExamDate_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -37826,7 +37591,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result | Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_CBT_Result_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -37836,7 +37601,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Mumbai_ALP_CBT_II_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -37846,7 +37611,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_ALP_CBT_II_01102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38021,7 +37786,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/rrb-prayagraj.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38136,7 +37901,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/CorrigendumCEN012025ALPEnglish-638824224301710145.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38146,12 +37911,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/FAQ%20CEN%2001-2025%20(ALP)_English.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/RRBA_LP_FAQ_Hindi_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38161,7 +37926,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_CEN_01_2025.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38171,7 +37936,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Final_CEN_01_2025_ALP.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -38186,8 +37951,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2025/"
+        ]
       }
     },
     "59": {
@@ -38202,7 +37966,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Madhya Pradesh Public Service Commission (MPPSC)",
       "source_url": "https://mppsc.mp.gov.in/Applyonline",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_MPPSC_ADPPO_Exam_2026%20(1).pdf",
+      "pdf_url": "https://mppsc.mp.gov.in/Applyonline",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Madhya Pradesh",
@@ -38261,7 +38025,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_MPPSC_ADPPO_Exam_2026%20(1).pdf",
+                "url": "https://mppsc.mp.gov.in/Applyonline",
                 "is_pdf": true
               }
             ]
@@ -38291,7 +38055,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Corrigendum_01_03_2026_Dated_06_07_2026-1.pdf",
+                "url": "https://mppsc.mp.gov.in/Applyonline",
                 "is_pdf": true
               }
             ]
@@ -38316,8 +38080,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/mp/mppsc-adpo-2026/"
+        ]
       }
     },
     "60": {
@@ -38453,8 +38216,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ibps-so-16th-june26/"
+        ]
       }
     },
     "61": {
@@ -38485,8 +38247,7 @@ window.PORTAL_DATA = {
         "application_fee": [],
         "age_limit": [],
         "total_vacancy": "",
-        "important_links": [],
-        "sarkariresult_url": "https://tinyurl.com/mrxs93fc"
+        "important_links": []
       }
     },
     "62": {
@@ -38501,7 +38262,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "National Insurance Company Limited (NICL)",
       "source_url": "https://nationalinsurance.nic.co.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+      "pdf_url": "https://nationalinsurance.nic.co.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India",
@@ -38587,7 +38348,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+                "url": "https://nationalinsurance.nic.co.in/",
                 "is_pdf": true
               }
             ]
@@ -38602,8 +38363,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-assistant-july26/"
+        ]
       }
     },
     "63": {
@@ -38618,7 +38378,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Indian Railway, Railway Recruitment Board RRB",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Diploma / Engineering",
       "sector": "Railways",
       "state": "All India",
@@ -38677,7 +38437,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Exam_City_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38697,7 +38457,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Application_Status_2026_07102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38707,7 +38467,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Revised-Schedule_02102026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38717,7 +38477,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RB_JE_Exam_Date_16092026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38737,7 +38497,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Vacancy_Increase_Notice.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38747,7 +38507,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Syllabus_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38757,7 +38517,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Zone_Wise_Vacancy_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38767,7 +38527,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Post_Wise_Eligibility_Details.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38777,7 +38537,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_JE_Full_Notification_2026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -38792,8 +38552,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-junior-engineer-cen-04-2026/"
+        ]
       }
     },
     "64": {
@@ -38808,7 +38567,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Bihar",
@@ -38897,7 +38656,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%202026%20Advt.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -38907,7 +38666,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/STET%20Application%20Form%202026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -38922,8 +38681,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bseb-stet-august26/"
+        ]
       }
     },
     "65": {
@@ -39076,7 +38834,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upsssc-Pet_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39086,7 +38844,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39101,8 +38859,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
+        ]
       }
     },
     "66": {
@@ -39206,7 +38963,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39231,8 +38988,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     "67": {
@@ -39332,7 +39088,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariREsult.Com_UP_Special_TET_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39347,8 +39103,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-special-tet-exam/"
+        ]
       }
     },
     "68": {
@@ -39363,7 +39118,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Public Service Commission (UPPSC)",
       "source_url": "https://uppsc.up.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPPSC_Scientific%20Officer_Exam_Date.pdf",
+      "pdf_url": "https://uppsc.up.nic.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Banking",
       "state": "Uttar Pradesh",
@@ -39441,7 +39196,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Scientific%20Officer_Exam_Date.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -39451,7 +39206,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPPSC_Unani_Medical_Officer.pdf",
+                "url": "https://uppsc.up.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -39551,8 +39306,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2023/uppsc-various-june23/"
+        ]
       }
     },
     "69": {
@@ -39567,7 +39321,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -39636,7 +39390,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_Application_Status_14102026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39691,7 +39445,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/RRB_ALP_CEN_01_2026_Syllabus.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39701,7 +39455,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_ALP_SarkariResult.Com_CEN%2001-2026%20Eng-639143539720035538.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -39716,8 +39470,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-alp-cen-01-2026/"
+        ]
       }
     },
     "70": {
@@ -39825,8 +39578,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bank-of-baroda-so-august26/"
+        ]
       }
     },
     "71": {
@@ -39841,7 +39593,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "Graduate",
       "sector": "Education / Admission",
       "state": "Bihar",
@@ -39896,7 +39648,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -39911,8 +39663,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/blet-september26/"
+        ]
       }
     },
     "72": {
@@ -39927,7 +39678,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Chhatrapati Shahu Ji Maharaj University, Kanpur",
       "source_url": "https://csjmu.ac.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/980.-Advertisement-For-Teaching-post.pdf",
+      "pdf_url": "https://csjmu.ac.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "All India",
@@ -39981,7 +39732,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/980.-Advertisement-For-Teaching-post.pdf",
+                "url": "https://csjmu.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -39996,8 +39747,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/csjmu-kanpur-teaching-oct26/"
+        ]
       }
     },
     "73": {
@@ -40012,7 +39762,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Delhi Subordinate Service Selection Board (DSSSB)",
       "source_url": "https://dsssb.delhi.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/final_adv_1.pdf",
+      "pdf_url": "https://dsssb.delhi.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Defence",
       "state": "Delhi",
@@ -40070,7 +39820,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/final_adv_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -40085,8 +39835,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/dsssb-various-post-oct26/"
+        ]
       }
     },
     "74": {
@@ -40177,8 +39926,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mphc-stenographer-grade-ii-666-exam/"
+        ]
       }
     },
     "75": {
@@ -40264,8 +40012,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-junior-court-assistant-sep26/"
+        ]
       }
     },
     "76": {
@@ -40351,8 +40098,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nicl-ao-oct2026/"
+        ]
       }
     },
     "77": {
@@ -40367,7 +40113,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_NTPC_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -40426,7 +40172,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_06_2026_Exam_Date.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -40436,7 +40182,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Zone_Wise_Vacancy_CEN_062026.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -40446,7 +40192,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_RRB_NTPC_CEN_06_2026_Notification.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -40461,8 +40207,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-ntpc-graduate-cen-06-2026/"
+        ]
       }
     },
     "78": {
@@ -40477,7 +40222,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Join Indian Army",
       "source_url": "https://joinindianarmy.nic.in/index.htm",
-      "pdf_url": "https://doc.sarkariresults.org.in/Army_TGC_145_Notification.pdf",
+      "pdf_url": "https://joinindianarmy.nic.in/index.htm",
       "qualification_level": "ITI / Diploma",
       "sector": "Defence",
       "state": "All India",
@@ -40528,7 +40273,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Army_TGC_145_Notification.pdf",
+                "url": "https://joinindianarmy.nic.in/index.htm",
                 "is_pdf": true
               }
             ]
@@ -40543,8 +40288,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/army-tgc-145-sep26/"
+        ]
       }
     },
     "79": {
@@ -40632,8 +40376,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/nta-csir-ugc-net-dec2026/"
+        ]
       }
     },
     "80": {
@@ -40721,8 +40464,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/nta-ugc-net-december2026/"
+        ]
       }
     },
     "81": {
@@ -40810,8 +40552,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-junior-engg-adv-24-exam/"
+        ]
       }
     },
     "82": {
@@ -40826,7 +40567,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_JE_Electrical_Notification_Oct26.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Diploma / Engineering",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -40884,7 +40625,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_JE_Electrical_Notification_Oct26.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -40899,8 +40640,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-cje-electrical-adv-25-exam/"
+        ]
       }
     },
     "83": {
@@ -40988,8 +40728,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/delhi-dsssb-advt-no-05-2026/"
+        ]
       }
     },
     "84": {
@@ -41087,8 +40826,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group-3-sub-engineer-august26/"
+        ]
       }
     },
     "85": {
@@ -41174,8 +40912,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-senior-personal-assistant-oct26/"
+        ]
       }
     },
     "86": {
@@ -41261,8 +40998,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-anganwadi-worker/"
+        ]
       }
     },
     "87": {
@@ -41277,7 +41013,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Railways",
       "state": "All India",
@@ -41336,7 +41072,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Railway_Paramedical_CEN_05_2026_Notification.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41346,7 +41082,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_CEN_05_2026_FAQ.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41361,8 +41097,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/railway-rrb-paramedical-cen-05-2026/"
+        ]
       }
     },
     "88": {
@@ -41453,7 +41188,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/bpsc_Syllabus_TRE_SarkariResult.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41483,7 +41218,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Bihar_STET_Self_Declaration_Format_Form_Download.pdf",
+                "url": "https://bpsc.bihar.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41528,8 +41263,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/bpsc-tre-4-2026/"
+        ]
       }
     },
     "89": {
@@ -41544,7 +41278,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Army Recruitment (Join Indian Army)",
       "source_url": "http://joinindianarmy.nic.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
+      "pdf_url": "http://joinindianarmy.nic.in/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "All India",
@@ -41599,7 +41333,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Army_NOTIFICATION_OF_TES-57.pdf",
+                "url": "http://joinindianarmy.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -41614,8 +41348,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/army-tes-57th-oct26/"
+        ]
       }
     },
     "90": {
@@ -41630,7 +41363,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://www.rrbapply.gov.in/#/auth/landing",
-      "pdf_url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
+      "pdf_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "qualification_level": "12th Pass",
       "sector": "Railways",
       "state": "All India",
@@ -41689,7 +41422,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_07_2026_Syllabus%20(1).pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -41699,7 +41432,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Railway_CEN_07_2026_Notification.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -41709,7 +41442,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_CEN_07_2026_Zone_WiseVacancy.pdf",
+                "url": "https://www.rrbapply.gov.in/#/auth/landing",
                 "is_pdf": true
               }
             ]
@@ -41724,8 +41457,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/railway-rrb-ntpc-ug-level-07-2026/"
+        ]
       }
     },
     "91": {
@@ -41813,7 +41545,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41823,7 +41555,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/District.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41833,7 +41565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Primary_teacher_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -41848,8 +41580,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-primary-teacher-05-2026/"
+        ]
       }
     },
     "92": {
@@ -41935,8 +41666,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/supreme-court-of-india-jca-oct26/"
+        ]
       }
     },
     "93": {
@@ -42023,8 +41753,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-mpp-constable-driver-oct26/"
+        ]
       }
     },
     "94": {
@@ -42039,7 +41768,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -42097,7 +41826,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc-26exam-2026-notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -42112,8 +41841,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-lower-pcs-26-exam-oct26/"
+        ]
       }
     },
     "95": {
@@ -42199,8 +41927,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/cwc-am-je-oct26/"
+        ]
       }
     },
     "96": {
@@ -42295,8 +42022,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/icsil-data-entry-operator-deo-oct26/"
+        ]
       }
     },
     "97": {
@@ -42382,8 +42108,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sci-court-master-oct26/"
+        ]
       }
     },
     "98": {
@@ -42398,7 +42123,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -42457,7 +42182,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Link Will be Activate on 27/10/2026",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -42472,8 +42197,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-station-master-08-26/"
+        ]
       }
     },
     "99": {
@@ -42488,7 +42212,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/ViewPdf-1.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -42546,7 +42270,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/ViewPdf-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -42561,8 +42285,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-23-exam-2026/"
+        ]
       }
     },
     "100": {
@@ -42650,8 +42373,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bhel-artisan-various-trade-oct26/"
+        ]
       }
     },
     "101": {
@@ -42735,8 +42457,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nwr-rrc-jaipur-apprentices-04-2026/"
+        ]
       }
     },
     "102": {
@@ -42751,7 +42472,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_Principal_SchoolWise_Vacancy_SarkariResult_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -42809,7 +42530,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Principal_SchoolWise_Vacancy_SarkariResult_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -42819,7 +42540,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Principal_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -42834,8 +42555,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-principal-08-2026/"
+        ]
       }
     },
     "103": {
@@ -42933,8 +42653,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/lic-hfl-apprentice-oct26/"
+        ]
       }
     },
     "104": {
@@ -42949,7 +42668,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Sarkariresult.com_School_WiseVacancy_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -43007,7 +42726,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Sarkariresult.com_School_WiseVacancy_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -43017,7 +42736,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_Head_Master_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -43032,8 +42751,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-headmaster-09-2026/"
+        ]
       }
     },
     "105": {
@@ -43048,7 +42766,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPESSC_TGT_NOtification_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Post Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -43106,7 +42824,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_TGT_Subject_Wise_Eligibility_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -43116,7 +42834,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPESSC_TGT_NOtification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -43131,8 +42849,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-tgt-07-2026/"
+        ]
       }
     },
     "106": {
@@ -43373,32 +43090,32 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "C",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/csir-net-ugc-syllabus-for-chemical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "hemical Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/csir-net-ugc-syllabus-for-chemical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Earth Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Earth-Sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Life Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Life-Sciens.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Mathematics Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/Mathematical-Sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               },
               {
                 "text": "Physical Science",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2021/12/physical-sciences.pdf",
+                "url": "https://csirnet.nta.nic.in/",
                 "is_pdf": true
               }
             ]
@@ -43413,8 +43130,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-csir-net-june2026/"
+        ]
       }
     },
     "107": {
@@ -43542,8 +43258,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/bsnl-jto-2026/"
+        ]
       }
     },
     "108": {
@@ -43558,7 +43273,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Board of Secondary Education, BSEH Haryana",
       "source_url": "https://bseh.org.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/HTETAnswerkey2026.pdf",
+      "pdf_url": "https://bseh.org.in/",
       "qualification_level": "12th Pass",
       "sector": "Defence",
       "state": "Haryana",
@@ -43660,7 +43375,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/HTETAnswerkey2026.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -43730,7 +43445,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/04/HTET-Syllabus-2026.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -43745,8 +43460,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/htet-dec-2025/"
+        ]
       }
     },
     "109": {
@@ -43957,8 +43671,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-aiapget-admissions-july26/"
+        ]
       }
     },
     "110": {
@@ -44072,7 +43785,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/RPSC_APO_2026_Notification_SarkariREsult_Com.pdf",
+                "url": "https://rpsc.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44087,8 +43800,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rpsc-apo-june26/"
+        ]
       }
     },
     "111": {
@@ -44103,7 +43815,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RRB_Group_Form_Status.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "Uttar Pradesh",
@@ -44182,7 +43894,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Wise_Data.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44212,7 +43924,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RRB_Group_Form_Status.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44282,7 +43994,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%20092025%20Zone%20Wise%20Vacancy%20SarkariResult_Com.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44292,7 +44004,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%20092025%20SarkariResult_Com.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44307,8 +44019,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-group-d-cen-09-2025/"
+        ]
       }
     },
     "112": {
@@ -44605,8 +44316,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-ugc-net-june-2026/"
+        ]
       }
     },
     "113": {
@@ -44705,7 +44415,7 @@ window.PORTAL_DATA = {
               },
               {
                 "text": "Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AnswerKey.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44725,7 +44435,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_SarkariResult.Com_Exam_Date_Sep26notification_2.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44775,7 +44485,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_SarkariResult.Com_Exam_Date_Sep26notification_2.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44815,7 +44525,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/notification_for_during_feb_to_may_2026_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44835,7 +44545,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_scan20250604_0434_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44845,7 +44555,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_JUNE_JUly_scan20250523_0305_1.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44855,7 +44565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Notice",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_AnswerKey_April_Exam.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               },
               {
@@ -44890,7 +44600,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/scan20250326_0229_1%20(1).pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44900,7 +44610,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/DSSSB_Various_Post_Exam_Date_2025.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -44980,7 +44690,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com%20DSSSB%20Exam%20Date%20August%202024.pdf",
+                "url": "https://dsssb.delhi.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45135,8 +44845,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/delhi/dsssb-admit-card-download/"
+        ]
       }
     },
     "114": {
@@ -45151,7 +44860,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Assistant_Boring_Technician_Revised_AnswerKey_12092026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -45199,7 +44908,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Assistant_Boring_Technician_Revised_AnswerKey_12092026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45299,7 +45008,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPSSSC04Exam2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45314,8 +45023,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-asst-boring-tech-04-2026/"
+        ]
       }
     },
     "115": {
@@ -45330,7 +45038,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Teacher_Cadre_Revised_AnswerKey.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -45378,7 +45086,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Teacher_Cadre_Revised_AnswerKey.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45463,7 +45171,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/UPSSSC_EligibilityResult_JTC.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45483,7 +45191,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPSSSC_03_Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45498,8 +45206,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-teacher-03-exam-2026/"
+        ]
       }
     },
     "116": {
@@ -45634,8 +45341,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-nda-ii-exam-2026/"
+        ]
       }
     },
     "117": {
@@ -45771,8 +45477,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsc/upsc-cds-ii-exam-2026/"
+        ]
       }
     },
     "118": {
@@ -45901,7 +45606,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RSSB_Computer_Instructor_2026.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -45916,8 +45621,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/rpsc/rssb-computer-instructor-07-2026/"
+        ]
       }
     },
     "119": {
@@ -46128,8 +45832,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-aiapget-admissions-july26/"
+        ]
       }
     },
     "120": {
@@ -46247,8 +45950,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group2-sub1-krashi-vistar/"
+        ]
       }
     },
     "121": {
@@ -46381,7 +46083,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2024/06/SARKARIRESULT.COM-BSF-HC-ASI-NOTICE-2024_compressed.pdf",
+                "url": "https://bsf.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -46396,8 +46098,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/bsf-hcmin-asisteno-june24/"
+        ]
       }
     },
     "122": {
@@ -46533,8 +46234,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-jht-2026/"
+        ]
       }
     },
     "123": {
@@ -46712,7 +46412,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult_UPSSSC_Excise_Constable_Syllabus2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -46722,7 +46422,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_UPSSSC_Excise_Constable_08Exam2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -46737,8 +46437,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-excise-constable-08-exam2026/"
+        ]
       }
     },
     "124": {
@@ -46901,7 +46600,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -46936,8 +46635,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-pharmaceutical-01-2024/"
+        ]
       }
     },
     "125": {
@@ -47071,7 +46769,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_SSC_Stenographer_Notification_Notice_of_adv_steno_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47081,7 +46779,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "SSC Stenographer Syllabus",
-                "url": "https://doc.sarkariresults.org.in/ssc%20stenographer%20syllabus%20sarkariresult.com%20direct%20link%20pdf.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47096,8 +46794,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-stenographer-2026/"
+        ]
       }
     },
     "126": {
@@ -47223,8 +46920,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/patna-high-court-july26/"
+        ]
       }
     },
     "127": {
@@ -47239,7 +46935,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/rb_ntpc_aNSWERKEY.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Railways",
       "state": "All India",
@@ -47298,7 +46994,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/rb_ntpc_aNSWERKEY.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47338,7 +47034,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Secunderabad_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47348,12 +47044,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_AJMER_NTPC_UG_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_ntpc_aJMER_cUTOFF_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47363,12 +47059,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Bhopal_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_BhopalUG_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47378,12 +47074,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Bengaluru_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRBBengaluru_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47393,12 +47089,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Malda_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Malda_NTPC_UG_Cutopff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47408,7 +47104,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Prayagraj_result_Cutoff_NTPC_UG2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47418,12 +47114,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Patna_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Patna_NTPC_UG_Cutoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47433,7 +47129,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_MumbaI_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47443,7 +47139,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Jammu_NTPC_UG_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47453,12 +47149,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chennai_UG_Result_NTPC_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_cHENNAI_cUTOFF_ntpc_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47468,12 +47164,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/rrb_kOLKATA_ntpc_ug_rESULT_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/rrb_kOLKATA-ntpc_ug2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47483,7 +47179,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bhubaneshwar_NTPC_UG_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47493,7 +47189,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Guwahati_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
@@ -47508,7 +47204,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result & Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Ranchi_Result_Cutoff_NTPC_UG_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47518,12 +47214,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chandigarh_NTPC_Result_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Chandigarh_NTPC_CUtoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47533,12 +47229,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Thrivandram_NTPC_UG_CBT1_result_pub_report.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_THrivdanram_NTPC_Cutoff_2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47548,12 +47244,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Result_2026.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_GKP_NTPCUGResult2408%20(1).pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47563,12 +47259,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_Siliguri_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Siliguri_Cutoff-NTPC2508.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47578,12 +47274,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_MuzaffarPur_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/RRB_Muzaffarpur_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47593,12 +47289,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Ahemdabad_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/RRB_Ahemdabad_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47608,12 +47304,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Result",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bilaspur_072025_Result.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Cutoff",
-                "url": "https://doc.sarkariresults.org.in/RRB_Bilaspur_072025_Cutoff.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47633,7 +47329,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_NTPC_UG_Phase_II_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47658,7 +47354,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/Objection-Tracker-CEN-07-2025-Hindi-Notice-1.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47698,7 +47394,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_CEN-07-2025-Tentative-Schedule-Eng-1.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47718,7 +47414,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB%20CEN%2007_2025_Application_Status.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47788,8 +47484,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-ntpc-ug-07-2025/"
+        ]
       }
     },
     "128": {
@@ -47893,7 +47588,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Microsoft%20Word%20-%20Final%20Advertisement%20Assistant%20JPA%2024%20july%20-%20Bilingual%20Advertisement_Asst_JPA_UDC_Steno_ICRB_2026_27072026.pdf",
+                "url": "https://www.isro.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -47918,8 +47613,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/isro-various-post-jul26/"
+        ]
       }
     },
     "129": {
@@ -48028,7 +47722,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Split-SarkariResult-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -48038,7 +47732,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -48048,7 +47742,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UPESSC_Principal_02_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -48063,8 +47757,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-principal-02-2026/"
+        ]
       }
     },
     "130": {
@@ -48182,8 +47875,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/indian-air-force-medical-assistant/"
+        ]
       }
     },
     "131": {
@@ -48300,8 +47992,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/force/indian-airforce-agniveervayu-02-2027/"
+        ]
       }
     },
     "132": {
@@ -48464,7 +48155,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -48489,8 +48180,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-paramedical-fsl-15-exam-2026/"
+        ]
       }
     },
     "133": {
@@ -48653,7 +48343,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_forest_Guard_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -48678,8 +48368,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-forest-guard-12-exam-2026/"
+        ]
       }
     },
     "134": {
@@ -48808,8 +48497,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nbe-various-post-june26/"
+        ]
       }
     },
     "135": {
@@ -48824,7 +48512,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttarakhand Board of School Education (UBSE)",
       "source_url": "https://ukutet.com/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
+      "pdf_url": "https://ukutet.com/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttarakhand",
@@ -48896,7 +48584,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
+                "url": "https://ukutet.com/",
                 "is_pdf": true
               }
             ]
@@ -48911,8 +48599,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uttarakhand-utet-2026/"
+        ]
       }
     },
     "136": {
@@ -49037,7 +48724,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Revised%20Notification%20SET-2016%2027-Jun-2026%2012-56-19.pdf",
+                "url": "https://uok.ac.in/category.php?catid=89&pageid=721&page=SET%20Examination%202026",
                 "is_pdf": true
               }
             ]
@@ -49062,8 +48749,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rajasthan-set-jun/"
+        ]
       }
     },
     "137": {
@@ -49191,8 +48877,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/mpesb-group2-subgroup-4-aug26/"
+        ]
       }
     },
     "138": {
@@ -49316,7 +49001,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_SSC_Selection_Post_Notice_of_RHQ_2026_phase_xiv.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49336,7 +49021,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresults.org.in/wp-content/uploads/2022/05/ssc-selection-syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49351,8 +49036,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/ssc/ssc-selection-post-14th-2026/"
+        ]
       }
     },
     "139": {
@@ -49367,7 +49051,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "qualification_level": "ITI / Diploma",
       "sector": "Railways",
       "state": "All India",
@@ -49446,7 +49130,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Technician_CEN_06_2026_Exam_Date.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49466,7 +49150,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/SarkariResult-RRB_Technician_Detailed_CEN_02_20262.pdf",
+                "url": "https://indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49506,8 +49190,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2026/"
+        ]
       }
     },
     "140": {
@@ -49522,7 +49205,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Railway Recruitment Boards (RRB)",
       "source_url": "https://rrb.indianrailways.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+      "pdf_url": "https://rrb.indianrailways.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Railways",
       "state": "All India",
@@ -49621,7 +49304,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RRB_Section_Controller_Exam_Date_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49641,7 +49324,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.COM_CEN03_2026.pdf",
+                "url": "https://rrb.indianrailways.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49656,8 +49339,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/"
+        ]
       }
     },
     "141": {
@@ -49672,7 +49354,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/upload/UPTET_2026_Primary_Syllabus_SarkariResult_Com_compressed.pdf",
+      "pdf_url": "https://updeled.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -49794,7 +49476,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/SarkariResult.Com_UPTET_Junior_Level_Final_AnswerKye.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49804,7 +49486,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/08/UPTET-2026-Final-Answer-Key-with-Question-Paper-Primary-Level.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49864,7 +49546,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/uptet_exam_city_Notice_20269c8e-14b0-4277-4524-50a4.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49914,7 +49596,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Notification_SR.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49924,12 +49606,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Primary",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Primary_Syllabus_SarkariResult_Com_compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Junior",
-                "url": "https://www.sarkariresult.com/upload/UPTET_2026_Junior_Level_Syllabus_compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -49954,8 +49636,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uptet-2026/"
+        ]
       }
     },
     "142": {
@@ -49970,7 +49651,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Jharkhand Academic Council",
       "source_url": "https://jacexamportal.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+      "pdf_url": "https://bseh.org.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Haryana",
@@ -50042,7 +49723,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_SYLLABUS.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -50052,7 +49733,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Sarkari_Result_2026_JHTET_NOTIFICATION.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -50062,7 +49743,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/Sarkari_Result_2026_JHTET_PRESS_ADV.pdf",
+                "url": "https://bseh.org.in/",
                 "is_pdf": true
               }
             ]
@@ -50077,8 +49758,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/jac-jhtet-2026/"
+        ]
       }
     },
     "143": {
@@ -50093,7 +49773,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Patna High Court PHC",
       "source_url": "https://patnahighcourt.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_PHC_TA_Syllabus.pdf",
+      "pdf_url": "https://patnahighcourt.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Judiciary",
       "state": "Bihar",
@@ -50151,7 +49831,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_PHC_TA_Syllabus.pdf",
+                "url": "https://patnahighcourt.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50176,8 +49856,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/bihar/phc-technical-assistant-01-2026/"
+        ]
       }
     },
     "144": {
@@ -50192,7 +49871,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Madhya Pradesh Employees Selection Board (MPESB)",
       "source_url": "https://esb.mp.gov.in/e_default.html",
-      "pdf_url": "https://www.sarkariresult.com/upload/SarkariResult.Com_MP_Nursing_officer_Tutor_Mar26_Syllabus.pdf",
+      "pdf_url": "https://esb.mp.gov.in/e_default.html",
       "qualification_level": "Medical / Nursing",
       "sector": "Education / Admission",
       "state": "Madhya Pradesh",
@@ -50270,7 +49949,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/SarkariResult.Com_MP_Nursing_officer_Tutor_Mar26_Syllabus.pdf",
+                "url": "https://esb.mp.gov.in/e_default.html",
                 "is_pdf": true
               }
             ]
@@ -50280,7 +49959,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_Health_Nursing_2026RuleBook02_04_2026.pdf",
+                "url": "https://esb.mp.gov.in/e_default.html",
                 "is_pdf": true
               }
             ]
@@ -50295,8 +49974,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/mp/mpesb-nursing-officer-tutor-mar26/"
+        ]
       }
     },
     "145": {
@@ -50311,7 +49989,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/sarkariresult.com_UP_VidhabBhawan_Guard_Fireman_Syllabus_2026-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -50374,7 +50052,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/sarkariresult.com_UP_VidhabBhawan_Guard_Fireman_Syllabus_2026-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50384,7 +50062,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/upload/sarkariresult.com_UPSSSC_09Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50399,8 +50077,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-vidhan-09-exam-2026/"
+        ]
       }
     },
     "146": {
@@ -50415,7 +50092,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Allahabad High Court",
       "source_url": "https://www.allahabadhighcourt.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/ahc_ro-aro-ca-syllabus_2026.pdf",
+      "pdf_url": "https://www.allahabadhighcourt.in/",
       "qualification_level": "Graduate",
       "sector": "Judiciary",
       "state": "Uttar Pradesh",
@@ -50473,7 +50150,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ahc_ro-aro-ca-syllabus_2026.pdf",
+                "url": "https://www.allahabadhighcourt.in/",
                 "is_pdf": true
               }
             ]
@@ -50493,7 +50170,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/ahc_ro_aro_ca_2026.pdf",
+                "url": "https://www.allahabadhighcourt.in/",
                 "is_pdf": true
               }
             ]
@@ -50508,8 +50185,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ahc-ro-aro-ca-june2026/"
+        ]
       }
     },
     "147": {
@@ -50524,7 +50200,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc14exam2026_syllabus_compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -50602,7 +50278,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/UPSSSC_14_Exam_2026_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50612,7 +50288,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc14exam2026_syllabus_compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50627,8 +50303,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-14-exam-2026/"
+        ]
       }
     },
     "148": {
@@ -50643,7 +50318,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/RSSB-CET_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://rssb.rajasthan.gov.in/",
       "qualification_level": "12th Pass",
       "sector": "Banking",
       "state": "Rajasthan",
@@ -50702,7 +50377,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/RSSB-CET_Syllabus_2026%20(1).pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50712,7 +50387,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/RSSB-CET.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50727,8 +50402,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rssb-cet-june26/"
+        ]
       }
     },
     "149": {
@@ -50743,7 +50417,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -50891,7 +50565,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_Pharmacist_Ayurved_2024_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -50926,8 +50600,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-pharmaceutical-01-2024/"
+        ]
       }
     },
     "150": {
@@ -50942,7 +50615,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Rajasthan Staff Selection Board (RSSB)",
       "source_url": "https://rssb.rajasthan.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_Syllabus-PDF.pdf",
+      "pdf_url": "https://rssb.rajasthan.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Banking",
       "state": "Rajasthan",
@@ -51001,7 +50674,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_2026.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51011,7 +50684,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_Syllabus-PDF.pdf",
+                "url": "https://rssb.rajasthan.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51026,8 +50699,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/rssb-cet-graduate-level-july26/"
+        ]
       }
     },
     "151": {
@@ -51042,7 +50714,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "http://upsssc.gov.in/Default.aspx",
-      "pdf_url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -51110,7 +50782,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/upsssc_moharir_Mains_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51155,8 +50827,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/upsssc/upsssc-moharir-07-2022/"
+        ]
       }
     },
     "152": {
@@ -51171,7 +50842,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission UPESSC",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -51265,7 +50936,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/Split-SarkariResult-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51275,7 +50946,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51285,7 +50956,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UPESSC_Principal_02_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51300,8 +50971,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-principal-02-2026/"
+        ]
       }
     },
     "153": {
@@ -51425,8 +51095,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/clat-admission-jul26/"
+        ]
       }
     },
     "154": {
@@ -51441,7 +51110,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -51579,7 +51248,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upsssc-Pet_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51589,7 +51258,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51604,8 +51273,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-pet-exam-jun26/"
+        ]
       }
     },
     "155": {
@@ -51620,7 +51288,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Post Graduate",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -51664,22 +51332,22 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_English%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Hindi",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_Hindi%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "English",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPTGT_UPPGT_GeneralKNowledge_English%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51689,12 +51357,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Physical_Education_Syllabus-1.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Physical_Education_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51704,12 +51372,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Urdu_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Urdu_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51719,12 +51387,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Art_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Art_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51734,7 +51402,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Sociology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51744,7 +51412,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Education_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51754,7 +51422,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Civics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51764,12 +51432,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Commerce_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Commerce_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51779,7 +51447,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Biology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51789,12 +51457,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Sanskrit_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Sanskrit_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51804,12 +51472,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_English_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_English_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51819,7 +51487,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Chemistry_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51829,7 +51497,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Physics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51839,12 +51507,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Mathematical_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Mathematics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51854,12 +51522,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Hindi_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Hindi_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51869,7 +51537,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Psychology_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51879,7 +51547,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Logic_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51889,7 +51557,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_History_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51899,7 +51567,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Geography_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51909,7 +51577,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Economics_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51919,7 +51587,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Military_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51929,12 +51597,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Music_Instrumental_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Music_Instrumental_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51944,12 +51612,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Musci_Vocal_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Music_Vocal_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51959,12 +51627,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Agriculture_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Agriculture_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51974,12 +51642,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Home_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_PGT_2026_Home_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51989,7 +51657,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Social_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -51999,13 +51667,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/sarkariresult.com_UP_TGT_2026_Science_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-uptgt-uppgt-syllabus/"
+        ]
       }
     },
     "156": {
@@ -52020,7 +51687,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -52168,7 +51835,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Scientific_Lab_Assistant_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52193,8 +51860,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-paramedical-fsl-15-exam-2026/"
+        ]
       }
     },
     "157": {
@@ -52209,7 +51875,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/Syllabus_UPSSSC_Livestock_Extension_officer_SarkariResult.Com_UPSSSC_17Exam_2026-1-compressed.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Graduate",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -52267,7 +51933,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/Syllabus_UPSSSC_Livestock_Extension_officer_SarkariResult.Com_UPSSSC_17Exam_2026-1-compressed.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52277,7 +51943,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPSSSC_17Exam_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52292,8 +51958,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-livestock-17-exam-2026/"
+        ]
       }
     },
     "158": {
@@ -52308,7 +51973,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
       "source_url": "https://upsssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_Veterinary%20Pharmacist_Syllabus%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Medical / Nursing",
       "sector": "Central Govt",
       "state": "Uttar Pradesh",
@@ -52366,7 +52031,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UPSSSC_Veterinary%20Pharmacist_Syllabus%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52376,7 +52041,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UPSSSC_Veterinary%20Pharmacist_Notification.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52391,8 +52056,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upsssc-veterinary-18-exam-2026/"
+        ]
       }
     },
     "159": {
@@ -52407,7 +52071,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Staff Selection Commission (SSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Exam_Syllabus.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -52451,12 +52115,12 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Class I to V",
-                "url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               },
               {
                 "text": "Class VI to VIII",
-                "url": "https://doc.sarkariresults.org.in/UP_SUper_TET_Junior_Exam_Syllabus.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52471,8 +52135,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-super-tet-2026/"
+        ]
       }
     },
     "160": {
@@ -52487,7 +52150,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Staff Selection Commission SSC",
       "source_url": "https://ssc.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "Diploma / Engineering",
       "sector": "Central Govt",
       "state": "All India",
@@ -52576,7 +52239,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_JE_Syllabus_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52601,8 +52264,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-junior-engineer-2026/"
+        ]
       }
     },
     "161": {
@@ -52696,7 +52358,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SSC_Notice_of_adv_chsl_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52711,8 +52373,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/ssc-chsl-2026-sep/"
+        ]
       }
     },
     "162": {
@@ -52727,7 +52388,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
       "source_url": "https://upessc.up.gov.in/",
-      "pdf_url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+      "pdf_url": "https://ssc.gov.in/",
       "qualification_level": "B.Ed / Teaching",
       "sector": "Teaching",
       "state": "Uttar Pradesh",
@@ -52800,7 +52461,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/UP_Primary_Teacher_I_V_Syllabus_2026%20(1).pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52810,7 +52471,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/District.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52820,7 +52481,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/SarkariResult.Com_UP_Primary_teacher_Notification_2026.pdf",
+                "url": "https://ssc.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -52835,8 +52496,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upessc-up-primary-teacher-05-2026/"
+        ]
       }
     },
     "163": {
@@ -52960,8 +52620,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/clat-admission-jul26/"
+        ]
       }
     },
     "164": {
@@ -53072,8 +52731,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/upiti-admission-july2026/"
+        ]
       }
     },
     "165": {
@@ -53191,8 +52849,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/sav-class-6th-admission-august26/"
+        ]
       }
     },
     "166": {
@@ -53611,7 +53268,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/NEETUG_2026.pdf",
+                "url": "https://mcc.nic.in/ug-medical-counselling/",
                 "is_pdf": true
               }
             ]
@@ -53636,8 +53293,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-neet-ug-2026/"
+        ]
       }
     },
     "167": {
@@ -53721,8 +53377,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nvs-class-6th-admission-july26/"
+        ]
       }
     },
     "168": {
@@ -53846,7 +53501,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://www.sarkariresult.com/wp-content/uploads/2026/06/updeled2026-compressed.pdf",
+                "url": "https://updeled.gov.in/",
                 "is_pdf": true
               }
             ]
@@ -53861,8 +53516,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/updeled-admissions-2/"
+        ]
       }
     },
     "169": {
@@ -53944,8 +53598,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/aibe-22nd-august26/"
+        ]
       }
     },
     "170": {
@@ -54018,7 +53671,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://doc.sarkariresults.org.in/Phd2-merged.pdf",
+                "url": "https://allduniv.ac.in/",
                 "is_pdf": true
               }
             ]
@@ -54033,8 +53686,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/university-of-allahabad-au-sep26/"
+        ]
       }
     },
     "171": {
@@ -54129,8 +53781,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/nta-rimcee-class-8th-sep26/"
+        ]
       }
     },
     "172": {
@@ -54145,7 +53796,7 @@ window.PORTAL_DATA = {
       "created_at": "2026-10-24 21:16:05",
       "source_portal": "Bihar School Examination Board (BSEB)",
       "source_url": "https://biharboardonline.com/",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "qualification_level": "Graduate",
       "sector": "Education / Admission",
       "state": "Bihar",
@@ -54200,7 +53851,7 @@ window.PORTAL_DATA = {
             "links": [
               {
                 "text": "Click Here",
-                "url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+                "url": "https://biharboardonline.com/",
                 "is_pdf": true
               }
             ]
@@ -54215,8 +53866,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/blet-september26/"
+        ]
       }
     },
     "173": {
@@ -54305,8 +53955,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/iim-cat-jul26/"
+        ]
       }
     },
     "174": {
@@ -54392,8 +54041,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/uprtou-ph-d-entrance-exam-sep26/"
+        ]
       }
     },
     "175": {
@@ -54485,8 +54133,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/iit-jam-august26/"
+        ]
       }
     },
     "176": {
@@ -54584,8 +54231,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/gate-2027/"
+        ]
       }
     },
     "177": {
@@ -54671,8 +54317,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2027/nta-niftee-admission/"
+        ]
       }
     },
     "178": {
@@ -54797,8 +54442,7 @@ window.PORTAL_DATA = {
               }
             ]
           }
-        ],
-        "sarkariresult_url": "https://www.sarkariresult.com/2026/up-scholarship-postmatric-jul26/"
+        ]
       }
     }
   },
@@ -58418,7 +58062,7 @@ window.PORTAL_DATA = {
       "title": "National Insurance NICL Assistant Phase II Mains Admit Card 2026",
       "category": "ADMIT_CARD",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/NICL_ASSISTANT_SarkariResult.Com_Recuritment_Advertisment-2026-27.pdf",
+      "pdf_url": "https://nationalinsurance.nic.co.in/",
       "action_url": "https://ibpsreg.ibps.in/nicljul26/oecla_sep26/login.php?appid=1005dd3fef2776d12dc0eb1dd2d5c320",
       "extracted_data": {
         "education": "Graduate",
@@ -58616,7 +58260,7 @@ window.PORTAL_DATA = {
       "title": "Bihar Library Eligibility Test BLET Online Form 2026",
       "category": "LATEST_JOB",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "action_url": "https://sletregistration.cbrt.co.in/",
       "extracted_data": {
         "education": "Graduate",
@@ -58638,7 +58282,7 @@ window.PORTAL_DATA = {
       "title": "CSJMU Kanpur Teaching Post Online Form 2026",
       "category": "LATEST_JOB",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/980.-Advertisement-For-Teaching-post.pdf",
+      "pdf_url": "https://csjmu.ac.in/",
       "action_url": "https://csjmurec.samarth.edu.in/",
       "extracted_data": {
         "education": "Graduate",
@@ -58660,7 +58304,7 @@ window.PORTAL_DATA = {
       "title": "Delhi DSSSB Various Post Online Form 2026",
       "category": "LATEST_JOB",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/10/final_adv_1.pdf",
+      "pdf_url": "https://dsssb.delhi.gov.in/",
       "action_url": "https://dsssbonline.nic.in/",
       "extracted_data": {
         "education": "Graduate",
@@ -59232,7 +58876,7 @@ window.PORTAL_DATA = {
       "title": "UPSSSC Physical Instructor & Other Post Online Form 2026",
       "category": "LATEST_JOB",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/09/ViewPdf-1.pdf",
+      "pdf_url": "https://upsssc.gov.in/",
       "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "extracted_data": {
         "education": "Graduate",
@@ -59430,7 +59074,7 @@ window.PORTAL_DATA = {
       "title": "Haryana Teacher Eligibility Test HTET OMR Sheet 2026",
       "category": "ANSWER_KEY",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/HTETAnswerkey2026.pdf",
+      "pdf_url": "https://bseh.org.in/",
       "action_url": "https://htet.eapplynow.com/HTETApp25/Pages/Answer2Key1Login07.aspx",
       "extracted_data": {
         "education": "12th Pass",
@@ -59496,7 +59140,7 @@ window.PORTAL_DATA = {
       "title": "RRB Railway Group Answer Key 2026 CEN 09/2025",
       "category": "ANSWER_KEY",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RRB_Group_Form_Status.pdf",
+      "pdf_url": "https://indianrailways.gov.in/",
       "action_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/101714/login.html",
       "extracted_data": {
         "education": "Graduate",
@@ -60024,7 +59668,7 @@ window.PORTAL_DATA = {
       "title": "Uttarakhand UK TET UTET Answer Key 2026",
       "category": "ANSWER_KEY",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/SarkariResult.Com_UTET_2026_brochure.pdf",
+      "pdf_url": "https://ukutet.com/",
       "action_url": "https://ukutet.com/",
       "extracted_data": {
         "education": "B.Ed / Teaching",
@@ -60156,7 +59800,7 @@ window.PORTAL_DATA = {
       "title": "UPTET 2026 Syllabus",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/upload/UPTET_2026_Primary_Syllabus_SarkariResult_Com_compressed.pdf",
+      "pdf_url": "https://upessc.up.gov.in/",
       "action_url": "https://uptet.upessc.org/otr/",
       "extracted_data": {
         "education": "B.Ed / Teaching",
@@ -60222,7 +59866,7 @@ window.PORTAL_DATA = {
       "title": "MPESB Nursing Officer, Sister Tutor Syllabus 2026",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/upload/SarkariResult.Com_MP_Nursing_officer_Tutor_Mar26_Syllabus.pdf",
+      "pdf_url": "https://esb.mp.gov.in/e_default.html",
       "action_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "extracted_data": {
         "education": "Medical / Nursing",
@@ -60244,7 +59888,7 @@ window.PORTAL_DATA = {
       "title": "UPSSSC UP Vidhan Bhawan Guard / Fireman Syllabus 2026",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://doc.sarkariresults.org.in/sarkariresult.com_UP_VidhabBhawan_Guard_Fireman_Syllabus_2026-compressed.pdf",
+      "pdf_url": "https://upsssc.gov.in/",
       "action_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "extracted_data": {
         "education": "Graduate",
@@ -60354,7 +59998,7 @@ window.PORTAL_DATA = {
       "title": "RSSB Graduate Level CET Syllabus 2026",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/RSSB_CET_Graduate_Level_Syllabus-PDF.pdf",
+      "pdf_url": "https://rssb.rajasthan.gov.in/",
       "action_url": "https://sso.rajasthan.gov.in/",
       "extracted_data": {
         "education": "Graduate",
@@ -60398,7 +60042,7 @@ window.PORTAL_DATA = {
       "title": "UPESSC Principal Syllabus 2026",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/07/upessc_principal_Syllabus-1.pdf",
+      "pdf_url": "https://upessc.up.gov.in/",
       "action_url": "https://principalhe.upessc.org/otr/",
       "extracted_data": {
         "education": "Graduate",
@@ -60442,7 +60086,7 @@ window.PORTAL_DATA = {
       "title": "UPSSSC PET 2026 Syllabus",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/UPSSSC_PET_Syllabus-1-compressed.pdf",
+      "pdf_url": "https://upsssc.gov.in/",
       "action_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "extracted_data": {
         "education": "Graduate",
@@ -60508,7 +60152,7 @@ window.PORTAL_DATA = {
       "title": "UPSSSC Livestock Extension Officer Syllabus 2026",
       "category": "SYLLABUS",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://www.sarkariresult.com/wp-content/uploads/2026/08/Syllabus_UPSSSC_Livestock_Extension_officer_SarkariResult.Com_UPSSSC_17Exam_2026-1-compressed.pdf",
+      "pdf_url": "https://upsssc.gov.in/",
       "action_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "extracted_data": {
         "education": "Graduate",
@@ -60838,7 +60482,7 @@ window.PORTAL_DATA = {
       "title": "Bihar Library Eligibility Test BLET Online Form 2026",
       "category": "ADMISSION",
       "detected_date": "2026-10-24",
-      "pdf_url": "https://rojgarresult.com/wp-content/uploads/2026/10/notice-2026.pdf",
+      "pdf_url": "https://biharboardonline.com/",
       "action_url": "https://sletregistration.cbrt.co.in/",
       "extracted_data": {
         "education": "Graduate",
