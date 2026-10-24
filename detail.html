@@ -297,6 +297,10 @@ async function loadDetail() {
       else if (item.title.includes("NTA") || item.title.includes("JEE") || item.title.includes("NEET") || item.title.includes("CUET")) org = "National Testing Agency (NTA)";
     }
 
+    const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
+    const stateVal = item.state || 'All India';
+    const sectorVal = item.sector || 'Central Government';
+
     let cleanTitle = `${item.title} Notification PDF, Direct Apply Link & Eligibility 2026 | All Sarkari Jobs`;
     let targetKeywords = `${item.title}, ${item.title} 2026, ${item.title} official notification pdf download, ${item.title} direct apply link, ${item.title} eligibility criteria age limit, ${org} recruitment 2026, 10th 12th graduate govt jobs`;
     let defaultDesc = `Download official ${item.title} notification PDF. Check exact eligibility criteria, important dates, application fee, candidate registration, and apply online directly on All Sarkari Jobs.`;
@@ -399,6 +403,35 @@ async function loadDetail() {
             "name": "AllSarkariJobs",
             "url": "https://www.allsarkarijobs.online/"
           }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": `Where can I download the official ${item.title} PDF notice?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `You can download the original government-released official PDF directly from the Some Useful Important Links table on AllSarkariJobs. All links connect straight to the official ${org} server without misleading ad redirects.`
+              }
+            },
+            {
+              "@type": "Question",
+              "name": `How to apply online or access official portal for ${item.title}?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `Candidates can click on the direct Apply Online / Candidate Login button in the Important Links table to visit the official ${org} recruitment dashboard safely.`
+              }
+            },
+            {
+              "@type": "Question",
+              "name": `Who is the official conducting authority for ${item.title}?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `This notification is officially issued and administered by ${org} for jurisdiction (${stateVal} • ${sectorVal}).`
+              }
+            }
+          ]
         }
       ]
     });
@@ -633,10 +666,6 @@ async function loadDetail() {
     const linkSecondaryLoginEl = document.getElementById('linkSecondaryLogin');
     const pdfLabelEl = document.getElementById('pdfDocLabel');
     const rowOfficialEl = document.getElementById('rowOfficialWebsite');
-
-    const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
-    const stateVal = item.state || 'All India';
-    const sectorVal = item.sector || 'Central Government';
 
     let actionLabel = "Apply Online — Registration";
     let primaryUrl = resolveRegistrationUrl();

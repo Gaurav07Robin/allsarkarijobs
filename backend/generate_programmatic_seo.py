@@ -152,6 +152,42 @@ LANDING_PAGES = [
         "heading": "Rajasthan & MP Recruitment 2026–2027",
         "filter_pill": "all",
         "search_term": "rajasthan"
+    },
+    {
+        "slug": "madhya-pradesh",
+        "title": "MP Govt Jobs 2026–2027 – MPESB, MP Police Constable & Patwari | All Sarkari Jobs",
+        "desc": "Find active government jobs in Madhya Pradesh 2026–2027. Apply online for MPESB, MP Police Constable, MPPSC, and Patwari vacancies with direct links.",
+        "keywords": "mp govt jobs 2026 2027, mpesb online form, mp police vacancy, mppsc recruitment, mp patwari vacancy, All Sarkari Jobs",
+        "heading": "Madhya Pradesh Recruitment 2026–2027",
+        "filter_pill": "all",
+        "search_term": "mp"
+    },
+    {
+        "slug": "haryana",
+        "title": "Haryana Govt Jobs 2026–2027 – HSSC Group C, D, CET & Police | All Sarkari Jobs",
+        "desc": "Latest Haryana government vacancies 2026–2027. Check HSSC CET Group C and D, Haryana Police Constable, and HPSC recruitment notices.",
+        "keywords": "haryana govt jobs 2026 2027, hssc cet apply online, haryana police constable, hssc group d result, hpsc recruitment, All Sarkari Jobs",
+        "heading": "Haryana Government Jobs 2026–2027",
+        "filter_pill": "all",
+        "search_term": "haryana"
+    },
+    {
+        "slug": "maharashtra",
+        "title": "Maharashtra Govt Jobs 2026–2027 – MPSC, Police Bharti & Talathi | All Sarkari Jobs",
+        "desc": "Find government job recruitments in Maharashtra 2026–2027. Apply online for MPSC Civil Services, Maharashtra Police Bharti, and Talathi vacancies.",
+        "keywords": "maharashtra govt jobs 2026 2027, mpsc online form, maharashtra police bharti, talathi bharti 2026, All Sarkari Jobs",
+        "heading": "Maharashtra Recruitment 2026–2027",
+        "filter_pill": "all",
+        "search_term": "maharashtra"
+    },
+    {
+        "slug": "apprentice",
+        "title": "Railway & PSU Apprentice Jobs 2026–2027 – RRC, BHEL, IOCL 10th/ITI | All Sarkari Jobs",
+        "desc": "Latest trade apprentice vacancies 2026–2027 for 10th and ITI pass. Apply online for Railway RRC Apprentice, BHEL, IOCL, and ONGC with merit lists.",
+        "keywords": "railway apprentice 2026 2027, rrc apprentice apply online, trade apprentice 10th pass iti, bhel apprentice online form, psu apprentice vacancy, All Sarkari Jobs",
+        "heading": "Railway & PSU Apprentice Jobs 2026–2027",
+        "filter_pill": "all",
+        "search_term": "apprentice"
     }
 ]
 
