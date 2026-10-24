@@ -19,15 +19,15 @@
   ],
   "rewrites": [
     {
+      "source": "/detail/(.*)",
+      "destination": "/detail.html"
+    },
+    {
       "source": "/detail",
       "destination": "/detail.html"
     },
     {
-      "source": "/detail/:id*",
-      "destination": "/detail.html"
-    },
-    {
-      "source": "/job/:slug*",
+      "source": "/job/(.*)",
       "destination": "/job.html"
     },
     {
