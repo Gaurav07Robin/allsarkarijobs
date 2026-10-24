@@ -719,7 +719,8 @@ function renderHighlightBoxes(data) {
   if (picks.length >= 4) {
     grid.innerHTML = picks.map(p => {
       const shortTitle = p.item.title.length > 36 ? p.item.title.substring(0, 34) + '…' : p.item.title;
-      return `<a href="/detail?id=${p.item.id}" class="hl-box ${p.cls}">${shortTitle}<br>${p.action}</a>`;
+      const detailHref = p.item.slug ? `/detail/${p.item.id}-${p.item.slug}` : `/detail?id=${p.item.id}`;
+      return `<a href="${detailHref}" class="hl-box ${p.cls}">${shortTitle}<br>${p.action}</a>`;
     }).join('');
   }
 
@@ -909,7 +910,7 @@ function renderList(elemId, items, countId, footerId, label) {
     }
     const targetUrl = (item.action_url && item.action_url.startsWith('/jobs/')) 
       ? item.action_url 
-      : `/detail?id=${item.id}`;
+      : (item.slug ? `/detail/${item.id}-${item.slug}` : `/detail?id=${item.id}`);
 
     return `
       <li>
@@ -1072,11 +1073,12 @@ searchInput.addEventListener('input', (e) => {
         }
 
         if (score > 0) {
+          const noticeLink = u.slug ? `/detail/${u.id}-${u.slug}` : `/detail?id=${u.id}`;
           noticeMatches.push({
             score,
             title: u.title,
             category: u.category,
-            action_url: `/detail?id=${u.id}`,
+            action_url: noticeLink,
             type: 'notice'
           });
         }

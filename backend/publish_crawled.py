@@ -4,6 +4,7 @@ up to today (2026-10-10) into the updates table and Admin Panel queue, and synch
 portal_data.js so every tab shows all approved items on both localhost and Vercel.
 """
 import json
+import re
 import os
 import sqlite3
 from backend.config import DB_PATH
@@ -1154,7 +1155,12 @@ def export_portal_data_js():
     pending_staging = [s for s in staging_rows if s.get("status") == "PENDING"]
     approved_staging = [s for s in staging_rows if s.get("status") == "APPROVED"]
 
+    def make_slug(title: str) -> str:
+        s = re.sub(r'[^a-zA-Z0-9]+', '-', (title or '').lower()).strip('-')
+        return s[:70].rstrip('-')
+
     for u in updates_desc:
+        u["slug"] = make_slug(u.get("title") or "")
         if isinstance(u.get("meta_json"), str) and u.get("meta_json"):
             try:
                 u["meta"] = json.loads(u["meta_json"])
@@ -1163,6 +1169,7 @@ def export_portal_data_js():
         u.pop("meta_json", None)
 
     for u in updates_asc:
+        u["slug"] = make_slug(u.get("title") or "")
         if isinstance(u.get("meta_json"), str) and u.get("meta_json"):
             try:
                 u["meta"] = json.loads(u["meta_json"])

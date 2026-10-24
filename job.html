@@ -377,6 +377,35 @@ async function loadJobDetails() {
           },
           "directApply": true,
           "url": `https://www.allsarkarijobs.online/jobs/${slug}`
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": `Where can I download the official ${job.title} notification PDF?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `You can download the original government-released official advertisement PDF directly from the Some Useful Important Links table on AllSarkariJobs.`
+              }
+            },
+            {
+              "@type": "Question",
+              "name": `How can I apply online for ${job.title}?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `Click on the Apply Online button in the links table to visit the official ${job.organization} portal directly.`
+              }
+            },
+            {
+              "@type": "Question",
+              "name": `What are the eligibility criteria and total vacancies for ${job.title}?`,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": `This recruitment features ${job.total_posts || 'multiple'} vacancies. Minimum qualification is ${job.qualification || 'Graduate / 12th Pass'}.`
+              }
+            }
+          ]
         }
       ]
     });

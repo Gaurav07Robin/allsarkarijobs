@@ -6,6 +6,7 @@ containing:
 3. All active individual notice pages (/detail?id=...)
 4. Dedicated job postings (/jobs/:slug)
 """
+import re
 import sqlite3
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -28,7 +29,7 @@ def generate_sitemap():
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
-    c.execute("SELECT id, created_at FROM updates ORDER BY id DESC")
+    c.execute("SELECT id, title, created_at FROM updates ORDER BY id DESC")
     updates = [dict(r) for r in c.fetchall()]
 
     c.execute("SELECT slug, updated_at, created_at FROM recruitments WHERE status = 'PUBLISHED' ORDER BY id DESC")
@@ -78,12 +79,18 @@ def generate_sitemap():
         ET.SubElement(url_el, "changefreq").text = "weekly"
         ET.SubElement(url_el, "priority").text = "0.8"
 
-    # 4. Individual Notice Detail Pages (/detail?id=...)
+    def make_slug(title: str) -> str:
+        s = re.sub(r'[^a-zA-Z0-9]+', '-', (title or '').lower()).strip('-')
+        return s[:70].rstrip('-')
+
+    # 4. Individual Notice Detail Pages (/detail/:id-:slug)
     for u in updates:
         item_id = u["id"]
+        slug = make_slug(u.get("title") or "")
         dt = (u.get("created_at") or today_str)[:10]
         url_el = ET.SubElement(urlset, "url")
-        ET.SubElement(url_el, "loc").text = f"{PRIMARY_DOMAIN}/detail?id={item_id}"
+        loc_url = f"{PRIMARY_DOMAIN}/detail/{item_id}-{slug}" if slug else f"{PRIMARY_DOMAIN}/detail?id={item_id}"
+        ET.SubElement(url_el, "loc").text = loc_url
         ET.SubElement(url_el, "lastmod").text = dt
         ET.SubElement(url_el, "changefreq").text = "weekly"
         ET.SubElement(url_el, "priority").text = "0.7"
@@ -99,7 +106,6 @@ def generate_sitemap():
         content = robots_path.read_text(encoding="utf-8")
         sitemap_line = f"Sitemap: {PRIMARY_DOMAIN}/sitemap.xml"
         if sitemap_line not in content:
-            import re
             content = re.sub(r"Sitemap:\s*https?://[^\s]+", sitemap_line, content)
             if sitemap_line not in content:
                 content += f"\n{sitemap_line}\n"

@@ -20,6 +20,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://scholarship.up.gov.in/Popup.aspx",
       "login_url": "https://scholarship.up.gov.in/Popup.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-scholarship-online-form-2026-all-course",
       "meta": {
         "full_title": "UP SCHOLARSHIP 2026-2027 Apply Online For Pre Matric, Post Matric, Dashmottar Courses BA, BSC, MSC, BED, BTC & Other UG, PG, Diploma Courses Form 2026",
         "post_date": "23 October 2026 | 12:13 PM",
@@ -145,6 +146,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://exams.nta.nic.in/niftee/",
       "login_url": "https://exams.nta.nic.in/niftee/",
       "cutoff_pdf_url": "",
+      "slug": "nta-niftee-admission-online-form-2027",
       "meta": {
         "full_title": "NTA NIFTEE Admissions 2027 Apply Online",
         "post_date": "16 October 2026 | 08:51 PM",
@@ -231,6 +233,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://goaps.iitm.ac.in/login",
       "login_url": "https://goaps.iitm.ac.in/login",
       "cutoff_pdf_url": "",
+      "slug": "iit-gate-2027-online-form-re-open",
       "meta": {
         "full_title": "IIT GATE 2027 Exam Apply Online Form | Information Brochure and More",
         "post_date": "15 October 2026 | 08:57 AM",
@@ -329,6 +332,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jam.iitkgp.ac.in/index.html",
       "login_url": "https://jam.iitkgp.ac.in/index.html",
       "cutoff_pdf_url": "",
+      "slug": "iit-jam-2027-online-form",
       "meta": {
         "full_title": "IIT Kharagpur JAM Admission 2027 Apply Online",
         "post_date": "24 September 2026 | 08:12 PM",
@@ -421,6 +425,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uprtouphd.co.in/api/phdentrance/",
       "login_url": "https://uprtouphd.co.in/api/phdentrance/",
       "cutoff_pdf_url": "",
+      "slug": "uprtou-ph-d-entrance-exam-admission-online-form-2026",
       "meta": {
         "full_title": "UPRTOU Ph.D Entrance Exam Admissions 2026-27 : Apply Online Form",
         "post_date": "18 September 2026 | 10:17 AM",
@@ -507,6 +512,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://iimcat.ac.in/",
       "login_url": "https://iimcat.ac.in/",
       "cutoff_pdf_url": "",
+      "slug": "iim-cat-admission-online-form-2026-date-extended",
       "meta": {
         "full_title": "IIM Common Admission Test CAT Admission Apply Online Form 2026 Date Extended",
         "post_date": "15 September 2026 | 04:28 PM",
@@ -596,6 +602,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sletregistration.cbrt.co.in/",
       "login_url": "https://sletregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-library-eligibility-test-blet-online-form-2026",
       "meta": {
         "full_title": "Bihar Library Eligibility Test BLET 2026 Apply Online",
         "post_date": "01 October 2026 | 11:50 AM",
@@ -681,6 +688,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFQBut9oTMxhETt9bNm6zcP2ghS+a59eor30/A5h2io4z",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFQBut9oTMxhETt9bNm6zcP2ghS+a59eor30/A5h2io4z",
       "cutoff_pdf_url": "",
+      "slug": "nta-rimcee-class-8th-admissions-online-form-2027",
       "meta": {
         "full_title": "NTA RIMCEE Class 8th Admissions 2027 Apply Online Form",
         "post_date": "02 September 2026 | 10:19 AM",
@@ -776,6 +784,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://aupravesh2026.cbtexam.in/Home/Applicationform.aspx",
       "login_url": "https://aupravesh2026.cbtexam.in/Home/Applicationform.aspx",
       "cutoff_pdf_url": "",
+      "slug": "allahabad-university-phd-admissions-online-form-2026",
       "meta": {
         "full_title": "University of Allahabad AU Ph.D. Admission 2026-27 Apply Online",
         "post_date": "04 September 2026 | 10:30 AM",
@@ -864,6 +873,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.allindiabarexamination.com/",
       "login_url": "https://www.allindiabarexamination.com/",
       "cutoff_pdf_url": "",
+      "slug": "all-india-bar-exam-aibe-22nd-xxii-online-form-2026",
       "meta": {
         "full_title": "All India Bar Examination AIBE 22nd Examination 2026 Apply Online",
         "post_date": "20 August 2026 | 09:00 PM",
@@ -946,6 +956,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://updeled.gov.in/Registration/DReghomeD.aspx",
       "login_url": "https://updeled.gov.in/Registration/DReghomeD.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-deled-online-counselling-2026",
       "meta": {
         "full_title": "UPDELEd 2 Year Course Admissions 2026 : Counselling Schedule, Rank Card, Allotment Result",
         "post_date": "21 August 2026 | 06:51 PM",
@@ -1085,6 +1096,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cbseitms.rcil.gov.in/nvs/Index/Registration",
       "login_url": "https://cbseitms.rcil.gov.in/nvs/Index/Registration",
       "cutoff_pdf_url": "",
+      "slug": "nvs-class-6th-admissions-online-form-2027-date-extended",
       "meta": {
         "full_title": "Navodaya Vidyalaya Samiti JNV NVS Class VI 6th Admissions 2027-28 Apply Online Form",
         "post_date": "07 August 2026 | 08:28 PM",
@@ -1169,6 +1181,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "login_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "cutoff_pdf_url": "",
+      "slug": "neet-ug-2026-online-counselling",
       "meta": {
         "full_title": "NTA National Eligibility Cum Entrance Test NEET UG Result, Online Counseling, Schedule, Choice Filling, Allotment Result, MCC 2026",
         "post_date": "21 August 2026 | 10:55 PM",
@@ -1613,6 +1626,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.biharsimultala.com/login",
       "login_url": "https://www.biharsimultala.com/login",
       "cutoff_pdf_url": "",
+      "slug": "sav-jamui-bihar-class-vi-6th-admission-online-form-2027",
       "meta": {
         "full_title": "Bihar Simultala Awasiya Vidyalaya SAV Jamui Class VI 6th Admission 2027 Dummy Admit Card",
         "post_date": "09 September 2026 | 10:38 AM",
@@ -1731,6 +1745,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://admissionscvtup.in/apps/frmTraineeRegistration.aspx",
       "login_url": "https://admissionscvtup.in/apps/frmTraineeRegistration.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-scvtup-iti-admissions-online-form-2026",
       "meta": {
         "full_title": "UP State Council for Vocational Training SCVTUP 2026 Admissions First Allotment Result for All Courses",
         "post_date": "27 August 2026 | 01:19 PM",
@@ -1842,6 +1857,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "login_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "cutoff_pdf_url": "",
+      "slug": "clat-2027-admission-online-form",
       "meta": {
         "full_title": "CLAT Common Law Admission Test 2027 Apply Online Form 2026",
         "post_date": "03 August 2026 | 10:13 AM",
@@ -1966,6 +1982,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/register",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "up-assistant-teacher-primary-class-1-to-5-exam-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Primary Teacher Recruitment 2026 : Apply Online for 12405 Post",
         "post_date": "16 September 2026 | 09:49 PM",
@@ -2089,6 +2106,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-10-2-chsl-tier-i-tier-ii-exam-syllabus-2026",
       "meta": {
         "full_title": "SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post",
         "post_date": "01 October 2026 | 06:23 PM",
@@ -2198,6 +2216,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-2026-paper-i-ii-exam-syllabus",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -2327,6 +2346,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upessc.up.gov.in/",
       "login_url": "https://upessc.up.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-super-tet-assistant-teacher-primary-junior-level-syllabus-20",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC UP Super TET (Assistant Teaching) Recruitment 2026 : Primary and Junior Level Syllabus",
         "post_date": "03 September 2026 | 07:15 PM",
@@ -2406,6 +2426,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/",
       "login_url": "https://upsssc.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-veterinary-pharmacist-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post",
         "post_date": "14 September 2026 | 07:26 PM",
@@ -2504,6 +2525,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-livestock-extension-officer-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Livestock Extension Officer LEO \u092a\u0936\u0941\u0927\u0928 \u092a\u094d\u0930\u0938\u093e\u0930 \u0905\u0927\u093f\u0915\u093e\u0930\u0940 Main Examination 2026 Apply Online for 1251 Post",
         "post_date": "09 September 2026 | 05:57 PM",
@@ -2602,6 +2624,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZHZ3R1KfIRihXMNTJdQefIgydMRHLRTKw=",
+      "slug": "upsssc-scientific-lab-assistant-exam-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Forensic Science Laboratory Main Examination 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:54 PM",
@@ -2790,6 +2813,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upessc.up.gov.in/",
       "login_url": "https://upessc.up.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-tgt-up-pgt-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP TGT & UP PGT 2026 Syllabus",
         "post_date": "05 August 2026 | 09:02 PM",
@@ -3189,6 +3213,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pet-2026-syllabus",
       "meta": {
         "full_title": "UP UPSSSC Preliminary Examination Test PET 2026 : Admit Card",
         "post_date": "17 October 2026 | 01:38 PM",
@@ -3367,6 +3392,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "login_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "cutoff_pdf_url": "",
+      "slug": "clat-2027-ug-pg-syllabus",
       "meta": {
         "full_title": "CLAT Common Law Admission Test 2027 Apply Online Form 2026",
         "post_date": "03 August 2026 | 10:13 AM",
@@ -3491,6 +3517,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://principalhe.upessc.org/otr/",
       "login_url": "https://principalhe.upessc.org/otr/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-principal-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Answer Key for 111 Post",
         "post_date": "26 September 2026 | 04:07 PM",
@@ -3635,6 +3662,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3sJgPmO",
       "login_url": "https://bit.ly/3sJgPmO",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-moharir-2022-exam-syllabus",
       "meta": {
         "full_title": "UPSSSC Uttar Pradesh Moharir Recruitment 2022 Eligibility Result for 92 Post",
         "post_date": "12 October 2026 | 07:17 PM",
@@ -3763,6 +3791,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://sso.rajasthan.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "rssb-graduate-level-cet-syllabus-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board (RSSB) Common Eligibility Test CET Graduate Level 2026 : Apply Online",
         "post_date": "02 July 2026 | 10:40 AM",
@@ -3862,6 +3891,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://bit.ly/3pA3Wgj",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pharmacist-ayurvedic-2024-syllabus",
       "meta": {
         "full_title": "UPSSSC Pharmaceutical Pharmacists Ayurvedic Recruitment 2024 Answer Key",
         "post_date": "22 September 2026 | 04:56 PM",
@@ -4060,6 +4090,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://sso.rajasthan.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rssb-10-2-senior-secondary-cet-syllabus-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board (RSSB) Common Eligibility Test CET 10+2 Senior Secondary Level 2026 : Apply Online",
         "post_date": "24 June 2026 | 08:00 PM",
@@ -4159,6 +4190,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-auditor-and-assistant-accountant-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Auditor and Assistant Accountant Advt. No. 14-Exam/2026 Recruitment 2026 : Apply Online Vacancy Increase for 1957 Post",
         "post_date": "01 August 2026 | 07:25 PM",
@@ -4277,6 +4309,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/recsys2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFdjoojMEdElwjdIyoUFL7zFG0/iUe3TLUpr8BDubooUX",
       "login_url": "https://examinationservices.nic.in/recsys2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFdjoojMEdElwjdIyoUFL7zFG0/iUe3TLUpr8BDubooUX",
       "cutoff_pdf_url": "",
+      "slug": "allahabad-high-court-ro-aro-computer-assistant-exam-syllabus-2026",
       "meta": {
         "full_title": "NTA Allahabad High Court RO / ARO, Computer Assistant Online Form 2026",
         "post_date": "10 June 2026 | 10:18 AM",
@@ -4385,6 +4418,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-vidhan-bhawan-guard-fireman-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC UP Sachivalaya Vidhan Bhavan Guard and Vidhan Bhavan Fireman/Fire Guard Recruitment 2026 Apply Online for 170 Post",
         "post_date": "09 June 2026 | 10:43 AM",
@@ -4488,6 +4522,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-nursing-officer-sister-tutor-syllabus-2026",
       "meta": {
         "full_title": "MPESB MP Nursing Officer & Sister Tutor Recruitment 2026 Download Answer Key for 2317 Post",
         "post_date": "18 May 2026",
@@ -4606,6 +4641,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://phc-recruitment.com/",
       "login_url": "https://phc-recruitment.com/",
       "cutoff_pdf_url": "",
+      "slug": "patna-high-court-technical-assistant-syllabus-2026",
       "meta": {
         "full_title": "Patna High Court PHC Technical Assistant TA Recruitment 2026 Apply Online for 53 Post",
         "post_date": "01 April 2026",
@@ -4704,6 +4740,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jactetonline.com/",
       "login_url": "https://jactetonline.com/",
       "cutoff_pdf_url": "",
+      "slug": "jharkhand-teacher-eligibility-test-jhtet-syllabus-2026",
       "meta": {
         "full_title": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form | Syllabus Download",
         "post_date": "25 June 2026 | 01:41 PM",
@@ -4826,6 +4863,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uptet.upessc.org/otr/",
       "login_url": "https://uptet.upessc.org/otr/",
       "cutoff_pdf_url": "",
+      "slug": "uptet-2026-syllabus",
       "meta": {
         "full_title": "Uttar Pradesh Teacher Eligibility Test UPESSC UP TET 2026 Result (Declared), Certificate Download, Certificate Correction Notice",
         "post_date": "25 September 2026 | 06:17 PM",
@@ -5123,6 +5161,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-section-controller-answer-key-2026-cen-03-2026",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
         "post_date": "16 October 2026 | 04:09 PM",
@@ -5272,6 +5311,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-technician-cen-02-2026-answer-key-2026",
       "meta": {
         "full_title": "Railway RRB Technician CEN 02/2026 Recruitment 2026 Answer Key for 6557 Post",
         "post_date": "15 October 2026 | 04:36 PM",
@@ -5426,6 +5466,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-selection-post-14th-answer-key-2026",
       "meta": {
         "full_title": "SSC Selection Post 14th Recruitment 2026 Answer Key for 3003 Post",
         "post_date": "09 October 2026 | 04:17 PM",
@@ -5585,6 +5626,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://g2sg4crt2026.cbtexam.in/Home/ListofExam.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-2-sub-group-4-patwari-and-other-post-answer-key-2026",
       "meta": {
         "full_title": "MPESB MP Group 2 Sub Group 4 Patwari and Other Post Combined Recruitment Test \u2013 2026 Answer Key 2106 Post",
         "post_date": "06 October 2026 | 06:36 PM",
@@ -5713,6 +5755,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin",
       "login_url": "https://uok.ac.in/category.php?catid=89&pageid=726&page=SET%20Examination%202026",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-state-eligibility-test-set-answer-key-2026",
       "meta": {
         "full_title": "Rajasthan State Eligibility Test SET Answer Key 2026",
         "post_date": "05 October 2026 | 07:08 PM",
@@ -5863,6 +5906,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ukutet.com/",
       "login_url": "https://ukutet.com/",
       "cutoff_pdf_url": "",
+      "slug": "uttarakhand-uk-tet-utet-answer-key-2026",
       "meta": {
         "full_title": "Uttarakhand Teacher Eligibility Test UTET 2026 Answer Key",
         "post_date": "05 October 2026 | 05:21 PM",
@@ -5965,6 +6009,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com/EForms/configuredHtml/1815/101418/Index.html",
       "login_url": "https://cdn3.digialm.com/EForms/configuredHtml/1815/101418/login.html",
       "cutoff_pdf_url": "",
+      "slug": "nbems-nat-board-group-a-b-c-various-post-answer-key-2026",
       "meta": {
         "full_title": "NBEMS NAT Board Group A, B, C Various Post Recruitment 2026 Answer Key 2026",
         "post_date": "01 October 2026 | 07:00 PM",
@@ -6094,6 +6139,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZYEzU2TtYgSzXa3c8BQV4U9hzNT0OVY/M=",
+      "slug": "upsssc-forest-guard-wild-life-guard-mains-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Forest Guard / Wild Life Guard Recruitment 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:56 PM",
@@ -6282,6 +6328,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZHZ3R1KfIRihXMNTJdQefIgydMRHLRTKw=",
+      "slug": "upsssc-scientific-and-lab-assistant-mains-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC Forensic Science Laboratory Main Examination 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:54 PM",
@@ -6470,6 +6517,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101256/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101256/login.html",
       "cutoff_pdf_url": "",
+      "slug": "indian-airforce-agniveervayu-intake-02-2027-answer-key-2026",
       "meta": {
         "full_title": "Join Indian Air Force Agniveer Vayu Intake 02/2027 Recruitment 2026 Answer Key",
         "post_date": "26 September 2026 | 04:43 PM",
@@ -6587,6 +6635,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101431/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101431/login.html",
       "cutoff_pdf_url": "",
+      "slug": "indian-air-force-airmen-group-y-medical-assistant-inet-02-2027-answer",
       "meta": {
         "full_title": "Join Indian Air Force Airmen Group Y Medical Assistant Intake 02/2027 Recruitment 2026 Answer Key",
         "post_date": "26 September 2026 | 04:40 PM",
@@ -6705,6 +6754,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://principalhe.upessc.org/otr/",
       "login_url": "https://www.upessc.net/UPESSCPrincipalQC/Login.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-principal-answer-key-2026",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Answer Key for 111 Post",
         "post_date": "26 September 2026 | 04:07 PM",
@@ -6849,6 +6899,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "cutoff_pdf_url": "",
+      "slug": "isro-icrb-assistant-and-other-post-answer-key-2026",
       "meta": {
         "full_title": "ISRO Various Post Recruitment 2026 Result",
         "post_date": "24 October 2026 | 07:00 PM",
@@ -6978,6 +7029,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33128/100181/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-10-2-ug-level-cbt-ii-answer-key-2026-cen-07-2025",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC 10+2 Under Graduate 12th Level CEN 07/2025 Result with Score Card 2026, Answer Key",
         "post_date": "24 September 2026 | 12:44 PM",
@@ -7542,6 +7594,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1149/101044/Index.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1149/101044/login.html",
       "cutoff_pdf_url": "",
+      "slug": "patna-high-court-assistant-group-c-answer-key-2026",
       "meta": {
         "full_title": "Patna High Court Judicature Ex-Cadre Assistant Group C Recruitment 2026 Answer Key",
         "post_date": "24 September 2026 | 11:06 AM",
@@ -7668,6 +7721,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-stenographer-2026-answer-key",
       "meta": {
         "full_title": "SSC Stenographer Grade C and D Recruitment 2026 Answer Key for 731 Post",
         "post_date": "31 August 2026 | 06:49 PM",
@@ -7827,6 +7881,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pharmacist-ayurvedic-2024-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC Pharmaceutical Pharmacists Ayurvedic Recruitment 2024 Answer Key",
         "post_date": "22 September 2026 | 04:56 PM",
@@ -8025,6 +8080,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-excise-constable-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Excise Constable (Aabkari Sipahi) Recruitment 2026 Provisional Answer Key",
         "post_date": "22 September 2026 | 16:45 PM",
@@ -8228,6 +8284,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-combined-hindi-translators-jht-answer-key-2026",
       "meta": {
         "full_title": "SSC Combined Hindi Translators JHT Recruitment 2026 Answer Key for 84 Post",
         "post_date": "22 September 2026 | 01:12 AM",
@@ -8364,6 +8421,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rectt.bsf.gov.in/",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/102021/login.html",
       "cutoff_pdf_url": "",
+      "slug": "bsf-hc-ministerial-and-asi-steno-answer-key-objection-2026",
       "meta": {
         "full_title": "BSF Assistant Sub Inspector ASI Stenographer and Head Constable HC Ministerial Recruitment 2024 Download Answer Key Objection for 1526 Post",
         "post_date": "21 September 2026 | 11:15 AM",
@@ -8512,6 +8570,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://g2sg12026.cbtexam.in/Home/ListofExam.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-2-sub-group-1-krishi-vistar-adhikari-answer-key-2026",
       "meta": {
         "full_title": "MPESB MP Group 2 Sub Group 1 Krashi Vistar Adhikari ( Agriculture Extension Officer) Recruitment Test \u2013 2026 Answer Key",
         "post_date": "21 September 2026 | 04:25 PM",
@@ -8630,6 +8689,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "login_url": "https://examinationservices.nic.in/examsys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "cutoff_pdf_url": "",
+      "slug": "nta-aiapget-final-answer-key-2026",
       "meta": {
         "full_title": "NTA All India Ayush Post Graduate Entrance Test AIAPGET Admissions 2026 Result / Score Card",
         "post_date": "18 September 2026 | 07:42 PM",
@@ -8841,6 +8901,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin",
       "login_url": "https://recruitment.rajasthan.gov.in/rectlogingetadmitcard",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rssb-computer-instructor-answer-key-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board RSSB Basic and Senior Computer Instructor Recruitment 2026 Answer Key",
         "post_date": "18 September 2026 | 04:35 PM",
@@ -8985,6 +9046,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cds-ii-answer-key-2026",
       "meta": {
         "full_title": "UPSC Combined Defence Service CDS II Recruitment 2026 Result",
         "post_date": "19 October 2026 | 07:55 PM",
@@ -9121,6 +9183,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/index.php",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-nda-ii-answer-key-2026",
       "meta": {
         "full_title": "UPSC NDA & NDA II Recruitment 2026 Result, Name Wise List",
         "post_date": "13 October 2026 | 06:51 PM",
@@ -9256,6 +9319,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-teacher-cadre-jtc-revised-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Teacher Cadre (Assistant J.T.C. Teacher) Recruitment 2026 Mains Revised Answer Key",
         "post_date": "12 September 2026 | 03:02 PM",
@@ -9439,6 +9503,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-assistant-boring-technician-revised-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Assistant Boring Technician Recruitment 2026 Revised Answer Key",
         "post_date": "12 September 2026 | 02:58 PM",
@@ -9617,6 +9682,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.digialm.com/EForms/configuredHtml/1258/102404/login.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101323/login.html",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-mts-answer-key-2026",
       "meta": {
         "full_title": "Delhi DSSSB Various Post 2026 Admit Card September 2026, July 2026 Exam Answer Key, Exam Schedule September / October 2026",
         "post_date": "18 September 2026 | 04:55 PM",
@@ -10146,6 +10212,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
       "cutoff_pdf_url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/2026082829087103.pdf",
+      "slug": "nta-ugc-net-re-exam-answer-key-2026",
       "meta": {
         "full_title": "NTA UGC NET June 2026, Re Exam Result / Score Card | E Certificate Download",
         "post_date": "24 September 2026 | 05:44 PM",
@@ -10443,6 +10510,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/101714/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-railway-group-answer-key-2026-cen-09-2025",
       "meta": {
         "full_title": "Railway RRB Group D Various Posts of Level-1 CEN 09/2025 Recruitment 2026 Answer Key",
         "post_date": "07 September 2026 | 06:31 PM",
@@ -10662,6 +10730,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin?encq=6JkTF7D/fPuyiLpqlTuv+tsssIL22cKEce/qYZMZKsM=",
       "login_url": "https://recruitment.rajasthan.gov.in/knowlocationservlet",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rpsc-apo-answer-key-2026",
       "meta": {
         "full_title": "RPSC Assistant Prosecution Officer APO Recruitment 2026 Answer Key",
         "post_date": "07 September 2026 | 05:55 PM",
@@ -10791,6 +10860,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "login_url": "https://examinationservices.nic.in/examsys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "cutoff_pdf_url": "",
+      "slug": "nta-aiapget-answer-key-2026",
       "meta": {
         "full_title": "NTA All India Ayush Post Graduate Entrance Test AIAPGET Admissions 2026 Result / Score Card",
         "post_date": "18 September 2026 | 07:42 PM",
@@ -11002,6 +11072,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://htet.eapplynow.com/",
       "login_url": "https://htet.eapplynow.com/HTETApp25/Pages/Answer2Key1Login07.aspx",
       "cutoff_pdf_url": "",
+      "slug": "haryana-teacher-eligibility-test-htet-omr-sheet-2026",
       "meta": {
         "full_title": "Haryana Teacher Eligibility Test HTET OMR Sheet 2026",
         "post_date": "01 September 2026 | 06:03 PM",
@@ -11204,6 +11275,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bsnlregistration.ibtexamination.com/AppO2BsNL_2026/",
       "login_url": "https://bsnlregistration.ibtexamination.com/bsnl_02.html",
       "cutoff_pdf_url": "",
+      "slug": "bsnl-jto-answer-key-2026",
       "meta": {
         "full_title": "BSNL Junior Telecom Officer Telecom Recruitment 2026 Answer Key for 100 Post",
         "post_date": "29 August 2026 | 09:20 PM",
@@ -11332,6 +11404,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiVbovgbG6pVEHea7DNFe38E",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiVbovgbG6pVEHea7DNFe38E",
       "cutoff_pdf_url": "",
+      "slug": "nta-csir-ugc-net-final-answer-key-2026",
       "meta": {
         "full_title": "NTA CSIR UGC NET June 2026 Result, with Score Card, E Certificate Download",
         "post_date": "25 September 2026 | 09:58 PM",
@@ -11613,6 +11686,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-tgt-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Trained Graduate Teacher (TGT Teacher) Recruitment 2026 : Apply Online Form 2026 for 17735 Post",
         "post_date": "23 October 2026 | 09:00 PM",
@@ -11711,6 +11785,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-headmaster-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Head Master (HM) Recruitment 2026 : Apply Online Form 2026 for 1172 Post",
         "post_date": "23 October 2026 | 09:33 PM",
@@ -11809,6 +11884,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://nats.education.gov.in/student_type.php",
       "login_url": "https://nats.education.gov.in/student_type.php",
       "cutoff_pdf_url": "",
+      "slug": "lic-hfl-apprentice-online-online-form-2026",
       "meta": {
         "full_title": "LIC Housing Finance Limited Apprentice Recruitment 2026 Apply Online for 232 Post",
         "post_date": "23 October 2026 | 08:30 PM",
@@ -11907,6 +11983,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-principal-inter-level-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Principal Intermediate Level Recruitment 2026 : Apply Online Form 2026 for 1475 Post",
         "post_date": "23 October 2026 | 10:15 PM",
@@ -12005,6 +12082,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrcjaipur.in/",
       "login_url": "https://www.rrcjaipur.in/",
       "cutoff_pdf_url": "",
+      "slug": "nwr-rrc-jaipur-apprentices-online-form-2026",
       "meta": {
         "full_title": "Indian Railway NWR Region RRC Jaipur Act Apprentices Notification 2026 Apply Online for 2008 Post",
         "post_date": "22 October 2026 | 05:00 PM",
@@ -12089,6 +12167,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/33192/102813/o0zKIYO3CqWa8uMPmN/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/33192/102813/o0zKIYO3CqWa8uMPmN/login.html",
       "cutoff_pdf_url": "",
+      "slug": "bhel-artisan-various-trade-post-online-form-2026",
       "meta": {
         "full_title": "BHEL Artisan Various Trade Recruitment 2026 for 660 Post Apply Online",
         "post_date": "21 October 2026 | 10:45 AM",
@@ -12177,6 +12256,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-physical-instructor-other-post-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Regional Youth Welfare and Regional Development Team Officer and Physical Instructor Main Examination 2026 Apply Online for 412 Post",
         "post_date": "21 October 2026 | 07:05 PM",
@@ -12265,6 +12345,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://www.rrbapply.gov.in/#/auth/home",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-station-master-online-form-2026",
       "meta": {
         "full_title": "Railway RRB Station Master CEN 08/2026 Recruitment 2026 Apply Online for 1250 Post",
         "post_date": "21 October 2026 | 12:40 PM",
@@ -12354,6 +12435,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.sci.gov.in/",
       "login_url": "https://www.sci.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-court-master-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Court Master (Shorthand) Recruitment 2026 Exam for 20 Post",
         "post_date": "19 October 2026 | 08:40 PM",
@@ -12440,6 +12522,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://icsil.in/app/signup",
       "login_url": "https://icsil.in/app/signup",
       "cutoff_pdf_url": "",
+      "slug": "icsil-data-entry-operator-deo-post-online-form-2026",
       "meta": {
         "full_title": "ICSIL Data Entry Operator DEO Post Recruitment 2026 Apply Online",
         "post_date": "17 October 2026 | 06:50 PM",
@@ -12535,6 +12618,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/cwcaug26/",
       "login_url": "https://ibpsreg.ibps.in/cwcaug26/",
       "cutoff_pdf_url": "",
+      "slug": "cwc-assistant-manager-and-junior-executive-online-form-2026",
       "meta": {
         "full_title": "Central Warehousing Corporation Assistant Manager and Junior Executive Recruitment 2026 for 327 Post Apply Online",
         "post_date": "17 October 2026 | 12:55 PM",
@@ -12621,6 +12705,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-10-2-inter-level-various-post-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Lower Subordinate Services Main Examination 2026 Apply Online for 1784 Post",
         "post_date": "16 October 2026 | 08:45 PM",
@@ -12709,6 +12794,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-mp-police-constable-driver-online-form-2026",
       "meta": {
         "full_title": "MPESB MP Police Constable Driver Recruitment 2026 Apply Online Form for 1000 Post",
         "post_date": "07 October 2026 | 01:49 PM",
@@ -12796,6 +12882,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.sci.gov.in/",
       "login_url": "https://www.sci.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-junior-court-attendant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Junior Court Attendant JCA Recruitment 2026 Exam for 130 Post",
         "post_date": "15 October 2026 | 08:49 PM",
@@ -12882,6 +12969,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/register",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-primary-teacher-super-tet-online-form-2026-extended",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Primary Teacher Recruitment 2026 : Apply Online for 12405 Post",
         "post_date": "16 September 2026 | 09:49 PM",
@@ -13005,6 +13093,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-10-2-under-graduate-online-form-2026",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC 10+2 Under Graduate Level CEN 07/2026 Recruitment 2026 for 1688 Post",
         "post_date": "07 October 2026 | 08:30 PM",
@@ -13114,6 +13203,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "login_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "cutoff_pdf_url": "",
+      "slug": "army-10-2-tes-57th-online-form-2026",
       "meta": {
         "full_title": "Indian Army 10+2 TES 57 Recruitment 2026 Apply Online",
         "post_date": "14 October 2026 | 08:30 PM",
@@ -13199,6 +13289,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "login_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "cutoff_pdf_url": "",
+      "slug": "bpsc-school-teacher-tre-4-0-online-form-2026",
       "meta": {
         "full_title": "Bihar School Teacher TRE 4.0 Recruitment 2026 Online Form for 32388 Post",
         "post_date": "07 October 2026 | 08:41 PM",
@@ -13365,6 +13456,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-paramedical-online-form-2026-cen-05-2026",
       "meta": {
         "full_title": "Railway RRB Paramedical Categories CEN 05/2026 Recruitment 2026 Apply Online for 590 Post",
         "post_date": "14 September 2026 | 07:54 PM",
@@ -13464,6 +13556,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upanganwadibharti.in/workernew/users/registration.php",
       "login_url": "https://upanganwadibharti.in/workernew/users/login.php",
       "cutoff_pdf_url": "",
+      "slug": "up-anganwadi-worker-bharti-online-form-2026-updated",
       "meta": {
         "full_title": "UP Anganwadi Worker Bharti Recruitment 2026 Apply Online District Wise Vacancy Details Gonda, Moradabad, Kasganj",
         "post_date": "21 October 2026 | 08:00 PM",
@@ -13550,6 +13643,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com/EForms/configuredHtml/32912/102864/14v7jBxcoPI08LH2vw/Index.html",
       "login_url": "https://cdn3.digialm.com/EForms/configuredHtml/32912/102864/14v7jBxcoPI08LH2vw/Index.html",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-senior-personal-assistant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Senior Personal Assistant SPA Recruitment 2026 Exam for 65 Post",
         "post_date": "20 October 2026 | 06:08 PM",
@@ -13636,6 +13730,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-3-sub-engineer-online-form-2026-re-open",
       "meta": {
         "full_title": "MPESB Group 3 Sub Engineer ,Sahayak Manchitrakar, Technician and Other Equivalent Combined Recruitment Test 2026 Online Form for 1700 Post Re Open",
         "post_date": "13 October 2026 | 06:57 PM",
@@ -13734,6 +13829,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-sweeper-safai-karamchari-chowkidar-post-online-form-2026",
       "meta": {
         "full_title": "Delhi District & Session Court DSSSB Sweeper / Safai Karamchari and Chowkidar Advt. No. 05/2026 Recruitment 2026 Apply Online",
         "post_date": "13 October 2026 | 04:59 PM",
@@ -13822,6 +13918,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-combined-junior-engineer-electrical-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Junior Engineer Electrical Main Examination 2026 Apply Online for 380 Post",
         "post_date": "13 October 2026 | 06:24 PM",
@@ -13910,6 +14007,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-combined-junior-engineer-mechanical-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Junior Engineer (Mechanical) Main Examination 2026 Apply Online for 1156 Post",
         "post_date": "12 October 2026 | 10:10 PM",
@@ -13998,6 +14096,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys27/root/home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9DjjOvzupXmjixBOc0vZyJQ9v",
       "login_url": "https://examinationservices.nic.in/ExamSys27/root/home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9DjjOvzupXmjixBOc0vZyJQ9v",
       "cutoff_pdf_url": "",
+      "slug": "nta-ugc-net-jrf-december-2026-online-form",
       "meta": {
         "full_title": "NTA UGC NET December 2026 : Apply Online Form",
         "post_date": "13 October 2026 | 10:00 PM",
@@ -14086,6 +14185,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys27/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiU0N2QIZeKq/cbFBgqeJZQh",
       "login_url": "https://examinationservices.nic.in/ExamSys27/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiU0N2QIZeKq/cbFBgqeJZQh",
       "cutoff_pdf_url": "",
+      "slug": "nta-csir-ugc-net-december-2026-online-form",
       "meta": {
         "full_title": "NTA CSIR UGC NET December 2026 : Apply Online Form",
         "post_date": "07 October 2026 | 11:38 PM",
@@ -14174,6 +14274,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://joinindianarmy.nic.in/",
       "login_url": "https://joinindianarmy.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "army-tgc-145-online-form-2026-for-july-2027-batch",
       "meta": {
         "full_title": "Army Technical Graduate Courses TGC 145 July 2027 Batch Apply Online Form 2026",
         "post_date": "07 October 2026 | 09:00 PM",
@@ -14255,6 +14356,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-graduate-level-online-form-2026-cen-06-2026",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC Graduate Level CEN 06/2026 Recruitment 2026 for 3548 Post",
         "post_date": "12 October 2026 | 06:47 PM",
@@ -14364,6 +14466,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/niiclsep26/",
       "login_url": "https://ibpsreg.ibps.in/niiclsep26/",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-administrative-officers-ao-online-form-2026",
       "meta": {
         "full_title": "National Insurance Company Limited NICL Administrative Officer AO Recruitment 2026 : Apply Online for 321 Post",
         "post_date": "07 October 2026 | 06:03 PM",
@@ -14450,6 +14553,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com//EForms/configuredHtml/32912/100521/Index.html",
       "login_url": "https://cdn3.digialm.com//EForms/configuredHtml/32912/100521/Index.html",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-junior-court-assistant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Junior Court Assistant JCA Recruitment 2026 Exam for 250 Post",
         "post_date": "07 October 2026 | 08:49 PM",
@@ -14536,6 +14640,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/772/102013/XBWXcJ6Tz6lMMGMcqK/Registration.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/772/102013/XBWXcJ6Tz6lMMGMcqK/login.html",
       "cutoff_pdf_url": "",
+      "slug": "mp-high-court-mphc-stenographer-grade-ii-online-form-2026",
       "meta": {
         "full_title": "MP High Court Stenographer Grade II, Stenographer Grade III & Assistant Grade III Recruitment 2026 Apply Online for 418 Post",
         "post_date": "07 October 2026 | 09:20 PM",
@@ -14627,6 +14732,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-various-post-online-form-2026",
       "meta": {
         "full_title": "Delhi DSSSB Various Post Advt. No. 04/2026 Recruitment 2026 Apply Online for 641 Post",
         "post_date": "19 October 2026 | 06:06 PM",
@@ -14715,6 +14821,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://csjmurec.samarth.edu.in/",
       "login_url": "https://csjmurec.samarth.edu.in/",
       "cutoff_pdf_url": "",
+      "slug": "csjmu-kanpur-teaching-post-online-form-2026",
       "meta": {
         "full_title": "Chhatrapati Shahu Ji Maharaj University, Kanpur Recruitment 2026 Apply Online for Teaching for 36 Post",
         "post_date": "04 October 2026 | 08:30 PM",
@@ -14799,6 +14906,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sletregistration.cbrt.co.in/",
       "login_url": "https://sletregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-library-eligibility-test-blet-online-form-2026",
       "meta": {
         "full_title": "Bihar Library Eligibility Test BLET 2026 Apply Online",
         "post_date": "01 October 2026 | 11:50 AM",
@@ -14884,6 +14992,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bankappsweb.bankofbaroda.bank.in/BOBRECRUITMENT_AUG_2610940/",
       "login_url": "https://ibpsreg.ibps.in/bobdoct26/oecla_oct26/login.php?appid=f45182b711dcad2d160e2b9de0f01c64",
       "cutoff_pdf_url": "",
+      "slug": "bank-of-baroda-specialist-officer-so-admit-card-2026",
       "meta": {
         "full_title": "Bank of Baroda BOB Specialist Officer SO Recruitment 2026 Admit Card for 206 Post",
         "post_date": "24 October 2026 | 13:15 PM",
@@ -14992,6 +15101,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33244/102956/cOPXnjiLXCY5nEw5Vt/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-alp-cen-01-2026-exam-city-admit-card",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP Recruitment 2026 ( CEN 01/2026) : Exam City / Admit Card for 11127 Post",
         "post_date": "24 October 2026 | 09:45 AM",
@@ -15156,6 +15266,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
       "login_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-lecturer-2023-exam-city-details",
       "meta": {
         "full_title": "UPPSC Various Post Recruitment 2023 Scientific Officer Admit Card 2025 Screening Exam",
         "post_date": "24 October 2026 | 09:00 AM",
@@ -15359,6 +15470,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/login",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-special-tet-admit-card-2026",
       "meta": {
         "full_title": "Uttar Pradesh Teacher Eligibility Test UPESSC UP Special TET 2026 Exam City / Admit Card",
         "post_date": "24 October 2026 | 07:18 AM",
@@ -15474,6 +15586,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-paper-i-exam-city-details-2026",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -15603,6 +15716,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pet-admit-card-2026",
       "meta": {
         "full_title": "UP UPSSSC Preliminary Examination Test PET 2026 : Admit Card",
         "post_date": "17 October 2026 | 01:38 PM",
@@ -15781,6 +15895,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://stetregistration.cbrt.co.in/",
       "login_url": "https://stetregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-stet-admit-card-2026",
       "meta": {
         "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Admit Card",
         "post_date": "18 October 2026 | 06:58 PM",
@@ -15910,6 +16025,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33244/102815/9hhNyUtYzKG0WENxBk/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-junior-engineer-je-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Admit Card",
         "post_date": "23 October 2026 | 07:47 PM",
@@ -16099,6 +16215,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/nicljul26/",
       "login_url": "https://ibpsreg.ibps.in/nicljul26/oecla_sep26/login.php?appid=1005dd3fef2776d12dc0eb1dd2d5c320",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-assistant-phase-ii-mains-admit-card-2026",
       "meta": {
         "full_title": "National Insurance NICL Assistant Recruitment 2026 Pre Result, Phase II Mains Admit Card 2026",
         "post_date": "22 October 2026 | 06:34 PM",
@@ -16215,6 +16332,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.india.gov.in/",
       "login_url": "https://www.india.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "bsf-hc-ro-rm-2025-cbt-exam-admit-card-2026",
       "meta": {
         "full_title": "BSF HC RO / RM 2025 CBT Exam Admit Card 2026",
         "post_date": "October 2026",
@@ -16246,6 +16364,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/oecla_oct26/login.php?appid=dfac30f9e85bd1986fb4190e0ef49a00",
       "cutoff_pdf_url": "",
+      "slug": "ibps-specialist-officer-so-spl-16th-admit-card-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -16382,6 +16501,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://mppsc.mponline.gov.in/Portal/Examinations/MPPSC/Attestation/Home/Home.aspx",
       "login_url": "https://mppsc.mponline.gov.in/Portal/Examinations/MPPSC/2026/AdmitCard/PO26Login.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mppsc-adpo-admit-card-2026",
       "meta": {
         "full_title": "Madhya Pradesh State Service Exam Assistant District Prosecution Officer Recruitment 2026 Admit Card for 107 Post",
         "post_date": "21 October 2026 | 07:20 PM",
@@ -16511,6 +16631,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/97789/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-alp-cen-01-2025-cbat-exam-city-details",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP CEN 01/2025 Recruitment 2025 CBAT Exam City / Admit Card",
         "post_date": "20 October 2026 | 06:14 PM",
@@ -16965,6 +17086,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
       "login_url": "https://ibpsreg.ibps.in/sbijasrdjl26/oecla_oct26/login.php?appid=04e9489a07d6ad26422f6cd271a26ea2",
       "cutoff_pdf_url": "",
+      "slug": "sbi-clerk-backlog-phase-ii-mains-admit-card-2026",
       "meta": {
         "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Pre Result, Mains Admit Card for 1538 Backlog Post",
         "post_date": "19 October 2026 | 06:17 PM",
@@ -17081,6 +17203,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://stetregistration.cbrt.co.in/",
       "login_url": "https://stetregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-stet-2026-exam-date",
       "meta": {
         "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Admit Card",
         "post_date": "18 October 2026 | 06:58 PM",
@@ -17210,6 +17333,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/uiicljul26/",
       "login_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
       "cutoff_pdf_url": "",
+      "slug": "united-india-insurance-uiic-ao-admit-card-2026-for-225-post",
       "meta": {
         "full_title": "United India Insurance UIIC Administrative Officer Scale I Recruitment 2026 Admit Card for 225 Post",
         "post_date": "15 October 2026 | 10:30 PM",
@@ -17316,6 +17440,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jactetonline.com/",
       "login_url": "https://jactetonline.com/",
       "cutoff_pdf_url": "",
+      "slug": "jharkhand-jac-jhtet-admit-card-2026",
       "meta": {
         "full_title": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form | Syllabus Download",
         "post_date": "25 June 2026 | 01:41 PM",
@@ -17438,6 +17563,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/aaioct25/",
       "login_url": "https://ibpsreg.ibps.in/aaioct25/oecla_sep26/login.php?appid=c29840a936e11a8543bb8d3a80f48ed4",
       "cutoff_pdf_url": "",
+      "slug": "aai-manager-junior-executive-admit-card-2026-for-389-post",
       "meta": {
         "full_title": "Airport Authority of India AAI Manager & Junior Executive Recruitment 2026 Admit Card for 389 Post",
         "post_date": "14 October 2026 | 01:50 PM",
@@ -17546,6 +17672,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rhcexam.rajasthan.gov.in/steno2026/index.php",
       "login_url": "http://103.203.137.249/steno2026/index.php",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-high-court-stenographer-admit-card-2026",
       "meta": {
         "full_title": "Rajasthan High Court Stenographer Recruitment 2026 Admit Card for 163 Post",
         "post_date": "13 October 2026 | 08:50 PM",
@@ -17654,6 +17781,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://applycareer.co.in/DHC/HighCourt2026DHJSE/",
       "login_url": "https://applycareer.co.in/dhc/highcourt2026dhjse/DHJSE2026_AdmitMain.aspx",
       "cutoff_pdf_url": "",
+      "slug": "delhi-high-court-hjs-mains-admit-card-2026",
       "meta": {
         "full_title": "Delhi Higher Judicial Services HJS Result 2026, Mains Admit Card",
         "post_date": "13 October 2026 | 08:19 PM",
@@ -17820,6 +17948,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-combined-graduate-level-cgl-2026-tier-i-admit-card",
       "meta": {
         "full_title": "SSC Combined Graduate Level CGL Recruitment 2026 Exam City for 12256 Post",
         "post_date": "24 September 2026 | 05:27 PM",
@@ -17959,6 +18088,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "login_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "cutoff_pdf_url": "",
+      "slug": "bihar-bpsc-72-pre-exam-postponed-2026",
       "meta": {
         "full_title": "Bihar BPSC Integrated 72nd Combined (Preliminary) Competitive Exam 2026 Pre Exam Date",
         "post_date": "15 August 2026 | 12:02 AM",
@@ -18107,6 +18237,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/upcisbapr26/",
       "login_url": "https://ibpsreg.ibps.in/upcisbapr26/oecla_aug26/login.php?appid=be96f03d489b0cc2d67802ae5dcc7b35",
       "cutoff_pdf_url": "",
+      "slug": "up-cooperative-bank-various-post-exam-date-2026-advt-no-a-2-g-r-2026",
       "meta": {
         "full_title": "UPCISB Co-Operative Institutional Service Board UPCISB Combined Co-operative Banking, Non-Banking and Technical Services Examination General Various Post Recruitment 2026 Admit Card",
         "post_date": "12 October 2026 | 01:14 PM",
@@ -18226,6 +18357,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-section-controller-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
         "post_date": "16 October 2026 | 04:09 PM",
@@ -18375,6 +18507,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://recruitment.skau.ac.in/nonteaching/",
       "login_url": "https://skau.eapplynow.com/Pages/AdmitCard01Login7.aspx",
       "cutoff_pdf_url": "",
+      "slug": "skau-kurukshetra-non-teaching-clerk-admit-card-2026",
       "meta": {
         "full_title": "Shri Krishna Ayush University Non Teaching Recruitment 2026 Admit Card for 60 Post",
         "post_date": "08 October 2026 | 08:48 AM",
@@ -18494,6 +18627,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33244/102815/9hhNyUtYzKG0WENxBk/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-junior-engineer-je-application-status-2026",
       "meta": {
         "full_title": "Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Admit Card",
         "post_date": "23 October 2026 | 07:47 PM",
@@ -18683,6 +18817,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-technician-cen-02-2026-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Technician CEN 02/2026 Recruitment 2026 Answer Key for 6557 Post",
         "post_date": "15 October 2026 | 04:36 PM",
@@ -18837,6 +18972,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/csaxvijul26/",
       "login_url": "https://ibpsreg.ibps.in/csaxvijul26/oecla_sep26/login.php?appid=948c445571d2f4e9f8749da0111eee4b",
       "cutoff_pdf_url": "",
+      "slug": "ibps-clerk-16th-admit-card-2026",
       "meta": {
         "full_title": "IBPS Clerk CRP XVI 16th Recruitment 2026 Admit Card",
         "post_date": "01 October 2026 | 08:55 PM",
@@ -18952,6 +19088,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-10-2-chsl-tier-i-exam-date-2026",
       "meta": {
         "full_title": "SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post",
         "post_date": "01 October 2026 | 06:23 PM",
@@ -19061,6 +19198,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-cpo-si-2026-exam-date",
       "meta": {
         "full_title": "SSC Sub-Inspector in Delhi Police and Central Armed Police Forces Exam CPO SI 2026 : CBE Exam Date for 1871 Post",
         "post_date": "01 October 2026 | 06:21 PM",
@@ -19170,6 +19308,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-2026-paper-i-exam-date",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -19299,6 +19438,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/Index.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/login.html",
       "cutoff_pdf_url": "",
+      "slug": "delhi-high-court-junior-judicial-assistant-jja-admit-card-2026",
       "meta": {
         "full_title": "Delhi High Court Junior Judicial Assistant JJA / Restorer Recruitment 2026 Admit Card",
         "post_date": "29 September 2026 | 12:50 PM",
@@ -19465,6 +19605,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
       "login_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-assistant-town-planner-atp-2025-mains-exam-city-details",
       "meta": {
         "full_title": "UPPSC Assistant Town Planner ATP Recruitment 2025 : Pre Result, District Information Slip (Exam City) 2026",
         "post_date": "28 September 2026 | 05:51 PM",
@@ -19623,6 +19764,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "login_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "cutoff_pdf_url": "",
+      "slug": "chhattisgarh-state-eligibility-test-set-admit-card-2026",
       "meta": {
         "full_title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
         "post_date": "28 September 2026 | 12:26 PM",
@@ -19747,6 +19889,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/bobjul26/",
       "login_url": "https://ibpsreg.ibps.in/bobjul26/oecla_sep26/login.php?appid=c6391b5560ed30fe3af4a2c4bc3956e3",
       "cutoff_pdf_url": "",
+      "slug": "bank-of-baroda-local-bank-officer-lbo-admit-card-2026",
       "meta": {
         "full_title": "Bank of Baroda BOB Local Bank Officer LBO Recruitment 2026 Admit Card for 2482 Post",
         "post_date": "27 September 2026 | 03:48 PM",
@@ -19865,6 +20008,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "login_url": "https://www.isro.gov.in/ICRB_Recruitment11.html",
       "cutoff_pdf_url": "",
+      "slug": "isro-icrb-assistant-and-other-post-result-2026",
       "meta": {
         "full_title": "ISRO Various Post Recruitment 2026 Result",
         "post_date": "24 October 2026 | 07:00 PM",
@@ -19994,6 +20138,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.hgupexam2025.com/HGDistrictIntimation/forgotappno.aspx",
       "login_url": "https://www.hgupexam2025.com/hgrequestmail/loginpage.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-police-home-guard-marks-2026",
       "meta": {
         "full_title": "UP Police Home Guard Recruitment 2025 Marks 2026",
         "post_date": "24 October 2026 | 11:45 AM",
@@ -20410,6 +20555,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/100936/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/100936/login.html",
       "cutoff_pdf_url": "",
+      "slug": "cotton-corporation-of-india-cci-various-post-result-2026",
       "meta": {
         "full_title": "The Cotton Corporation of India Ltd. CCI Recruitment 2026 Result",
         "post_date": "23 October 2026 | 10:05 PM",
@@ -20526,6 +20672,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/SSC_GD_writeup_12102026.pdf",
+      "slug": "ssc-gd-constable-revised-result-2026",
       "meta": {
         "full_title": "SSC Constable (GD) in Central Armed Police Forces (CAPFs) and SSF, and Rifleman (GD) in Assam Rifles Examination, 2026 Result",
         "post_date": "23 October 2026 : 01:34 PM",
@@ -20780,6 +20927,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/lscda_oct26/login.php?appid=e7af49a3266e94e74537ed705fb4c8b9",
       "cutoff_pdf_url": "",
+      "slug": "ibps-so-16th-pre-score-card-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -20916,6 +21064,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cds-ii-result-2026",
       "meta": {
         "full_title": "UPSC Combined Defence Service CDS II Recruitment 2026 Result",
         "post_date": "19 October 2026 | 07:55 PM",
@@ -21052,6 +21201,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
       "login_url": "https://sbi.bank.in/web/careers/ja-spldrive-pre-2026",
       "cutoff_pdf_url": "",
+      "slug": "sbi-junior-associates-clerk-backlog-pre-result-2026",
       "meta": {
         "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Pre Result, Mains Admit Card for 1538 Backlog Post",
         "post_date": "19 October 2026 | 06:17 PM",
@@ -21168,6 +21318,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/OTRAppForm/Applicant_OtrAuthentication.aspx?WEqGEem9m0+8Y4tNQqJiNYurmbKsjJR/fgSlThSTh6o=#no-back",
       "login_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjHNjHdrEpv0R",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-lt-grade-assistant-teacher-2025-final-result-updated",
       "meta": {
         "full_title": "UPPSC Assistant Grade LT Grade Teacher Recruitment 2025 Mains Result 2026",
         "post_date": "17 October 2026 | 06:07 PM",
@@ -21586,6 +21737,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/lscda_oct26/login.php?appid=e7af49a3266e94e74537ed705fb4c8b9",
       "cutoff_pdf_url": "",
+      "slug": "ibps-specialist-officer-so-spl-16th-pre-result-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -21722,6 +21874,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbipojun26/",
       "login_url": "https://sbi.bank.in/web/careers/popre-results-2026",
       "cutoff_pdf_url": "",
+      "slug": "sbi-probationary-officers-po-mains-result-2026",
       "meta": {
         "full_title": "State Bank of India SBI Probationary Officers PO Recruitment 2026 : Pre Score Card, Mains Result 2026",
         "post_date": "15 October 2026 | 04:46 PM",
@@ -21868,6 +22021,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.upprpb.in/",
       "login_url": "https://upcons2025.com/finalResultsupConstable/loginpage.aspx",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/Cutoff_Notice.pdf",
+      "slug": "up-police-constable-final-result-2026",
       "meta": {
         "full_title": "UP Police Constable Recruitment 2025 Final Result 2026",
         "post_date": "14 October 2026 | 02:42 PM",
@@ -22184,6 +22338,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://applyssb.com/hcmin2021/applicationAfterIndex",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101413/login.html",
       "cutoff_pdf_url": "",
+      "slug": "ssb-head-constable-ministerial-2020-result-marks-2026",
       "meta": {
         "full_title": "Sashastra Seema Bal SSB Head Constable (Min) 2020 CBT Exam Result / Marks 2026",
         "post_date": "14 October 2026 | 12:58 PM",
@@ -22362,6 +22517,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/index.php",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-nda-ii-written-exam-result-2026-name-wise-list",
       "meta": {
         "full_title": "UPSC NDA & NDA II Recruitment 2026 Result, Name Wise List",
         "post_date": "13 October 2026 | 06:51 PM",
@@ -22497,6 +22653,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/",
       "login_url": "https://upsconline.nic.in/eadmitcard/admitcard_capf_2024/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cpf-capf-ac-2024-marks-details-2026",
       "meta": {
         "full_title": "UPSC Central Armed Police Force CAPF AC Examination 2024, Final Result with Reserve List, Marks 2026 for 506 Post",
         "post_date": "13 October 2026 | 06:44 PM",
@@ -22633,6 +22790,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://recruitment.rajasthan.gov.in/rectlogingetadmitcard",
       "cutoff_pdf_url": "",
+      "slug": "rpsc-tgt-senior-teacher-gr-ii-result-2026",
       "meta": {
         "full_title": "RPSC Rajasthan TGT Senior Teacher Grade II 07/2025 Result 2026",
         "post_date": "13 October 2026 | 06:12 PM",
@@ -22796,6 +22954,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img_0001_1_1.pdf",
+      "slug": "dsssb-assistant-teacher-primary-result-2026",
       "meta": {
         "full_title": "Delhi DSSSB New Latest Result 2026",
         "post_date": "13 October 2026 | 05:47 PM",
@@ -23653,6 +23812,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upmsp.edu.in/",
       "login_url": "https://upmsp.edu.in/",
       "cutoff_pdf_url": "",
+      "slug": "up-board-time-table-2027",
       "meta": {
         "full_title": "Uttar Pradesh Madhyamic Shiksha Parishad UPMSP High School 10th and Intermediate 12th Exam Time Table / Date Sheet 2027",
         "post_date": "13 October 2026 | 06:42 AM",
@@ -23712,6 +23872,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3sJgPmO",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-moharir-2022-eligibility-result-2026-for-92-post",
       "meta": {
         "full_title": "UPSSSC Uttar Pradesh Moharir Recruitment 2022 Eligibility Result for 92 Post",
         "post_date": "12 October 2026 | 07:17 PM",
@@ -23840,6 +24001,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-ganna-parvekshak-cane-supervisor-eligibility-result-2026",
       "meta": {
         "full_title": "UPSSSC UP Ganna Parvekshak Cane Supervisor Recruitment 2026 Eligibility Result for 1182 Post",
         "post_date": "12 October 2026 | 07:02 PM",
@@ -23958,6 +24120,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://app.indiapost.gov.in/gdscandidate/registration",
       "login_url": "https://www.indiapost.gov.in/gdsonlineengagement",
       "cutoff_pdf_url": "",
+      "slug": "india-post-gds-first-merit-list-2026",
       "meta": {
         "full_title": "India Post Gramin Dak Sevaks GDS Recruitment Schedule II July 2026 Merit List / Result for 23757 Post",
         "post_date": "12 October 2026 | 05:02 PM",
@@ -24081,6 +24244,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04",
       "login_url": "https://aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04",
       "cutoff_pdf_url": "",
+      "slug": "aiims-norcet-nursing-officer-11th-stage-ii-result-2026",
       "meta": {
         "full_title": "AIIMS Nursing Officer Recruitment 2026 Phase 11th Stage II Result",
         "post_date": "10 October 2026 | 12:26 PM",
@@ -24199,6 +24363,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply-csbc.com/CSBC_CT_01_2026_V1/applicationIndex",
       "login_url": "https://apply-csbc.com/csbc_12026_pstadmitcard/applicationIndex",
       "cutoff_pdf_url": "",
+      "slug": "csbc-bihar-police-constable-special-branch-final-result-2026",
       "meta": {
         "full_title": "Bihar Police CSBC Constable Special Branch Recruitment 2026 for 83 Post Final Result",
         "post_date": "09 October 2026 | 06:33 PM",
@@ -24355,6 +24520,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/nicljul26/",
       "login_url": "https://ibpsreg.ibps.in/nicljul26/oecla_sep26/login.php?appid=1005dd3fef2776d12dc0eb1dd2d5c320",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-assistant-pre-result-2026",
       "meta": {
         "full_title": "National Insurance NICL Assistant Recruitment 2026 Pre Result, Phase II Mains Admit Card 2026",
         "post_date": "22 October 2026 | 06:34 PM",
@@ -24471,6 +24637,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/101492/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ministerial-and-isolated-cen-08-2025-result-with-marks",
       "meta": {
         "full_title": "Railway RRB Ministerial & Isolated Categories Various Posts CEN 08/2025 Recruitment 2026 Result with Marks",
         "post_date": "08 October 2026 | 08:37 AM",
@@ -24660,6 +24827,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-stenographer-2025-marks",
       "meta": {
         "full_title": "SSC Stenographer Grade C & D Recruitment 2025 Final Result with Marks 2026 for 261 Post",
         "post_date": "07 October 2026 | 07:33 PM",
@@ -24854,6 +25022,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/writeup_final_chsl_2025_07102026.pdf",
+      "slug": "ssc-10-2-chsl-2025-final-result",
       "meta": {
         "full_title": "SSC 10+2 Combined Higher Secondary Level Exam CHSL Recruitment 2025 Final Result 2026",
         "post_date": "07 October 2026 | 07:20 PM",
@@ -25197,6 +25366,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/writeup_mts_03082026.pdf",
+      "slug": "ssc-multi-tasking-mts-havaldar-2025-additional-result",
       "meta": {
         "full_title": "SSC Multi Tasking Staff MTS & Havaldar Recruitment 2025 Download PET / PST Schedule, Additional Result for 8021 Post",
         "post_date": "07 October 2026 | 01:34 PM",
@@ -25430,6 +25600,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://updeled.gov.in/Registration/Tet/DUPTetReghome.aspx",
       "login_url": "https://updeled.gov.in/Registration/Tet/DTetActivecandlog.aspx",
       "cutoff_pdf_url": "",
+      "slug": "uptet-2021-result",
       "meta": {
         "full_title": "Uttar Pradesh TET Exams UPTET 2021 Primary and Junior Level Result 2026",
         "post_date": "07 October 2026",
@@ -25652,6 +25823,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.mha.gov.in/",
       "login_url": "https://www.mha.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "mha-ib-mts-2025-final-result",
       "meta": {
         "full_title": "MHA IB MTS 2025 Final Result",
         "post_date": "October 2026",
@@ -25694,6 +25866,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_10-Exam_2023_Eligibility_Result_SarkariResult_Com.pdf",
+      "slug": "upsssc-forest-guard-2023-pmt-result-2026-for-709-post",
       "meta": {
         "full_title": "UPSSSC Forest Guard / Wild Life Guard Recruitment 2023 Download PMT Result 2026 for 709 Post",
         "post_date": "08 October 2026 | 08:50 PM",
@@ -25882,6 +26055,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.hgupexam2025.com/HGDistrictIntimation/forgotappno.aspx",
       "login_url": "https://www.hgupexam2025.com/hgrequestmail/loginpage.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-police-home-guard-final-result-2026",
       "meta": {
         "full_title": "UP Police Home Guard Recruitment 2025 Marks 2026",
         "post_date": "24 October 2026 | 11:45 AM",
@@ -26298,6 +26472,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/97789/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-assistant-loco-pilot-alp-cen-01-2025-cbt-ii-result-2026",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP CEN 01/2025 Recruitment 2025 CBAT Exam City / Admit Card",
         "post_date": "20 October 2026 | 06:14 PM",
@@ -26752,6 +26927,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "http://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-enforcement-constable-2023-final-result",
       "meta": {
         "full_title": "UPSSSC Enforcement Constable Recruitment 2023 PET Exam Result, Final Result 2026 for 477 Post",
         "post_date": "30 September 2026 | 10:53 PM",
@@ -27020,6 +27196,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//default.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/Results.aspx?ID=165&Result_Type=P&Exam_Code=5&Advt_Code=573&Dept_Code=604&Post_Code=1&OnlyIntview=No",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-havildar-instructor-result-2026",
       "meta": {
         "full_title": "UPSSSC UP Havildar Instructor Recruitment 2026 Result",
         "post_date": "30 September 2026 | 07:40 PM",
@@ -27128,6 +27305,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/Results.aspx?ID=166&Result_Type=P&Exam_Code=7&Advt_Code=732&Dept_Code=608&Post_Code=1&OnlyIntview=No",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-platoon-commander-block-organizer-result-2026",
       "meta": {
         "full_title": "UPSSSC Platoon Commander / Block Organizer Recruitment 2026: Result",
         "post_date": "30 September 2026 | 07:25 PM",
@@ -27243,6 +27421,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/Results.aspx?ID=166&Result_Type=P&Exam_Code=7&Advt_Code=732&Dept_Code=608&Post_Code=1&OnlyIntview=No",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-platoon-commander-block-organizer-result-2026",
       "meta": {
         "full_title": "UPSSSC Platoon Commander / Block Organizer Recruitment 2026: Result",
         "post_date": "30 September 2026 | 07:25 PM",
@@ -27356,6 +27535,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//default.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/Results.aspx?ID=165&Result_Type=P&Exam_Code=5&Advt_Code=573&Dept_Code=604&Post_Code=1&OnlyIntview=No",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-havildar-instructor-result-2026",
       "meta": {
         "full_title": "UPSSSC UP Havildar Instructor Recruitment 2026 Result",
         "post_date": "30 September 2026 | 07:40 PM",
@@ -27464,6 +27644,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "http://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-enforcement-constable-2023-final-result",
       "meta": {
         "full_title": "UPSSSC Enforcement Constable Recruitment 2023 PET Exam Result, Final Result 2026 for 477 Post",
         "post_date": "30 September 2026 | 10:53 PM",
@@ -27732,6 +27913,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/97789/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-assistant-loco-pilot-alp-cen-01-2025-cbt-ii-result-2026",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP CEN 01/2025 Recruitment 2025 CBAT Exam City / Admit Card",
         "post_date": "20 October 2026 | 06:14 PM",
@@ -28186,6 +28368,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.hgupexam2025.com/HGDistrictIntimation/forgotappno.aspx",
       "login_url": "https://www.hgupexam2025.com/hgrequestmail/loginpage.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-police-home-guard-final-result-2026",
       "meta": {
         "full_title": "UP Police Home Guard Recruitment 2025 Marks 2026",
         "post_date": "24 October 2026 | 11:45 AM",
@@ -28602,6 +28785,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/UPSSSC_10-Exam_2023_Eligibility_Result_SarkariResult_Com.pdf",
+      "slug": "upsssc-forest-guard-2023-pmt-result-2026-for-709-post",
       "meta": {
         "full_title": "UPSSSC Forest Guard / Wild Life Guard Recruitment 2023 Download PMT Result 2026 for 709 Post",
         "post_date": "08 October 2026 | 08:50 PM",
@@ -28790,6 +28974,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.mha.gov.in/",
       "login_url": "https://www.mha.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "mha-ib-mts-2025-final-result",
       "meta": {
         "full_title": "MHA IB MTS 2025 Final Result",
         "post_date": "October 2026",
@@ -28832,6 +29017,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://updeled.gov.in/Registration/Tet/DUPTetReghome.aspx",
       "login_url": "https://updeled.gov.in/Registration/Tet/DTetActivecandlog.aspx",
       "cutoff_pdf_url": "",
+      "slug": "uptet-2021-result",
       "meta": {
         "full_title": "Uttar Pradesh TET Exams UPTET 2021 Primary and Junior Level Result 2026",
         "post_date": "07 October 2026",
@@ -29054,6 +29240,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/writeup_mts_03082026.pdf",
+      "slug": "ssc-multi-tasking-mts-havaldar-2025-additional-result",
       "meta": {
         "full_title": "SSC Multi Tasking Staff MTS & Havaldar Recruitment 2025 Download PET / PST Schedule, Additional Result for 8021 Post",
         "post_date": "07 October 2026 | 01:34 PM",
@@ -29287,6 +29474,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/writeup_final_chsl_2025_07102026.pdf",
+      "slug": "ssc-10-2-chsl-2025-final-result",
       "meta": {
         "full_title": "SSC 10+2 Combined Higher Secondary Level Exam CHSL Recruitment 2025 Final Result 2026",
         "post_date": "07 October 2026 | 07:20 PM",
@@ -29630,6 +29818,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-stenographer-2025-marks",
       "meta": {
         "full_title": "SSC Stenographer Grade C & D Recruitment 2025 Final Result with Marks 2026 for 261 Post",
         "post_date": "07 October 2026 | 07:33 PM",
@@ -29824,6 +30013,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/101492/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ministerial-and-isolated-cen-08-2025-result-with-marks",
       "meta": {
         "full_title": "Railway RRB Ministerial & Isolated Categories Various Posts CEN 08/2025 Recruitment 2026 Result with Marks",
         "post_date": "08 October 2026 | 08:37 AM",
@@ -30013,6 +30203,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/nicljul26/",
       "login_url": "https://ibpsreg.ibps.in/nicljul26/oecla_sep26/login.php?appid=1005dd3fef2776d12dc0eb1dd2d5c320",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-assistant-pre-result-2026",
       "meta": {
         "full_title": "National Insurance NICL Assistant Recruitment 2026 Pre Result, Phase II Mains Admit Card 2026",
         "post_date": "22 October 2026 | 06:34 PM",
@@ -30129,6 +30320,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply-csbc.com/CSBC_CT_01_2026_V1/applicationIndex",
       "login_url": "https://apply-csbc.com/csbc_12026_pstadmitcard/applicationIndex",
       "cutoff_pdf_url": "",
+      "slug": "csbc-bihar-police-constable-special-branch-final-result-2026",
       "meta": {
         "full_title": "Bihar Police CSBC Constable Special Branch Recruitment 2026 for 83 Post Final Result",
         "post_date": "09 October 2026 | 06:33 PM",
@@ -30285,6 +30477,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04",
       "login_url": "https://aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04",
       "cutoff_pdf_url": "",
+      "slug": "aiims-norcet-nursing-officer-11th-stage-ii-result-2026",
       "meta": {
         "full_title": "AIIMS Nursing Officer Recruitment 2026 Phase 11th Stage II Result",
         "post_date": "10 October 2026 | 12:26 PM",
@@ -30403,6 +30596,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://app.indiapost.gov.in/gdscandidate/registration",
       "login_url": "https://www.indiapost.gov.in/gdsonlineengagement",
       "cutoff_pdf_url": "",
+      "slug": "india-post-gds-first-merit-list-2026",
       "meta": {
         "full_title": "India Post Gramin Dak Sevaks GDS Recruitment Schedule II July 2026 Merit List / Result for 23757 Post",
         "post_date": "12 October 2026 | 05:02 PM",
@@ -30526,6 +30720,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-ganna-parvekshak-cane-supervisor-eligibility-result-2026",
       "meta": {
         "full_title": "UPSSSC UP Ganna Parvekshak Cane Supervisor Recruitment 2026 Eligibility Result for 1182 Post",
         "post_date": "12 October 2026 | 07:02 PM",
@@ -30644,6 +30839,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3sJgPmO",
       "login_url": "https://upsssc.gov.in/ResultsDire.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-moharir-2022-eligibility-result-2026-for-92-post",
       "meta": {
         "full_title": "UPSSSC Uttar Pradesh Moharir Recruitment 2022 Eligibility Result for 92 Post",
         "post_date": "12 October 2026 | 07:17 PM",
@@ -30772,6 +30968,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upmsp.edu.in/",
       "login_url": "https://upmsp.edu.in/",
       "cutoff_pdf_url": "",
+      "slug": "up-board-time-table-2027",
       "meta": {
         "full_title": "Uttar Pradesh Madhyamic Shiksha Parishad UPMSP High School 10th and Intermediate 12th Exam Time Table / Date Sheet 2027",
         "post_date": "13 October 2026 | 06:42 AM",
@@ -30831,6 +31028,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img_0001_1_1.pdf",
+      "slug": "dsssb-assistant-teacher-primary-result-2026",
       "meta": {
         "full_title": "Delhi DSSSB New Latest Result 2026",
         "post_date": "13 October 2026 | 05:47 PM",
@@ -31688,6 +31886,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://recruitment.rajasthan.gov.in/rectlogingetadmitcard",
       "cutoff_pdf_url": "",
+      "slug": "rpsc-tgt-senior-teacher-gr-ii-result-2026",
       "meta": {
         "full_title": "RPSC Rajasthan TGT Senior Teacher Grade II 07/2025 Result 2026",
         "post_date": "13 October 2026 | 06:12 PM",
@@ -31851,6 +32050,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/",
       "login_url": "https://upsconline.nic.in/eadmitcard/admitcard_capf_2024/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cpf-capf-ac-2024-marks-details-2026",
       "meta": {
         "full_title": "UPSC Central Armed Police Force CAPF AC Examination 2024, Final Result with Reserve List, Marks 2026 for 506 Post",
         "post_date": "13 October 2026 | 06:44 PM",
@@ -31987,6 +32187,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/index.php",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-nda-ii-written-exam-result-2026-name-wise-list",
       "meta": {
         "full_title": "UPSC NDA & NDA II Recruitment 2026 Result, Name Wise List",
         "post_date": "13 October 2026 | 06:51 PM",
@@ -32122,6 +32323,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://applyssb.com/hcmin2021/applicationAfterIndex",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101413/login.html",
       "cutoff_pdf_url": "",
+      "slug": "ssb-head-constable-ministerial-2020-result-marks-2026",
       "meta": {
         "full_title": "Sashastra Seema Bal SSB Head Constable (Min) 2020 CBT Exam Result / Marks 2026",
         "post_date": "14 October 2026 | 12:58 PM",
@@ -32300,6 +32502,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.upprpb.in/",
       "login_url": "https://upcons2025.com/finalResultsupConstable/loginpage.aspx",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/Cutoff_Notice.pdf",
+      "slug": "up-police-constable-final-result-2026",
       "meta": {
         "full_title": "UP Police Constable Recruitment 2025 Final Result 2026",
         "post_date": "14 October 2026 | 02:42 PM",
@@ -32616,6 +32819,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbipojun26/",
       "login_url": "https://sbi.bank.in/web/careers/popre-results-2026",
       "cutoff_pdf_url": "",
+      "slug": "sbi-probationary-officers-po-mains-result-2026",
       "meta": {
         "full_title": "State Bank of India SBI Probationary Officers PO Recruitment 2026 : Pre Score Card, Mains Result 2026",
         "post_date": "15 October 2026 | 04:46 PM",
@@ -32762,6 +32966,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/lscda_oct26/login.php?appid=e7af49a3266e94e74537ed705fb4c8b9",
       "cutoff_pdf_url": "",
+      "slug": "ibps-specialist-officer-so-spl-16th-pre-result-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -32898,6 +33103,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/OTRAppForm/Applicant_OtrAuthentication.aspx?WEqGEem9m0+8Y4tNQqJiNYurmbKsjJR/fgSlThSTh6o=#no-back",
       "login_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjHNjHdrEpv0R",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-lt-grade-assistant-teacher-2025-final-result-updated",
       "meta": {
         "full_title": "UPPSC Assistant Grade LT Grade Teacher Recruitment 2025 Mains Result 2026",
         "post_date": "17 October 2026 | 06:07 PM",
@@ -33316,6 +33522,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
       "login_url": "https://sbi.bank.in/web/careers/ja-spldrive-pre-2026",
       "cutoff_pdf_url": "",
+      "slug": "sbi-junior-associates-clerk-backlog-pre-result-2026",
       "meta": {
         "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Pre Result, Mains Admit Card for 1538 Backlog Post",
         "post_date": "19 October 2026 | 06:17 PM",
@@ -33432,6 +33639,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cds-ii-result-2026",
       "meta": {
         "full_title": "UPSC Combined Defence Service CDS II Recruitment 2026 Result",
         "post_date": "19 October 2026 | 07:55 PM",
@@ -33568,6 +33776,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/lscda_oct26/login.php?appid=e7af49a3266e94e74537ed705fb4c8b9",
       "cutoff_pdf_url": "",
+      "slug": "ibps-so-16th-pre-score-card-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -33704,6 +33913,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "https://doc.sarkariresults.org.in/SSC_GD_writeup_12102026.pdf",
+      "slug": "ssc-gd-constable-revised-result-2026",
       "meta": {
         "full_title": "SSC Constable (GD) in Central Armed Police Forces (CAPFs) and SSF, and Rifleman (GD) in Assam Rifles Examination, 2026 Result",
         "post_date": "23 October 2026 : 01:34 PM",
@@ -33958,6 +34168,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/100936/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/100936/login.html",
       "cutoff_pdf_url": "",
+      "slug": "cotton-corporation-of-india-cci-various-post-result-2026",
       "meta": {
         "full_title": "The Cotton Corporation of India Ltd. CCI Recruitment 2026 Result",
         "post_date": "23 October 2026 | 10:05 PM",
@@ -34074,6 +34285,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.hgupexam2025.com/HGDistrictIntimation/forgotappno.aspx",
       "login_url": "https://www.hgupexam2025.com/hgrequestmail/loginpage.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-police-home-guard-marks-2026",
       "meta": {
         "full_title": "UP Police Home Guard Recruitment 2025 Marks 2026",
         "post_date": "24 October 2026 | 11:45 AM",
@@ -34490,6 +34702,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "login_url": "https://www.isro.gov.in/ICRB_Recruitment11.html",
       "cutoff_pdf_url": "",
+      "slug": "isro-icrb-assistant-and-other-post-result-2026",
       "meta": {
         "full_title": "ISRO Various Post Recruitment 2026 Result",
         "post_date": "24 October 2026 | 07:00 PM",
@@ -34619,6 +34832,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/bobjul26/",
       "login_url": "https://ibpsreg.ibps.in/bobjul26/oecla_sep26/login.php?appid=c6391b5560ed30fe3af4a2c4bc3956e3",
       "cutoff_pdf_url": "",
+      "slug": "bank-of-baroda-local-bank-officer-lbo-admit-card-2026",
       "meta": {
         "full_title": "Bank of Baroda BOB Local Bank Officer LBO Recruitment 2026 Admit Card for 2482 Post",
         "post_date": "27 September 2026 | 03:48 PM",
@@ -34737,6 +34951,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "login_url": "https://vyapamprofile.cgstate.gov.in/online/",
       "cutoff_pdf_url": "",
+      "slug": "chhattisgarh-state-eligibility-test-set-admit-card-2026",
       "meta": {
         "full_title": "Chhattisgarh State Eligibility Test SET Admit Card 2026",
         "post_date": "28 September 2026 | 12:26 PM",
@@ -34861,6 +35076,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
       "login_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-assistant-town-planner-atp-2025-mains-exam-city-details",
       "meta": {
         "full_title": "UPPSC Assistant Town Planner ATP Recruitment 2025 : Pre Result, District Information Slip (Exam City) 2026",
         "post_date": "28 September 2026 | 05:51 PM",
@@ -35019,6 +35235,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/Index.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/33131/97738/login.html",
       "cutoff_pdf_url": "",
+      "slug": "delhi-high-court-junior-judicial-assistant-jja-admit-card-2026",
       "meta": {
         "full_title": "Delhi High Court Junior Judicial Assistant JJA / Restorer Recruitment 2026 Admit Card",
         "post_date": "29 September 2026 | 12:50 PM",
@@ -35185,6 +35402,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-2026-paper-i-exam-date",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -35314,6 +35532,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-cpo-si-2026-exam-date",
       "meta": {
         "full_title": "SSC Sub-Inspector in Delhi Police and Central Armed Police Forces Exam CPO SI 2026 : CBE Exam Date for 1871 Post",
         "post_date": "01 October 2026 | 06:21 PM",
@@ -35423,6 +35642,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-10-2-chsl-tier-i-exam-date-2026",
       "meta": {
         "full_title": "SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post",
         "post_date": "01 October 2026 | 06:23 PM",
@@ -35532,6 +35752,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/csaxvijul26/",
       "login_url": "https://ibpsreg.ibps.in/csaxvijul26/oecla_sep26/login.php?appid=948c445571d2f4e9f8749da0111eee4b",
       "cutoff_pdf_url": "",
+      "slug": "ibps-clerk-16th-admit-card-2026",
       "meta": {
         "full_title": "IBPS Clerk CRP XVI 16th Recruitment 2026 Admit Card",
         "post_date": "01 October 2026 | 08:55 PM",
@@ -35647,6 +35868,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-technician-cen-02-2026-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Technician CEN 02/2026 Recruitment 2026 Answer Key for 6557 Post",
         "post_date": "15 October 2026 | 04:36 PM",
@@ -35801,6 +36023,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33244/102815/9hhNyUtYzKG0WENxBk/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-junior-engineer-je-application-status-2026",
       "meta": {
         "full_title": "Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Admit Card",
         "post_date": "23 October 2026 | 07:47 PM",
@@ -35990,6 +36213,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://recruitment.skau.ac.in/nonteaching/",
       "login_url": "https://skau.eapplynow.com/Pages/AdmitCard01Login7.aspx",
       "cutoff_pdf_url": "",
+      "slug": "skau-kurukshetra-non-teaching-clerk-admit-card-2026",
       "meta": {
         "full_title": "Shri Krishna Ayush University Non Teaching Recruitment 2026 Admit Card for 60 Post",
         "post_date": "08 October 2026 | 08:48 AM",
@@ -36109,6 +36333,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-section-controller-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
         "post_date": "16 October 2026 | 04:09 PM",
@@ -36258,6 +36483,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/upcisbapr26/",
       "login_url": "https://ibpsreg.ibps.in/upcisbapr26/oecla_aug26/login.php?appid=be96f03d489b0cc2d67802ae5dcc7b35",
       "cutoff_pdf_url": "",
+      "slug": "up-cooperative-bank-various-post-exam-date-2026-advt-no-a-2-g-r-2026",
       "meta": {
         "full_title": "UPCISB Co-Operative Institutional Service Board UPCISB Combined Co-operative Banking, Non-Banking and Technical Services Examination General Various Post Recruitment 2026 Admit Card",
         "post_date": "12 October 2026 | 01:14 PM",
@@ -36377,6 +36603,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "login_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "cutoff_pdf_url": "",
+      "slug": "bihar-bpsc-72-pre-exam-postponed-2026",
       "meta": {
         "full_title": "Bihar BPSC Integrated 72nd Combined (Preliminary) Competitive Exam 2026 Pre Exam Date",
         "post_date": "15 August 2026 | 12:02 AM",
@@ -36525,6 +36752,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-combined-graduate-level-cgl-2026-tier-i-admit-card",
       "meta": {
         "full_title": "SSC Combined Graduate Level CGL Recruitment 2026 Exam City for 12256 Post",
         "post_date": "24 September 2026 | 05:27 PM",
@@ -36664,6 +36892,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://applycareer.co.in/DHC/HighCourt2026DHJSE/",
       "login_url": "https://applycareer.co.in/dhc/highcourt2026dhjse/DHJSE2026_AdmitMain.aspx",
       "cutoff_pdf_url": "",
+      "slug": "delhi-high-court-hjs-mains-admit-card-2026",
       "meta": {
         "full_title": "Delhi Higher Judicial Services HJS Result 2026, Mains Admit Card",
         "post_date": "13 October 2026 | 08:19 PM",
@@ -36830,6 +37059,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rhcexam.rajasthan.gov.in/steno2026/index.php",
       "login_url": "http://103.203.137.249/steno2026/index.php",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-high-court-stenographer-admit-card-2026",
       "meta": {
         "full_title": "Rajasthan High Court Stenographer Recruitment 2026 Admit Card for 163 Post",
         "post_date": "13 October 2026 | 08:50 PM",
@@ -36938,6 +37168,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/aaioct25/",
       "login_url": "https://ibpsreg.ibps.in/aaioct25/oecla_sep26/login.php?appid=c29840a936e11a8543bb8d3a80f48ed4",
       "cutoff_pdf_url": "",
+      "slug": "aai-manager-junior-executive-admit-card-2026-for-389-post",
       "meta": {
         "full_title": "Airport Authority of India AAI Manager & Junior Executive Recruitment 2026 Admit Card for 389 Post",
         "post_date": "14 October 2026 | 01:50 PM",
@@ -37046,6 +37277,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jactetonline.com/",
       "login_url": "https://jactetonline.com/",
       "cutoff_pdf_url": "",
+      "slug": "jharkhand-jac-jhtet-admit-card-2026",
       "meta": {
         "full_title": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form | Syllabus Download",
         "post_date": "25 June 2026 | 01:41 PM",
@@ -37168,6 +37400,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/uiicljul26/",
       "login_url": "https://ibpsreg.ibps.in/uiicljul26/oecla_oct26/login.php?appid=ce02324495f4184290ee0e7c5a463df6",
       "cutoff_pdf_url": "",
+      "slug": "united-india-insurance-uiic-ao-admit-card-2026-for-225-post",
       "meta": {
         "full_title": "United India Insurance UIIC Administrative Officer Scale I Recruitment 2026 Admit Card for 225 Post",
         "post_date": "15 October 2026 | 10:30 PM",
@@ -37274,6 +37507,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://stetregistration.cbrt.co.in/",
       "login_url": "https://stetregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-stet-2026-exam-date",
       "meta": {
         "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Admit Card",
         "post_date": "18 October 2026 | 06:58 PM",
@@ -37403,6 +37637,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
       "login_url": "https://ibpsreg.ibps.in/sbijasrdjl26/oecla_oct26/login.php?appid=04e9489a07d6ad26422f6cd271a26ea2",
       "cutoff_pdf_url": "",
+      "slug": "sbi-clerk-backlog-phase-ii-mains-admit-card-2026",
       "meta": {
         "full_title": "State Bank of India SBI Junior Associates Clerk Recruitment 2026 : Pre Result, Mains Admit Card for 1538 Backlog Post",
         "post_date": "19 October 2026 | 06:17 PM",
@@ -37519,6 +37754,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/97789/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-alp-cen-01-2025-cbat-exam-city-details",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP CEN 01/2025 Recruitment 2025 CBAT Exam City / Admit Card",
         "post_date": "20 October 2026 | 06:14 PM",
@@ -37973,6 +38209,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://mppsc.mponline.gov.in/Portal/Examinations/MPPSC/Attestation/Home/Home.aspx",
       "login_url": "https://mppsc.mponline.gov.in/Portal/Examinations/MPPSC/2026/AdmitCard/PO26Login.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mppsc-adpo-admit-card-2026",
       "meta": {
         "full_title": "Madhya Pradesh State Service Exam Assistant District Prosecution Officer Recruitment 2026 Admit Card for 107 Post",
         "post_date": "21 October 2026 | 07:20 PM",
@@ -38102,6 +38339,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/crpspxvimy26/",
       "login_url": "https://ibpsreg.ibps.in/crpspxvimy26/oecla_oct26/login.php?appid=dfac30f9e85bd1986fb4190e0ef49a00",
       "cutoff_pdf_url": "",
+      "slug": "ibps-specialist-officer-so-spl-16th-admit-card-2026",
       "meta": {
         "full_title": "IBPS Specialist Officer (IT, Marketing, Law & Other Post) XVI (16th) Recruitment 2026, Pre Score Card, Mains Admit Card",
         "post_date": "22 October 2026 | 05:22 PM",
@@ -38238,6 +38476,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.india.gov.in/",
       "login_url": "https://www.india.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "bsf-hc-ro-rm-2025-cbt-exam-admit-card-2026",
       "meta": {
         "full_title": "BSF HC RO / RM 2025 CBT Exam Admit Card 2026",
         "post_date": "October 2026",
@@ -38269,6 +38508,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/nicljul26/",
       "login_url": "https://ibpsreg.ibps.in/nicljul26/oecla_sep26/login.php?appid=1005dd3fef2776d12dc0eb1dd2d5c320",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-assistant-phase-ii-mains-admit-card-2026",
       "meta": {
         "full_title": "National Insurance NICL Assistant Recruitment 2026 Pre Result, Phase II Mains Admit Card 2026",
         "post_date": "22 October 2026 | 06:34 PM",
@@ -38385,6 +38625,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33244/102815/9hhNyUtYzKG0WENxBk/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-junior-engineer-je-admit-card-2026",
       "meta": {
         "full_title": "Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Admit Card",
         "post_date": "23 October 2026 | 07:47 PM",
@@ -38574,6 +38815,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://stetregistration.cbrt.co.in/",
       "login_url": "https://stetregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-stet-admit-card-2026",
       "meta": {
         "full_title": "Bihar Secondary Teacher Eligibility Test BSEB STET 2026 Admit Card",
         "post_date": "18 October 2026 | 06:58 PM",
@@ -38703,6 +38945,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/AdmitCard.aspx?ID=P",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pet-admit-card-2026",
       "meta": {
         "full_title": "UP UPSSSC Preliminary Examination Test PET 2026 : Admit Card",
         "post_date": "17 October 2026 | 01:38 PM",
@@ -38881,6 +39124,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-paper-i-exam-city-details-2026",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -39010,6 +39254,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/login",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-special-tet-admit-card-2026",
       "meta": {
         "full_title": "Uttar Pradesh Teacher Eligibility Test UPESSC UP Special TET 2026 Exam City / Admit Card",
         "post_date": "24 October 2026 | 07:18 AM",
@@ -39125,6 +39370,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
       "login_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
       "cutoff_pdf_url": "",
+      "slug": "uppsc-lecturer-2023-exam-city-details",
       "meta": {
         "full_title": "UPPSC Various Post Recruitment 2023 Scientific Officer Admit Card 2025 Screening Exam",
         "post_date": "24 October 2026 | 09:00 AM",
@@ -39328,6 +39574,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33244/102956/cOPXnjiLXCY5nEw5Vt/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-alp-cen-01-2026-exam-city-admit-card",
       "meta": {
         "full_title": "Railway RRB Assistant Loco Pilot ALP Recruitment 2026 ( CEN 01/2026) : Exam City / Admit Card for 11127 Post",
         "post_date": "24 October 2026 | 09:45 AM",
@@ -39492,6 +39739,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bankappsweb.bankofbaroda.bank.in/BOBRECRUITMENT_AUG_2610940/",
       "login_url": "https://ibpsreg.ibps.in/bobdoct26/oecla_oct26/login.php?appid=f45182b711dcad2d160e2b9de0f01c64",
       "cutoff_pdf_url": "",
+      "slug": "bank-of-baroda-specialist-officer-so-admit-card-2026",
       "meta": {
         "full_title": "Bank of Baroda BOB Specialist Officer SO Recruitment 2026 Admit Card for 206 Post",
         "post_date": "24 October 2026 | 13:15 PM",
@@ -39600,6 +39848,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sletregistration.cbrt.co.in/",
       "login_url": "https://sletregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-library-eligibility-test-blet-online-form-2026",
       "meta": {
         "full_title": "Bihar Library Eligibility Test BLET 2026 Apply Online",
         "post_date": "01 October 2026 | 11:50 AM",
@@ -39685,6 +39934,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://csjmurec.samarth.edu.in/",
       "login_url": "https://csjmurec.samarth.edu.in/",
       "cutoff_pdf_url": "",
+      "slug": "csjmu-kanpur-teaching-post-online-form-2026",
       "meta": {
         "full_title": "Chhatrapati Shahu Ji Maharaj University, Kanpur Recruitment 2026 Apply Online for Teaching for 36 Post",
         "post_date": "04 October 2026 | 08:30 PM",
@@ -39769,6 +40019,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-various-post-online-form-2026",
       "meta": {
         "full_title": "Delhi DSSSB Various Post Advt. No. 04/2026 Recruitment 2026 Apply Online for 641 Post",
         "post_date": "19 October 2026 | 06:06 PM",
@@ -39857,6 +40108,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/772/102013/XBWXcJ6Tz6lMMGMcqK/Registration.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/772/102013/XBWXcJ6Tz6lMMGMcqK/login.html",
       "cutoff_pdf_url": "",
+      "slug": "mp-high-court-mphc-stenographer-grade-ii-online-form-2026",
       "meta": {
         "full_title": "MP High Court Stenographer Grade II, Stenographer Grade III & Assistant Grade III Recruitment 2026 Apply Online for 418 Post",
         "post_date": "07 October 2026 | 09:20 PM",
@@ -39948,6 +40200,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com//EForms/configuredHtml/32912/100521/Index.html",
       "login_url": "https://cdn3.digialm.com//EForms/configuredHtml/32912/100521/Index.html",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-junior-court-assistant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Junior Court Assistant JCA Recruitment 2026 Exam for 250 Post",
         "post_date": "07 October 2026 | 08:49 PM",
@@ -40034,6 +40287,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/niiclsep26/",
       "login_url": "https://ibpsreg.ibps.in/niiclsep26/",
       "cutoff_pdf_url": "",
+      "slug": "national-insurance-nicl-administrative-officers-ao-online-form-2026",
       "meta": {
         "full_title": "National Insurance Company Limited NICL Administrative Officer AO Recruitment 2026 : Apply Online for 321 Post",
         "post_date": "07 October 2026 | 06:03 PM",
@@ -40120,6 +40374,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-graduate-level-online-form-2026-cen-06-2026",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC Graduate Level CEN 06/2026 Recruitment 2026 for 3548 Post",
         "post_date": "12 October 2026 | 06:47 PM",
@@ -40229,6 +40484,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://joinindianarmy.nic.in/",
       "login_url": "https://joinindianarmy.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "army-tgc-145-online-form-2026-for-july-2027-batch",
       "meta": {
         "full_title": "Army Technical Graduate Courses TGC 145 July 2027 Batch Apply Online Form 2026",
         "post_date": "07 October 2026 | 09:00 PM",
@@ -40310,6 +40566,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys27/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiU0N2QIZeKq/cbFBgqeJZQh",
       "login_url": "https://examinationservices.nic.in/ExamSys27/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiU0N2QIZeKq/cbFBgqeJZQh",
       "cutoff_pdf_url": "",
+      "slug": "nta-csir-ugc-net-december-2026-online-form",
       "meta": {
         "full_title": "NTA CSIR UGC NET December 2026 : Apply Online Form",
         "post_date": "07 October 2026 | 11:38 PM",
@@ -40398,6 +40655,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys27/root/home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9DjjOvzupXmjixBOc0vZyJQ9v",
       "login_url": "https://examinationservices.nic.in/ExamSys27/root/home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9DjjOvzupXmjixBOc0vZyJQ9v",
       "cutoff_pdf_url": "",
+      "slug": "nta-ugc-net-jrf-december-2026-online-form",
       "meta": {
         "full_title": "NTA UGC NET December 2026 : Apply Online Form",
         "post_date": "13 October 2026 | 10:00 PM",
@@ -40486,6 +40744,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-combined-junior-engineer-mechanical-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Junior Engineer (Mechanical) Main Examination 2026 Apply Online for 1156 Post",
         "post_date": "12 October 2026 | 10:10 PM",
@@ -40574,6 +40833,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-combined-junior-engineer-electrical-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Junior Engineer Electrical Main Examination 2026 Apply Online for 380 Post",
         "post_date": "13 October 2026 | 06:24 PM",
@@ -40662,6 +40922,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://dsssbonline.nic.in/",
       "login_url": "https://dsssbonline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-sweeper-safai-karamchari-chowkidar-post-online-form-2026",
       "meta": {
         "full_title": "Delhi District & Session Court DSSSB Sweeper / Safai Karamchari and Chowkidar Advt. No. 05/2026 Recruitment 2026 Apply Online",
         "post_date": "13 October 2026 | 04:59 PM",
@@ -40750,6 +41011,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-3-sub-engineer-online-form-2026-re-open",
       "meta": {
         "full_title": "MPESB Group 3 Sub Engineer ,Sahayak Manchitrakar, Technician and Other Equivalent Combined Recruitment Test 2026 Online Form for 1700 Post Re Open",
         "post_date": "13 October 2026 | 06:57 PM",
@@ -40848,6 +41110,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com/EForms/configuredHtml/32912/102864/14v7jBxcoPI08LH2vw/Index.html",
       "login_url": "https://cdn3.digialm.com/EForms/configuredHtml/32912/102864/14v7jBxcoPI08LH2vw/Index.html",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-senior-personal-assistant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Senior Personal Assistant SPA Recruitment 2026 Exam for 65 Post",
         "post_date": "20 October 2026 | 06:08 PM",
@@ -40934,6 +41197,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upanganwadibharti.in/workernew/users/registration.php",
       "login_url": "https://upanganwadibharti.in/workernew/users/login.php",
       "cutoff_pdf_url": "",
+      "slug": "up-anganwadi-worker-bharti-online-form-2026-updated",
       "meta": {
         "full_title": "UP Anganwadi Worker Bharti Recruitment 2026 Apply Online District Wise Vacancy Details Gonda, Moradabad, Kasganj",
         "post_date": "21 October 2026 | 08:00 PM",
@@ -41020,6 +41284,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-paramedical-online-form-2026-cen-05-2026",
       "meta": {
         "full_title": "Railway RRB Paramedical Categories CEN 05/2026 Recruitment 2026 Apply Online for 590 Post",
         "post_date": "14 September 2026 | 07:54 PM",
@@ -41119,6 +41384,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "login_url": "https://bpsconline.bihar.gov.in/candidate/login",
       "cutoff_pdf_url": "",
+      "slug": "bpsc-school-teacher-tre-4-0-online-form-2026",
       "meta": {
         "full_title": "Bihar School Teacher TRE 4.0 Recruitment 2026 Online Form for 32388 Post",
         "post_date": "07 October 2026 | 08:41 PM",
@@ -41285,6 +41551,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "login_url": "https://joinindianarmy.nic.in/Authentication.aspx",
       "cutoff_pdf_url": "",
+      "slug": "army-10-2-tes-57th-online-form-2026",
       "meta": {
         "full_title": "Indian Army 10+2 TES 57 Recruitment 2026 Apply Online",
         "post_date": "14 October 2026 | 08:30 PM",
@@ -41370,6 +41637,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "login_url": "https://www.rrbapply.gov.in/#/auth/landing",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-10-2-under-graduate-online-form-2026",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC 10+2 Under Graduate Level CEN 07/2026 Recruitment 2026 for 1688 Post",
         "post_date": "07 October 2026 | 08:30 PM",
@@ -41479,6 +41747,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/register",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-primary-teacher-super-tet-online-form-2026-extended",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Primary Teacher Recruitment 2026 : Apply Online for 12405 Post",
         "post_date": "16 September 2026 | 09:49 PM",
@@ -41602,6 +41871,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.sci.gov.in/",
       "login_url": "https://www.sci.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-junior-court-attendant-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Junior Court Attendant JCA Recruitment 2026 Exam for 130 Post",
         "post_date": "15 October 2026 | 08:49 PM",
@@ -41688,6 +41958,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-mp-police-constable-driver-online-form-2026",
       "meta": {
         "full_title": "MPESB MP Police Constable Driver Recruitment 2026 Apply Online Form for 1000 Post",
         "post_date": "07 October 2026 | 01:49 PM",
@@ -41775,6 +42046,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-10-2-inter-level-various-post-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Combined Lower Subordinate Services Main Examination 2026 Apply Online for 1784 Post",
         "post_date": "16 October 2026 | 08:45 PM",
@@ -41863,6 +42135,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ibpsreg.ibps.in/cwcaug26/",
       "login_url": "https://ibpsreg.ibps.in/cwcaug26/",
       "cutoff_pdf_url": "",
+      "slug": "cwc-assistant-manager-and-junior-executive-online-form-2026",
       "meta": {
         "full_title": "Central Warehousing Corporation Assistant Manager and Junior Executive Recruitment 2026 for 327 Post Apply Online",
         "post_date": "17 October 2026 | 12:55 PM",
@@ -41949,6 +42222,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://icsil.in/app/signup",
       "login_url": "https://icsil.in/app/signup",
       "cutoff_pdf_url": "",
+      "slug": "icsil-data-entry-operator-deo-post-online-form-2026",
       "meta": {
         "full_title": "ICSIL Data Entry Operator DEO Post Recruitment 2026 Apply Online",
         "post_date": "17 October 2026 | 06:50 PM",
@@ -42044,6 +42318,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.sci.gov.in/",
       "login_url": "https://www.sci.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "supreme-court-of-india-court-master-online-form-2026",
       "meta": {
         "full_title": "Supreme Court of India SCI Court Master (Shorthand) Recruitment 2026 Exam for 20 Post",
         "post_date": "19 October 2026 | 08:40 PM",
@@ -42130,6 +42405,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://www.rrbapply.gov.in/#/auth/home",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-station-master-online-form-2026",
       "meta": {
         "full_title": "Railway RRB Station Master CEN 08/2026 Recruitment 2026 Apply Online for 1250 Post",
         "post_date": "21 October 2026 | 12:40 PM",
@@ -42219,6 +42495,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-physical-instructor-other-post-online-form-2026",
       "meta": {
         "full_title": "UPSSSC Regional Youth Welfare and Regional Development Team Officer and Physical Instructor Main Examination 2026 Apply Online for 412 Post",
         "post_date": "21 October 2026 | 07:05 PM",
@@ -42307,6 +42584,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/33192/102813/o0zKIYO3CqWa8uMPmN/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/33192/102813/o0zKIYO3CqWa8uMPmN/login.html",
       "cutoff_pdf_url": "",
+      "slug": "bhel-artisan-various-trade-post-online-form-2026",
       "meta": {
         "full_title": "BHEL Artisan Various Trade Recruitment 2026 for 660 Post Apply Online",
         "post_date": "21 October 2026 | 10:45 AM",
@@ -42395,6 +42673,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrcjaipur.in/",
       "login_url": "https://www.rrcjaipur.in/",
       "cutoff_pdf_url": "",
+      "slug": "nwr-rrc-jaipur-apprentices-online-form-2026",
       "meta": {
         "full_title": "Indian Railway NWR Region RRC Jaipur Act Apprentices Notification 2026 Apply Online for 2008 Post",
         "post_date": "22 October 2026 | 05:00 PM",
@@ -42479,6 +42758,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-principal-inter-level-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Principal Intermediate Level Recruitment 2026 : Apply Online Form 2026 for 1475 Post",
         "post_date": "23 October 2026 | 10:15 PM",
@@ -42577,6 +42857,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://nats.education.gov.in/student_type.php",
       "login_url": "https://nats.education.gov.in/student_type.php",
       "cutoff_pdf_url": "",
+      "slug": "lic-hfl-apprentice-online-online-form-2026",
       "meta": {
         "full_title": "LIC Housing Finance Limited Apprentice Recruitment 2026 Apply Online for 232 Post",
         "post_date": "23 October 2026 | 08:30 PM",
@@ -42675,6 +42956,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-headmaster-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Head Master (HM) Recruitment 2026 : Apply Online Form 2026 for 1172 Post",
         "post_date": "23 October 2026 | 09:33 PM",
@@ -42773,6 +43055,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/",
       "login_url": "https://apply.upessc.org/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-tgt-online-form-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Trained Graduate Teacher (TGT Teacher) Recruitment 2026 : Apply Online Form 2026 for 17735 Post",
         "post_date": "23 October 2026 | 09:00 PM",
@@ -42871,6 +43154,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiVbovgbG6pVEHea7DNFe38E",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFTqGsyg38PlGNCGSuvSzsiVbovgbG6pVEHea7DNFe38E",
       "cutoff_pdf_url": "",
+      "slug": "nta-csir-ugc-net-final-answer-key-2026",
       "meta": {
         "full_title": "NTA CSIR UGC NET June 2026 Result, with Score Card, E Certificate Download",
         "post_date": "25 September 2026 | 09:58 PM",
@@ -43152,6 +43436,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bsnlregistration.ibtexamination.com/AppO2BsNL_2026/",
       "login_url": "https://bsnlregistration.ibtexamination.com/bsnl_02.html",
       "cutoff_pdf_url": "",
+      "slug": "bsnl-jto-answer-key-2026",
       "meta": {
         "full_title": "BSNL Junior Telecom Officer Telecom Recruitment 2026 Answer Key for 100 Post",
         "post_date": "29 August 2026 | 09:20 PM",
@@ -43280,6 +43565,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://htet.eapplynow.com/",
       "login_url": "https://htet.eapplynow.com/HTETApp25/Pages/Answer2Key1Login07.aspx",
       "cutoff_pdf_url": "",
+      "slug": "haryana-teacher-eligibility-test-htet-omr-sheet-2026",
       "meta": {
         "full_title": "Haryana Teacher Eligibility Test HTET OMR Sheet 2026",
         "post_date": "01 September 2026 | 06:03 PM",
@@ -43482,6 +43768,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "login_url": "https://examinationservices.nic.in/examsys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "cutoff_pdf_url": "",
+      "slug": "nta-aiapget-answer-key-2026",
       "meta": {
         "full_title": "NTA All India Ayush Post Graduate Entrance Test AIAPGET Admissions 2026 Result / Score Card",
         "post_date": "18 September 2026 | 07:42 PM",
@@ -43693,6 +43980,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin?encq=6JkTF7D/fPuyiLpqlTuv+tsssIL22cKEce/qYZMZKsM=",
       "login_url": "https://recruitment.rajasthan.gov.in/knowlocationservlet",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rpsc-apo-answer-key-2026",
       "meta": {
         "full_title": "RPSC Assistant Prosecution Officer APO Recruitment 2026 Answer Key",
         "post_date": "07 September 2026 | 05:55 PM",
@@ -43822,6 +44110,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/101714/login.html",
       "cutoff_pdf_url": "",
+      "slug": "rrb-railway-group-answer-key-2026-cen-09-2025",
       "meta": {
         "full_title": "Railway RRB Group D Various Posts of Level-1 CEN 09/2025 Recruitment 2026 Answer Key",
         "post_date": "07 September 2026 | 06:31 PM",
@@ -44041,6 +44330,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
       "cutoff_pdf_url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/2026082829087103.pdf",
+      "slug": "nta-ugc-net-re-exam-answer-key-2026",
       "meta": {
         "full_title": "NTA UGC NET June 2026, Re Exam Result / Score Card | E Certificate Download",
         "post_date": "24 September 2026 | 05:44 PM",
@@ -44338,6 +44628,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.digialm.com/EForms/configuredHtml/1258/102404/login.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101323/login.html",
       "cutoff_pdf_url": "",
+      "slug": "delhi-dsssb-mts-answer-key-2026",
       "meta": {
         "full_title": "Delhi DSSSB Various Post 2026 Admit Card September 2026, July 2026 Exam Answer Key, Exam Schedule September / October 2026",
         "post_date": "18 September 2026 | 04:55 PM",
@@ -44867,6 +45158,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-assistant-boring-technician-revised-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Assistant Boring Technician Recruitment 2026 Revised Answer Key",
         "post_date": "12 September 2026 | 02:58 PM",
@@ -45045,6 +45337,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-teacher-cadre-jtc-revised-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Teacher Cadre (Assistant J.T.C. Teacher) Recruitment 2026 Mains Revised Answer Key",
         "post_date": "12 September 2026 | 03:02 PM",
@@ -45228,6 +45521,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/upsc/OTRP/index.php",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-nda-ii-answer-key-2026",
       "meta": {
         "full_title": "UPSC NDA & NDA II Recruitment 2026 Result, Name Wise List",
         "post_date": "13 October 2026 | 06:51 PM",
@@ -45363,6 +45657,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsconline.nic.in/",
       "login_url": "https://upsconline.nic.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsc-cds-ii-answer-key-2026",
       "meta": {
         "full_title": "UPSC Combined Defence Service CDS II Recruitment 2026 Result",
         "post_date": "19 October 2026 | 07:55 PM",
@@ -45499,6 +45794,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin",
       "login_url": "https://recruitment.rajasthan.gov.in/rectlogingetadmitcard",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rssb-computer-instructor-answer-key-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board RSSB Basic and Senior Computer Instructor Recruitment 2026 Answer Key",
         "post_date": "18 September 2026 | 04:35 PM",
@@ -45643,6 +45939,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "login_url": "https://examinationservices.nic.in/examsys26part2/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFZ+h0MepSUWC4caRGr23rIGxoddmkPhP33EPDwrEMlwi",
       "cutoff_pdf_url": "",
+      "slug": "nta-aiapget-final-answer-key-2026",
       "meta": {
         "full_title": "NTA All India Ayush Post Graduate Entrance Test AIAPGET Admissions 2026 Result / Score Card",
         "post_date": "18 September 2026 | 07:42 PM",
@@ -45854,6 +46151,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://g2sg12026.cbtexam.in/Home/ListofExam.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-2-sub-group-1-krishi-vistar-adhikari-answer-key-2026",
       "meta": {
         "full_title": "MPESB MP Group 2 Sub Group 1 Krashi Vistar Adhikari ( Agriculture Extension Officer) Recruitment Test \u2013 2026 Answer Key",
         "post_date": "21 September 2026 | 04:25 PM",
@@ -45972,6 +46270,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rectt.bsf.gov.in/",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/102021/login.html",
       "cutoff_pdf_url": "",
+      "slug": "bsf-hc-ministerial-and-asi-steno-answer-key-objection-2026",
       "meta": {
         "full_title": "BSF Assistant Sub Inspector ASI Stenographer and Head Constable HC Ministerial Recruitment 2024 Download Answer Key Objection for 1526 Post",
         "post_date": "21 September 2026 | 11:15 AM",
@@ -46120,6 +46419,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-combined-hindi-translators-jht-answer-key-2026",
       "meta": {
         "full_title": "SSC Combined Hindi Translators JHT Recruitment 2026 Answer Key for 84 Post",
         "post_date": "22 September 2026 | 01:12 AM",
@@ -46256,6 +46556,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-excise-constable-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Excise Constable (Aabkari Sipahi) Recruitment 2026 Provisional Answer Key",
         "post_date": "22 September 2026 | 16:45 PM",
@@ -46459,6 +46760,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pharmacist-ayurvedic-2024-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC Pharmaceutical Pharmacists Ayurvedic Recruitment 2024 Answer Key",
         "post_date": "22 September 2026 | 04:56 PM",
@@ -46657,6 +46959,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-stenographer-2026-answer-key",
       "meta": {
         "full_title": "SSC Stenographer Grade C and D Recruitment 2026 Answer Key for 731 Post",
         "post_date": "31 August 2026 | 06:49 PM",
@@ -46816,6 +47119,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1149/101044/Index.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1149/101044/login.html",
       "cutoff_pdf_url": "",
+      "slug": "patna-high-court-assistant-group-c-answer-key-2026",
       "meta": {
         "full_title": "Patna High Court Judicature Ex-Cadre Assistant Group C Recruitment 2026 Answer Key",
         "post_date": "24 September 2026 | 11:06 AM",
@@ -46942,6 +47246,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com//EForms/configuredHtml/33128/100181/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-ntpc-10-2-ug-level-cbt-ii-answer-key-2026-cen-07-2025",
       "meta": {
         "full_title": "Railway RRB Non Technical Popular Categories NTPC 10+2 Under Graduate 12th Level CEN 07/2025 Result with Score Card 2026, Answer Key",
         "post_date": "24 September 2026 | 12:44 PM",
@@ -47506,6 +47811,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "login_url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html",
       "cutoff_pdf_url": "",
+      "slug": "isro-icrb-assistant-and-other-post-answer-key-2026",
       "meta": {
         "full_title": "ISRO Various Post Recruitment 2026 Result",
         "post_date": "24 October 2026 | 07:00 PM",
@@ -47635,6 +47941,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://principalhe.upessc.org/otr/",
       "login_url": "https://www.upessc.net/UPESSCPrincipalQC/Login.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-principal-answer-key-2026",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Answer Key for 111 Post",
         "post_date": "26 September 2026 | 04:07 PM",
@@ -47779,6 +48086,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101431/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101431/login.html",
       "cutoff_pdf_url": "",
+      "slug": "indian-air-force-airmen-group-y-medical-assistant-inet-02-2027-answer",
       "meta": {
         "full_title": "Join Indian Air Force Airmen Group Y Medical Assistant Intake 02/2027 Recruitment 2026 Answer Key",
         "post_date": "26 September 2026 | 04:40 PM",
@@ -47897,6 +48205,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101256/login.html",
       "login_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101256/login.html",
       "cutoff_pdf_url": "",
+      "slug": "indian-airforce-agniveervayu-intake-02-2027-answer-key-2026",
       "meta": {
         "full_title": "Join Indian Air Force Agniveer Vayu Intake 02/2027 Recruitment 2026 Answer Key",
         "post_date": "26 September 2026 | 04:43 PM",
@@ -48014,6 +48323,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZHZ3R1KfIRihXMNTJdQefIgydMRHLRTKw=",
+      "slug": "upsssc-scientific-and-lab-assistant-mains-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC Forensic Science Laboratory Main Examination 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:54 PM",
@@ -48202,6 +48512,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/upssscadmitcard/admitCard.aspx?ID=MAIN",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZYEzU2TtYgSzXa3c8BQV4U9hzNT0OVY/M=",
+      "slug": "upsssc-forest-guard-wild-life-guard-mains-answer-key-2026",
       "meta": {
         "full_title": "UPSSSC UP Forest Guard / Wild Life Guard Recruitment 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:56 PM",
@@ -48390,6 +48701,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cdn3.digialm.com/EForms/configuredHtml/1815/101418/Index.html",
       "login_url": "https://cdn3.digialm.com/EForms/configuredHtml/1815/101418/login.html",
       "cutoff_pdf_url": "",
+      "slug": "nbems-nat-board-group-a-b-c-various-post-answer-key-2026",
       "meta": {
         "full_title": "NBEMS NAT Board Group A, B, C Various Post Recruitment 2026 Answer Key 2026",
         "post_date": "01 October 2026 | 07:00 PM",
@@ -48519,6 +48831,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ukutet.com/",
       "login_url": "https://ukutet.com/",
       "cutoff_pdf_url": "",
+      "slug": "uttarakhand-uk-tet-utet-answer-key-2026",
       "meta": {
         "full_title": "Uttarakhand Teacher Eligibility Test UTET 2026 Answer Key",
         "post_date": "05 October 2026 | 05:21 PM",
@@ -48621,6 +48934,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/signin",
       "login_url": "https://uok.ac.in/category.php?catid=89&pageid=726&page=SET%20Examination%202026",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-state-eligibility-test-set-answer-key-2026",
       "meta": {
         "full_title": "Rajasthan State Eligibility Test SET Answer Key 2026",
         "post_date": "05 October 2026 | 07:08 PM",
@@ -48771,6 +49085,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://g2sg4crt2026.cbtexam.in/Home/ListofExam.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-group-2-sub-group-4-patwari-and-other-post-answer-key-2026",
       "meta": {
         "full_title": "MPESB MP Group 2 Sub Group 4 Patwari and Other Post Combined Recruitment Test \u2013 2026 Answer Key 2106 Post",
         "post_date": "06 October 2026 | 06:36 PM",
@@ -48899,6 +49214,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-selection-post-14th-answer-key-2026",
       "meta": {
         "full_title": "SSC Selection Post 14th Recruitment 2026 Answer Key for 3003 Post",
         "post_date": "09 October 2026 | 04:17 PM",
@@ -49058,6 +49374,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://rrbapply.gov.in/#/auth/home",
       "login_url": "https://rrb.digialm.com/EForms/configuredHtml/33128/102593/W0Bq2R5HxK9c3BqWQc/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-technician-cen-02-2026-answer-key-2026",
       "meta": {
         "full_title": "Railway RRB Technician CEN 02/2026 Recruitment 2026 Answer Key for 6557 Post",
         "post_date": "15 October 2026 | 04:36 PM",
@@ -49212,6 +49529,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.rrbapply.gov.in/#/auth/home",
       "login_url": "https://qa-efmprd.digialm.com//EForms/configuredHtml/33128/102721/yTOWT6zoDJDKpLRfP3/login.html",
       "cutoff_pdf_url": "",
+      "slug": "railway-rrb-section-controller-answer-key-2026-cen-03-2026",
       "meta": {
         "full_title": "Railway RRB Section Controller CEN 03/2026 Recruitment 2026 Answer Key 2026",
         "post_date": "16 October 2026 | 04:09 PM",
@@ -49361,6 +49679,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uptet.upessc.org/otr/",
       "login_url": "https://uptet.upessc.org/otr/",
       "cutoff_pdf_url": "",
+      "slug": "uptet-2026-syllabus",
       "meta": {
         "full_title": "Uttar Pradesh Teacher Eligibility Test UPESSC UP TET 2026 Result (Declared), Certificate Download, Certificate Correction Notice",
         "post_date": "25 September 2026 | 06:17 PM",
@@ -49658,6 +49977,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jactetonline.com/",
       "login_url": "https://jactetonline.com/",
       "cutoff_pdf_url": "",
+      "slug": "jharkhand-teacher-eligibility-test-jhtet-syllabus-2026",
       "meta": {
         "full_title": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form | Syllabus Download",
         "post_date": "25 June 2026 | 01:41 PM",
@@ -49780,6 +50100,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://phc-recruitment.com/",
       "login_url": "https://phc-recruitment.com/",
       "cutoff_pdf_url": "",
+      "slug": "patna-high-court-technical-assistant-syllabus-2026",
       "meta": {
         "full_title": "Patna High Court PHC Technical Assistant TA Recruitment 2026 Apply Online for 53 Post",
         "post_date": "01 April 2026",
@@ -49878,6 +50199,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "login_url": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "cutoff_pdf_url": "",
+      "slug": "mpesb-nursing-officer-sister-tutor-syllabus-2026",
       "meta": {
         "full_title": "MPESB MP Nursing Officer & Sister Tutor Recruitment 2026 Download Answer Key for 2317 Post",
         "post_date": "18 May 2026",
@@ -49996,6 +50318,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-up-vidhan-bhawan-guard-fireman-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC UP Sachivalaya Vidhan Bhavan Guard and Vidhan Bhavan Fireman/Fire Guard Recruitment 2026 Apply Online for 170 Post",
         "post_date": "09 June 2026 | 10:43 AM",
@@ -50099,6 +50422,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/recsys2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFdjoojMEdElwjdIyoUFL7zFG0/iUe3TLUpr8BDubooUX",
       "login_url": "https://examinationservices.nic.in/recsys2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFdjoojMEdElwjdIyoUFL7zFG0/iUe3TLUpr8BDubooUX",
       "cutoff_pdf_url": "",
+      "slug": "allahabad-high-court-ro-aro-computer-assistant-exam-syllabus-2026",
       "meta": {
         "full_title": "NTA Allahabad High Court RO / ARO, Computer Assistant Online Form 2026",
         "post_date": "10 June 2026 | 10:18 AM",
@@ -50207,6 +50531,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-auditor-and-assistant-accountant-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Auditor and Assistant Accountant Advt. No. 14-Exam/2026 Recruitment 2026 : Apply Online Vacancy Increase for 1957 Post",
         "post_date": "01 August 2026 | 07:25 PM",
@@ -50325,6 +50650,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://sso.rajasthan.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "rajasthan-rssb-10-2-senior-secondary-cet-syllabus-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board (RSSB) Common Eligibility Test CET 10+2 Senior Secondary Level 2026 : Apply Online",
         "post_date": "24 June 2026 | 08:00 PM",
@@ -50424,6 +50750,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3pA3Wgj",
       "login_url": "https://bit.ly/3pA3Wgj",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pharmacist-ayurvedic-2024-syllabus",
       "meta": {
         "full_title": "UPSSSC Pharmaceutical Pharmacists Ayurvedic Recruitment 2024 Answer Key",
         "post_date": "22 September 2026 | 04:56 PM",
@@ -50622,6 +50949,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sso.rajasthan.gov.in/",
       "login_url": "https://sso.rajasthan.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "rssb-graduate-level-cet-syllabus-2026",
       "meta": {
         "full_title": "Rajasthan Staff Selection Board (RSSB) Common Eligibility Test CET Graduate Level 2026 : Apply Online",
         "post_date": "02 July 2026 | 10:40 AM",
@@ -50721,6 +51049,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://bit.ly/3sJgPmO",
       "login_url": "https://bit.ly/3sJgPmO",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-moharir-2022-exam-syllabus",
       "meta": {
         "full_title": "UPSSSC Uttar Pradesh Moharir Recruitment 2022 Eligibility Result for 92 Post",
         "post_date": "12 October 2026 | 07:17 PM",
@@ -50849,6 +51178,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://principalhe.upessc.org/otr/",
       "login_url": "https://principalhe.upessc.org/otr/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-principal-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Answer Key for 111 Post",
         "post_date": "26 September 2026 | 04:07 PM",
@@ -50993,6 +51323,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "login_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "cutoff_pdf_url": "",
+      "slug": "clat-2027-ug-pg-syllabus",
       "meta": {
         "full_title": "CLAT Common Law Admission Test 2027 Apply Online Form 2026",
         "post_date": "03 August 2026 | 10:13 AM",
@@ -51117,6 +51448,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "login_url": "https://upsssc.gov.in/Online_App/SearchRefNo.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-pet-2026-syllabus",
       "meta": {
         "full_title": "UP UPSSSC Preliminary Examination Test PET 2026 : Admit Card",
         "post_date": "17 October 2026 | 01:38 PM",
@@ -51295,6 +51627,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upessc.up.gov.in/",
       "login_url": "https://upessc.up.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-tgt-up-pgt-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP TGT & UP PGT 2026 Syllabus",
         "post_date": "05 August 2026 | 09:02 PM",
@@ -51694,6 +52027,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in//AllNotifications.aspx",
       "cutoff_pdf_url": "https://upsssc.gov.in//ViewPdf.aspx?NKFfTFmNU3ZHZ3R1KfIRihXMNTJdQefIgydMRHLRTKw=",
+      "slug": "upsssc-scientific-lab-assistant-exam-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Forensic Science Laboratory Main Examination 2026 Mains Answer Key",
         "post_date": "29 September 2026 | 01:54 PM",
@@ -51882,6 +52216,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "login_url": "https://upsssc.gov.in/AllNotifications.aspx",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-livestock-extension-officer-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Livestock Extension Officer LEO \u092a\u0936\u0941\u0927\u0928 \u092a\u094d\u0930\u0938\u093e\u0930 \u0905\u0927\u093f\u0915\u093e\u0930\u0940 Main Examination 2026 Apply Online for 1251 Post",
         "post_date": "09 September 2026 | 05:57 PM",
@@ -51980,6 +52315,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upsssc.gov.in/",
       "login_url": "https://upsssc.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upsssc-veterinary-pharmacist-syllabus-2026",
       "meta": {
         "full_title": "UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post",
         "post_date": "14 September 2026 | 07:26 PM",
@@ -52078,6 +52414,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://upessc.up.gov.in/",
       "login_url": "https://upessc.up.gov.in/",
       "cutoff_pdf_url": "",
+      "slug": "upessc-up-super-tet-assistant-teacher-primary-junior-level-syllabus-20",
       "meta": {
         "full_title": "Uttar Pradesh Education Service Selection Commission UPESSC UP Super TET (Assistant Teaching) Recruitment 2026 : Primary and Junior Level Syllabus",
         "post_date": "03 September 2026 | 07:15 PM",
@@ -52157,6 +52494,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-junior-engineer-je-2026-paper-i-ii-exam-syllabus",
       "meta": {
         "full_title": "SSC Junior Engineer JE Recruitment 2026 Exam City / Admit Card for 1748 Post",
         "post_date": "24 October 2026 | 12:32 AM",
@@ -52286,6 +52624,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://ssc.gov.in/login",
       "login_url": "https://ssc.gov.in/login",
       "cutoff_pdf_url": "",
+      "slug": "ssc-10-2-chsl-tier-i-tier-ii-exam-syllabus-2026",
       "meta": {
         "full_title": "SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post",
         "post_date": "01 October 2026 | 06:23 PM",
@@ -52395,6 +52734,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://apply.upessc.org/register",
       "login_url": "https://apply.upessc.org/login",
       "cutoff_pdf_url": "",
+      "slug": "up-assistant-teacher-primary-class-1-to-5-exam-syllabus-2026",
       "meta": {
         "full_title": "Uttar Pradesh UPESSC UP Primary Teacher Recruitment 2026 : Apply Online for 12405 Post",
         "post_date": "16 September 2026 | 09:49 PM",
@@ -52518,6 +52858,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "login_url": "https://consortiumofnlus.ac.in/clat-2027/",
       "cutoff_pdf_url": "",
+      "slug": "clat-2027-admission-online-form",
       "meta": {
         "full_title": "CLAT Common Law Admission Test 2027 Apply Online Form 2026",
         "post_date": "03 August 2026 | 10:13 AM",
@@ -52642,6 +52983,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://admissionscvtup.in/apps/frmTraineeRegistration.aspx",
       "login_url": "https://admissionscvtup.in/apps/frmTraineeRegistration.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-scvtup-iti-admissions-online-form-2026",
       "meta": {
         "full_title": "UP State Council for Vocational Training SCVTUP 2026 Admissions First Allotment Result for All Courses",
         "post_date": "27 August 2026 | 01:19 PM",
@@ -52753,6 +53095,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.biharsimultala.com/login",
       "login_url": "https://www.biharsimultala.com/login",
       "cutoff_pdf_url": "",
+      "slug": "sav-jamui-bihar-class-vi-6th-admission-online-form-2027",
       "meta": {
         "full_title": "Bihar Simultala Awasiya Vidyalaya SAV Jamui Class VI 6th Admission 2027 Dummy Admit Card",
         "post_date": "09 September 2026 | 10:38 AM",
@@ -52871,6 +53214,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "login_url": "https://examinationservices.nic.in/neetc2026/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFcFR+natXIEjJ1rCf6DMgOr0FO08ClwO9m4YYQvMGcVT",
       "cutoff_pdf_url": "",
+      "slug": "neet-ug-2026-online-counselling",
       "meta": {
         "full_title": "NTA National Eligibility Cum Entrance Test NEET UG Result, Online Counseling, Schedule, Choice Filling, Allotment Result, MCC 2026",
         "post_date": "21 August 2026 | 10:55 PM",
@@ -53315,6 +53659,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://cbseitms.rcil.gov.in/nvs/Index/Registration",
       "login_url": "https://cbseitms.rcil.gov.in/nvs/Index/Registration",
       "cutoff_pdf_url": "",
+      "slug": "nvs-class-6th-admissions-online-form-2027-date-extended",
       "meta": {
         "full_title": "Navodaya Vidyalaya Samiti JNV NVS Class VI 6th Admissions 2027-28 Apply Online Form",
         "post_date": "07 August 2026 | 08:28 PM",
@@ -53399,6 +53744,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://updeled.gov.in/Registration/DReghomeD.aspx",
       "login_url": "https://updeled.gov.in/Registration/DReghomeD.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-deled-online-counselling-2026",
       "meta": {
         "full_title": "UPDELEd 2 Year Course Admissions 2026 : Counselling Schedule, Rank Card, Allotment Result",
         "post_date": "21 August 2026 | 06:51 PM",
@@ -53538,6 +53884,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://www.allindiabarexamination.com/",
       "login_url": "https://www.allindiabarexamination.com/",
       "cutoff_pdf_url": "",
+      "slug": "all-india-bar-exam-aibe-22nd-xxii-online-form-2026",
       "meta": {
         "full_title": "All India Bar Examination AIBE 22nd Examination 2026 Apply Online",
         "post_date": "20 August 2026 | 09:00 PM",
@@ -53620,6 +53967,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://aupravesh2026.cbtexam.in/Home/Applicationform.aspx",
       "login_url": "https://aupravesh2026.cbtexam.in/Home/Applicationform.aspx",
       "cutoff_pdf_url": "",
+      "slug": "allahabad-university-phd-admissions-online-form-2026",
       "meta": {
         "full_title": "University of Allahabad AU Ph.D. Admission 2026-27 Apply Online",
         "post_date": "04 September 2026 | 10:30 AM",
@@ -53708,6 +54056,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFQBut9oTMxhETt9bNm6zcP2ghS+a59eor30/A5h2io4z",
       "login_url": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFQBut9oTMxhETt9bNm6zcP2ghS+a59eor30/A5h2io4z",
       "cutoff_pdf_url": "",
+      "slug": "nta-rimcee-class-8th-admissions-online-form-2027",
       "meta": {
         "full_title": "NTA RIMCEE Class 8th Admissions 2027 Apply Online Form",
         "post_date": "02 September 2026 | 10:19 AM",
@@ -53803,6 +54152,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://sletregistration.cbrt.co.in/",
       "login_url": "https://sletregistration.cbrt.co.in/",
       "cutoff_pdf_url": "",
+      "slug": "bihar-library-eligibility-test-blet-online-form-2026",
       "meta": {
         "full_title": "Bihar Library Eligibility Test BLET 2026 Apply Online",
         "post_date": "01 October 2026 | 11:50 AM",
@@ -53888,6 +54238,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://iimcat.ac.in/",
       "login_url": "https://iimcat.ac.in/",
       "cutoff_pdf_url": "",
+      "slug": "iim-cat-admission-online-form-2026-date-extended",
       "meta": {
         "full_title": "IIM Common Admission Test CAT Admission Apply Online Form 2026 Date Extended",
         "post_date": "15 September 2026 | 04:28 PM",
@@ -53977,6 +54328,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://uprtouphd.co.in/api/phdentrance/",
       "login_url": "https://uprtouphd.co.in/api/phdentrance/",
       "cutoff_pdf_url": "",
+      "slug": "uprtou-ph-d-entrance-exam-admission-online-form-2026",
       "meta": {
         "full_title": "UPRTOU Ph.D Entrance Exam Admissions 2026-27 : Apply Online Form",
         "post_date": "18 September 2026 | 10:17 AM",
@@ -54063,6 +54415,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://jam.iitkgp.ac.in/index.html",
       "login_url": "https://jam.iitkgp.ac.in/index.html",
       "cutoff_pdf_url": "",
+      "slug": "iit-jam-2027-online-form",
       "meta": {
         "full_title": "IIT Kharagpur JAM Admission 2027 Apply Online",
         "post_date": "24 September 2026 | 08:12 PM",
@@ -54155,6 +54508,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://goaps.iitm.ac.in/login",
       "login_url": "https://goaps.iitm.ac.in/login",
       "cutoff_pdf_url": "",
+      "slug": "iit-gate-2027-online-form-re-open",
       "meta": {
         "full_title": "IIT GATE 2027 Exam Apply Online Form | Information Brochure and More",
         "post_date": "15 October 2026 | 08:57 AM",
@@ -54253,6 +54607,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://exams.nta.nic.in/niftee/",
       "login_url": "https://exams.nta.nic.in/niftee/",
       "cutoff_pdf_url": "",
+      "slug": "nta-niftee-admission-online-form-2027",
       "meta": {
         "full_title": "NTA NIFTEE Admissions 2027 Apply Online",
         "post_date": "16 October 2026 | 08:51 PM",
@@ -54339,6 +54694,7 @@ window.PORTAL_DATA = {
       "registration_url": "https://scholarship.up.gov.in/Popup.aspx",
       "login_url": "https://scholarship.up.gov.in/Popup.aspx",
       "cutoff_pdf_url": "",
+      "slug": "up-scholarship-online-form-2026-all-course",
       "meta": {
         "full_title": "UP SCHOLARSHIP 2026-2027 Apply Online For Pre Matric, Post Matric, Dashmottar Courses BA, BSC, MSC, BED, BTC & Other UG, PG, Diploma Courses Form 2026",
         "post_date": "23 October 2026 | 12:13 PM",
