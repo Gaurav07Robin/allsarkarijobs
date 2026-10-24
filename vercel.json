@@ -20,23 +20,11 @@
   "rewrites": [
     {
       "source": "/detail/(.*)",
-      "destination": "/detail.html"
-    },
-    {
-      "source": "/detail",
-      "destination": "/detail.html"
+      "destination": "/detail"
     },
     {
       "source": "/job/(.*)",
-      "destination": "/job.html"
-    },
-    {
-      "source": "/job",
-      "destination": "/job.html"
-    },
-    {
-      "source": "/admin",
-      "destination": "/admin.html"
+      "destination": "/job"
     }
   ],
   "headers": [
