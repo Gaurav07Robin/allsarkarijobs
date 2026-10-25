@@ -53,7 +53,7 @@ def get_endpoints(title: str, org: str = "", cat: str = "LATEST_JOB") -> dict:
         return {
             "registration_url": "https://www.mha.gov.in/en/notifications/vacancies",
             "login_url": "https://www.mha.gov.in/en/notifications/vacancies",
-            "official_pdf": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+            "official_pdf": "https://www.mha.gov.in/en/notifications/vacancies",
             "official_website": "https://www.mha.gov.in/",
         }
     if "ssc" in t and "upsssc" not in t and "hssc" not in t and "bssc" not in t and "jssc" not in t and "osssc" not in t:
@@ -122,6 +122,8 @@ COMPETITOR_DOMAINS = (
     "cdn.rojgarresult.com",
     "sarkariresult.com",
     "sarkariresults.org.in",
+    "doc.sarkariresults.org.in",
+    "scribd.com",
     "freejobalert.com",
     "sarkariexam.com",
     "fresherslive.com",
@@ -152,6 +154,10 @@ def sanitize_link_to_official(href: str, title: str = "", org: str = "", source_
         return "https://dsssb.delhi.gov.in/"
     if "skau" in t_low:
         return "https://skau.ac.in/"
+    if "home guard" in t_low or "up police" in t_low or "uppbpb" in t_low:
+        return "https://uppbpb.gov.in/"
+    if "mha" in t_low or "ib mts" in t_low or "intelligence bureau" in t_low:
+        return "https://www.mha.gov.in/en/notifications/vacancies"
     if source_url and source_url.startswith("http") and not any(cd in source_url.lower() for cd in COMPETITOR_DOMAINS):
         return source_url
     return "https://www.india.gov.in/"
