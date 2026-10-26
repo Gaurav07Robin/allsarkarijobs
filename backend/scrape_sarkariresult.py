@@ -391,11 +391,12 @@ def parse_post_page(url: str) -> dict:
         "official_website_url": "",
     }
     if is_pdf_url(url):
-        result["result_pdf_url"] = url
-        result["notification_pdf_url"] = url
+        clean_url = sanitize_link_to_official(url, "", "", "")
+        result["result_pdf_url"] = clean_url
+        result["notification_pdf_url"] = clean_url
         result["important_links"] = [{
             "label": "Download Official Result / Notification PDF",
-            "links": [{"text": "Click Here", "url": url, "is_pdf": True}],
+            "links": [{"text": "Click Here", "url": clean_url, "is_pdf": True}],
         }]
         return result
 
@@ -792,6 +793,7 @@ def scrape_all_from_sarkariresult():
             qual, sector, state = infer_filters(title, short_info)
             resolved = resolve_category_urls(cat, title, org, parsed)
             resolved["official_pdf"] = sanitize_link_to_official(resolved.get("official_pdf", ""), title, org, resolved.get("official_website", ""))
+            resolved["pdf_url"] = sanitize_link_to_official(resolved.get("pdf_url", ""), title, org, resolved.get("official_website", ""))
             resolved["registration_url"] = sanitize_link_to_official(resolved.get("registration_url", ""), title, org, resolved.get("official_website", ""))
             resolved["login_url"] = sanitize_link_to_official(resolved.get("login_url", ""), title, org, resolved.get("official_website", ""))
             resolved["official_website"] = sanitize_link_to_official(resolved.get("official_website", ""), title, org, "")

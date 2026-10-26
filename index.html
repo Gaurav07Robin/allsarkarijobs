@@ -177,11 +177,44 @@ button{cursor:pointer;border:none;font-family:inherit}
 .btn-admin{background:var(--ink);color:#fff}.btn-admin:hover{background:var(--navy)}
 .hamburger{display:flex;font-size:22px;color:var(--ink);background:none}
 
-/* ── Marquee / Ticker ────────────────────────── */
-.news-ticker{background:#fff;border-bottom:1px solid var(--border);padding:10px 0;font-size:13px;font-weight:600;color:#c53030;overflow:hidden;white-space:nowrap}
-.ticker-content{display:inline-block;animation:ticker 35s linear infinite}
-.news-ticker:hover .ticker-content{animation-play-state:paused;cursor:pointer}
-@keyframes ticker{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+/* ── Marquee / Ticker (Hottest & Trending Bar) ── */
+.news-ticker{background:#fff;border-bottom:1px solid var(--border);padding:12px 0;overflow:hidden!important;white-space:nowrap;position:relative;box-shadow:0 1px 4px rgba(0,0,0,.03);scrollbar-width:none;-ms-overflow-style:none}
+.news-ticker::-webkit-scrollbar{display:none!important;width:0;height:0}
+.ticker-track,.ticker-content{display:flex;width:max-content;animation:marqueeScroll 50s linear infinite;will-change:transform}
+.news-ticker:hover .ticker-track,
+.news-ticker:hover .ticker-content,
+.ticker-track:hover,
+.ticker-content:hover,
+.ticker-group:hover,
+.ticker-item:hover{animation-play-state:paused!important;cursor:pointer}
+@keyframes marqueeScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-group{display:inline-flex;align-items:center;flex-shrink:0}
+
+/* Ticker Items (Bigger, Crisp Font) */
+.ticker-item{display:inline-flex;align-items:center;font-size:clamp(14.5px,1.8vw,16px);font-weight:700;color:var(--ink);text-decoration:none;transition:color .15s ease,text-decoration .15s ease;vertical-align:middle}
+.ticker-item:hover{color:var(--saffron);text-decoration:underline}
+.ticker-icon{color:var(--saffron);margin-right:6px;font-size:15px}
+.ticker-sep{display:inline-block;color:#cbd5e1;font-weight:400;margin:0 14px;font-size:15px;user-select:none}
+
+/* 🔥 Hottest & Viral Trending Items with Blinking Color */
+.ticker-item-hot{font-size:clamp(15px,1.9vw,16.5px);font-weight:800;letter-spacing:-0.01em;animation:hotBlinkColor 1.2s ease-in-out infinite alternate!important}
+.ticker-item-hot:hover{text-decoration:underline;animation-play-state:paused}
+
+/* Blinking Color Animation between Vivid Red, Electric Amber & Glowing Flame */
+@keyframes hotBlinkColor{
+  0%{color:#dc2626;text-shadow:0 0 10px rgba(220,38,38,.65),0 0 2px #b91c1c}
+  50%{color:#ea580c;text-shadow:0 0 14px rgba(234,88,12,.75),0 0 2px #c2410c}
+  100%{color:#e11d48;text-shadow:0 0 10px rgba(225,29,72,.65),0 0 2px #9f1239}
+}
+
+/* Blinking Pill Badge for Viral Updates */
+.ticker-badge-hot{display:inline-flex;align-items:center;gap:3px;background:#dc2626;color:#fff!important;font-size:11px;font-weight:800;padding:2.5px 8px;border-radius:4px;margin-right:7px;letter-spacing:.5px;text-transform:uppercase;animation:hotBadgeBlink 1.2s ease-in-out infinite alternate!important;box-shadow:0 1px 4px rgba(220,38,38,.4);vertical-align:middle}
+@keyframes hotBadgeBlink{
+  0%{background:#dc2626;box-shadow:0 0 8px rgba(220,38,38,.8);transform:scale(1)}
+  100%{background:#ea580c;box-shadow:0 0 14px rgba(234,88,12,.9);transform:scale(1.04)}
+}
+  100%{background:#ea580c;box-shadow:0 0 14px rgba(234,88,12,.9);transform:scale(1.04)}
+}
 
 /* ── Sarkari Highlight Grid (Vibrant Quick Boxes) ── */
 .highlight-grid-section{padding:24px 0 10px}
@@ -383,15 +416,44 @@ button{cursor:pointer;border:none;font-family:inherit}
 </div>
 
 <main id="mainContent">
-<!-- News Ticker -->
-<div class="news-ticker">
-  <div class="container">
-    <div class="ticker-content">
-      ⚡ SSC CGL 2026 Notification Released: 17,727 Posts &nbsp;&nbsp; | &nbsp;&nbsp;
-      ⚡ Railway RRB Technician CEN 02/2026 Admit Card Link Active &nbsp;&nbsp; | &nbsp;&nbsp;
-      ⚡ UP Police Constable 60,244 Posts Exam City Details &nbsp;&nbsp; | &nbsp;&nbsp;
-      ⚡ Supreme Court Junior Court Assistant 2026 Apply Online Open &nbsp;&nbsp; | &nbsp;&nbsp;
-      ⚡ MHA IB MTS Final Result Declared
+<!-- News Ticker (Hottest & Trending Bar) -->
+<div class="news-ticker" aria-label="Latest Trending Recruitment Updates">
+  <div class="ticker-track">
+    <div class="ticker-group">
+      <a href="/detail/32-ssc-gd-constable-revised-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>SSC GD Constable Revised Result 2026 Out</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/179-nta-jeemain-2027-online-form" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>NTA JEE Main 2027 Online Application Form Open</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/25-up-police-constable-final-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>UP Police Constable Final Result & Cutoff 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/4-rrb-assistant-loco-pilot-alp-cen-01-2025-cbt-ii-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>Railway RRB ALP CEN 01/2025 CBT II Result Declared</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/16-india-post-gds-first-merit-list-2026" class="ticker-item"><span class="ticker-icon">⚡</span>India Post GDS First Merit List 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/105-uppsc-review-officer-ro-aro-online-form-2026" class="ticker-item"><span class="ticker-icon">⚡</span>UPPSC Review Officer RO ARO Online Form 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/140-railway-rrb-section-controller-answer-key-2026-cen-03-2026" class="ticker-item"><span class="ticker-icon">⚡</span>Railway RRB Section Controller Answer Key 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/178-up-scholarship-online-form-2026-all-course" class="ticker-item"><span class="ticker-icon">⚡</span>UP Scholarship Online Form 2026 (All Courses)</a>
+      <span class="ticker-sep">|</span>
+    </div>
+    <div class="ticker-group" aria-hidden="true">
+      <a href="/detail/32-ssc-gd-constable-revised-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>SSC GD Constable Revised Result 2026 Out</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/179-nta-jeemain-2027-online-form" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>NTA JEE Main 2027 Online Application Form Open</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/25-up-police-constable-final-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>UP Police Constable Final Result & Cutoff 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/4-rrb-assistant-loco-pilot-alp-cen-01-2025-cbt-ii-result-2026" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>Railway RRB ALP CEN 01/2025 CBT II Result Declared</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/16-india-post-gds-first-merit-list-2026" class="ticker-item"><span class="ticker-icon">⚡</span>India Post GDS First Merit List 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/105-uppsc-review-officer-ro-aro-online-form-2026" class="ticker-item"><span class="ticker-icon">⚡</span>UPPSC Review Officer RO ARO Online Form 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/140-railway-rrb-section-controller-answer-key-2026-cen-03-2026" class="ticker-item"><span class="ticker-icon">⚡</span>Railway RRB Section Controller Answer Key 2026</a>
+      <span class="ticker-sep">|</span>
+      <a href="/detail/178-up-scholarship-online-form-2026-all-course" class="ticker-item"><span class="ticker-icon">⚡</span>UP Scholarship Online Form 2026 (All Courses)</a>
+      <span class="ticker-sep">|</span>
     </div>
   </div>
 </div>
@@ -724,9 +786,68 @@ function renderHighlightBoxes(data) {
     }).join('');
   }
 
-  const ticker = document.querySelector('.ticker-content');
-  if (ticker && picks.length >= 4) {
-    ticker.innerHTML = picks.slice(0, 5).map(p => `⚡ ${p.item.title}`).join(' &nbsp;&nbsp; | &nbsp;&nbsp; ');
+  renderNewsTicker(data);
+}
+
+function renderNewsTicker(data) {
+  const track = document.querySelector('.ticker-track') || document.querySelector('.ticker-content');
+  if (!track || !data) return;
+
+  const allItems = [];
+  const cats = ['RESULT', 'ADMISSION', 'LATEST_JOB', 'ADMIT_CARD', 'ANSWER_KEY'];
+  for (const c of cats) {
+    if (Array.isArray(data[c])) {
+      allItems.push(...data[c]);
+    }
+  }
+
+  // Truly viral breaking recruitment searches right now
+  const viralRegex = /(SSC GD|UP Police Constable|JEEMAIN|JEE Main|RRB ALP|India Post GDS)/i;
+
+  const viralItems = [];
+  const regularItems = [];
+  const seenIds = new Set();
+
+  for (const item of allItems) {
+    if (!item || seenIds.has(item.id)) continue;
+    seenIds.add(item.id);
+
+    if (viralRegex.test(item.title)) {
+      viralItems.push(item);
+    } else {
+      regularItems.push(item);
+    }
+  }
+
+  // Combine top 4 viral items + top 4 regular fresh items
+  const selectedItems = [...viralItems.slice(0, 4), ...regularItems.slice(0, 4)];
+  if (selectedItems.length === 0) return;
+
+  const buildItemHtml = (it) => {
+    const isHot = viralRegex.test(it.title);
+    const detailHref = it.slug ? `/detail/${it.id}-${it.slug}` : `/detail?id=${it.id}`;
+    let displayTitle = (it.title || '').replace(/\s*\|\s*CEN.*$/i, '').trim();
+
+    if (isHot) {
+      return `<a href="${detailHref}" class="ticker-item ticker-item-hot"><span class="ticker-badge-hot">🔥 TRENDING</span>${displayTitle}</a>`;
+    }
+    return `<a href="${detailHref}" class="ticker-item"><span class="ticker-icon">⚡</span>${displayTitle}</a>`;
+  };
+
+  const groupHtml = selectedItems.map(buildItemHtml).join('<span class="ticker-sep">|</span>') + '<span class="ticker-sep">|</span>';
+  track.innerHTML = `<div class="ticker-group">${groupHtml}</div><div class="ticker-group" aria-hidden="true">${groupHtml}</div>`;
+
+  const tickerEl = document.querySelector('.news-ticker');
+  if (tickerEl && !tickerEl.dataset.hoverBound) {
+    tickerEl.dataset.hoverBound = 'true';
+    tickerEl.addEventListener('mouseenter', () => {
+      const activeTrack = document.querySelector('.ticker-track') || document.querySelector('.ticker-content');
+      if (activeTrack) activeTrack.style.animationPlayState = 'paused';
+    });
+    tickerEl.addEventListener('mouseleave', () => {
+      const activeTrack = document.querySelector('.ticker-track') || document.querySelector('.ticker-content');
+      if (activeTrack) activeTrack.style.animationPlayState = 'running';
+    });
   }
 }
 
@@ -925,6 +1046,8 @@ function renderList(elemId, items, countId, footerId, label) {
 function loadStaticFallback() {
   if (window.PORTAL_DATA && window.PORTAL_DATA.categorized) {
     allPortalData = window.PORTAL_DATA.categorized;
+    renderHighlightBoxes(allPortalData);
+    renderNewsTicker(allPortalData);
     renderFilteredFeeds('all');
   }
 }
