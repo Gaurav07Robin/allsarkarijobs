@@ -19,6 +19,34 @@
   ],
   "rewrites": [
     {
+      "source": "/counselling",
+      "destination": "/admission"
+    },
+    {
+      "source": "/admissions",
+      "destination": "/admission"
+    },
+    {
+      "source": "/counselling/college-predictor",
+      "destination": "/admission"
+    },
+    {
+      "source": "/josaa-college-predictor",
+      "destination": "/admission"
+    },
+    {
+      "source": "/jee-main-marks-vs-percentile",
+      "destination": "/admission"
+    },
+    {
+      "source": "/counselling/jee-main-marks-vs-percentile",
+      "destination": "/admission"
+    },
+    {
+      "source": "/counselling/neet-marks-vs-rank",
+      "destination": "/admission"
+    },
+    {
       "source": "/detail/(.*)",
       "destination": "/detail"
     },

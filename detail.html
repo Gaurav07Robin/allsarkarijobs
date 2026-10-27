@@ -18,6 +18,24 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
+    /* Complete Google Translate Banner Suppression */
+    .goog-te-banner-frame,
+    .goog-te-banner-frame.skiptranslate,
+    iframe.goog-te-banner-frame,
+    #goog-gt-tt,
+    .goog-te-balloon-frame {
+      display: none !important;
+      visibility: hidden !important;
+      height: 0 !important;
+      width: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --ink:#1a1a2e;--navy:#16213e;--slate:#4a5568;--muted:#718096;--border:#e2e8f0;
@@ -468,7 +486,7 @@ async function loadDetail() {
     function isPdfOrFileUrl(u) {
       if (!u) return false;
       const ul = u.toLowerCase();
-      return ul.endsWith('.pdf') || ul.includes('.pdf?') || ul.includes('viewpdf.aspx') || ul.includes('application%2fpdf') || ul.includes('doc.sarkariresults.org.in/') || ul.includes('open_pdf') || ul.includes('/file/') || ul.includes('/filesuploaded/') || ul.includes('/storewebfiles/');
+      return ul.endsWith('.pdf') || ul.includes('.pdf?') || ul.includes('viewpdf.aspx') || ul.includes('application%2fpdf') || ul.includes('open_pdf') || ul.includes('/file/') || ul.includes('/filesuploaded/') || ul.includes('/storewebfiles/');
     }
 
     // 2. Resolve Valid Official Commission Website
@@ -1072,5 +1090,6 @@ async function loadDetail() {
 
 loadDetail();
 </script>
+  <script src="/language.js"></script>
 </body>
 </html>

@@ -137,6 +137,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </noscript>
 <style>
+    /* Complete Google Translate Banner Suppression */
+    .goog-te-banner-frame,
+    .goog-te-banner-frame.skiptranslate,
+    iframe.goog-te-banner-frame,
+    #goog-gt-tt,
+    .goog-te-balloon-frame {
+      display: none !important;
+      visibility: hidden !important;
+      height: 0 !important;
+      width: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
 @font-face{font-family:'Font Awesome 6 Free';font-display:swap}
 @font-face{font-family:'Font Awesome 6 Brands';font-display:swap}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -392,7 +410,7 @@ button{cursor:pointer;border:none;font-family:inherit}
       <li><a href="/admit-cards">Admit Cards</a></li>
       <li><a href="/answer-keys">Answer Keys</a></li>
       <li><a href="/syllabus">Syllabus</a></li>
-      <li><a href="/admission">Admission</a></li>
+      <li><a href="/admission">Admission & Counselling <span style="background:#dc2626;color:#fff;font-size:9.5px;font-weight:800;padding:1px 5px;border-radius:10px;vertical-align:middle;margin-left:3px;letter-spacing:0.3px;display:inline-block">JEE/NEET</span></a></li>
     </ul>
     <div class="hdr-right">
       <button class="hamburger" id="hamBtn" aria-label="Open Navigation Menu"><i class="fa-solid fa-bars"></i></button>
@@ -411,7 +429,7 @@ button{cursor:pointer;border:none;font-family:inherit}
     <a href="/admit-cards">Admit Cards</a>
     <a href="/answer-keys">Answer Keys</a>
     <a href="/syllabus">Syllabus</a>
-    <a href="/admission">Admission</a>
+    <a href="/admission">Admission & Counselling (JEE / NEET)</a>
   </div>
 </div>
 
@@ -1263,5 +1281,6 @@ if (document.readyState === 'loading') {
   initPortalData();
 }
 </script>
+  <script src="/language.js"></script>
 </body>
 </html>

@@ -257,17 +257,6 @@ PORTAL_HUBS = [
         "heading": "Exam Syllabus & Pattern",
         "filter_pill": "all",
         "search_term": ""
-    },
-    {
-        "dir": "admission",
-        "category": "ADMISSION",
-        "canonical_path": "/admission",
-        "title": "Sarkari Admission 2026 – Entrance Exam Online Form, Eligibility & Counseling | All Sarkari Jobs",
-        "desc": "Apply online for national and state entrance examinations 2026. Check university admission eligibility, counseling schedules, seat allotment results, and download information brochures.",
-        "keywords": "sarkari admission 2026, entrance exam online application form, university counseling schedule seat allotment, nta cuet admission brochure pdf, polytechnic bted bed admission 2026, All Sarkari Jobs",
-        "heading": "Admissions & Entrance Exams",
-        "filter_pill": "all",
-        "search_term": ""
     }
 ]
 

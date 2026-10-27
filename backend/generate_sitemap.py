@@ -20,7 +20,12 @@ CATEGORIES = [
     ("/admit-cards", "daily", "0.9"),
     ("/answer-keys", "daily", "0.8"),
     ("/syllabus", "weekly", "0.8"),
-    ("/admission", "weekly", "0.8"),
+    ("/admission", "daily", "0.9"),
+    ("/counselling", "daily", "0.9"),
+    ("/jee-main-marks-vs-percentile", "daily", "0.9"),
+    ("/counselling/neet-marks-vs-rank", "daily", "0.9"),
+    ("/counselling/college-predictor", "daily", "0.9"),
+    ("/josaa-college-predictor", "daily", "0.9"),
 ]
 
 
@@ -87,7 +92,7 @@ def generate_sitemap():
     for u in updates:
         item_id = u["id"]
         slug = make_slug(u.get("title") or "")
-        dt = (u.get("created_at") or today_str)[:10]
+        dt = today_str
         url_el = ET.SubElement(urlset, "url")
         loc_url = f"{PRIMARY_DOMAIN}/detail/{item_id}-{slug}" if slug else f"{PRIMARY_DOMAIN}/detail?id={item_id}"
         ET.SubElement(url_el, "loc").text = loc_url
