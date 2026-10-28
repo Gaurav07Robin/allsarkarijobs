@@ -9,7 +9,7 @@ LANDING_PAGES = [
         "slug": "10th-pass",
         "title": "10th Pass Govt Jobs 2026–2027 – Post Office GDS, Railway Group D, MTS & Constable | All Sarkari Jobs",
         "desc": "Find active 10th pass government job vacancies 2026–2027. Apply online for India Post GDS, SSC MTS, Railway Group D, and State Police Constable with eligibility criteria and direct links.",
-        "keywords": "10th pass govt jobs 2026 2027, 10th pass sarkari naukri, india post gds apply online, ssc mts vacancy, railway group d 10th pass, police constable 10th pass, All Sarkari Jobs",
+        "keywords": "10th pass govt jobs 2026 2027, 10वीं पास सरकारी नौकरी 2026, 10th pass sarkari naukri, 10th pass salary 7th cpc in hand, india post gds apply online, ssc mts vacancy, railway group d 10th pass, police constable 10th pass, All Sarkari Jobs",
         "heading": "10th Pass Government Jobs 2026–2027",
         "filter_pill": "10th",
         "search_term": ""
@@ -18,7 +18,7 @@ LANDING_PAGES = [
         "slug": "12th-pass",
         "title": "12th Pass Sarkari Naukri 2026–2027 – SSC CHSL, Police Constable, Clerk & Defence | All Sarkari Jobs",
         "desc": "Latest 12th pass government vacancies 2026–2027. Check SSC CHSL, State Police Constable, Army Agniveer, and Clerk jobs with direct apply portals.",
-        "keywords": "12th pass govt jobs 2026 2027, 12th pass sarkari vacancy, ssc chsl apply online, up police constable 12th pass, clerk recruitment, defence 12th pass, All Sarkari Jobs",
+        "keywords": "12th pass govt jobs 2026 2027, 12वीं पास सरकारी नौकरी 2026, 12th pass sarkari vacancy, 12th pass in hand salary, ssc chsl apply online, up police constable 12th pass, clerk recruitment, defence 12th pass agniveer, All Sarkari Jobs",
         "heading": "12th Pass Government Jobs 2026–2027",
         "filter_pill": "10th",
         "search_term": "12th"
@@ -27,7 +27,7 @@ LANDING_PAGES = [
         "slug": "graduate",
         "title": "Graduate Govt Jobs 2026–2027 – SSC CGL, UPSC IAS, Bank PO & Sub-Inspector | All Sarkari Jobs",
         "desc": "Find central and state government jobs for graduates 2026–2027. Apply online for SSC CGL, Bank PO, UPSC Civil Services, and State SI vacancies.",
-        "keywords": "graduate govt jobs 2026 2027, govt jobs for graduates, ssc cgl recruitment, bank po vacancy, upsc civil services, state sub inspector, All Sarkari Jobs",
+        "keywords": "graduate govt jobs 2026 2027, स्नातक सरकारी नौकरी 2026, govt jobs for graduates, graduate salary 7th pay commission, ssc cgl recruitment, bank po vacancy, upsc civil services, state sub inspector, All Sarkari Jobs",
         "heading": "Graduate Government Jobs 2026–2027",
         "filter_pill": "graduate",
         "search_term": ""
@@ -36,7 +36,7 @@ LANDING_PAGES = [
         "slug": "engineering-iti",
         "title": "Engineering, Diploma & ITI Govt Jobs 2026–2027 – Railway JE, BHEL & Apprentice | All Sarkari Jobs",
         "desc": "Latest government vacancies for B.Tech, Diploma, and ITI pass aspirants. Check Railway JE, BHEL Artisan, PSUs, and Trade Apprentice recruitment notices.",
-        "keywords": "engineering govt jobs 2026 2027, iti sarkari naukri, diploma apprentice vacancies, railway je recruitment, bhel artisan online form, psu engineering jobs, All Sarkari Jobs",
+        "keywords": "engineering govt jobs 2026 2027, आईटीआई सरकारी नौकरी, iti sarkari naukri, diploma apprentice vacancies, railway je recruitment, bhel artisan online form, psu engineering jobs salary, All Sarkari Jobs",
         "heading": "Engineering, Diploma & ITI Jobs 2026–2027",
         "filter_pill": "all",
         "search_term": "apprentice"
@@ -45,7 +45,7 @@ LANDING_PAGES = [
         "slug": "teaching",
         "title": "Teaching Govt Jobs 2026–2027 – CTET, UPTET, Super TET, KVS & Assistant Teacher | All Sarkari Jobs",
         "desc": "Find active government teacher vacancies 2026–2027. Check CTET, UPTET, Super TET, KVS, NVS, and state assistant teacher recruitment notices and eligibility.",
-        "keywords": "teaching govt jobs 2026 2027, teacher recruitment 2026, ctet exam apply online, uptet notification, super tet vacancy, kvs teacher recruitment, All Sarkari Jobs",
+        "keywords": "teaching govt jobs 2026 2027, शिक्षक भर्ती 2026, teacher recruitment 2026, primary teacher salary 7th cpc, ctet exam apply online, uptet notification, super tet vacancy, kvs teacher recruitment, All Sarkari Jobs",
         "heading": "Teaching & Education Jobs 2026–2027",
         "filter_pill": "teaching",
         "search_term": ""
@@ -56,7 +56,7 @@ LANDING_PAGES = [
         "slug": "ssc",
         "title": "SSC Recruitment 2026–2027 – SSC CGL, CHSL, GD Constable & MTS Notification | All Sarkari Jobs",
         "desc": "Latest Staff Selection Commission (SSC) job notifications 2026–2027. Download exam calendar, syllabus PDFs, and candidate login links for CGL, CHSL, GD, and MTS.",
-        "keywords": "ssc recruitment 2026 2027, ssc cgl apply online, ssc chsl notification, ssc gd constable, ssc mts exam date, ssc syllabus pdf, ssc login, All Sarkari Jobs",
+        "keywords": "ssc recruitment 2026 2027, एसएससी भर्ती 2026, ssc cgl apply online, ssc cgl post wise in hand salary, ssc chsl online form, ssc gd constable cutoff marks category wise, ssc mts result, ssc calendar, All Sarkari Jobs",
         "heading": "Staff Selection Commission (SSC) 2026–2027",
         "filter_pill": "railway",
         "search_term": "ssc"
@@ -65,7 +65,7 @@ LANDING_PAGES = [
         "slug": "railway",
         "title": "Railway RRB Recruitment 2026–2027 – RRB NTPC, ALP, Technician & Group D | All Sarkari Jobs",
         "desc": "Complete list of Railway Recruitment Board (RRB & RRC) vacancies 2026–2027. Download notification PDFs, check exam dates, and apply online.",
-        "keywords": "railway rrb recruitment 2026 2027, rrb ntpc apply online, rrb alp vacancy, rrb technician form, railway group d notification, rrb exam city slip, All Sarkari Jobs",
+        "keywords": "railway rrb recruitment 2026 2027, रेलवे भर्ती 2026, rrb ntpc apply online, rrb alp technician salary 7th cpc, rrb group d online form, railway cutoff marks category wise, rrb exam city slip download, All Sarkari Jobs",
         "heading": "Railway Recruitment Boards (RRB) 2026–2027",
         "filter_pill": "railway",
         "search_term": "rrb"
@@ -74,7 +74,7 @@ LANDING_PAGES = [
         "slug": "upsc",
         "title": "UPSC Recruitment 2026–2027 – Civil Services IAS, IFS, NDA, CDS & CMS | All Sarkari Jobs",
         "desc": "Union Public Service Commission (UPSC) recruitment notices 2026–2027. Check IAS exam dates, NDA selection lists, CDS results, and download official notifications.",
-        "keywords": "upsc recruitment 2026 2027, upsc civil services ias, upsc nda exam, upsc cds result, upsc otr registration, upsc notification pdf, All Sarkari Jobs",
+        "keywords": "upsc recruitment 2026 2027, यूपीएससी भर्ती 2026, upsc civil services ias, ias officer salary 7th pay commission, upsc nda cds online form, upsc prelims cutoff marks, upsc admit card direct link, All Sarkari Jobs",
         "heading": "Union Public Service Commission (UPSC) 2026–2027",
         "filter_pill": "all",
         "search_term": "upsc"
@@ -83,7 +83,7 @@ LANDING_PAGES = [
         "slug": "banking",
         "title": "Bank Jobs 2026–2027 – IBPS PO, Clerk, SO, SBI & RBI Bank Recruitment | All Sarkari Jobs",
         "desc": "Latest banking and insurance vacancies 2026–2027. Apply online for IBPS PO, SBI Clerk, RBI Grade B, UIIC, and LIC recruitment notices.",
-        "keywords": "bank jobs 2026 2027, ibps po apply online, sbi clerk notification, ibps rrb clerk, rbi grade b recruitment, uiic ao exam, bank sarkari naukri, All Sarkari Jobs",
+        "keywords": "bank jobs 2026 2027, बैंक भर्ती 2026, ibps po apply online, bank po in hand salary, sbi clerk recruitment, rbi assistant vacancy, bank cutoff marks gen obc sc st, All Sarkari Jobs",
         "heading": "Banking & Insurance Recruitment 2026–2027",
         "filter_pill": "all",
         "search_term": "bank"
@@ -92,7 +92,7 @@ LANDING_PAGES = [
         "slug": "police-defence",
         "title": "Police & Defence Jobs 2026–2027 – State Police Constable, SI, Army & Navy | All Sarkari Jobs",
         "desc": "Find active Police and Defence force vacancies 2026–2027. Check UP Police, Bihar Police, Indian Army Agniveer, Air Force, and Navy recruitment.",
-        "keywords": "police jobs 2026 2027, defence recruitment, up police constable form, bihar police si vacancy, indian army agniveer, navy recruitment, All Sarkari Jobs",
+        "keywords": "police jobs 2026 2027, पुलिस भर्ती 2026, defence recruitment, up police constable online form, police constable salary in hand, bihar police vacancy, army agniveer bharti, All Sarkari Jobs",
         "heading": "Police & Defence Forces 2026–2027",
         "filter_pill": "police",
         "search_term": ""
@@ -103,7 +103,7 @@ LANDING_PAGES = [
         "slug": "uttar-pradesh",
         "title": "UP Govt Jobs 2026–2027 – Uttar Pradesh Sarkari Naukri, UPSSSC & Police | All Sarkari Jobs",
         "desc": "Find latest UP Govt Jobs 2026–2027. Apply online for UPSSSC, UP Police, UPPSC, and Assistant Teacher vacancies in Uttar Pradesh on All Sarkari Jobs.",
-        "keywords": "up govt jobs 2026 2027, uttar pradesh sarkari naukri, upsssc apply online, up police vacancy, uppsc assistant teacher, up jobs direct link, All Sarkari Jobs",
+        "keywords": "up govt jobs 2026 2027, यूपी सरकारी नौकरी 2026, uttar pradesh sarkari naukri, uppsc ro aro online form, upsssc pet vacancy, up police constable bharti, All Sarkari Jobs",
         "heading": "Uttar Pradesh (UP) Govt Jobs 2026–2027",
         "filter_pill": "up",
         "search_term": ""
@@ -112,7 +112,7 @@ LANDING_PAGES = [
         "slug": "bihar",
         "title": "Bihar Govt Jobs 2026–2027 – BPSC, BSSC, Bihar Police Vacancy & STET | All Sarkari Jobs",
         "desc": "Latest Bihar Sarkari Naukri 2026–2027. Check active BPSC, BSSC, Bihar Police Constable/SI, and STET teacher vacancies with direct apply links.",
-        "keywords": "bihar govt jobs 2026 2027, bihar sarkari naukri, bpsc apply online, bssc vacancy, bihar police constable, bihar stet admit card, All Sarkari Jobs",
+        "keywords": "bihar govt jobs 2026 2027, बिहार सरकारी नौकरी 2026, bihar sarkari naukri, bpsc teacher recruitment, bssc cgl online form, bihar police constable, All Sarkari Jobs",
         "heading": "Bihar Government Vacancies 2026–2027",
         "filter_pill": "bihar",
         "search_term": ""
@@ -121,7 +121,7 @@ LANDING_PAGES = [
         "slug": "telangana",
         "title": "Telangana Govt Jobs 2026–2027 – TSPSC, Police & Forest Department Recruitment | All Sarkari Jobs",
         "desc": "Explore Telangana State government job notifications 2026–2027. Check TSPSC Group 1, 2, 3, 4, Police, and Singareni Collieries vacancies.",
-        "keywords": "telangana govt jobs 2026 2027, tspsc apply online, telangana police recruitment, tspsc group vacancy, singareni recruitment, telangana sarkari job, All Sarkari Jobs",
+        "keywords": "telangana govt jobs 2026 2027, telangana sarkari naukri, tspsc apply online, telangana police constable, ts group 1 2 3 4 vacancies, All Sarkari Jobs",
         "heading": "Telangana State Govt Jobs 2026–2027",
         "filter_pill": "all",
         "search_term": "telangana"
@@ -130,7 +130,7 @@ LANDING_PAGES = [
         "slug": "central",
         "title": "Central Govt Jobs 2026–2027 – All India Vacancies, MHA, Defence & Railways | All Sarkari Jobs",
         "desc": "Active Central Government job vacancies across India 2026–2027. Check MHA, Intelligence Bureau, Railways, Supreme Court, and Central PSU recruitments.",
-        "keywords": "central govt jobs 2026 2027, all india govt vacancies, mha ib recruitment, railway jobs central, supreme court jobs, central sarkari naukri, All Sarkari Jobs",
+        "keywords": "central govt jobs 2026 2027, केंद्र सरकार की नौकरियां 2026, all india govt vacancies, ssc upsc rrb recruitments, 7th pay commission central jobs salary, All Sarkari Jobs",
         "heading": "Central Govt / All India Jobs 2026–2027",
         "filter_pill": "all",
         "search_term": "central"
@@ -139,7 +139,7 @@ LANDING_PAGES = [
         "slug": "delhi",
         "title": "Delhi Govt Jobs 2026–2027 – DSSSB, Delhi High Court & DDA Vacancies | All Sarkari Jobs",
         "desc": "Latest government vacancies in Delhi NCR 2026–2027. Apply online for DSSSB TGT/PGT, Delhi Judicial Service, and MCD recruitment.",
-        "keywords": "delhi govt jobs 2026 2027, dsssb apply online, delhi high court vacancy, dda recruitment, delhi sarkari naukri, dsssb admit card, All Sarkari Jobs",
+        "keywords": "delhi govt jobs 2026 2027, दिल्ली सरकारी नौकरी 2026, dsssb apply online, delhi high court recruitment, dsssb teacher vacancy, All Sarkari Jobs",
         "heading": "Delhi & NCR Vacancies 2026–2027",
         "filter_pill": "all",
         "search_term": "delhi"
@@ -148,7 +148,7 @@ LANDING_PAGES = [
         "slug": "rajasthan",
         "title": "Rajasthan & MP Govt Jobs 2026–2027 – RPSC, RSMSSB & MPESB Vacancies | All Sarkari Jobs",
         "desc": "Find government job recruitments in Rajasthan and Madhya Pradesh 2026–2027. Check RPSC, RSMSSB Patwari, and MPESB notifications.",
-        "keywords": "rajasthan govt jobs 2026 2027, rpsc apply online, rsmssb patwari vacancy, mpesb admit card, mp police jobs, rajasthan sarkari naukri, All Sarkari Jobs",
+        "keywords": "rajasthan govt jobs 2026 2027, राजस्थान सरकारी नौकरी 2026, rpsc apply online, rsmssb cet vacancy, rajasthan police constable, All Sarkari Jobs",
         "heading": "Rajasthan & MP Recruitment 2026–2027",
         "filter_pill": "all",
         "search_term": "rajasthan"
@@ -157,7 +157,7 @@ LANDING_PAGES = [
         "slug": "madhya-pradesh",
         "title": "MP Govt Jobs 2026–2027 – MPESB, MP Police Constable & Patwari | All Sarkari Jobs",
         "desc": "Find active government jobs in Madhya Pradesh 2026–2027. Apply online for MPESB, MP Police Constable, MPPSC, and Patwari vacancies with direct links.",
-        "keywords": "mp govt jobs 2026 2027, mpesb online form, mp police vacancy, mppsc recruitment, mp patwari vacancy, All Sarkari Jobs",
+        "keywords": "mp govt jobs 2026 2027, मध्य प्रदेश सरकारी नौकरी 2026, mpesb online form, mp police constable, mp vyapam vacancy, All Sarkari Jobs",
         "heading": "Madhya Pradesh Recruitment 2026–2027",
         "filter_pill": "all",
         "search_term": "mp"
@@ -166,7 +166,7 @@ LANDING_PAGES = [
         "slug": "haryana",
         "title": "Haryana Govt Jobs 2026–2027 – HSSC Group C, D, CET & Police | All Sarkari Jobs",
         "desc": "Latest Haryana government vacancies 2026–2027. Check HSSC CET Group C and D, Haryana Police Constable, and HPSC recruitment notices.",
-        "keywords": "haryana govt jobs 2026 2027, hssc cet apply online, haryana police constable, hssc group d result, hpsc recruitment, All Sarkari Jobs",
+        "keywords": "haryana govt jobs 2026 2027, हरियाणा सरकारी नौकरी 2026, hssc cet apply online, hpsc recruitment, haryana police bharti, All Sarkari Jobs",
         "heading": "Haryana Government Jobs 2026–2027",
         "filter_pill": "all",
         "search_term": "haryana"
@@ -175,7 +175,7 @@ LANDING_PAGES = [
         "slug": "maharashtra",
         "title": "Maharashtra Govt Jobs 2026–2027 – MPSC, Police Bharti & Talathi | All Sarkari Jobs",
         "desc": "Find government job recruitments in Maharashtra 2026–2027. Apply online for MPSC Civil Services, Maharashtra Police Bharti, and Talathi vacancies.",
-        "keywords": "maharashtra govt jobs 2026 2027, mpsc online form, maharashtra police bharti, talathi bharti 2026, All Sarkari Jobs",
+        "keywords": "maharashtra govt jobs 2026 2027, महाराष्ट्र सरकारी नोकरी 2026, mpsc online form, maharashtra police recruitment, maha talathi vacancy, All Sarkari Jobs",
         "heading": "Maharashtra Recruitment 2026–2027",
         "filter_pill": "all",
         "search_term": "maharashtra"
@@ -184,7 +184,7 @@ LANDING_PAGES = [
         "slug": "apprentice",
         "title": "Railway & PSU Apprentice Jobs 2026–2027 – RRC, BHEL, IOCL 10th/ITI | All Sarkari Jobs",
         "desc": "Latest trade apprentice vacancies 2026–2027 for 10th and ITI pass. Apply online for Railway RRC Apprentice, BHEL, IOCL, and ONGC with merit lists.",
-        "keywords": "railway apprentice 2026 2027, rrc apprentice apply online, trade apprentice 10th pass iti, bhel apprentice online form, psu apprentice vacancy, All Sarkari Jobs",
+        "keywords": "railway apprentice 2026 2027, ट्रेड अपरेंटिस भर्ती 2026, rrc apprentice apply online, iti trade apprentice stipend per month, apprentice merit list pdf, All Sarkari Jobs",
         "heading": "Railway & PSU Apprentice Jobs 2026–2027",
         "filter_pill": "all",
         "search_term": "apprentice"
