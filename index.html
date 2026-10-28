@@ -1116,24 +1116,27 @@ const dropdown = document.getElementById('searchResultsDropdown');
 const searchGoBtn = document.querySelector('.search-go');
 
 const SEO_HUBS = [
-  { match: ['up', 'uttar pradesh', 'upsssc', 'uppsc'], title: 'Uttar Pradesh (UP) Govt Jobs 2026–2027 Hub', url: '/jobs/uttar-pradesh', badge: 'STATE PORTAL' },
-  { match: ['bihar', 'bpsc', 'bssc', 'csbc'], title: 'Bihar Government Vacancies 2026–2027 Hub', url: '/jobs/bihar', badge: 'STATE PORTAL' },
-  { match: ['telangana', 'tspsc', 'singareni'], title: 'Telangana State Govt Jobs 2026–2027 Hub', url: '/jobs/telangana', badge: 'STATE PORTAL' },
-  { match: ['delhi', 'dsssb', 'ncr'], title: 'Delhi & NCR Vacancies (DSSSB, Courts) Hub', url: '/jobs/delhi', badge: 'STATE PORTAL' },
-  { match: ['rajasthan', 'rpsc', 'rsmssb', 'mp', 'mpesb'], title: 'Rajasthan & MP Govt Jobs 2026–2027 Hub', url: '/jobs/rajasthan', badge: 'STATE PORTAL' },
-  { match: ['central', 'all india', 'mha', 'ib'], title: 'Central Govt / All India Vacancies Hub', url: '/jobs/central', badge: 'CENTRAL GOVT' },
-  { match: ['10th', 'matric', 'gds', 'group d', 'mts'], title: '10th Pass Government Jobs 2026–2027 Hub', url: '/jobs/10th-pass', badge: 'QUALIFICATION' },
-  { match: ['12th', 'inter', '10+2', 'chsl', 'constable'], title: '12th Pass Sarkari Naukri 2026–2027 Hub', url: '/jobs/12th-pass', badge: 'QUALIFICATION' },
-  { match: ['graduate', 'degree', 'cgl', 'po', 'si', 'btech'], title: 'Graduate Government Jobs 2026–2027 Hub', url: '/jobs/graduate', badge: 'QUALIFICATION' },
-  { match: ['apprentice', 'iti', 'engineering', 'diploma'], title: 'Engineering, Diploma & ITI Jobs Hub', url: '/jobs/engineering-iti', badge: 'TECHNICAL' },
-  { match: ['teaching', 'tet', 'ctet', 'uptet', 'teacher', 'kvs'], title: 'Teaching & Education Jobs Hub', url: '/jobs/teaching', badge: 'TEACHING' },
-  { match: ['ssc', 'cgl', 'chsl', 'gd'], title: 'Staff Selection Commission (SSC) Hub', url: '/jobs/ssc', badge: 'EXAM BOARD' },
-  { match: ['railway', 'rrb', 'rrc', 'ntpc', 'alp'], title: 'Railway Recruitment Boards (RRB) Hub', url: '/jobs/railway', badge: 'EXAM BOARD' },
-  { match: ['upsc', 'ias', 'civil services', 'nda', 'cds'], title: 'Union Public Service Commission (UPSC) Hub', url: '/jobs/upsc', badge: 'EXAM BOARD' },
-  { match: ['bank', 'ibps', 'sbi', 'rbi', 'insurance', 'uiic'], title: 'Banking & Insurance Recruitment Hub', url: '/jobs/banking', badge: 'BANKING' },
-  { match: ['police', 'defence', 'army', 'navy', 'agniveer'], title: 'Police & Defence Forces Recruitment Hub', url: '/jobs/police-defence', badge: 'DEFENCE' },
-  { match: ['result', 'cutoff', 'merit', 'score'], title: 'Sarkari Results & Scorecards Portal', url: '/results', badge: 'RESULTS' },
-  { match: ['admit', 'hall ticket', 'city slip'], title: 'Sarkari Admit Cards & Hall Tickets Portal', url: '/admit-cards', badge: 'ADMIT CARDS' }
+  { match: ['up', 'uttar pradesh', 'upsssc', 'uppsc', 'यूपी', 'उत्तर प्रदेश'], title: 'Uttar Pradesh (UP) Govt Jobs 2026-2027 Hub', url: '/jobs/uttar-pradesh', badge: 'STATE PORTAL' },
+  { match: ['bihar', 'bpsc', 'bssc', 'csbc', 'बिहार', 'बिहार पुलिस'], title: 'Bihar Government Vacancies 2026-2027 Hub', url: '/jobs/bihar', badge: 'STATE PORTAL' },
+  { match: ['telangana', 'tspsc', 'singareni', 'तेलंगाना'], title: 'Telangana State Govt Jobs 2026-2027 Hub', url: '/jobs/telangana', badge: 'STATE PORTAL' },
+  { match: ['delhi', 'dsssb', 'ncr', 'दिल्ली'], title: 'Delhi & NCR Vacancies (DSSSB, Courts) Hub', url: '/jobs/delhi', badge: 'STATE PORTAL' },
+  { match: ['rajasthan', 'rpsc', 'rsmssb', 'mp', 'mpesb', 'राजस्थान', 'मध्य प्रदेश'], title: 'Rajasthan & MP Govt Jobs 2026-2027 Hub', url: '/jobs/rajasthan', badge: 'STATE PORTAL' },
+  { match: ['central', 'all india', 'mha', 'ib', 'केंद्र सरकार'], title: 'Central Govt / All India Vacancies Hub', url: '/jobs/central', badge: 'CENTRAL GOVT' },
+  { match: ['10th', 'matric', 'gds', 'group d', 'mts', '10वीं', 'दसवीं'], title: '10th Pass Government Jobs 2026-2027 Hub', url: '/jobs/10th-pass', badge: 'QUALIFICATION' },
+  { match: ['12th', 'inter', '10+2', 'chsl', 'constable', '12वीं', 'बारहवीं'], title: '12th Pass Sarkari Naukri 2026-2027 Hub', url: '/jobs/12th-pass', badge: 'QUALIFICATION' },
+  { match: ['graduate', 'degree', 'cgl', 'po', 'si', 'btech', 'स्नातक', 'ग्रेजुएट'], title: 'Graduate Government Jobs 2026-2027 Hub', url: '/jobs/graduate', badge: 'QUALIFICATION' },
+  { match: ['apprentice', 'iti', 'engineering', 'diploma', 'आईटीआई', 'अपरेंटिस'], title: 'Engineering, Diploma & ITI Jobs Hub', url: '/jobs/engineering-iti', badge: 'TECHNICAL' },
+  { match: ['teaching', 'tet', 'ctet', 'uptet', 'teacher', 'kvs', 'शिक्षक', 'टीचर', 'सुपर टीईटी'], title: 'Teaching & Education Jobs Hub', url: '/jobs/teaching', badge: 'TEACHING' },
+  { match: ['ssc', 'cgl', 'chsl', 'gd', 'एसएससी', 'एसएससी जीडी'], title: 'Staff Selection Commission (SSC) Hub', url: '/jobs/ssc', badge: 'EXAM BOARD' },
+  { match: ['railway', 'rrb', 'rrc', 'ntpc', 'alp', 'रेलवे', 'रेलवे भर्ती'], title: 'Railway Recruitment Boards (RRB) Hub', url: '/jobs/railway', badge: 'EXAM BOARD' },
+  { match: ['upsc', 'ias', 'civil services', 'nda', 'cds', 'यूपीएससी', 'आईएएस'], title: 'Union Public Service Commission (UPSC) Hub', url: '/jobs/upsc', badge: 'EXAM BOARD' },
+  { match: ['bank', 'ibps', 'sbi', 'rbi', 'insurance', 'uiic', 'बैंक', 'बैंक भर्ती'], title: 'Banking & Insurance Recruitment Hub', url: '/jobs/banking', badge: 'BANKING' },
+  { match: ['police', 'defence', 'army', 'navy', 'agniveer', 'पुलिस', 'पुलिस भर्ती', 'अग्निवीर'], title: 'Police & Defence Forces Recruitment Hub', url: '/jobs/police-defence', badge: 'DEFENCE' },
+  { match: ['result', 'cutoff', 'merit', 'score', 'रिजल्ट', 'परिणाम', 'कट ऑफ'], title: 'Sarkari Result 2026 Hub', url: '/results', badge: 'RESULTS' },
+  { match: ['admit card', 'hall ticket', 'call letter', 'एडमिट कार्ड', 'प्रवेश पत्र'], title: 'Sarkari Admit Card 2026 Hub', url: '/admit-cards', badge: 'ADMIT CARDS' },
+  { match: ['answer key', 'response sheet', 'उत्तर कुंजी', 'आंसर की'], title: 'Answer Keys & Objection Hub', url: '/answer-keys', badge: 'ANSWER KEYS' },
+  { match: ['syllabus', 'exam pattern', 'सिलेबस', 'पाठ्यक्रम'], title: 'Exam Syllabus & Pattern Hub', url: '/syllabus', badge: 'SYLLABUS' },
+  { match: ['admission', 'counselling', 'josaa', 'neet', 'एडमिशन', 'काउंसलिंग'], title: 'JoSAA & NEET Admission Hub 2026', url: '/admission', badge: 'ADMISSIONS' }
 ];
 
 let searchDebounce = null;
@@ -1177,6 +1180,36 @@ searchInput.addEventListener('input', (e) => {
     const noiseWords = new Set(['government', 'govt', 'jobs', 'job', 'sarkari', 'naukri', 'vacancy', 'vacancies', 'online', 'form', '2026', '2027', 'latest', 'for', 'in', 'and']);
     const tokens = qLower.split(/\s+/).filter(w => !noiseWords.has(w) && w.length >= 2);
     if (tokens.length === 0) tokens.push(qLower);
+
+    // Expand Hindi Search Tokens for Seamless Bilingual Matching
+    const HINDI_MAP = {
+      'रेलवे': ['railway', 'rrb', 'rrc'],
+      'पुलिस': ['police', 'constable', 'si'],
+      'शिक्षक': ['teacher', 'teaching', 'tet', 'ctet', 'super tet'],
+      'टीचर': ['teacher', 'teaching'],
+      'भर्ती': ['recruitment', 'vacancy'],
+      'नौकरी': ['job', 'jobs', 'vacancy'],
+      '10वीं': ['10th', 'matric', 'gds', 'mts'],
+      '12वीं': ['12th', 'inter', 'chsl', 'constable'],
+      'स्नातक': ['graduate', 'cgl', 'degree'],
+      'यूपी': ['up', 'uttar pradesh', 'upsssc', 'uppsc'],
+      'बिहार': ['bihar', 'bpsc', 'bssc', 'csbc'],
+      'राजस्थान': ['rajasthan', 'rpsc', 'rsmssb'],
+      'दिल्ली': ['delhi', 'dsssb'],
+      'बैंक': ['bank', 'banking', 'ibps', 'sbi'],
+      'रिजल्ट': ['result', 'cutoff'],
+      'परिणाम': ['result'],
+      'एडमिट': ['admit', 'admit card', 'hall ticket'],
+      'प्रवेश': ['admit card', 'admission'],
+      'उत्तर': ['answer key'],
+      'सिलेबस': ['syllabus'],
+      'काउंसलिंग': ['admission', 'counselling']
+    };
+    for (const [hiWord, enWords] of Object.entries(HINDI_MAP)) {
+      if (qLower.includes(hiWord)) {
+        tokens.push(...enWords);
+      }
+    }
 
     // 1. Check for Matching SEO Category Hub
     let matchedHubs = [];
