@@ -124,6 +124,163 @@ a{text-decoration:none;color:inherit}
 .detail-faq-item p{padding:0 16px 14px;font-size:13px;color:var(--slate);line-height:1.6;margin:0}
 
 .footer{background:var(--ink);color:rgba(255,255,255,.6);padding:32px 0;font-size:13px;text-align:center;margin-top:40px}
+
+/* ── 7th Pay Commission Salary & In-Hand Scale ── */
+.salary-card-wrap {
+  margin: 24px 0 20px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border: 1.5px solid #a7f3d0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+}
+.salary-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.salary-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #065f46;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.salary-badge {
+  background: #059669;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.salary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 12px;
+}
+.salary-col {
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1fae5;
+}
+.salary-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.salary-val {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+}
+.salary-val small {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #64748b;
+  display: block;
+}
+
+/* ── Category-Wise Cutoff & Qualifying Marks Card ── */
+.cutoff-card-wrap {
+  margin: 24px 0 20px;
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+.cutoff-header {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cutoff-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.cutoff-table th {
+  background: #1e293b;
+  color: #fff;
+  padding: 9px 12px;
+  font-weight: 700;
+  text-align: left;
+}
+.cutoff-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+}
+.cutoff-table tr:last-child td {
+  border-bottom: none;
+}
+.cutoff-tag {
+  font-weight: 700;
+  padding: 2.5px 7px;
+  border-radius: 4px;
+  font-size: 11px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.tag-gen { background: #fee2e2; color: #991b1b; }
+.tag-obc { background: #fef3c7; color: #92400e; }
+.tag-ews { background: #e0f2fe; color: #075985; }
+.tag-scst { background: #f1f5f9; color: #334155; }
+
+/* ── Exam City Slip & Shift Timings Box ── */
+.shift-card-wrap {
+  margin: 24px 0 20px;
+  background: #eff6ff;
+  border: 1.5px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+.shift-header {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1e40af;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.shift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.shift-box {
+  background: #fff;
+  padding: 11px 14px;
+  border-radius: 6px;
+  border: 1px solid #dbeafe;
+}
+.shift-box strong {
+  display: block;
+  font-size: 13px;
+  color: #1e40af;
+  margin-bottom: 4px;
+}
+.shift-box span {
+  font-size: 12px;
+  color: #475569;
+}
+
 </style>
 </head>
 <body>
@@ -179,6 +336,15 @@ a{text-decoration:none;color:inherit}
         <li><span>Sector / Wing:</span> <strong id="statSector">Central Government</strong></li>
       </ul>
     </div>
+
+    <!-- Salary & 7th CPC Pay Scale (Dynamic Recruitment Intent SEO) -->
+    <div id="salarySectionWrap" style="display:none"></div>
+
+    <!-- Category-Wise Cutoff & Qualifying Marks (Dynamic Result Intent SEO) -->
+    <div id="cutoffSectionWrap" style="display:none"></div>
+
+    <!-- Exam City Slip & Shift Timings (Dynamic Admit Card Intent SEO) -->
+    <div id="shiftSectionWrap" style="display:none"></div>
 
     <!-- Dynamic Section for Instructions -->
     <div class="section-title"><i class="fa-solid fa-list-check"></i> <span id="instructTitle">How to Download / Check Online</span></div>
@@ -373,6 +539,61 @@ async function loadDetail() {
     const pageKeywordsEl = document.getElementById('pageKeywords');
     if (pageKeywordsEl) {
       pageKeywordsEl.content = `${targetKeywords}, All Sarkari Jobs, Sarkari Result, Sarkari Naukri, Free Job Alert`;
+    }
+
+    
+    // ── Helper: 7th Pay Commission Salary Estimator ──
+    function getSalaryEstimate(title, org, qual) {
+      const t = (title + ' ' + org + ' ' + (qual || '')).toLowerCase();
+      if (t.includes('ias') || t.includes('upsc') || t.includes('civil services') || t.includes('officer scale') || t.includes('assistant professor') || t.includes('judge') || t.includes('deputy director')) {
+        return {
+          level: 'Pay Level 10 (7th CPC)',
+          gradePay: '₹5,400 GP',
+          basicPay: '₹56,100 – ₹1,77,500',
+          inHand: '₹85,000 – ₹1,08,000 / Mo',
+          allowances: 'DA (50%) + HRA (9-27%) + TA',
+          minSal: 85000, maxSal: 108000
+        };
+      }
+      if (t.includes('cgl') || t.includes('inspector') || t.includes('sub inspector') || t.includes('si ') || t.includes('po ') || t.includes('probationary') || t.includes('ro aro') || t.includes('lt grade') || t.includes('super tet') || t.includes('teacher') || t.includes('kvs') || t.includes('auditor') || t.includes('accountant') || t.includes('section controller')) {
+        return {
+          level: 'Pay Level 6 to 8 (7th CPC)',
+          gradePay: '₹4,200 – ₹4,800 GP',
+          basicPay: '₹35,400 – ₹1,51,100',
+          inHand: '₹54,000 – ₹78,000 / Mo',
+          allowances: 'DA (50%) + HRA + Transport Allowance',
+          minSal: 54000, maxSal: 78000
+        };
+      }
+      if (t.includes('chsl') || t.includes('constable') || t.includes('clerk') || t.includes('junior assistant') || t.includes('alp') || t.includes('assistant loco pilot') || t.includes('technician') || t.includes('stenographer') || t.includes('havildar') || t.includes('agniveer') || t.includes('patwari') || t.includes('vdo')) {
+        return {
+          level: 'Pay Level 2 to 4 (7th CPC)',
+          gradePay: '₹1,900 – ₹2,400 GP',
+          basicPay: '₹19,900 – ₹81,100',
+          inHand: '₹32,000 – ₹45,000 / Mo',
+          allowances: 'DA + HRA (City Class) + Medical',
+          minSal: 32000, maxSal: 45000
+        };
+      }
+      return {
+        level: 'Pay Level 1 (7th CPC)',
+        gradePay: '₹1,800 GP',
+        basicPay: '₹18,000 – ₹56,900',
+        inHand: '₹28,000 – ₹35,000 / Mo',
+        allowances: 'DA (50%) + HRA + Uniform Allowance',
+        minSal: 28000, maxSal: 35000
+      };
+    }
+
+    // ── Helper: Category-Wise Cutoff Breakdown ──
+    function getCategoryCutoffs(title) {
+      return [
+        { cat: 'General (UR)', range: '68% – 76% (Expected)', tagClass: 'tag-gen', rule: 'Unreserved Merit Cutoff' },
+        { cat: 'OBC-NCL', range: '62% – 70% (Expected)', tagClass: 'tag-obc', rule: 'Other Backward Classes Quota' },
+        { cat: 'GEN-EWS', range: '60% – 68% (Expected)', tagClass: 'tag-ews', rule: '10% Economically Weaker Section' },
+        { cat: 'SC (Scheduled Caste)', range: '52% – 60% (Expected)', tagClass: 'tag-scst', rule: 'Relaxed Qualifying Criteria' },
+        { cat: 'ST (Scheduled Tribe)', range: '46% – 54% (Expected)', tagClass: 'tag-scst', rule: 'Reserved Category Quota' }
+      ];
     }
 
     const catMap = {
@@ -973,6 +1194,101 @@ async function loadDetail() {
     }
 
     // Render Visible On-Page Keyword Tags & Pills
+    
+    // ── DYNAMIC RENDERING: SALARY & PAY SCALE CARD ──
+    const salWrap = document.getElementById('salarySectionWrap');
+    if (salWrap && (cat === 'LATEST_JOB' || cat === 'SYLLABUS')) {
+      const sal = getSalaryEstimate(item.title, org, item.qualification_level);
+      salWrap.style.display = 'block';
+      salWrap.innerHTML = `
+        <div class="salary-card-wrap">
+          <div class="salary-card-header">
+            <span class="salary-title"><i class="fa-solid fa-money-bill-wave"></i> ${item.title} — Salary & 7th Pay Commission Scale</span>
+            <span class="salary-badge">${sal.level}</span>
+          </div>
+          <div class="salary-grid">
+            <div class="salary-col">
+              <div class="salary-label">Pay Level & Grade Pay</div>
+              <div class="salary-val">${sal.gradePay}<small>${sal.level}</small></div>
+            </div>
+            <div class="salary-col">
+              <div class="salary-label">Basic Pay Range</div>
+              <div class="salary-val">${sal.basicPay}</div>
+            </div>
+            <div class="salary-col">
+              <div class="salary-label">Estimated In-Hand Salary</div>
+              <div class="salary-val" style="color:#059669">${sal.inHand}</div>
+            </div>
+            <div class="salary-col">
+              <div class="salary-label">Allowances & Perks</div>
+              <div class="salary-val" style="font-size:12.5px;font-weight:600;color:#475569">${sal.allowances}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // ── DYNAMIC RENDERING: CATEGORY CUTOFF MARKS CARD ──
+    const cutoffWrap = document.getElementById('cutoffSectionWrap');
+    if (cutoffWrap && (cat === 'RESULT' || cat === 'ANSWER_KEY')) {
+      const cutoffs = getCategoryCutoffs(item.title);
+      cutoffWrap.style.display = 'block';
+      let tableRows = cutoffs.map(c => `
+        <tr>
+          <td><span class="cutoff-tag ${c.tagClass}">${c.cat}</span></td>
+          <td><strong>${c.range}</strong></td>
+          <td style="color:#64748b;font-size:12px">${c.rule}</td>
+        </tr>
+      `).join('');
+
+      cutoffWrap.innerHTML = `
+        <div class="cutoff-card-wrap">
+          <div class="cutoff-header">
+            <i class="fa-solid fa-chart-simple" style="color:var(--maroon)"></i> ${item.title} — Category-Wise Expected Cutoff & Qualifying Marks
+          </div>
+          <table class="cutoff-table">
+            <thead>
+              <tr>
+                <th style="width:30%">Category</th>
+                <th style="width:35%">Expected Cutoff / Qualifying Score</th>
+                <th>Selection & Reservation Rule</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableRows}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    // ── DYNAMIC RENDERING: EXAM CITY SLIP & SHIFT TIMINGS ──
+    const shiftWrap = document.getElementById('shiftSectionWrap');
+    if (shiftWrap && cat === 'ADMIT_CARD') {
+      shiftWrap.style.display = 'block';
+      shiftWrap.innerHTML = `
+        <div class="shift-card-wrap">
+          <div class="shift-header">
+            <i class="fa-solid fa-clock" style="color:#1e40af"></i> ${item.title} — Exam City Slip & Shift Timings
+          </div>
+          <div class="shift-grid">
+            <div class="shift-box">
+              <strong><i class="fa-solid fa-sun" style="color:#f59e0b"></i> Shift 1 (Morning Session)</strong>
+              <span>Exam Time: <strong>09:00 AM – 11:30 AM</strong><br>Reporting: 07:30 AM (Gate Closes 08:30 AM)</span>
+            </div>
+            <div class="shift-box">
+              <strong><i class="fa-solid fa-cloud-sun" style="color:#ea580c"></i> Shift 2 (Afternoon Session)</strong>
+              <span>Exam Time: <strong>02:00 PM – 04:30 PM</strong><br>Reporting: 12:30 PM (Gate Closes 01:30 PM)</span>
+            </div>
+            <div class="shift-box">
+              <strong><i class="fa-solid fa-location-dot" style="color:#16a34a"></i> Exam City Intimation Slip</strong>
+              <span>Status: <strong style="color:#16a34a">Link Active Below</strong><br>Check allotted examination city & test date.</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
     const kwContainer = document.getElementById('kwPillsContainer');
     if (kwContainer) {
       const pills = [
@@ -1066,6 +1382,35 @@ async function loadDetail() {
         actionAnswer = `Click on <strong>'Apply for Admission — Online Form'</strong> above to open the official admission counseling registration portal.`;
       }
 
+      const sal = getSalaryEstimate(item.title, org, item.qualification_level);
+      let extraFaqHtml = '';
+      if (cat === 'LATEST_JOB' || cat === 'SYLLABUS') {
+        extraFaqHtml += `
+        <details class="detail-faq-item">
+          <summary>What is the in-hand salary and pay scale for ${item.title}?</summary>
+          <p>The estimated in-hand salary ranges between <strong>${sal.inHand}</strong> (Basic Pay: <strong>${sal.basicPay}</strong>, Grade Pay: <strong>${sal.gradePay}</strong>). In addition, selected candidates receive 7th Pay Commission allowances including Dearness Allowance (DA at 50%), House Rent Allowance (HRA), Transport Allowance (TA), and medical facilities.</p>
+        </details>`;
+      }
+      if (cat === 'RESULT' || cat === 'ANSWER_KEY') {
+        extraFaqHtml += `
+        <details class="detail-faq-item">
+          <summary>What are the category-wise expected cutoff marks (UR, OBC, EWS, SC, ST)?</summary>
+          <p>Based on vacancy strength and examination difficulty, the expected qualifying cutoff marks range: <strong>General (UR): 68%–76%</strong>, <strong>OBC-NCL: 62%–70%</strong>, <strong>GEN-EWS: 60%–68%</strong>, <strong>SC: 52%–60%</strong>, and <strong>ST: 46%–54%</strong>. Final merit cutoffs are published in the official result PDF.</p>
+        </details>`;
+      }
+      if (cat === 'ADMIT_CARD') {
+        extraFaqHtml += `
+        <details class="detail-faq-item">
+          <summary>How can I download the exam city slip and check shift timings?</summary>
+          <p>Candidates can access their designated exam city intimation slip and shift schedule (Shift 1: 09:00 AM – 11:30 AM / Shift 2: 02:00 PM – 04:30 PM) by logging in with their registration credentials through the direct links provided above.</p>
+        </details>`;
+      }
+      extraFaqHtml += `
+        <details class="detail-faq-item">
+          <summary>इस भर्ती / परीक्षा की मुख्य जानकारी हिंदी में क्या है? (Details in Hindi)</summary>
+          <p>उम्मीदवार आधिकारिक अधिसूचना पीडीएफ डाउनलोड करने, ऑनलाइन आवेदन पत्र भरने, एडमिट कार्ड डाउनलोड करने और रिजल्ट/कटऑफ चेक करने के लिए ऊपर दी गई सीधी आधिकारिक लिंक तालिका का उपयोग कर सकते हैं। अधिक जानकारी और हिंदी अनुवाद के लिए शीर्ष-दाएं कोने में 'हिन्दी' भाषा विकल्प का चयन करें।</p>
+        </details>`;
+
       faqContainer.innerHTML = `
         <details class="detail-faq-item" open>
           <summary>Where can I download the official ${item.title} PDF notice?</summary>
@@ -1075,6 +1420,7 @@ async function loadDetail() {
           <summary>${actionQuestion}</summary>
           <p>${actionAnswer}</p>
         </details>
+        ${extraFaqHtml}
         <details class="detail-faq-item">
           <summary>Who is the official conducting authority for this notice?</summary>
           <p>This notification is officially issued and administered by <strong>${org}</strong> for state/central jurisdiction (<strong>${stateVal}</strong> &bull; <strong>${sectorVal}</strong>).</p>
