@@ -29,6 +29,24 @@
   </noscript>
   
   <style>
+    /* Complete Google Translate Banner Suppression */
+    .goog-te-banner-frame,
+    .goog-te-banner-frame.skiptranslate,
+    iframe.goog-te-banner-frame,
+    #goog-gt-tt,
+    .goog-te-balloon-frame {
+      display: none !important;
+      visibility: hidden !important;
+      height: 0 !important;
+      width: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
     @font-face{font-family:'Font Awesome 6 Free';font-display:swap}
     @font-face{font-family:'Font Awesome 6 Brands';font-display:swap}
     :root {
@@ -816,5 +834,6 @@ document.getElementById('categorySearchInput').addEventListener('input', () => {
 
 initCategoryView();
 </script>
+  <script src="/language.js"></script>
 </body>
 </html>

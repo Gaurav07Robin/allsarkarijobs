@@ -527,6 +527,16 @@ def serve_portal_data_js():
     js_file = BASE_DIR / "portal_data.js"
     return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
 
+@app.get("/counselling_data.js")
+def serve_counselling_data_js():
+    js_file = BASE_DIR / "counselling_data.js"
+    return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
+
+@app.get("/language.js")
+def serve_language_js():
+    js_file = BASE_DIR / "language.js"
+    return FileResponse(js_file, media_type="application/javascript", headers=NO_CACHE_HEADERS)
+
 @app.get("/categories")
 @app.get("/jobs")
 def redirect_to_latest_jobs():
@@ -561,7 +571,14 @@ def serve_syllabus_page():
     f = BASE_DIR / "syllabus" / "index.html"
     return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
 
+@app.get("/counselling")
+@app.get("/admissions")
 @app.get("/admission")
+@app.get("/jee-main-marks-vs-percentile")
+@app.get("/counselling/jee-main-marks-vs-percentile")
+@app.get("/counselling/neet-marks-vs-rank")
+@app.get("/counselling/college-predictor")
+@app.get("/josaa-college-predictor")
 def serve_admission_page():
     f = BASE_DIR / "admission" / "index.html"
     return FileResponse(f if f.exists() else BASE_DIR / "category.html", headers=NO_CACHE_HEADERS)
