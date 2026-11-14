@@ -295,8 +295,8 @@ async function loadJobDetails() {
   const urlParams = new URLSearchParams(window.location.search);
   let slug = urlParams.get('slug');
 
-  if (!slug && window.location.pathname.startsWith('/jobs/')) {
-    slug = window.location.pathname.replace('/jobs/', '').replace(/\/+$/, '');
+  if (!slug && (window.location.pathname.startsWith('/jobs/') || window.location.pathname.startsWith('/job/'))) {
+    slug = window.location.pathname.replace(/^\/jobs?\//, '').replace(/\/+$/, '');
   }
 
   if (!slug) {

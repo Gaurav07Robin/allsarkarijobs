@@ -797,7 +797,11 @@ function renderNotices() {
     const qual = item.qualification || 'All Candidates';
     const stateVal = item.state || 'All India';
     const sectorVal = item.sector || 'Central Govt';
-    const targetUrl = `/detail?id=${item.id}`;
+    function makeItemSlug(t) {
+      return (t || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '').substring(0, 70);
+    }
+    const itemSlug = item.slug || makeItemSlug(item.title);
+    const targetUrl = itemSlug ? `/detail/${item.id}-${itemSlug}` : `/detail?id=${item.id}`;
 
     return `
       <div class="notice-card">

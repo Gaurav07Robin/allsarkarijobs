@@ -53,6 +53,10 @@
     {
       "source": "/job/(.*)",
       "destination": "/job"
+    },
+    {
+      "source": "/jobs/(.*)",
+      "destination": "/job"
     }
   ],
   "headers": [
