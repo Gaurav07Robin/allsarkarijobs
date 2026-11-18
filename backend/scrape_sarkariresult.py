@@ -779,12 +779,20 @@ def scrape_all_from_sarkariresult():
         if col_name not in existing_cols:
             c.execute(f"ALTER TABLE updates ADD COLUMN {col_name} TEXT")
 
-    # Replace updates table with the clean, verified sarkariresult.com items
-    c.execute("DELETE FROM updates")
-    c.execute("DELETE FROM sqlite_sequence WHERE name='updates'")
+    # Preserve existing primary key IDs so Google URLs (/detail/{id}-{slug}) stay permanent forever
+    existing_by_url = {}
+    existing_by_title = {}
+    for r in c.execute("SELECT id, title, source_url FROM updates").fetchall():
+        if r["source_url"]:
+            existing_by_url[r["source_url"].strip().lower()] = r["id"]
+        if r["title"]:
+            existing_by_title[r["title"].strip().lower()] = r["id"]
 
-    # Insert in reverse order within each category so that when queried ORDER BY id DESC,
-    # the #1 newest item at the top of each sarkariresult.com column appears #1 on our portal!
+    max_id_row = c.execute("SELECT MAX(id) FROM updates").fetchone()
+    next_id = (max_id_row[0] or 0) + 1 if max_id_row and max_id_row[0] else 1
+
+    # Insert / update in reverse order within each category so that when queried ORDER BY id DESC,
+    # the newest items appear at the top of our portal!
     cat_order = ["RESULT", "ADMIT_CARD", "LATEST_JOB", "ANSWER_KEY", "SYLLABUS", "ADMISSION"]
     total_inserted = 0
 
@@ -832,16 +840,22 @@ def scrape_all_from_sarkariresult():
             from datetime import datetime
             ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+            existing_id = existing_by_url.get(post_url.strip().lower()) or existing_by_title.get(title.strip().lower())
+            assigned_id = existing_id if existing_id else next_id
+            if not existing_id:
+                next_id += 1
+
             c.execute(
                 """
-                INSERT INTO updates (
-                    category, title, tag, action_url, is_featured, featured_badge,
+                INSERT OR REPLACE INTO updates (
+                    id, category, title, tag, action_url, is_featured, featured_badge,
                     created_at, source_portal, source_url, pdf_url,
                     qualification_level, sector, state,
                     registration_url, login_url, cutoff_pdf_url, meta_json
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
+                    assigned_id,
                     cat,
                     title,
                     tag,

@@ -415,33 +415,63 @@ a{text-decoration:none;color:inherit}
 async function loadDetail() {
   const urlParams = new URLSearchParams(window.location.search);
   let id = urlParams.get('id');
-  if (!id) {
+  let slug = urlParams.get('slug');
+  if (!id && !slug) {
     const parts = window.location.pathname.split('/').filter(Boolean);
-    if (parts.length >= 2 && parts[0] === 'detail') id = parts[1];
+    if (parts.length >= 2 && parts[0] === 'detail') {
+      const seg = decodeURIComponent(parts[1]);
+      const match = seg.match(/^(\d+)(?:-(.*))?$/);
+      if (match) {
+        id = match[1];
+        if (match[2]) slug = match[2];
+      } else {
+        slug = seg;
+      }
+    }
   }
-  if (id) {
-    const numMatch = String(id).match(/^(\d+)/);
-    if (numMatch) id = numMatch[1];
+  if (id && !slug) {
+    const numMatch = String(id).match(/^(\d+)(?:-(.*))?$/);
+    if (numMatch) {
+      id = numMatch[1];
+      if (numMatch[2]) slug = numMatch[2];
+    }
   }
 
-  if (!id) {
+  if (!id && !slug) {
     document.getElementById('noticeTitle').innerText = 'Notice Not Found';
     return;
   }
 
   try {
     let item = null;
-    try {
-      const res = await fetch(`/api/detail/${id}`);
-      if (res.ok) {
-        const json = await res.json();
-        item = json.update;
+
+    // 1. Slug-first lookup in authoritative dataset (preserves content integrity across historical/reassigned ID URLs)
+    if (slug && window.PORTAL_DATA) {
+      if (window.PORTAL_DATA.updatesBySlug && window.PORTAL_DATA.updatesBySlug[slug]) {
+        item = window.PORTAL_DATA.updatesBySlug[slug];
       }
-    } catch (apiErr) {
-      // Static edge host fallback
+      if (!item && Array.isArray(window.PORTAL_DATA.updates)) {
+        item = window.PORTAL_DATA.updates.find(x => x.slug === slug || (x.slug && x.slug.toLowerCase() === slug.toLowerCase())) || null;
+      }
+      if (!item && Array.isArray(window.PORTAL_DATA.updates)) {
+        item = window.PORTAL_DATA.updates.find(x => x.slug && (x.slug.includes(slug) || slug.includes(x.slug))) || null;
+      }
     }
 
-    if (!item && window.PORTAL_DATA) {
+    // 2. API or ID fallback if not resolved by slug
+    if (!item && id) {
+      try {
+        const res = await fetch(`/api/detail/${id}`);
+        if (res.ok) {
+          const json = await res.json();
+          item = json.update;
+        }
+      } catch (apiErr) {
+        // Static edge host fallback
+      }
+    }
+
+    if (!item && id && window.PORTAL_DATA) {
       if (window.PORTAL_DATA.updatesById && window.PORTAL_DATA.updatesById[String(id)]) {
         item = window.PORTAL_DATA.updatesById[String(id)];
       }

@@ -1179,6 +1179,7 @@ def export_portal_data_js():
         u.pop("meta_json", None)
 
     updates_by_id = {str(u["id"]): u for u in updates_asc}
+    updates_by_slug = {u["slug"]: u for u in updates_asc if u.get("slug")}
 
     categorized = {
         "RESULT": [],
@@ -1218,6 +1219,7 @@ def export_portal_data_js():
     payload = {
         "updates": updates_desc,
         "updatesById": updates_by_id,
+        "updatesBySlug": updates_by_slug,
         "categorized": categorized,
         "recruitments": recruitments_by_slug,
         "adminStats": admin_stats,
