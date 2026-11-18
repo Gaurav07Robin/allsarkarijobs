@@ -518,31 +518,32 @@ async function loadDetail() {
     const relDate = item.created_at ? item.created_at.substring(0, 10) : '2026 Examination Cycle';
     const stateVal = item.state || 'All India';
     const sectorVal = item.sector || 'Central Government';
+    const qualVal = item.qualification_level || '10th / 12th / Diploma / Graduate (as per post)';
 
-    let cleanTitle = `${item.title} Notification PDF, Direct Apply Link & Eligibility 2026 | All Sarkari Jobs`;
-    let targetKeywords = `${item.title}, ${item.title} 2026, ${item.title} official notification pdf download, ${item.title} direct apply link, ${item.title} eligibility criteria age limit, ${org} recruitment 2026, 10th 12th graduate govt jobs`;
-    let defaultDesc = `Download official ${item.title} notification PDF. Check exact eligibility criteria, important dates, application fee, candidate registration, and apply online directly on All Sarkari Jobs.`;
+    let cleanTitle = `${item.title} (Apply Online) — Official PDF, In-Hand Salary & Eligibility 2026 | All Sarkari Jobs`;
+    let targetKeywords = `${item.title}, ${item.title} 2026, ${item.title} official notification pdf download, ${item.title} direct apply link, ${item.title} in-hand salary slip, ${item.title} eligibility criteria age limit, ${org} recruitment 2026, 10th 12th graduate govt jobs`;
+    let defaultDesc = `Download official ${item.title} notification PDF. Check in-hand salary, category-wise eligibility criteria, important dates, application fee, and apply online directly on All Sarkari Jobs.`;
 
     if (cat === 'RESULT') {
-      cleanTitle = `${item.title} Result, Cutoff Marks & Scorecard Login 2026 | All Sarkari Jobs`;
-      targetKeywords = `${item.title}, ${item.title} result 2026, ${item.title} cutoff marks category wise pdf, ${item.title} scorecard login link, ${item.title} merit list download, ${org} exam result`;
-      defaultDesc = `Check ${item.title} exam result declaration date, category-wise quota cutoff marks, official merit list PDF, and candidate scorecard login link on All Sarkari Jobs.`;
+      cleanTitle = `${item.title} (Out) — Direct PDF Download, Cut Off Marks & Merit List 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} result 2026 out, ${item.title} cutoff marks category wise pdf, ${item.title} scorecard login link, ${item.title} merit list download roll number, ${org} exam result`;
+      defaultDesc = `Check ${item.title} declaration date, category-wise quota cutoff marks (UR/OBC/SC/ST/EWS), official merit list PDF, and candidate scorecard login link on All Sarkari Jobs.`;
     } else if (cat === 'ADMIT_CARD') {
-      cleanTitle = `${item.title} Admit Card, Exam City Slip & Hall Ticket Download 2026 | All Sarkari Jobs`;
-      targetKeywords = `${item.title}, ${item.title} admit card 2026 download, ${item.title} exam city intimation slip, ${item.title} hall ticket direct login, ${org} admit card release date`;
-      defaultDesc = `Download ${item.title} exam admit card, hall ticket, and exam city intimation slip. Access direct candidate login with registration number and exam day guidelines on All Sarkari Jobs.`;
+      cleanTitle = `${item.title} (Link Active) — Exam City Slip, Shift Timings & Hall Ticket 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} admit card 2026 download, ${item.title} exam city intimation slip, ${item.title} shift timings reporting time, ${item.title} hall ticket direct login, ${org} admit card release date`;
+      defaultDesc = `Download ${item.title} admit card, hall ticket, shift timings, and exam city intimation slip. Access direct candidate login with registration number on All Sarkari Jobs.`;
     } else if (cat === 'ANSWER_KEY') {
-      cleanTitle = `${item.title} Answer Key, Response Sheet & Objection Link 2026 | All Sarkari Jobs`;
-      targetKeywords = `${item.title}, ${item.title} answer key 2026, ${item.title} response sheet download, ${item.title} raise objection challenge link, ${org} question paper solutions`;
-      defaultDesc = `Download official ${item.title} provisional answer key and candidate response sheet. Check question paper solutions and raise online objections before the last date on All Sarkari Jobs.`;
+      cleanTitle = `${item.title} (Key Out) — Official Response Sheet, Solutions & Objection Link 2026 | All Sarkari Jobs`;
+      targetKeywords = `${item.title}, ${item.title} answer key 2026 out, ${item.title} response sheet download, ${item.title} raise objection challenge link, ${org} question paper solutions`;
+      defaultDesc = `Download official ${item.title} provisional/final answer key and candidate response sheet. Check question paper solutions and raise online objections before last date on All Sarkari Jobs.`;
     } else if (cat === 'SYLLABUS') {
-      cleanTitle = `${item.title} Syllabus PDF & Exam Pattern in Hindi/English 2026 | All Sarkari Jobs`;
+      cleanTitle = `${item.title} (Syllabus PDF) — Topic-Wise Weightage & Exam Pattern in Hindi/English 2026 | All Sarkari Jobs`;
       targetKeywords = `${item.title}, ${item.title} syllabus pdf download, ${item.title} exam pattern topic wise marks, ${item.title} selection scheme in hindi english, ${org} exam syllabus`;
       defaultDesc = `Download detailed ${item.title} syllabus and examination pattern PDF in Hindi and English. Check topic-wise marks weightage, negative marking rules, and selection scheme on All Sarkari Jobs.`;
     } else if (cat === 'ADMISSION') {
-      cleanTitle = `${item.title} Admission Form, Eligibility & Counseling Date 2026 | All Sarkari Jobs`;
+      cleanTitle = `${item.title} (Form Open) — Direct Apply Link, Cutoff & Counseling Schedule 2026 | All Sarkari Jobs`;
       targetKeywords = `${item.title}, ${item.title} admission form 2026, ${item.title} eligibility criteria counseling schedule, ${item.title} entrance exam seat allotment, ${org} admission`;
-      defaultDesc = `Apply online for ${item.title} entrance examination. Check eligibility criteria, seat allotment, counseling dates, and download official information brochure on All Sarkari Jobs.`;
+      defaultDesc = `Apply online for ${item.title} entrance examination. Check eligibility criteria, seat allotment, counseling dates, and download official brochure on All Sarkari Jobs.`;
     }
 
     document.title = cleanTitle;
@@ -1031,7 +1032,6 @@ async function loadDetail() {
       boxHeaderEl.style.background = "#fefce8";
       boxHeaderEl.style.color = "#854d0e";
 
-      const qualVal = item.qualification_level || '10th / 12th / Diploma / Graduate (as per post)';
       detailsListEl.innerHTML = `
         <li><span>Recruitment Body / Commission:</span> <strong>${org}</strong></li>
         <li><span>Online Application Status:</span> <strong style="color:var(--green)"><i class="fa-solid fa-circle-check"></i> Active / Accepting Online Forms</strong></li>
@@ -1380,10 +1380,40 @@ async function loadDetail() {
         );
       }
 
-      kwContainer.innerHTML = pills.map(p => {
-        const cls = p.highlight ? 'kw-pill highlight' : 'kw-pill';
-        return `<span class="${cls}"><i class="fa-solid fa-tag"></i> ${p.text}</span>`;
-      }).join('');
+      kwContainer.innerHTML = [
+        ...(() => {
+          const hubLinks = [];
+          const stLow = (stateVal || '').toLowerCase();
+          if (stLow.includes('uttar pradesh') || stLow === 'up') hubLinks.push({ url: '/jobs/uttar-pradesh', text: 'UP Govt Jobs Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('bihar')) hubLinks.push({ url: '/jobs/bihar', text: 'Bihar Govt Jobs Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('rajasthan')) hubLinks.push({ url: '/jobs/rajasthan', text: 'Rajasthan Recruitment Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('madhya pradesh') || stLow === 'mp') hubLinks.push({ url: '/jobs/madhya-pradesh', text: 'MP Govt Jobs Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('delhi')) hubLinks.push({ url: '/jobs/delhi', text: 'Delhi & NCR Vacancies Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('maharashtra')) hubLinks.push({ url: '/jobs/maharashtra', text: 'Maharashtra Bharti Hub', icon: 'fa-solid fa-location-dot' });
+          else if (stLow.includes('telangana')) hubLinks.push({ url: '/jobs/telangana', text: 'Telangana TSPSC Hub', icon: 'fa-solid fa-location-dot' });
+          else hubLinks.push({ url: '/jobs/central', text: 'Central Govt Jobs Hub', icon: 'fa-solid fa-landmark' });
+
+          const secLow = (sectorVal || org || '').toLowerCase();
+          if (secLow.includes('bank') || secLow.includes('ibps') || secLow.includes('sbi')) hubLinks.push({ url: '/jobs/banking', text: 'Banking & Insurance Hub', icon: 'fa-solid fa-building-columns' });
+          else if (secLow.includes('railway') || secLow.includes('rrb') || secLow.includes('rrc')) hubLinks.push({ url: '/jobs/railway', text: 'Railway RRB Jobs Hub', icon: 'fa-solid fa-train' });
+          else if (secLow.includes('ssc') || secLow.includes('staff selection')) hubLinks.push({ url: '/jobs/ssc', text: 'SSC Recruitment Hub', icon: 'fa-solid fa-file-signature' });
+          else if (secLow.includes('upsc') || secLow.includes('civil services')) hubLinks.push({ url: '/jobs/upsc', text: 'UPSC Civil Services Hub', icon: 'fa-solid fa-scale-balanced' });
+          else if (secLow.includes('police') || secLow.includes('defence') || secLow.includes('army') || secLow.includes('navy')) hubLinks.push({ url: '/jobs/police-defence', text: 'Police & Defence Hub', icon: 'fa-solid fa-shield-halved' });
+          else if (secLow.includes('teach') || secLow.includes('tet') || secLow.includes('ctet')) hubLinks.push({ url: '/jobs/teaching', text: 'Teaching Jobs Hub', icon: 'fa-solid fa-chalkboard-user' });
+
+          const qLow = (qualVal || '').toLowerCase();
+          if (qLow.includes('10th') || qLow.includes('matric')) hubLinks.push({ url: '/jobs/10th-pass', text: '10th Pass Vacancies Hub', icon: 'fa-solid fa-graduation-cap' });
+          else if (qLow.includes('12th') || qLow.includes('inter')) hubLinks.push({ url: '/jobs/12th-pass', text: '12th Pass Vacancies Hub', icon: 'fa-solid fa-graduation-cap' });
+          else if (qLow.includes('graduate') || qLow.includes('degree')) hubLinks.push({ url: '/jobs/graduate', text: 'Graduate Jobs Hub', icon: 'fa-solid fa-user-graduate' });
+          else if (qLow.includes('engineering') || qLow.includes('iti') || qLow.includes('diploma')) hubLinks.push({ url: '/jobs/engineering-iti', text: 'Engineering & ITI Hub', icon: 'fa-solid fa-gears' });
+
+          return hubLinks.map(h => `<a href="${h.url}" class="kw-pill highlight" style="font-weight:700"><i class="${h.icon}"></i> ${h.text}</a>`);
+        })(),
+        ...pills.map(p => {
+          const cls = p.highlight ? 'kw-pill highlight' : 'kw-pill';
+          return `<span class="${cls}"><i class="fa-solid fa-tag"></i> ${p.text}</span>`;
+        })
+      ].join('');
     }
 
     // Render Visible On-Page Notice FAQs

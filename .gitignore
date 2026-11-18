@@ -12,3 +12,5 @@ env/
 *credentials*.json
 *client_secret*.json
 *token*.json
+data/gsc_export/
+data/gsc_full_export/

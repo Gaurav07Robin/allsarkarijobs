@@ -280,8 +280,43 @@ def render_page(template, title, desc, keywords, heading, canonical_url, categor
     page_html = page_html.replace('Loading Category...', heading)
     page_html = page_html.replace('Official government notices, direct links, and verified application portals.', desc)
 
-    # Inject default filter state script right before </head>
+    # Inject FAQPage schema and default filter state script right before </head>
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": f"What are the latest {heading} notifications active in 2026–2027?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": f"Candidates can check all active {heading} recruitment notifications, exam schedules, and direct application links updated daily on AllSarkariJobs. All links connect straight to official commission portals with zero ad spam."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": f"What is the eligibility criteria and salary for {heading}?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": f"Educational qualifications, minimum/maximum age limits, and 7th Pay Commission in-hand salary estimates are detailed in each job posting card above. Click any notice to view category-wise cutoff marks and pay scale breakdowns."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": f"How to apply online or download official notice PDF for {heading}?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": f"Select any active recruitment card above to access the direct 'Apply Online', 'Download Official PDF', and 'Candidate Login' portals without registration fees on AllSarkariJobs."
+                }
+            }
+        ]
+    }
+    faq_json_str = json.dumps(faq_schema, ensure_ascii=False)
+
     preset_script = f"""
+  <script type="application/ld+json">
+{faq_json_str}
+  </script>
   <script>
     window.INITIAL_PAGE_CONFIG = {{
       category: '{category}',
