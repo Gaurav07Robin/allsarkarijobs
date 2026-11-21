@@ -1,0 +1,47 @@
+name: Daily Recruitment Crawler & Auto-Deploy
+
+on:
+  schedule:
+    # Runs 4 times daily: 00:00, 06:00, 12:00, 18:00 UTC (5:45 AM, 11:45 AM, 5:45 PM, 11:45 PM IST)
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 requests pypdf reportlab
+
+      - name: Run Crawler & Programmatic SEO Pipeline
+        run: |
+          python -m backend.run_daily_update
+
+      - name: Commit and Push Updated Portal Data & Sitemaps
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add portal_data.js sitemap.xml robots.txt jobs/ admit-card/ admit-cards/ answer-keys/ latest-jobs/ results/ syllabus/
+          if git diff --staged --quiet; then
+            echo "No changes to commit. All portal data and sitemaps are already up to date."
+          else
+            git commit -m "chore(auto-crawl): sync daily recruitment notices & sitemaps [skip ci]"
+            git push origin main
+          fi

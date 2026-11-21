@@ -779,6 +779,48 @@ def scrape_all_from_sarkariresult():
         if col_name not in existing_cols:
             c.execute(f"ALTER TABLE updates ADD COLUMN {col_name} TEXT")
 
+    # Seed updates table from portal_data.js if table is empty (e.g. fresh runner / clone)
+    c.execute("SELECT COUNT(*) FROM updates")
+    count_updates = c.fetchone()[0] or 0
+    if count_updates == 0:
+        try:
+            from backend.config import BASE_DIR
+            portal_data_path = BASE_DIR / "portal_data.js"
+            if portal_data_path.exists():
+                c_txt = portal_data_path.read_text(encoding="utf-8")
+                start_m = "window.PORTAL_DATA = "
+                s_idx = c_txt.find(start_m)
+                end_m = "// Sync any notices approved"
+                e_idx = c_txt.find(end_m)
+                if s_idx != -1 and e_idx != -1:
+                    raw_json = c_txt[s_idx + len(start_m) : e_idx].strip().rstrip(";").strip()
+                    p_data = json.loads(raw_json)
+                    for u in p_data.get("updates", []):
+                        u_meta = json.dumps(u.get("meta") or {})
+                        c.execute(
+                            """
+                            INSERT OR IGNORE INTO updates (
+                                id, category, title, tag, action_url, is_featured, featured_badge,
+                                created_at, source_portal, source_url, pdf_url,
+                                qualification_level, sector, state,
+                                registration_url, login_url, cutoff_pdf_url, meta_json
+                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            """,
+                            (
+                                u.get("id"), u.get("category") or "LATEST_JOB", u.get("title") or "",
+                                u.get("tag") or "Active", u.get("action_url") or "", 1 if u.get("is_featured") else 0,
+                                u.get("featured_badge"), u.get("created_at") or "2026-10-18 00:00:00",
+                                u.get("source_portal") or "", u.get("source_url") or "", u.get("pdf_url") or "",
+                                u.get("qualification_level") or "All", u.get("sector") or "Central",
+                                u.get("state") or "All India", u.get("registration_url") or "",
+                                u.get("login_url") or "", u.get("cutoff_pdf_url") or "", u_meta
+                            )
+                        )
+                    conn.commit()
+                    print(f"Seeded {len(p_data.get('updates', []))} existing notices from portal_data.js into database.")
+        except Exception as seed_err:
+            print(f"Warning: could not seed from portal_data.js: {seed_err}")
+
     # Preserve existing primary key IDs so Google URLs (/detail/{id}-{slug}) stay permanent forever
     existing_by_url = {}
     existing_by_title = {}
