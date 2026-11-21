@@ -2,8 +2,8 @@ name: Daily Recruitment Crawler & Auto-Deploy
 
 on:
   schedule:
-    # Runs 4 times daily: 00:00, 06:00, 12:00, 18:00 UTC (5:45 AM, 11:45 AM, 5:45 PM, 11:45 PM IST)
-    - cron: '0 0,6,12,18 * * *'
+    # Runs once every 24 hours at 00:00 UTC (5:45 AM IST)
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI anytime
 
 permissions:
@@ -28,9 +28,11 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4 requests pypdf reportlab
+          pip install -r requirements.txt
 
       - name: Run Crawler & Programmatic SEO Pipeline
+        env:
+          PYTHONPATH: .
         run: |
           python -m backend.run_daily_update
 

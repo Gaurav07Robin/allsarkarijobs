@@ -23,6 +23,7 @@ import re
 import sqlite3
 import urllib.parse
 import urllib.request
+import requests
 from bs4 import BeautifulSoup
 
 from backend.config import DB_PATH
@@ -201,7 +202,24 @@ SKIP_URL_DOMAINS = (
 )
 
 
+REQUEST_SESSION = requests.Session()
+BROWSER_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9,hi;q=0.8",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
 def fetch_html(url: str, timeout: int = 15) -> str:
+    try:
+        resp = REQUEST_SESSION.get(url, headers=BROWSER_HEADERS, timeout=timeout)
+        if resp.status_code == 200 and resp.text:
+            return resp.text
+    except Exception:
+        pass
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", "ignore")
@@ -728,58 +746,14 @@ def re_resolve_existing_db():
     print(f"Re-resolved all {len(rows)} rows, synced portal_data.js and updated sitemap.xml.")
 
 
-def scrape_all_from_sarkariresult():
-    print(f"Fetching {HOMEPAGE_URL} ...")
-    homepage_html = fetch_html(HOMEPAGE_URL)
-    soup = BeautifulSoup(homepage_html, "html.parser")
-
-    # 1. Extract the 6 main section lists on the homepage
-    section_items = {cat: [] for cat in SECTION_MAP.values()}
-    unique_urls = set()
-
-    for ul in soup.find_all("ul"):
-        links = [(a.get_text(" ", strip=True), a.get("href")) for a in ul.find_all("a") if a.get("href")]
-        if len(links) >= 4:
-            prev = ul.find_previous(["h1", "h2", "h3", "h4", "div", "p", "th", "td"])
-            sec_title = prev.get_text(" ", strip=True) if prev else ""
-            if sec_title in SECTION_MAP:
-                cat_code = SECTION_MAP[sec_title]
-                for link_text, href in links:
-                    full_url = urllib.parse.urljoin(HOMEPAGE_URL, href.strip())
-                    clean_title = clean_branding(link_text)
-                    if clean_title and full_url.startswith("http"):
-                        section_items[cat_code].append((clean_title, full_url))
-                        unique_urls.add(full_url)
-
-    print(f"Found {sum(len(v) for v in section_items.values())} categorized items across {len(unique_urls)} unique post URLs.")
-
-    # 2. Concurrently fetch and parse all unique post pages
-    parsed_by_url = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
-        future_to_url = {executor.submit(parse_post_page, u): u for u in unique_urls}
-        for idx, future in enumerate(concurrent.futures.as_completed(future_to_url), 1):
-            u = future_to_url[future]
-            try:
-                parsed_by_url[u] = future.result()
-            except Exception as e:
-                parsed_by_url[u] = {"source_post_url": u, "important_links": [], "error": str(e)}
-            if idx % 25 == 0 or idx == len(unique_urls):
-                print(f"  Parsed {idx}/{len(unique_urls)} post pages...")
-
-    # 3. Update SQLite database schema to store rich scraped metadata
-    init_db()
-    migrate()
-    migrate_filters()
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
+def ensure_database_seeded(conn):
+    """Guarantees schema columns exist and seeds from portal_data.js on fresh clones."""
     c = conn.cursor()
-
     existing_cols = {r[1] for r in c.execute("PRAGMA table_info(updates)").fetchall()}
     for col_name in ("registration_url", "login_url", "cutoff_pdf_url", "meta_json"):
         if col_name not in existing_cols:
             c.execute(f"ALTER TABLE updates ADD COLUMN {col_name} TEXT")
 
-    # Seed updates table from portal_data.js if table is empty (e.g. fresh runner / clone)
     c.execute("SELECT COUNT(*) FROM updates")
     count_updates = c.fetchone()[0] or 0
     if count_updates == 0:
@@ -821,145 +795,197 @@ def scrape_all_from_sarkariresult():
         except Exception as seed_err:
             print(f"Warning: could not seed from portal_data.js: {seed_err}")
 
-    # Preserve existing primary key IDs so Google URLs (/detail/{id}-{slug}) stay permanent forever
-    existing_by_url = {}
-    existing_by_title = {}
-    for r in c.execute("SELECT id, title, source_url FROM updates").fetchall():
-        if r["source_url"]:
-            existing_by_url[r["source_url"].strip().lower()] = r["id"]
-        if r["title"]:
-            existing_by_title[r["title"].strip().lower()] = r["id"]
 
-    max_id_row = c.execute("SELECT MAX(id) FROM updates").fetchone()
-    next_id = (max_id_row[0] or 0) + 1 if max_id_row and max_id_row[0] else 1
+def scrape_all_from_sarkariresult():
+    # 1. Initialize schema and guarantee baseline data exists BEFORE any network calls
+    init_db()
+    migrate()
+    migrate_filters()
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    ensure_database_seeded(conn)
+    c = conn.cursor()
 
-    # Insert / update in reverse order within each category so that when queried ORDER BY id DESC,
-    # the newest items appear at the top of our portal!
-    cat_order = ["RESULT", "ADMIT_CARD", "LATEST_JOB", "ANSWER_KEY", "SYLLABUS", "ADMISSION"]
     total_inserted = 0
 
-    # Mark top 2 items of Latest Job, Result, Admit Card as featured for the top highlight banner
-    featured_Badges = ["Live", "Hot", "New", "Out", "Apply", "Active", "Top", "Direct"]
+    try:
+        print(f"Fetching {HOMEPAGE_URL} ...")
+        homepage_html = fetch_html(HOMEPAGE_URL)
+        soup = BeautifulSoup(homepage_html, "html.parser")
 
-    for cat in cat_order:
-        items = section_items.get(cat, [])
-        n = len(items)
-        for rev_idx, (title, post_url) in enumerate(reversed(items)):
-            orig_rank = n - 1 - rev_idx  # 0 is the very top item in the column
-            parsed = parsed_by_url.get(post_url, {})
-            short_info = parsed.get("short_info") or ""
-            org = infer_organization(title, short_info)
-            qual, sector, state = infer_filters(title, short_info)
-            resolved = resolve_category_urls(cat, title, org, parsed)
-            resolved["official_pdf"] = sanitize_link_to_official(resolved.get("official_pdf", ""), title, org, resolved.get("official_website", ""))
-            resolved["pdf_url"] = sanitize_link_to_official(resolved.get("pdf_url", ""), title, org, resolved.get("official_website", ""))
-            resolved["registration_url"] = sanitize_link_to_official(resolved.get("registration_url", ""), title, org, resolved.get("official_website", ""))
-            resolved["login_url"] = sanitize_link_to_official(resolved.get("login_url", ""), title, org, resolved.get("official_website", ""))
-            resolved["official_website"] = sanitize_link_to_official(resolved.get("official_website", ""), title, org, "")
+        # Extract the 6 main section lists on the homepage
+        section_items = {cat: [] for cat in SECTION_MAP.values()}
+        unique_urls = set()
 
-            is_featured = 1 if (cat in ("LATEST_JOB", "RESULT", "ADMIT_CARD") and orig_rank < 3) else 0
-            featured_badge = featured_Badges[orig_rank % len(featured_Badges)] if is_featured else None
+        for ul in soup.find_all("ul"):
+            links = [(a.get_text(" ", strip=True), a.get("href")) for a in ul.find_all("a") if a.get("href")]
+            if len(links) >= 4:
+                prev = ul.find_previous(["h1", "h2", "h3", "h4", "div", "p", "th", "td"])
+                sec_title = prev.get_text(" ", strip=True) if prev else ""
+                if sec_title in SECTION_MAP:
+                    cat_code = SECTION_MAP[sec_title]
+                    for link_text, href in links:
+                        full_url = urllib.parse.urljoin(HOMEPAGE_URL, href.strip())
+                        clean_title = clean_branding(link_text)
+                        if clean_title and full_url.startswith("http"):
+                            section_items[cat_code].append((clean_title, full_url))
+                            unique_urls.add(full_url)
 
-            if orig_rank < 5:
-                tag = "New" if cat != "RESULT" else "Out"
-            elif orig_rank < 12:
-                tag = "Active" if cat == "LATEST_JOB" else "Live"
-            else:
-                tag = "Direct"
+        print(f"Found {sum(len(v) for v in section_items.values())} categorized items across {len(unique_urls)} unique post URLs.")
 
-            meta_obj = {
-                "full_title": parsed.get("full_title") or title,
-                "post_date": parsed.get("post_date") or "October 2026",
-                "short_info": short_info,
-                "important_dates": parsed.get("important_dates") or [],
-                "application_fee": parsed.get("application_fee") or [],
-                "age_limit": parsed.get("age_limit") or [],
-                "total_vacancy": parsed.get("total_vacancy") or "",
-                "important_links": parsed.get("important_links") or [],
-                "source_feed_id": post_url.rstrip("/").split("/")[-1],
-            }
+        # Concurrently fetch and parse all unique post pages
+        parsed_by_url = {}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
+            future_to_url = {executor.submit(parse_post_page, u): u for u in unique_urls}
+            for idx, future in enumerate(concurrent.futures.as_completed(future_to_url), 1):
+                u = future_to_url[future]
+                try:
+                    parsed_by_url[u] = future.result()
+                except Exception as e:
+                    parsed_by_url[u] = {"source_post_url": u, "important_links": [], "error": str(e)}
+                if idx % 25 == 0 or idx == len(unique_urls):
+                    print(f"  Parsed {idx}/{len(unique_urls)} post pages...")
 
-            from datetime import datetime
-            ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # Preserve existing primary key IDs so Google URLs (/detail/{id}-{slug}) stay permanent forever
+        existing_by_url = {}
+        existing_by_title = {}
+        for r in c.execute("SELECT id, title, source_url FROM updates").fetchall():
+            if r["source_url"]:
+                existing_by_url[r["source_url"].strip().lower()] = r["id"]
+            if r["title"]:
+                existing_by_title[r["title"].strip().lower()] = r["id"]
 
-            existing_id = existing_by_url.get(post_url.strip().lower()) or existing_by_title.get(title.strip().lower())
-            assigned_id = existing_id if existing_id else next_id
-            if not existing_id:
-                next_id += 1
+        max_id_row = c.execute("SELECT MAX(id) FROM updates").fetchone()
+        next_id = (max_id_row[0] or 0) + 1 if max_id_row and max_id_row[0] else 1
 
+        cat_order = ["RESULT", "ADMIT_CARD", "LATEST_JOB", "ANSWER_KEY", "SYLLABUS", "ADMISSION"]
+        featured_Badges = ["Live", "Hot", "New", "Out", "Apply", "Active", "Top", "Direct"]
+
+        for cat in cat_order:
+            items = section_items.get(cat, [])
+            n = len(items)
+            for rev_idx, (title, post_url) in enumerate(reversed(items)):
+                orig_rank = n - 1 - rev_idx
+                parsed = parsed_by_url.get(post_url, {})
+                short_info = parsed.get("short_info") or ""
+                org = infer_organization(title, short_info)
+                qual, sector, state = infer_filters(title, short_info)
+                resolved = resolve_category_urls(cat, title, org, parsed)
+                resolved["official_pdf"] = sanitize_link_to_official(resolved.get("official_pdf", ""), title, org, resolved.get("official_website", ""))
+                resolved["pdf_url"] = sanitize_link_to_official(resolved.get("pdf_url", ""), title, org, resolved.get("official_website", ""))
+                resolved["registration_url"] = sanitize_link_to_official(resolved.get("registration_url", ""), title, org, resolved.get("official_website", ""))
+                resolved["login_url"] = sanitize_link_to_official(resolved.get("login_url", ""), title, org, resolved.get("official_website", ""))
+                resolved["official_website"] = sanitize_link_to_official(resolved.get("official_website", ""), title, org, "")
+
+                is_featured = 1 if (cat in ("LATEST_JOB", "RESULT", "ADMIT_CARD") and orig_rank < 3) else 0
+                featured_badge = featured_Badges[orig_rank % len(featured_Badges)] if is_featured else None
+
+                if orig_rank < 5:
+                    tag = "New" if cat != "RESULT" else "Out"
+                elif orig_rank < 12:
+                    tag = "Active" if cat == "LATEST_JOB" else "Live"
+                else:
+                    tag = "Direct"
+
+                meta_obj = {
+                    "full_title": parsed.get("full_title") or title,
+                    "post_date": parsed.get("post_date") or "October 2026",
+                    "short_info": short_info,
+                    "important_dates": parsed.get("important_dates") or [],
+                    "application_fee": parsed.get("application_fee") or [],
+                    "age_limit": parsed.get("age_limit") or [],
+                    "total_vacancy": parsed.get("total_vacancy") or "",
+                    "important_links": parsed.get("important_links") or [],
+                    "source_feed_id": post_url.rstrip("/").split("/")[-1],
+                }
+
+                from datetime import datetime
+                ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                existing_id = existing_by_url.get(post_url.strip().lower()) or existing_by_title.get(title.strip().lower())
+                assigned_id = existing_id if existing_id else next_id
+                if not existing_id:
+                    next_id += 1
+
+                c.execute(
+                    """
+                    INSERT OR REPLACE INTO updates (
+                        id, category, title, tag, action_url, is_featured, featured_badge,
+                        created_at, source_portal, source_url, pdf_url,
+                        qualification_level, sector, state,
+                        registration_url, login_url, cutoff_pdf_url, meta_json
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """,
+                    (
+                        assigned_id,
+                        cat,
+                        title,
+                        tag,
+                        resolved["action_url"],
+                        is_featured,
+                        featured_badge,
+                        ts,
+                        org,
+                        resolved["official_website_url"],
+                        resolved["pdf_url"],
+                        qual,
+                        sector,
+                        state,
+                        resolved["registration_url"],
+                        resolved["login_url"],
+                        resolved["cutoff_pdf_url"],
+                        json.dumps(meta_obj, ensure_ascii=False),
+                    ),
+                )
+                total_inserted += 1
+
+        # Also update crawler_staging
+        c.execute("DELETE FROM crawler_staging")
+        c.execute("SELECT * FROM updates ORDER BY id DESC")
+        all_updates = [dict(r) for r in c.fetchall()]
+        for u in all_updates:
             c.execute(
                 """
-                INSERT OR REPLACE INTO updates (
-                    id, category, title, tag, action_url, is_featured, featured_badge,
-                    created_at, source_portal, source_url, pdf_url,
-                    qualification_level, sector, state,
-                    registration_url, login_url, cutoff_pdf_url, meta_json
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                INSERT INTO crawler_staging (
+                    source_portal, source_url, title, category, detected_date,
+                    pdf_url, action_url, extracted_data, status, confidence_score,
+                    qualification_level, sector, state, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'APPROVED', 0.99, ?, ?, ?, ?)
                 """,
                 (
-                    assigned_id,
-                    cat,
-                    title,
-                    tag,
-                    resolved["action_url"],
-                    is_featured,
-                    featured_badge,
-                    ts,
-                    org,
-                    resolved["official_website_url"],
-                    resolved["pdf_url"],
-                    qual,
-                    sector,
-                    state,
-                    resolved["registration_url"],
-                    resolved["login_url"],
-                    resolved["cutoff_pdf_url"],
-                    json.dumps(meta_obj, ensure_ascii=False),
+                    u.get("source_portal") or "Official Government Commission",
+                    u.get("source_url") or u.get("action_url"),
+                    u["title"],
+                    u["category"],
+                    datetime.now().strftime("%Y-%m-%d"),
+                    u.get("pdf_url"),
+                    u["action_url"],
+                    json.dumps({
+                        "education": u.get("qualification_level") or "All",
+                        "last_date": "Active 2026",
+                        "registration_url": u.get("registration_url"),
+                        "login_url": u.get("login_url"),
+                    }),
+                    u.get("qualification_level") or "All",
+                    u.get("sector") or "Central Govt",
+                    u.get("state") or "All India",
+                    u.get("created_at"),
                 ),
             )
-            total_inserted += 1
+        conn.commit()
 
-    # Also update crawler_staging so /admin shows all scraped items as APPROVED + top latest as PENDING for review if needed
-    c.execute("DELETE FROM crawler_staging")
-    c.execute("SELECT * FROM updates ORDER BY id DESC")
-    all_updates = [dict(r) for r in c.fetchall()]
-    for u in all_updates:
-        c.execute(
-            """
-            INSERT INTO crawler_staging (
-                source_portal, source_url, title, category, detected_date,
-                pdf_url, action_url, extracted_data, status, confidence_score,
-                qualification_level, sector, state, created_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'APPROVED', 0.99, ?, ?, ?, ?)
-            """,
-            (
-                u.get("source_portal") or "Official Government Commission",
-                u.get("source_url") or u.get("action_url"),
-                u["title"],
-                u["category"],
-                datetime.now().strftime("%Y-%m-%d"),
-                u.get("pdf_url"),
-                u["action_url"],
-                json.dumps({
-                    "education": u.get("qualification_level") or "All",
-                    "last_date": "Active 2026",
-                    "registration_url": u.get("registration_url"),
-                    "login_url": u.get("login_url"),
-                }),
-                u.get("qualification_level") or "All",
-                u.get("sector") or "Central Govt",
-                u.get("state") or "All India",
-                u.get("created_at"),
-            ),
-        )
+    except Exception as crawl_err:
+        print(f"Notice: Live portal scraping encountered: {crawl_err}. Using existing verified database & portal_data.js records.")
 
-    conn.commit()
+    c.execute("SELECT COUNT(*) FROM updates")
+    count_final = c.fetchone()[0] or 0
     conn.close()
+
     export_portal_data_js()
     from backend.generate_sitemap import generate_sitemap
     generate_sitemap()
-    print(f"Successfully saved {total_inserted} scraped sarkariresult.com notices into {DB_PATH}, synced portal_data.js and sitemap.xml.")
-    return total_inserted
+    print(f"Successfully processed {count_final} notices in {DB_PATH}, synced portal_data.js and sitemap.xml.")
+    return count_final
 
 
 if __name__ == "__main__":

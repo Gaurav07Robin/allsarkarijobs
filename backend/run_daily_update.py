@@ -2,6 +2,7 @@
 Automated Daily Crawler & SEO Pipeline Runner for AllSarkariJobs.
 Designed for both local execution and GitHub Actions automation.
 """
+import os
 import sys
 import subprocess
 from datetime import datetime
@@ -15,7 +16,9 @@ FORBIDDEN_COMPETITORS = [
 
 def run_step(step_name: str, module_name: str):
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting: {step_name}...")
-    res = subprocess.run([sys.executable, "-m", module_name], capture_output=True, text=True)
+    run_env = dict(os.environ)
+    run_env["PYTHONPATH"] = "."
+    res = subprocess.run([sys.executable, "-m", module_name], capture_output=True, text=True, env=run_env)
     if res.stdout:
         print(res.stdout.strip())
     if res.returncode != 0:
