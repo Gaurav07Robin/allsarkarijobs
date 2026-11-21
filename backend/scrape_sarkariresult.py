@@ -220,9 +220,12 @@ def fetch_html(url: str, timeout: int = 15) -> str:
             return resp.text
     except Exception:
         pass
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", "ignore")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode("utf-8", "ignore")
+    except Exception:
+        return ""
 
 
 def resolve_shortlink(url: str) -> str:
