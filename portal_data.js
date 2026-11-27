@@ -137919,7 +137919,7 @@ window.PORTAL_DATA = {
     "approved_staging": 0,
     "total_recruitments": 0,
     "active_watchdogs": 25,
-    "last_crawl": "2026-11-26 05:54 IST (SarkariResult.com Live Sync)"
+    "last_crawl": "2026-11-27 05:48 IST (SarkariResult.com Live Sync)"
   },
   "stagingPending": [],
   "stagingApproved": []
